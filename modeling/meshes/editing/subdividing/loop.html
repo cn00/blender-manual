@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Loop Subdivide &mdash; Blender Manual</title>
+  <title>环切细分 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../../../genindex.html" />
     <link rel="search" title="Search" href="../../../../search.html" />
-    <link rel="next" title="Knife Tool" href="knife.html" />
-    <link rel="prev" title="Subdivide" href="subdivide.html" /> 
+    <link rel="next" title="切割工具" href="knife.html" />
+    <link rel="prev" title="细分" href="subdivide.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,64 +110,64 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../../../index.html">Modeling</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../../introduction.html">Introduction</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="../../index.html">Meshes</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="../../introduction.html">Introduction</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../toolbar/index.html">Toolbar</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../structure.html">Structure</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../primitives.html">Primitives</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../selecting.html">Selecting</a></li>
-<li class="toctree-l3 current"><a class="reference internal" href="../index.html">Editing</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="../introduction.html">Introduction</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../basics/index.html">Basics</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../vertices.html">Vertex Tools</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../edges.html">Edge Tools</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../faces.html">Face Tools</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../normals.html">Normals</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../index.html">制作模型</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../introduction.html">简介</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../index.html">网格</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../introduction.html">简介</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../toolbar/index.html">工具栏</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../structure.html">结构</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../primitives.html">基本体</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../selecting.html">选择</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../index.html">编辑</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../introduction.html">简介</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../basics/index.html">基础</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../vertices.html">顶点工具</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../edges.html">边工具</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../faces.html">面工具</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../normals.html">法向</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../uv/index.html">UV</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../transform/index.html">Transformation</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../duplicating/index.html">Duplicating</a></li>
-<li class="toctree-l4 current"><a class="reference internal" href="index.html">Subdividing</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../cleanup.html">Clean up</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../misc.html">Miscellaneous Editing Tools</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../data_transfer.html">Data Transfer</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../mesh_options.html">Mesh Options</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../retopology.html">Retopology</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../transform/index.html">变形</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../duplicating/index.html">复制</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="index.html">细分</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../cleanup.html">清理</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../misc.html">其他编辑工具</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../data_transfer.html">数据传递</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../mesh_options.html">网格选项</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../retopology.html">重拓扑</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../properties/index.html">Properties</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../mesh_analysis.html">Mesh Analysis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../properties/index.html">属性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../mesh_analysis.html">网格分析</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../../curves/index.html">Curves</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../surfaces/index.html">Surfaces</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../metas/index.html">Metaball</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../texts/index.html">Text</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../empties.html">Empties</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../modifiers/index.html">Modifiers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../curves/index.html">曲线</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../surfaces/index.html">曲面</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../metas/index.html">融球</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../texts/index.html">文本物体</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../empties.html">空物体</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../modifiers/index.html">修改器</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../render/index.html">Rendering</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../render/index.html">渲染</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -213,19 +213,19 @@
     
       <li><a href="../../../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../../../index.html">Modeling</a> &raquo;</li>
+          <li><a href="../../../index.html">制作模型</a> &raquo;</li>
         
-          <li><a href="../../index.html">Meshes</a> &raquo;</li>
+          <li><a href="../../index.html">网格</a> &raquo;</li>
         
-          <li><a href="../index.html">Editing</a> &raquo;</li>
+          <li><a href="../index.html">编辑</a> &raquo;</li>
         
-          <li><a href="index.html">Subdividing</a> &raquo;</li>
+          <li><a href="index.html">细分</a> &raquo;</li>
         
-      <li>Loop Subdivide</li>
+      <li>环切细分</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/modeling/meshes/editing/subdividing/loop.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/modeling/meshes/editing/subdividing/loop.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -236,41 +236,34 @@
            <div itemprop="articleBody">
             
   <div class="section" id="loop-subdivide">
-<span id="bpy-ops-mesh-loopcut-slide"></span><h1>Loop Subdivide<a class="headerlink" href="#loop-subdivide" title="Permalink to this headline">¶</a></h1>
+<span id="bpy-ops-mesh-loopcut-slide"></span><h1>环切细分<a class="headerlink" href="#loop-subdivide" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="loop-cut-and-slide">
-<span id="tool-mesh-loop-cut"></span><h2>Loop Cut and Slide<a class="headerlink" href="#loop-cut-and-slide" title="Permalink to this headline">¶</a></h2>
+<span id="tool-mesh-loop-cut"></span><h2>环切并滑动边线<a class="headerlink" href="#loop-cut-and-slide" title="Permalink to this headline">¶</a></h2>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Mode</dt>
-<dd class="field-odd"><p>Edit Mode</p>
+<dt class="field-odd">模式</dt>
+<dd class="field-odd"><p>编辑模式</p>
 </dd>
 <dt class="field-even">Tool</dt>
 <dd class="field-even"><p><span class="menuselection">Toolbar ‣ Loop Cut</span></p>
 </dd>
-<dt class="field-odd">Hotkey</dt>
+<dt class="field-odd">快捷键</dt>
 <dd class="field-odd"><p><kbd class="kbd docutils literal notranslate">Ctrl-R</kbd></p>
 </dd>
 </dl>
 </div>
-<p><em>Loop Cut and Slide</em> splits a loop of faces by inserting a new edge loop intersecting the chosen edge.</p>
+<p><em>环切并滑动边线</em> 通过在一组并排边之间插入一组新的循环边，切分一组循环面。</p>
 <div class="section" id="usage">
-<h3>Usage<a class="headerlink" href="#usage" title="Permalink to this headline">¶</a></h3>
-<p>The tool is interactive and has two steps:</p>
+<h3>用法<a class="headerlink" href="#usage" title="Permalink to this headline">¶</a></h3>
+<p>该工具是交互式的，操作分两步:</p>
 <div class="section" id="pre-visualizing-the-cut">
-<h4>Pre-visualizing the Cut<a class="headerlink" href="#pre-visualizing-the-cut" title="Permalink to this headline">¶</a></h4>
-<p>After the tool is activated, move the cursor over a desired edge.
-The cut to be made is marked with a magenta colored line as you move the mouse over the various edges.
-The to be created edge loop stops at the poles (tris and n-gons) where the existing face loop terminates.</p>
+<h4>预览切线<a class="headerlink" href="#pre-visualizing-the-cut" title="Permalink to this headline">¶</a></h4>
+<p>工具激活后，将光标移动到目标并排边。在鼠标移到边线上方时，预览切线将显示为紫红色。即将生成的循环边在现有面循环终止的极点断开。</p>
 </div>
 <div class="section" id="sliding-the-new-edge-loop">
-<h4>Sliding the new Edge Loop<a class="headerlink" href="#sliding-the-new-edge-loop" title="Permalink to this headline">¶</a></h4>
-<p>Once an edge is chosen via <kbd class="kbd docutils literal notranslate">LMB</kbd>,
-you can move the mouse along the edge to determine where the new edge loop will be placed.
-This is identical to the <a class="reference internal" href="../edges.html#modeling-meshes-editing-edge-slide"><span class="std std-ref">Edge Slide tool</span></a>.
-Clicking <kbd class="kbd docutils literal notranslate">LMB</kbd> again confirms and makes the cut at the pre-visualized location,
-or clicking <kbd class="kbd docutils literal notranslate">RMB</kbd> forces the cut to exactly 50%.
-This step is skipped when using multiple edge loops (see below).</p>
+<h4>滑动新生成的循环边<a class="headerlink" href="#sliding-the-new-edge-loop" title="Permalink to this headline">¶</a></h4>
+<p><kbd class="kbd docutils literal notranslate">LMB</kbd> 确认滑动位置后，可以沿边线移动鼠标，确定新的循环边位置。该操作与 <a class="reference internal" href="../edges.html#modeling-meshes-editing-edge-slide"><span class="std std-ref">滑动边线工具</span></a> 是一样的。两次 <kbd class="kbd docutils literal notranslate">LMB</kbd> 单击确认，切线停留在预览位置， <kbd class="kbd docutils literal notranslate">RMB</kbd> 单击使切线停留在等分切割位置。使用多重环切时跳过该步骤(见下文)。</p>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 33%" />
@@ -280,17 +273,17 @@ This step is skipped when using multiple edge loops (see below).</p>
 <tbody>
 <tr class="row-odd"><td><div class="figure align-default" id="id1">
 <a class="reference internal image-reference" href="../../../../_images/modeling_meshes_editing_subdividing_loop_before.png"><img alt="../../../../_images/modeling_meshes_editing_subdividing_loop_before.png" src="../../../../_images/modeling_meshes_editing_subdividing_loop_before.png" style="width: 200px;" /></a>
-<p class="caption"><span class="caption-text">Mesh before inserting edge loop.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">插入循环边之前的网格。</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
 </td>
 <td><div class="figure align-default" id="id2">
 <a class="reference internal image-reference" href="../../../../_images/modeling_meshes_editing_subdividing_loop_preview.png"><img alt="../../../../_images/modeling_meshes_editing_subdividing_loop_preview.png" src="../../../../_images/modeling_meshes_editing_subdividing_loop_preview.png" style="width: 200px;" /></a>
-<p class="caption"><span class="caption-text">Preview of edge loop location.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">预览循环边位置。</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
 </td>
 <td><div class="figure align-default" id="id3">
 <a class="reference internal image-reference" href="../../../../_images/modeling_meshes_editing_subdividing_loop_placement.png"><img alt="../../../../_images/modeling_meshes_editing_subdividing_loop_placement.png" src="../../../../_images/modeling_meshes_editing_subdividing_loop_placement.png" style="width: 200px;" /></a>
-<p class="caption"><span class="caption-text">Interactive placement of edge loop between adjacent loops.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">交互式移动循环边。</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
 </div>
 </td>
 </tr>
@@ -299,18 +292,15 @@ This step is skipped when using multiple edge loops (see below).</p>
 </div>
 </div>
 <div class="section" id="options">
-<h3>Options<a class="headerlink" href="#options" title="Permalink to this headline">¶</a></h3>
-<p>The options are available while the tool is in use, and later in the <a class="reference internal" href="../../../../interface/undo_redo.html#ui-undo-redo-adjust-last-operation"><span class="std std-ref">Adjust Last Operation</span></a> panel.</p>
+<h3>选项<a class="headerlink" href="#options" title="Permalink to this headline">¶</a></h3>
+<p>The options are available while the tool is in use, and later in the <a class="reference internal" href="../../../../interface/undo_redo.html#ui-undo-redo-adjust-last-operation"><span class="std std-ref">调整上一步操作</span></a> panel.</p>
 <div class="section" id="loop-cut">
-<h4>Loop Cut<a class="headerlink" href="#loop-cut" title="Permalink to this headline">¶</a></h4>
+<h4>环切<a class="headerlink" href="#loop-cut" title="Permalink to this headline">¶</a></h4>
 <dl>
-<dt>Number of Cuts <kbd class="kbd docutils literal notranslate">Wheel</kbd> or <kbd class="kbd docutils literal notranslate">PageUp</kbd> / <kbd class="kbd docutils literal notranslate">PageDown</kbd></dt><dd><p>After activating the tool, but before confirming initial loop location,
-you can increase and decrease the number of cuts to create,
-by entering a number with the keyboard, scrolling <kbd class="kbd docutils literal notranslate">Wheel</kbd> or using <kbd class="kbd docutils literal notranslate">PageUp</kbd> and <kbd class="kbd docutils literal notranslate">PageDown</kbd>.</p>
+<dt>切割次数 <kbd class="kbd docutils literal notranslate">Wheel</kbd> 或 <kbd class="kbd docutils literal notranslate">PageUp</kbd> / <kbd class="kbd docutils literal notranslate">PageDown</kbd></dt><dd><p>激活该工具，在确认循环边位置前，可以通过键入数字， <kbd class="kbd docutils literal notranslate">Wheel</kbd> 滚动或使用 <kbd class="kbd docutils literal notranslate">PageUp</kbd> 与 <kbd class="kbd docutils literal notranslate">PageDown</kbd>，以增加或减少切割次数。</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>When creating multiple loops, these cuts are uniformly distributed in the original face loop,
-and you will <em>not</em> be able to control their positions.</p>
+<p>在插入多条环切循环边时，这些循环边均匀分布在原始面循环上，用户 <em>无法</em> 控制其位置。</p>
 </div>
 <table class="docutils align-default">
 <colgroup>
@@ -320,19 +310,19 @@ and you will <em>not</em> be able to control their positions.</p>
 <tbody>
 <tr class="row-odd"><td><div class="figure align-default" id="id4">
 <a class="reference internal image-reference" href="../../../../_images/modeling_meshes_editing_subdividing_loop_multicut.png"><img alt="../../../../_images/modeling_meshes_editing_subdividing_loop_multicut.png" src="../../../../_images/modeling_meshes_editing_subdividing_loop_multicut.png" style="width: 250px;" /></a>
-<p class="caption"><span class="caption-text">Preview of multiple edge loops.</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">多循环边预览。</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
 </div>
 </td>
 <td><div class="figure align-default" id="id5">
 <a class="reference internal image-reference" href="../../../../_images/modeling_meshes_editing_subdividing_loop_multicut-after.png"><img alt="../../../../_images/modeling_meshes_editing_subdividing_loop_multicut-after.png" src="../../../../_images/modeling_meshes_editing_subdividing_loop_multicut-after.png" style="width: 250px;" /></a>
-<p class="caption"><span class="caption-text">Result of using multiple cuts.</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">多重环切结果。</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
 </div>
 </td>
 </tr>
 </tbody>
 </table>
 </dd>
-<dt>Smoothness <kbd class="kbd docutils literal notranslate">Alt-Wheel</kbd></dt><dd><p>Smoothing causes edge loops to be placed in an interpolated position, relative to the face it is added to,
+<dt>平滑度 <kbd class="kbd docutils literal notranslate">Alt-Wheel</kbd></dt><dd><p>Smoothing causes edge loops to be placed in an interpolated position, relative to the face it is added to,
 causing them to be shifted outwards or inwards by a given percentage,
 similar to the <em>Subdivide Smooth</em> tool. When not using smoothing,
 new vertices for the new edge loop are placed exactly on the pre-existing edges.
@@ -347,30 +337,30 @@ Smoothing can help maintain the curvature of a surface once it is subdivided.</p
 <tbody>
 <tr class="row-odd"><td><div class="figure align-default" id="id6">
 <a class="reference internal image-reference" href="../../../../_images/modeling_meshes_editing_subdividing_loop_unsmooth.png"><img alt="../../../../_images/modeling_meshes_editing_subdividing_loop_unsmooth.png" src="../../../../_images/modeling_meshes_editing_subdividing_loop_unsmooth.png" style="width: 250px;" /></a>
-<p class="caption"><span class="caption-text">Added edge loops without smoothing.</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">未使用平滑的环切。</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
 </div>
 </td>
 <td><div class="figure align-default" id="id7">
 <a class="reference internal image-reference" href="../../../../_images/modeling_meshes_editing_subdividing_loop_smooth.png"><img alt="../../../../_images/modeling_meshes_editing_subdividing_loop_smooth.png" src="../../../../_images/modeling_meshes_editing_subdividing_loop_smooth.png" style="width: 250px;" /></a>
-<p class="caption"><span class="caption-text">Same edge loops, but with smoothing value.</span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">带有平滑的环切。</span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
 </div>
 </td>
 </tr>
 </tbody>
 </table>
 </dd>
-<dt>Falloff</dt><dd><p>Falloff type for <em>Smoothness</em>, changes the shape of the profile.</p>
+<dt>衰减</dt><dd><p><em>平滑度</em> 的衰减类型，用于改变轮廓形状。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="edge-slide">
-<h4>Edge Slide<a class="headerlink" href="#edge-slide" title="Permalink to this headline">¶</a></h4>
+<h4>滑动边线<a class="headerlink" href="#edge-slide" title="Permalink to this headline">¶</a></h4>
 <dl class="simple">
-<dt>Even <kbd class="kbd docutils literal notranslate">E</kbd></dt><dd><p>Only available for single edge loops.
+<dt>均匀 <kbd class="kbd docutils literal notranslate">E</kbd></dt><dd><p>Only available for single edge loops.
 This matches the shape of the edge loop to one of the adjacent edge loops.
 (See <a class="reference internal" href="../edges.html#modeling-meshes-editing-edge-slide"><span class="std std-ref">Edge Slide tool</span></a> for details.)</p>
 </dd>
-<dt>Flip <kbd class="kbd docutils literal notranslate">F</kbd></dt><dd><p>When Even is enabled, this flips the target edge loop to match.
+<dt>翻转 <kbd class="kbd docutils literal notranslate">F</kbd></dt><dd><p>When Even is enabled, this flips the target edge loop to match.
 (See <a class="reference internal" href="../edges.html#modeling-meshes-editing-edge-slide"><span class="std std-ref">Edge Slide tool</span></a> for details.)</p>
 </dd>
 </dl>
@@ -378,45 +368,45 @@ This matches the shape of the edge loop to one of the adjacent edge loops.
 </div>
 </div>
 <div class="section" id="offset-edge-slide">
-<h2>Offset Edge Slide<a class="headerlink" href="#offset-edge-slide" title="Permalink to this headline">¶</a></h2>
+<h2>偏移边线并滑动<a class="headerlink" href="#offset-edge-slide" title="Permalink to this headline">¶</a></h2>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Mode</dt>
-<dd class="field-odd"><p>Edit Mode</p>
+<dt class="field-odd">模式</dt>
+<dd class="field-odd"><p>编辑模式</p>
 </dd>
 <dt class="field-even">Tool</dt>
 <dd class="field-even"><p><span class="menuselection">Toolbar ‣ Edge Slide</span></p>
 </dd>
-<dt class="field-odd">Hotkey</dt>
+<dt class="field-odd">快捷键</dt>
 <dd class="field-odd"><p><kbd class="kbd docutils literal notranslate">Shift-Ctrl-R</kbd></p>
 </dd>
 </dl>
 </div>
-<p>Add two edge loops on either side of selected loops.</p>
+<p>向选中循环边两侧添加循环边。</p>
 <dl class="simple">
-<dt>Cap Endpoint</dt><dd><p>Extends the loop by creating triangles at endpoints.</p>
+<dt>闭合端点</dt><dd><p>通过在两端创建三角面闭合循环边。</p>
 </dd>
-<dt>Edge Slide</dt><dd><p>See <a class="reference internal" href="../edges.html#modeling-meshes-editing-edge-slide"><span class="std std-ref">Edge Slide tool</span></a>.</p>
+<dt>滑动边线</dt><dd><p>见 <a class="reference internal" href="../edges.html#modeling-meshes-editing-edge-slide"><span class="std std-ref">滑动边线工具</span></a>。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="subdivide-edge-ring">
-<h2>Subdivide Edge-Ring<a class="headerlink" href="#subdivide-edge-ring" title="Permalink to this headline">¶</a></h2>
+<h2>细分并排边<a class="headerlink" href="#subdivide-edge-ring" title="Permalink to this headline">¶</a></h2>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Mode</dt>
-<dd class="field-odd"><p>Edit Mode</p>
+<dt class="field-odd">模式</dt>
+<dd class="field-odd"><p>编辑模式</p>
 </dd>
-<dt class="field-even">Panel</dt>
-<dd class="field-even"><p><span class="menuselection">Mesh ‣ Edges ‣ Subdivide Edge-Ring</span></p>
+<dt class="field-even">面板</dt>
+<dd class="field-even"><p><span class="menuselection">网格 ‣ 边 ‣ 细分并排边</span></p>
 </dd>
 </dl>
 </div>
-<p>Take an edge ring, and subdivide with interpolation options.</p>
+<p>按照插值选项细分并排边。</p>
 <dl class="simple">
-<dt>Options</dt><dd><p>See <a class="reference internal" href="../edges.html#modeling-meshes-editing-bridge-edge-loops"><span class="std std-ref">Bridge Edge Loops</span></a>.</p>
+<dt>选项</dt><dd><p>见 <a class="reference internal" href="../edges.html#modeling-meshes-editing-bridge-edge-loops"><span class="std std-ref">桥接循环边</span></a>。</p>
 </dd>
 </dl>
 </div>
@@ -430,10 +420,10 @@ This matches the shape of the edge loop to one of the adjacent edge loops.
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="knife.html" class="btn btn-neutral float-right" title="Knife Tool" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="knife.html" class="btn btn-neutral float-right" title="切割工具" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="subdivide.html" class="btn btn-neutral float-left" title="Subdivide" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="subdivide.html" class="btn btn-neutral float-left" title="细分" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -467,7 +457,7 @@ This matches the shape of the edge loop to one of the adjacent edge loops.
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

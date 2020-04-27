@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>File Output Node &mdash; Blender Manual</title>
+  <title>文件输出节点 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Levels Node" href="levels.html" />
-    <link rel="prev" title="Composite Node" href="composite.html" /> 
+    <link rel="next" title="层级节点" href="levels.html" />
+    <link rel="prev" title="合成节点" href="composite.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,51 +110,51 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">Rendering</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Compositing</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../properties.html">Properties</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="../../index.html#node-types">Node Types</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="../input/index.html">Input Nodes</a></li>
-<li class="toctree-l3 current"><a class="reference internal" href="index.html">Output Nodes</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="composite.html">Composite Node</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">File Output Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="levels.html">Levels Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="split_viewer.html">Split Viewer Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="viewer.html">Viewer Node</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">渲染</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">合成</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">简介</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../properties.html">属性</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../index.html#node-types">节点类型</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../input/index.html">输入类节点</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="index.html">输出类节点</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="composite.html">合成节点</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">文件输出节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="levels.html">层级节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="split_viewer.html">对照预览节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="viewer.html">预览器节点</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../color/index.html">Color Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../converter/index.html">Converter Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../filter/index.html">Filter Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../vector/index.html">Vector Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../matte/index.html">Matte Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../distort/index.html">Distort Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../groups.html">Node Groups</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../layout/index.html">Layout Nodes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../color/index.html">颜色类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../converter/index.html">转换器类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../filter/index.html">滤镜(过滤)节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../vector/index.html">矢量类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../matte/index.html">蒙版类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../distort/index.html">畸变类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../groups.html">节点组</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../layout/index.html">布局类节点</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -200,17 +200,17 @@
     
       <li><a href="../../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../../../editors/index.html">Editors</a> &raquo;</li>
+          <li><a href="../../../editors/index.html">编辑器</a> &raquo;</li>
         
-          <li><a href="../../index.html">Compositing</a> &raquo;</li>
+          <li><a href="../../index.html">合成</a> &raquo;</li>
         
-          <li><a href="index.html">Output Nodes</a> &raquo;</li>
+          <li><a href="index.html">输出类节点</a> &raquo;</li>
         
-      <li>File Output Node</li>
+      <li>文件输出节点</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/compositing/types/output/file.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/compositing/types/output/file.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -221,49 +221,41 @@
            <div itemprop="articleBody">
             
   <div class="section" id="file-output-node">
-<span id="bpy-types-nodeoutputfileslot"></span><span id="bpy-types-compositornodeoutputfile"></span><h1>File Output Node<a class="headerlink" href="#file-output-node" title="Permalink to this headline">¶</a></h1>
+<span id="bpy-types-nodeoutputfileslot"></span><span id="bpy-types-compositornodeoutputfile"></span><h1>文件输出节点<a class="headerlink" href="#file-output-node" title="Permalink to this headline">¶</a></h1>
 <div class="figure align-right" id="id1">
 <img alt="../../../_images/compositing_node-types_CompositorNodeOutputFile.png" src="../../../_images/compositing_node-types_CompositorNodeOutputFile.png" />
-<p class="caption"><span class="caption-text">File Output Node.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">文件输出节点。</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
-<p>This node writes out an image, for each frame range specified,
-to the filename entered, as part of a frameset sequence.</p>
-<p>This node can be used as a way to automatically save the image after a render;
-In addition, since this node can be hooked in anywhere in the node tree,
-it can also save intermediate images automatically.</p>
+<p>此节点依据指定的帧范围，和输入的文件名及其相关的序列参数设置进行图像存储。</p>
+<p>此节点可用于渲染后自动保存图像；另外，此节点可放置在节点树流程中任意阶段进行和其他节点连接，所以也可以用来保存中间阶段生成图像的效果。</p>
 <div class="section" id="inputs">
-<h2>Inputs<a class="headerlink" href="#inputs" title="Permalink to this headline">¶</a></h2>
+<h2>输入<a class="headerlink" href="#inputs" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>Image</dt><dd><p>The image(s) will be saved on rendering, writing to the current frame.
-An entire sequence of images will be saved, when an animation is rendered.</p>
+<dt>图像</dt><dd><p>对当前实时帧的画面进行渲染和存储，当整个动画渲染结束，整个的图像序列帧将被保存在存储介质(硬盘)中。</p>
 </dd>
 </dl>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>To support subsequent arrangement and layering of images, the node can supply a Z-depth map.
-However, please note that only the OpenEXR image formats save the Z information.</p>
+<p>支持图像附带的多层信息，比如Z深度通道信息。但是需要留意的是只有OpenEXR格式能够储存Z深度通道信息。</p>
 </div>
 </div>
 <div class="section" id="properties">
-<h2>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
+<h2>属性<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
 <dl>
-<dt>Base Path</dt><dd><p>Unlike the render output filepath, this node uses a base directory and an image name,
-by default the output path is composed of:
-<code class="docutils literal notranslate"><span class="pre">{base</span> <span class="pre">path}/{file</span> <span class="pre">name}{frame</span> <span class="pre">number}.{extension}</span></code>.</p>
-<p>Besides being split into two settings, in all other respects,
-this setting is treated the same as the <a class="reference internal" href="../../../render/output/settings.html#render-tab-output"><span class="std std-ref">render output path</span></a>.</p>
+<dt>基本路径</dt><dd><p>相比较渲染输出文件路径而言，此节点使用一个基准路径和图像名称，默认的合成输出路径是 <code class="docutils literal notranslate"><span class="pre">{base</span> <span class="pre">path}/{file</span> <span class="pre">name}{frame</span> <span class="pre">number}.{extension}</span></code> 。</p>
+<p>除非要分离为两种设置，在其他的方面，此设置和 <a class="reference internal" href="../../../render/output/settings.html#render-tab-output"><span class="std std-ref">render output path</span></a> 相同。</p>
 </dd>
-<dt>File Format label</dt><dd><p>Shows the selected File Format.</p>
+<dt>文件格式标签</dt><dd><p>显示选择的文件格式。</p>
 </dd>
 </dl>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>More options could be set in the Sidebar region.</p>
+<p>在属性面板上有更多的选项设置。</p>
 </div>
 </div>
 <div class="section" id="outputs">
-<h2>Outputs<a class="headerlink" href="#outputs" title="Permalink to this headline">¶</a></h2>
-<p>This node has no output sockets.</p>
+<h2>输出<a class="headerlink" href="#outputs" title="Permalink to this headline">¶</a></h2>
+<p>此节点没有输出连接端口。</p>
 </div>
 </div>
 
@@ -275,10 +267,10 @@ this setting is treated the same as the <a class="reference internal" href="../.
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="levels.html" class="btn btn-neutral float-right" title="Levels Node" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="levels.html" class="btn btn-neutral float-right" title="层级节点" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="composite.html" class="btn btn-neutral float-left" title="Composite Node" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="composite.html" class="btn btn-neutral float-left" title="合成节点" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -312,7 +304,7 @@ this setting is treated the same as the <a class="reference internal" href="../.
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

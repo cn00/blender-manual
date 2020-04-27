@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Mesh Cache Modifier &mdash; Blender Manual</title>
+  <title>网格缓存修改器 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Mesh Sequence Cache Modifier" href="mesh_sequence_cache.html" />
-    <link rel="prev" title="Data Transfer Modifier" href="data_transfer.html" /> 
+    <link rel="next" title="网格序列缓存修改器" href="mesh_sequence_cache.html" />
+    <link rel="prev" title="数据传递修改器" href="data_transfer.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,57 +110,57 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Modeling</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../meshes/index.html">Meshes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../curves/index.html">Curves</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../surfaces/index.html">Surfaces</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../metas/index.html">Metaball</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../texts/index.html">Text</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../empties.html">Empties</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="../index.html">Modifiers</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="../introduction.html">Introduction</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../common_options.html">Common Modifier Options</a></li>
-<li class="toctree-l3 current"><a class="reference internal" href="../index.html#modify">Modify</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="data_transfer.html">Data Transfer Modifier</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">Mesh Cache Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="mesh_sequence_cache.html">Mesh Sequence Cache Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="normal_edit.html">Normal Edit Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="uv_project.html">UV Project Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="uv_warp.html">UV Warp Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="weight_edit.html">Vertex Weight Edit Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="weight_mix.html">Vertex Weight Mix Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="weight_proximity.html">Vertex Weight Proximity Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="weighted_normal.html">Weighted Normal Modifier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">制作模型</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">简介</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../meshes/index.html">网格</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../curves/index.html">曲线</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../surfaces/index.html">曲面</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../metas/index.html">融球</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../texts/index.html">文本物体</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../empties.html">空物体</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html">修改器</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../introduction.html">简介</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../common_options.html">常见的修改器选项</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../index.html#modify">修改</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="data_transfer.html">数据传递修改器</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">网格缓存修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="mesh_sequence_cache.html">网格序列缓存修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="normal_edit.html">法线编辑修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="uv_project.html">UV 投射修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="uv_warp.html">UV偏移修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="weight_edit.html">顶点权重编辑修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="weight_mix.html">顶点权重混合修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="weight_proximity.html">顶点权重邻近修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="weighted_normal.html">加权法向修改器</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../index.html#generate">Generate</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../index.html#deform">Deform</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../index.html#simulate">Simulate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../index.html#generate">生成</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../index.html#deform">形变</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../index.html#simulate">模拟</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">Rendering</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">渲染</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -206,15 +206,15 @@
     
       <li><a href="../../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../../index.html">Modeling</a> &raquo;</li>
+          <li><a href="../../index.html">制作模型</a> &raquo;</li>
         
-          <li><a href="../index.html">Modifiers</a> &raquo;</li>
+          <li><a href="../index.html">修改器</a> &raquo;</li>
         
-      <li>Mesh Cache Modifier</li>
+      <li>网格缓存修改器</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/modeling/modifiers/modify/mesh_cache.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/modeling/modifiers/modify/mesh_cache.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -225,71 +225,62 @@
            <div itemprop="articleBody">
             
   <div class="section" id="mesh-cache-modifier">
-<span id="bpy-types-meshcachemodifier"></span><h1>Mesh Cache Modifier<a class="headerlink" href="#mesh-cache-modifier" title="Permalink to this headline">¶</a></h1>
-<p>The Mesh Cache modifier main use is for animated mesh data to be applied to a mesh and
-played back, deforming the mesh.</p>
-<p>This works in a similar way to <a class="reference internal" href="../../../animation/shape_keys/introduction.html"><span class="doc">shape keys</span></a>,
-but is aimed at playing back external files and is often used for interchange between applications.</p>
+<span id="bpy-types-meshcachemodifier"></span><h1>网格缓存修改器<a class="headerlink" href="#mesh-cache-modifier" title="Permalink to this headline">¶</a></h1>
+<p>网格缓存修改器的主要用途是将动画网格数据应用到一个网格并回放，使网格变形。</p>
+<p>它的工作方式类似于 <a class="reference internal" href="../../../animation/shape_keys/introduction.html"><span class="doc">形态键</span></a> ，但它的目的是回放外部文件，通常是用于应用程序之间的交换。</p>
 <div class="section" id="options">
-<h2>Options<a class="headerlink" href="#options" title="Permalink to this headline">¶</a></h2>
+<h2>选项<a class="headerlink" href="#options" title="Permalink to this headline">¶</a></h2>
 <div class="figure align-right" id="id1">
 <img alt="../../../_images/modeling_modifiers_modify_mesh-cache_panel.png" src="../../../_images/modeling_modifiers_modify_mesh-cache_panel.png" />
-<p class="caption"><span class="caption-text">Mesh Cache Modifier.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">网格缓存修改器</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
 <dl class="simple">
-<dt>Format</dt><dd><p>The input file format (currently <code class="docutils literal notranslate"><span class="pre">.mdd</span></code> and <code class="docutils literal notranslate"><span class="pre">.pc2</span></code> are supported).</p>
+<dt>格式</dt><dd><p>输入文件格式 (当前支持 <code class="docutils literal notranslate"><span class="pre">.mdd</span></code> 和 <code class="docutils literal notranslate"><span class="pre">.pc2</span></code> )。</p>
 </dd>
-<dt>File Path</dt><dd><p>Path to the cache file.</p>
+<dt>文件路径</dt><dd><p>缓存文件的路径。</p>
 </dd>
 </dl>
 <div class="section" id="evaluation">
-<h3>Evaluation<a class="headerlink" href="#evaluation" title="Permalink to this headline">¶</a></h3>
+<h3>解算<a class="headerlink" href="#evaluation" title="Permalink to this headline">¶</a></h3>
 <dl>
-<dt>Influence</dt><dd><p>Factor to adjust the influence of the modifier’s deformation, useful for blending in/out from the cache data.</p>
+<dt>影响</dt><dd><p>用来调节修改器变形的影响程度系数，在从缓存数据中混合输入/输出时很有用。</p>
 </dd>
-<dt>Deform Mode</dt><dd><p>This setting defaults to <em>Overwrite</em> which will replace the vertex locations with those in the cache file.
-However, you may want to use shape keys, for example, and mix them with the mesh cache.
-In this case you can select the <em>Deform</em> option which integrates deformations with the mesh cache result.</p>
+<dt>形变模式</dt><dd><p>此设置默认为 <em>覆盖</em> ，它将用缓存文件中的顶点位置替换当前顶点位置。但是，您可能想要使用形状键，并将它们与网格缓存混合。在这种情况下，您可以选择能够将变形与网格缓存结果集成在一起的 <em>形变</em> 模式。</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>This feature is limited to making smaller, isolated edits and
-will not work for larger changes such as re-posing limbs.</p>
+<p>该功能仅限于进行较小的、孤立的编辑，对于较大的更改(如重新放置肢体)不起作用。</p>
 </div>
 </dd>
-<dt>Interpolation</dt><dd><p><em>None</em>, or <em>Linear</em>, which will blend between frames.
-Use linear when the frames in the cache file do not match up exactly with the frames in the blend-file.</p>
+<dt>插值类型</dt><dd><p>在帧之间混合时使用 <em>无</em> 或 <em>线性</em> 类型。 当缓存文件中的帧与blend文件中的帧不完全匹配时，使用线性类型。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="time-mapping">
-<h3>Time Mapping<a class="headerlink" href="#time-mapping" title="Permalink to this headline">¶</a></h3>
+<h3>时间映射<a class="headerlink" href="#time-mapping" title="Permalink to this headline">¶</a></h3>
 <dl>
-<dt>Time Mode</dt><dd><p>Select how time is calculated.</p>
+<dt>时间模式</dt><dd><p>选择计算时间的方法。</p>
 <dl class="simple">
-<dt>Frame</dt><dd><p>Allows you to control the frames,
-which will ignore timing data in the file but is often useful since it gives simple control.</p>
+<dt>帧</dt><dd><p>允许你控制帧，这将忽略文件中的计时数据，但往往显得有用，因为它提供了简单的控制。</p>
 </dd>
-<dt>Time</dt><dd><p>Evaluates time in seconds,
-taking into account timing information from the file (offset and frame-times).</p>
+<dt>时间</dt><dd><p>以秒评估时间，同时考虑到文件(偏移和帧时间)中的计时信息。</p>
 </dd>
-<dt>Factor</dt><dd><p>Evaluates the entire animation as a value in the [0, 1] range.</p>
+<dt>系数</dt><dd><p>将整个动画计算为[0,1]范围内的值。</p>
 </dd>
 </dl>
 </dd>
-<dt>Play Mode</dt><dd><p>Select how playback operates.</p>
+<dt>播放模式</dt><dd><p>选择如何操作回放。</p>
 <dl>
-<dt>Scene</dt><dd><p>Use the current frame from the scene to control playback.</p>
+<dt>场景</dt><dd><p>使用场景的当前帧来控制回放。</p>
 <dl class="simple">
-<dt>Frame Start</dt><dd><p>Play the cache starting from this frame.</p>
+<dt>起始帧</dt><dd><p>从该帧开始播放缓存。</p>
 </dd>
-<dt>Frame Scale</dt><dd><p>Scale time by this factor (applied after the start value).</p>
+<dt>帧缩放</dt><dd><p>按此系数缩放时间(应用于起始值之后)。</p>
 </dd>
 </dl>
 </dd>
-<dt>Custom</dt><dd><p>Control animation timing manually.</p>
+<dt>自定义</dt><dd><p>手动控制动画计时器。</p>
 <dl class="simple">
-<dt>Evaluation Value</dt><dd><p>Property used for animation time,
-this gives more control of timing (typically this value will be animated).</p>
+<dt>估算时刻</dt><dd><p>用于动画时间的属性，这赋予了对时间的更多控制(通常该值将被动画化)。</p>
 </dd>
 </dl>
 </dd>
@@ -298,17 +289,16 @@ this gives more control of timing (typically this value will be animated).</p>
 </dl>
 </div>
 <div class="section" id="axis-mapping">
-<h3>Axis Mapping<a class="headerlink" href="#axis-mapping" title="Permalink to this headline">¶</a></h3>
+<h3>轴向映射<a class="headerlink" href="#axis-mapping" title="Permalink to this headline">¶</a></h3>
 <dl class="simple">
-<dt>Forward/Up Axis</dt><dd><p>The axis for forward and up used in the source file.</p>
+<dt>朝前/上的轴</dt><dd><p>源文件中使用的朝前和朝上轴。</p>
 </dd>
-<dt>Flip Axis</dt><dd><p>In rare cases you may also need to flip the coordinates on an axis.</p>
+<dt>翻转轴向</dt><dd><p>在极少数情况下，您可能还需要翻转轴上的坐标。</p>
 </dd>
 </dl>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
-<p>Both MDD and PC2 depend on the vertex order on the mesh remaining unchanged.
-This is a limitation of this method, so take care not to add/remove/reorder vertices once this modifier is used.</p>
+<p>MDD 和 PC2 格式都依赖于网格上的顶点顺序保持不变，这是这个方法的一个限制，所以在使用这个修改器之后，注意不要添加/删除/重新排序顶点。</p>
 </div>
 </div>
 </div>
@@ -322,10 +312,10 @@ This is a limitation of this method, so take care not to add/remove/reorder vert
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="mesh_sequence_cache.html" class="btn btn-neutral float-right" title="Mesh Sequence Cache Modifier" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="mesh_sequence_cache.html" class="btn btn-neutral float-right" title="网格序列缓存修改器" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="data_transfer.html" class="btn btn-neutral float-left" title="Data Transfer Modifier" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="data_transfer.html" class="btn btn-neutral float-left" title="数据传递修改器" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -359,7 +349,7 @@ This is a limitation of this method, so take care not to add/remove/reorder vert
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

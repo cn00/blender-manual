@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Properties &mdash; Blender Manual</title>
+  <title>属性 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Files &amp; Data System" href="../../files/index.html" />
-    <link rel="prev" title="Selecting &amp; Editing" href="selecting_editing.html" /> 
+    <link rel="next" title="文件 &amp; 数据系统" href="../../files/index.html" />
+    <link rel="prev" title="选择 &amp; 编辑" href="selecting_editing.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,44 +110,44 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../render/index.html">Rendering</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Tracking &amp; Masking</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../tracking/index.html">Motion Tracking</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="index.html">Masking</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="introduction.html">Introduction</a></li>
-<li class="toctree-l3"><a class="reference internal" href="scurve.html">S-Curves</a></li>
-<li class="toctree-l3"><a class="reference internal" href="selecting_editing.html">Selecting &amp; Editing</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">Properties</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#mask-layer">Mask Layer</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#active-spline">Active Spline</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#active-point">Active Point</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#mask-settings">Mask Settings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../render/index.html">渲染</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../compositing/index.html">合成</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">跟踪 &amp; 遮罩</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../tracking/index.html">运动跟踪，摄像机反求</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">制作遮罩</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="introduction.html">介绍</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scurve.html">S曲线</a></li>
+<li class="toctree-l3"><a class="reference internal" href="selecting_editing.html">选择 &amp; 编辑</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">属性</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#mask-layer">遮罩层</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#active-spline">激活的样条</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#active-point">激活的点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#mask-settings">遮罩设置</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../editors/clip/index.html">Movie Clip Editor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../editors/clip/index.html">影片剪辑编辑器</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -193,15 +193,15 @@
     
       <li><a href="../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../index.html">Tracking &amp; Masking</a> &raquo;</li>
+          <li><a href="../index.html">跟踪 &amp; 遮罩</a> &raquo;</li>
         
-          <li><a href="index.html">Masking</a> &raquo;</li>
+          <li><a href="index.html">制作遮罩</a> &raquo;</li>
         
-      <li>Properties</li>
+      <li>属性</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/movie_clip/masking/properties.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/movie_clip/masking/properties.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -212,35 +212,28 @@
            <div itemprop="articleBody">
             
   <div class="section" id="properties">
-<h1>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h1>
+<h1>属性<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="mask-layer">
-<h2>Mask Layer<a class="headerlink" href="#mask-layer" title="Permalink to this headline">¶</a></h2>
+<h2>遮罩层<a class="headerlink" href="#mask-layer" title="Permalink to this headline">¶</a></h2>
 <div class="figure align-right" id="id1">
 <img alt="../../_images/movie-clip_masking_properties_mask-layer-panel.png" src="../../_images/movie-clip_masking_properties_mask-layer-panel.png" />
-<p class="caption"><span class="caption-text">Mask Layer panel.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">遮罩层面板。</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
 <dl>
-<dt>Mask Layers</dt><dd><p>Mask layers consists of one or several splines and used to “grouped” operation on splines.
-Layers can be used to create complex shapes and to define how the splines interact with each other.
-Splines belonging to the same layer can be animated together, for example by an item
-from motion tracker footage.
-Example of such tools might be parenting the whole set of splines to single motion tracking data or
-simple to transform all of them together.</p>
+<dt>遮罩层多个</dt><dd><p>遮罩层由一个或多个样条线组成，用于对样条线进行“分组”操作。图层可用于创建复杂的形状并定义样条线如何进行布尔算法交互。可以将属于同一图层的样条一起动画，例如通过运动跟踪进行目标动画适配。这种工具的例子可能是将整套样条曲线设置为单个运动跟踪数据，或者简单地将它们全部变换到一起。</p>
 </dd>
-<dt>Opacity</dt><dd><p>Used to set the opacity of the mask layer.</p>
+<dt>透明度</dt><dd><p>用于设置遮罩层的不透明度。</p>
 </dd>
-<dt>Invert (black/white icon)</dt><dd><p>Inverts the values (colors) in the mask layer.</p>
+<dt>反向(黑白图标)</dt><dd><p>反转遮罩层中的值(颜色)。</p>
 </dd>
-<dt>Blend</dt><dd><p>The layer blending operation to perform. See <a class="reference internal" href="../../glossary/index.html#term-color-blend-modes"><span class="xref std std-term">Color Blend Modes</span></a>.</p>
-<p>Modes <em>Merge Add</em> and <em>Merge Subtract</em>
-give better results when using a <em>Feather</em> on overlapping masks
-than straightforward mathematical addition and subtraction.</p>
+<dt>混合</dt><dd><p>要执行的层混合操作。请参见 <a class="reference internal" href="../../glossary/index.html#term-color-blend-modes"><span class="xref std std-term">颜色混合模式</span></a>。</p>
+<p>在重叠遮罩上使用 <em>羽化</em> 时，模式 <em>合并加</em> 和 <em>合并减</em> 比直接的数学加和减得到更好的结果。</p>
 </dd>
-<dt>Falloff</dt><dd><p>Type of the <em>Feather</em> falloff, controls the shape of the transition between black and white.</p>
+<dt>衰减</dt><dd><p><em>羽化</em> 衰减的类型，控制黑白过渡的形状。</p>
 </dd>
-<dt>Overlap</dt><dd><p>Fills the self-intersecting areas.</p>
+<dt>叠加</dt><dd><p>填充自相交区域。</p>
 </dd>
-<dt>Holes</dt><dd><p>Overlapping splines from the same layer will generate holes in the mask.</p>
+<dt>孔洞</dt><dd><p>同一层并且重叠的样条线将在遮罩中生成孔。</p>
 </dd>
 </dl>
 <table class="docutils align-default">
@@ -251,87 +244,77 @@ than straightforward mathematical addition and subtraction.</p>
 <tbody>
 <tr class="row-odd"><td><div class="figure align-default" id="id2">
 <a class="reference internal image-reference" href="../../_images/movie-clip_masking_properties_example-overlap.png"><img alt="../../_images/movie-clip_masking_properties_example-overlap.png" src="../../_images/movie-clip_masking_properties_example-overlap.png" style="width: 320px;" /></a>
-<p class="caption"><span class="caption-text">The Overlap option example.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">重叠选项样式。</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
 </td>
 <td><div class="figure align-default" id="id3">
 <a class="reference internal image-reference" href="../../_images/movie-clip_masking_properties_example-holes.png"><img alt="../../_images/movie-clip_masking_properties_example-holes.png" src="../../_images/movie-clip_masking_properties_example-holes.png" style="width: 320px;" /></a>
-<p class="caption"><span class="caption-text">The Holes option example.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">孔选项样式。</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
 </div>
 </td>
 </tr>
 </tbody>
 </table>
 <div class="section" id="example">
-<h3>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h3>
-<p>The purpose of mask layers can be explained with an example.
-Suppose there are two unwanted people in the footage, and one of them goes from left to right, and
-the other in the opposite direction. Two mask layers can then be used to mask them separately by
-using a single mask data-block. At the point of intersection of these shapes they will be added together rather than
-creating a hole, as would happen if they were on the same layer. If the motion is simple enough,
-a single motion tracked point can be used to drive the location of the entire mask layer.</p>
+<h3>样式<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h3>
+<p>举例说明遮罩层的用途。假设在镜头中有两个不需要的人，其中一个从左到右，另一个在相反的方向。然后可以使用两个遮罩层分别使用单个遮罩数据块来遮罩它们。在这些形状的交叉点处，它们将被添加在一起而不是创建一个孔洞，如果它们在同一层上发生。如果运动足够简单，则可以使用单个运动跟踪点来驱动整个遮罩层的位置。</p>
 </div>
 </div>
 <div class="section" id="active-spline">
-<h2>Active Spline<a class="headerlink" href="#active-spline" title="Permalink to this headline">¶</a></h2>
+<h2>激活的样条<a class="headerlink" href="#active-spline" title="Permalink to this headline">¶</a></h2>
 <div class="figure align-right" id="id4">
 <img alt="../../_images/movie-clip_masking_properties_active-spline-panel.png" src="../../_images/movie-clip_masking_properties_active-spline-panel.png" />
-<p class="caption"><span class="caption-text">Active Spline panel.</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">激活的样条面板。</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
 </div>
 <dl>
-<dt>Feather Offset</dt><dd><p>The method used for calculating the offset of the mask spline feather.</p>
+<dt>羽化偏移</dt><dd><p>用于计算遮罩样条线羽化偏移的方法。</p>
 <dl class="simple">
-<dt>Even</dt><dd><p>Preserves the thickness of the feather, but can give undesirable loops of the feather curve.</p>
+<dt>平均</dt><dd><p>保留羽化的厚度，但可能产生不必要的羽化交叠。</p>
 </dd>
-<dt>Smooth</dt><dd><p>Gives a nicer and smoother shape,
-but can also give an undesirable sharp feather when a curve segment forms an S-shape.</p>
+<dt>平滑</dt><dd><p>使形状更漂亮、更平滑，但当曲线段形成S形时，也会产生不需要的羽化交叠，表现为锐利交错的效果。</p>
 </dd>
 </dl>
 </dd>
-<dt>Weight Interpolation</dt><dd><p>The type of weight (thickness of feather) interpolation between points.
-<em>Linear</em> or <em>Ease</em> (i.e. changes occur slowly at the beginning and at the end).</p>
+<dt>权重插值</dt><dd><p>点之间的权重(羽化厚度)插值类型。<em>线性</em> 或 <em>缓动</em> (即变化在开始和结束时缓慢发生)。</p>
 </dd>
-<dt>Cyclic</dt><dd><p>If the spline is closed or not.</p>
+<dt>循环</dt><dd><p>如果样条线是闭合的。</p>
 </dd>
-<dt>Fill</dt><dd><p>Creates splines with filled areas.
-If disabled, Blender will create curves with a thickness to mask out thin objects such as wires or hair.</p>
+<dt>填充</dt><dd><p>使用填充区域创建样条曲线。如果禁用，Blender将创建具有一定厚度的曲线，以掩盖细线类对象，如导线或头发。</p>
 </dd>
-<dt>Self Intersection Check</dt><dd><p>Prevent the feather (not the curve itself) from intersecting with itself.</p>
+<dt>自相交检查</dt><dd><p>防止羽化(而不是曲线本身)与自身相交。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="active-point">
-<h2>Active Point<a class="headerlink" href="#active-point" title="Permalink to this headline">¶</a></h2>
+<h2>激活的点<a class="headerlink" href="#active-point" title="Permalink to this headline">¶</a></h2>
 <div class="figure align-right" id="id5">
 <img alt="../../_images/movie-clip_masking_properties_active-point-panel.png" src="../../_images/movie-clip_masking_properties_active-point-panel.png" />
-<p class="caption"><span class="caption-text">Active Point panel.</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">活动点面板。</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
 </div>
-<p>This panel is shown when both a tracking marker and mask is selected.</p>
+<p>当选择跟踪标记和遮罩时显示此面板。</p>
 <div class="section" id="parent">
-<h3>Parent<a class="headerlink" href="#parent" title="Permalink to this headline">¶</a></h3>
-<p>In the <em>Movie Clip Editor</em> it is possible to link the whole mask or its points to motion tracks.
-This way the mask or points will follow the tracks.</p>
+<h3>父级<a class="headerlink" href="#parent" title="Permalink to this headline">¶</a></h3>
+<p>在 <em>影片剪辑编辑器</em> 中，可以将整个遮罩或其点指向运动轨迹。这样一来，遮罩或点就会跟踪。</p>
 <dl class="simple">
-<dt>Make Parent <kbd class="kbd docutils literal notranslate">Ctrl-P</kbd></dt><dd><p>Parents one or more selected spline points to the active motion tracker.</p>
+<dt>建立父子关系 <kbd class="kbd docutils literal notranslate">Ctrl-P</kbd></dt><dd><p>将一个或多个选定的样条点父项指定给活动的运动跟踪器。</p>
 </dd>
-<dt>Clear Parent <kbd class="kbd docutils literal notranslate">Alt-P</kbd></dt><dd><p>Clears any parenting relationship for the selected spline points.</p>
+<dt>清除父子 <kbd class="kbd docutils literal notranslate">Alt-P</kbd></dt><dd><p>清除选定样条点的任何父子关系。</p>
 </dd>
-<dt>Parent</dt><dd><p><a class="reference internal" href="../../interface/controls/templates/data_block.html#ui-data-id"><span class="std std-ref">Data ID</span></a> to which the mask or spline is parented to
-in case of parenting to movie tracking data set to Movie Clip data-block.</p>
+<dt>父级</dt><dd><p><a class="reference internal" href="../../interface/controls/templates/data_block.html#ui-data-id"><span class="std std-ref">数据 ID</span></a> 在将影片跟踪数据设置为影片剪辑数据块的情况下，将遮罩或样条线用于父物体。</p>
 </dd>
-<dt>Type</dt><dd><p>Point Track, Plane Track</p>
+<dt>类型</dt><dd><p>单点追踪，平面追踪</p>
 </dd>
-<dt>Object</dt><dd><p><a class="reference internal" href="../tracking/clip/properties/track/objects.html#movie-clip-tracking-properties-object"><span class="std std-ref">Object</span></a> to parent to.</p>
+<dt>物体</dt><dd><p>父级 <a class="reference internal" href="../tracking/clip/properties/track/objects.html#movie-clip-tracking-properties-object"><span class="std std-ref">物体</span></a>。</p>
 </dd>
-<dt>Track</dt><dd><p>Name of individual tracks.</p>
+<dt>跟踪</dt><dd><p>单个轨道的名称。</p>
 </dd>
 </dl>
 </div>
 </div>
 <div class="section" id="mask-settings">
-<h2>Mask Settings<a class="headerlink" href="#mask-settings" title="Permalink to this headline">¶</a></h2>
+<h2>遮罩设置<a class="headerlink" href="#mask-settings" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>Start Frame, End Frame</dt><dd><p>Set the frame range of the mask for <em>Sequencer</em>.</p>
+<dt>开始帧，结束帧</dt><dd><p>在“序列”中设置遮罩的帧范围。</p>
 </dd>
 </dl>
 </div>
@@ -345,10 +328,10 @@ in case of parenting to movie tracking data set to Movie Clip data-block.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../../files/index.html" class="btn btn-neutral float-right" title="Files &amp; Data System" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="../../files/index.html" class="btn btn-neutral float-right" title="文件 &amp; 数据系统" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="selecting_editing.html" class="btn btn-neutral float-left" title="Selecting &amp; Editing" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="selecting_editing.html" class="btn btn-neutral float-left" title="选择 &amp; 编辑" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -382,7 +365,7 @@ in case of parenting to movie tracking data set to Movie Clip data-block.</p>
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

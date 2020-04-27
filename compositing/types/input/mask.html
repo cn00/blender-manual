@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Mask Node &mdash; Blender Manual</title>
+  <title>遮罩节点 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Movie Clip Node" href="movie_clip.html" />
-    <link rel="prev" title="Image Node" href="image.html" /> 
+    <link rel="next" title="影片剪辑节点" href="movie_clip.html" />
+    <link rel="prev" title="图像节点" href="image.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,56 +110,56 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">Rendering</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Compositing</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../properties.html">Properties</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="../../index.html#node-types">Node Types</a><ul class="current">
-<li class="toctree-l3 current"><a class="reference internal" href="index.html">Input Nodes</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="bokeh_image.html">Bokeh Image Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="image.html">Image Node</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">Mask Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="movie_clip.html">Movie Clip Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="render_layers.html">Render Layers Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="rgb.html">RGB Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="texture.html">Texture Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="time.html">Time Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="track_position.html">Track Position Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="value.html">Value Node</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">渲染</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">合成</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">简介</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../properties.html">属性</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../index.html#node-types">节点类型</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="index.html">输入类节点</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="bokeh_image.html">散景图节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="image.html">图像节点</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">遮罩节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="movie_clip.html">影片剪辑节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="render_layers.html">渲染层节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="rgb.html">RGB节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="texture.html">纹理节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="time.html">时间节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="track_position.html">追踪位置节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="value.html">值节点</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../output/index.html">Output Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../color/index.html">Color Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../converter/index.html">Converter Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../filter/index.html">Filter Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../vector/index.html">Vector Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../matte/index.html">Matte Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../distort/index.html">Distort Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../groups.html">Node Groups</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../layout/index.html">Layout Nodes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../output/index.html">输出类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../color/index.html">颜色类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../converter/index.html">转换器类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../filter/index.html">滤镜(过滤)节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../vector/index.html">矢量类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../matte/index.html">蒙版类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../distort/index.html">畸变类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../groups.html">节点组</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../layout/index.html">布局类节点</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -205,17 +205,17 @@
     
       <li><a href="../../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../../../editors/index.html">Editors</a> &raquo;</li>
+          <li><a href="../../../editors/index.html">编辑器</a> &raquo;</li>
         
-          <li><a href="../../index.html">Compositing</a> &raquo;</li>
+          <li><a href="../../index.html">合成</a> &raquo;</li>
         
-          <li><a href="index.html">Input Nodes</a> &raquo;</li>
+          <li><a href="index.html">输入类节点</a> &raquo;</li>
         
-      <li>Mask Node</li>
+      <li>遮罩节点</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/compositing/types/input/mask.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/compositing/types/input/mask.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -226,49 +226,43 @@
            <div itemprop="articleBody">
             
   <div class="section" id="mask-node">
-<span id="bpy-types-compositornodemask"></span><h1>Mask Node<a class="headerlink" href="#mask-node" title="Permalink to this headline">¶</a></h1>
+<span id="bpy-types-compositornodemask"></span><h1>遮罩节点<a class="headerlink" href="#mask-node" title="Permalink to this headline">¶</a></h1>
 <div class="figure align-right" id="id1">
 <img alt="../../../_images/compositing_node-types_CompositorNodeMask.png" src="../../../_images/compositing_node-types_CompositorNodeMask.png" />
-<p class="caption"><span class="caption-text">Mask Node.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">遮罩节点。</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
-<p>The Mask node can be used to select a <a class="reference internal" href="../../../movie_clip/masking/index.html"><span class="doc">Mask data-block</span></a>.
-This node can be used with other nodes, for example to Invert, Multiply or Mix, or used as a factor input.</p>
+<p>遮罩节点可以用来选择一个 <a class="reference internal" href="../../../movie_clip/masking/index.html"><span class="doc">遮罩数据块</span></a> 。这个节点可以用于其他节点上，比如反转，正片叠底，混合，或者用作一个输入参数因子。</p>
 <div class="section" id="inputs">
-<h2>Inputs<a class="headerlink" href="#inputs" title="Permalink to this headline">¶</a></h2>
-<p>This node has no input sockets.</p>
+<h2>输入<a class="headerlink" href="#inputs" title="Permalink to this headline">¶</a></h2>
+<p>这个节点没有输入连接端口。</p>
 </div>
 <div class="section" id="properties">
-<h2>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
+<h2>属性<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>Masks</dt><dd><p>The selectable mask data-block. If the label is left blank, the mask name will be set.</p>
+<dt>遮罩</dt><dd><p>可选择的遮罩数据块。如果标签为空白的话，需设置遮罩名称。</p>
 </dd>
-<dt>Feather</dt><dd><p>Use or ignore feather points defined for splines see <a class="reference internal" href="../../../movie_clip/masking/selecting_editing.html#mask-feather"><span class="std std-ref">Mask Feathers</span></a> for more details.</p>
+<dt>羽化</dt><dd><p>使用或者忽略样条曲线定义的羽化设定。具体参看 <a class="reference internal" href="../../../movie_clip/masking/selecting_editing.html#mask-feather"><span class="std std-ref">遮罩羽化</span></a> 获取更多细节。</p>
 </dd>
-<dt>Size</dt><dd><p>Scene Size will give an image the size of the render resolution for the scene,
-scaling along when rendering with different resolutions. Fixed gives a fixed size in pixels.
-Fixed/Scene gives a size in pixels that still scales along
-when changing the render resolution percentage in the scene.</p>
+<dt>尺寸</dt><dd><p>场景尺寸将场景渲染尺寸作为遮罩的大小，当使用不同的渲染分辨率时遮罩会自动缩放以适应渲染尺寸。固定将给出一个固定的像素尺寸数值。固定的/场景这个选项当改变场景的渲染分辨率百分比，依据用户输入的像素值进行平滑尺寸缩放。</p>
 </dd>
-<dt>Motion Blur</dt><dd><p>For animated masks, creating a motion blurred mask from the surrounding frames,
-with a given number of samples (higher gives better quality), and a camera shutter time in seconds.</p>
+<dt>运动模糊</dt><dd><p>对于运动的图像遮罩，在帧(每一张图像)与帧之间产生一个运动模糊效果，有采样(设置的数值高，生成的图像品质好)和快门(控制摄影机快门在很短时间内的速度值)。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="outputs">
-<h2>Outputs<a class="headerlink" href="#outputs" title="Permalink to this headline">¶</a></h2>
+<h2>输出<a class="headerlink" href="#outputs" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>Mask</dt><dd><p>The black-and-white output of the mask.</p>
+<dt>遮罩</dt><dd><p>遮罩的黑白值输出。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="example">
-<h2>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h2>
+<h2>示例<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h2>
 <div class="figure align-default" id="id2">
 <img alt="../../../_images/compositing_types_input_mask_example.png" src="../../../_images/compositing_types_input_mask_example.png" />
-<p class="caption"><span class="caption-text">Example of the Mask node.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">遮罩节点示例。</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
-<p>In the example above, the <em>Mask</em> node is used to isolate the object from the background
-to preserve it from being corrected.</p>
+<p>在上面的示例中，<em>遮罩</em> 节点用于将对象与背景隔离，以防止其被更正。</p>
 </div>
 </div>
 
@@ -280,10 +274,10 @@ to preserve it from being corrected.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="movie_clip.html" class="btn btn-neutral float-right" title="Movie Clip Node" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="movie_clip.html" class="btn btn-neutral float-right" title="影片剪辑节点" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="image.html" class="btn btn-neutral float-left" title="Image Node" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="image.html" class="btn btn-neutral float-left" title="图像节点" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -317,7 +311,7 @@ to preserve it from being corrected.</p>
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

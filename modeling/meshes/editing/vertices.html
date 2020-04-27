@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Vertex Tools &mdash; Blender Manual</title>
+  <title>顶点工具 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Edge Tools" href="edges.html" />
-    <link rel="prev" title="Symmetry" href="basics/symmetry.html" /> 
+    <link rel="next" title="边工具" href="edges.html" />
+    <link rel="prev" title="对称" href="basics/symmetry.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,64 +110,64 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Modeling</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">Introduction</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="../index.html">Meshes</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="../introduction.html">Introduction</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../toolbar/index.html">Toolbar</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../structure.html">Structure</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../primitives.html">Primitives</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../selecting.html">Selecting</a></li>
-<li class="toctree-l3 current"><a class="reference internal" href="index.html">Editing</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="introduction.html">Introduction</a></li>
-<li class="toctree-l4"><a class="reference internal" href="basics/index.html">Basics</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">Vertex Tools</a></li>
-<li class="toctree-l4"><a class="reference internal" href="edges.html">Edge Tools</a></li>
-<li class="toctree-l4"><a class="reference internal" href="faces.html">Face Tools</a></li>
-<li class="toctree-l4"><a class="reference internal" href="normals.html">Normals</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">制作模型</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">简介</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html">网格</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../introduction.html">简介</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../toolbar/index.html">工具栏</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../structure.html">结构</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../primitives.html">基本体</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../selecting.html">选择</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="index.html">编辑</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="introduction.html">简介</a></li>
+<li class="toctree-l4"><a class="reference internal" href="basics/index.html">基础</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">顶点工具</a></li>
+<li class="toctree-l4"><a class="reference internal" href="edges.html">边工具</a></li>
+<li class="toctree-l4"><a class="reference internal" href="faces.html">面工具</a></li>
+<li class="toctree-l4"><a class="reference internal" href="normals.html">法向</a></li>
 <li class="toctree-l4"><a class="reference internal" href="uv/index.html">UV</a></li>
-<li class="toctree-l4"><a class="reference internal" href="transform/index.html">Transformation</a></li>
-<li class="toctree-l4"><a class="reference internal" href="duplicating/index.html">Duplicating</a></li>
-<li class="toctree-l4"><a class="reference internal" href="subdividing/index.html">Subdividing</a></li>
-<li class="toctree-l4"><a class="reference internal" href="cleanup.html">Clean up</a></li>
-<li class="toctree-l4"><a class="reference internal" href="misc.html">Miscellaneous Editing Tools</a></li>
-<li class="toctree-l4"><a class="reference internal" href="data_transfer.html">Data Transfer</a></li>
-<li class="toctree-l4"><a class="reference internal" href="mesh_options.html">Mesh Options</a></li>
-<li class="toctree-l4"><a class="reference internal" href="retopology.html">Retopology</a></li>
+<li class="toctree-l4"><a class="reference internal" href="transform/index.html">变形</a></li>
+<li class="toctree-l4"><a class="reference internal" href="duplicating/index.html">复制</a></li>
+<li class="toctree-l4"><a class="reference internal" href="subdividing/index.html">细分</a></li>
+<li class="toctree-l4"><a class="reference internal" href="cleanup.html">清理</a></li>
+<li class="toctree-l4"><a class="reference internal" href="misc.html">其他编辑工具</a></li>
+<li class="toctree-l4"><a class="reference internal" href="data_transfer.html">数据传递</a></li>
+<li class="toctree-l4"><a class="reference internal" href="mesh_options.html">网格选项</a></li>
+<li class="toctree-l4"><a class="reference internal" href="retopology.html">重拓扑</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../properties/index.html">Properties</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../mesh_analysis.html">Mesh Analysis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../properties/index.html">属性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../mesh_analysis.html">网格分析</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../curves/index.html">Curves</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../surfaces/index.html">Surfaces</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../metas/index.html">Metaball</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../texts/index.html">Text</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../empties.html">Empties</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../modifiers/index.html">Modifiers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../curves/index.html">曲线</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../surfaces/index.html">曲面</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../metas/index.html">融球</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../texts/index.html">文本物体</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../empties.html">空物体</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../modifiers/index.html">修改器</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">Rendering</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">渲染</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -213,17 +213,17 @@
     
       <li><a href="../../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../../index.html">Modeling</a> &raquo;</li>
+          <li><a href="../../index.html">制作模型</a> &raquo;</li>
         
-          <li><a href="../index.html">Meshes</a> &raquo;</li>
+          <li><a href="../index.html">网格</a> &raquo;</li>
         
-          <li><a href="index.html">Editing</a> &raquo;</li>
+          <li><a href="index.html">编辑</a> &raquo;</li>
         
-      <li>Vertex Tools</li>
+      <li>顶点工具</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/modeling/meshes/editing/vertices.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/modeling/meshes/editing/vertices.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -234,17 +234,17 @@
            <div itemprop="articleBody">
             
   <div class="section" id="vertex-tools">
-<h1>Vertex Tools<a class="headerlink" href="#vertex-tools" title="Permalink to this headline">¶</a></h1>
+<h1>顶点工具<a class="headerlink" href="#vertex-tools" title="Permalink to this headline">¶</a></h1>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Mode</dt>
-<dd class="field-odd"><p>Edit Mode</p>
+<dt class="field-odd">模式</dt>
+<dd class="field-odd"><p>编辑模式</p>
 </dd>
-<dt class="field-even">Menu</dt>
-<dd class="field-even"><p><span class="menuselection">Vertex</span></p>
+<dt class="field-even">菜单</dt>
+<dd class="field-even"><p><span class="menuselection">顶点</span></p>
 </dd>
-<dt class="field-odd">Hotkey</dt>
+<dt class="field-odd">快捷键</dt>
 <dd class="field-odd"><p><kbd class="kbd docutils literal notranslate">Ctrl-V</kbd></p>
 </dd>
 </dl>
@@ -253,108 +253,93 @@
 These are tools that work primarily on vertex selections
 but some also work with edge or face selections.</p>
 <div class="section" id="merging">
-<span id="vertex-merging"></span><h2>Merging<a class="headerlink" href="#merging" title="Permalink to this headline">¶</a></h2>
+<span id="vertex-merging"></span><h2>合并<a class="headerlink" href="#merging" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="merging-vertices">
-<h3>Merging Vertices<a class="headerlink" href="#merging-vertices" title="Permalink to this headline">¶</a></h3>
+<h3>合并顶点<a class="headerlink" href="#merging-vertices" title="Permalink to this headline">¶</a></h3>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Mode</dt>
-<dd class="field-odd"><p>Edit Mode</p>
+<dt class="field-odd">模式</dt>
+<dd class="field-odd"><p>编辑模式</p>
 </dd>
-<dt class="field-even">Menu</dt>
-<dd class="field-even"><p><span class="menuselection">Vertex ‣ Merge…</span>,
-<span class="menuselection">Context Menu ‣ Merge</span></p>
+<dt class="field-even">菜单</dt>
+<dd class="field-even"><p><span class="menuselection">顶点 ‣ 合并...</span>, <span class="menuselection">上下文菜单 ‣ 合并</span></p>
 </dd>
-<dt class="field-odd">Hotkey</dt>
+<dt class="field-odd">快捷键</dt>
 <dd class="field-odd"><p><kbd class="kbd docutils literal notranslate">Alt-M</kbd></p>
 </dd>
 </dl>
 </div>
-<p>This tool allows you to merge all selected vertices to a unique one, dissolving all others.
-You can choose the location of the surviving vertex in the menu this tool pops up before
-executing:</p>
+<p>该工具用于将选中顶点合并为一个顶点，融并其余顶点。用户可以在弹出的菜单中选择最后剩下来的那个顶点的位置:</p>
 <dl class="simple">
-<dt>At First</dt><dd><p>Only available in <em>Vertex</em> select mode,
-it will place the remaining vertex at the location of the first one selected.</p>
+<dt>到首选点</dt><dd><p>仅适用于 <em>顶点</em> 选择模式，将合并后的顶点置于第一个选中点的位置。</p>
 </dd>
-<dt>At Last</dt><dd><p>Only available in <em>Vertex</em> select mode,
-it will place the remaining vertex at the location of the last one selected (the active one).</p>
+<dt>到末选点</dt><dd><p>仅适用于 <em>顶点</em> 选择模式，将合并后的顶点置于最后一个选中点(活动顶点)的位置。</p>
 </dd>
-<dt>At Center</dt><dd><p>Available in all select modes,
-it will place the remaining vertex at the center of the selection.</p>
+<dt>到中心</dt><dd><p>适用于所有选择模式，将合并后的顶点置于所有选中项的中心。</p>
 </dd>
-<dt>At Cursor</dt><dd><p>Available in all select modes,
-it will place the remaining vertex at the 3D Cursor.</p>
+<dt>到光标</dt><dd><p>适用于所有选择模式，将合并后的顶点置于光标位置。</p>
 </dd>
-<dt>Collapse</dt><dd><p>Every island of selected vertices (connected by selected edges) will merge on its own median center,
-leaving one vertex per island.
-It is also available <em>via</em> the <span class="menuselection">Mesh ‣ Edges ‣ Collapse</span> menu option…</p>
+<dt>塌陷</dt><dd><p>各组选中顶点的组成孤岛(以选中的边相连)分别合并至其自身质心点，每个孤岛合并为一个顶点。还可以从 <span class="menuselection">网格 ‣ 边 ‣ 塌陷</span> 菜单访问。</p>
 </dd>
 </dl>
-<p>Merging vertices of course also deletes some edges and faces. But Blender will do everything
-it can to preserve edges and faces only partly involved in the reunion.</p>
+<p>合并顶点明显会删除一些边和面。但是Blender会尽力保留边和面，仅对部分边和面进行合并操作。</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p><em>At First</em> and <em>At Last</em> depend on that the selection order is saved:
-the order is lost, for instance, after changing selection mode.</p>
+<p><em>首选点</em> 和 <em>末选点</em> 是基于Blender记录的选择顺序的，但是有时候，比如改变选择模式后，该顺序会丢失。</p>
 </div>
 <dl class="simple">
-<dt>UVs</dt><dd><p>If <em>UVs</em> is ticked in the <a class="reference internal" href="../../../interface/undo_redo.html#ui-undo-redo-adjust-last-operation"><span class="std std-ref">Adjust Last Operation</span></a> panel, the UV mapping coordinates,
-if existing, will be corrected to avoid image distortion.</p>
+<dt>UV</dt><dd><p>如果勾选 <a class="reference internal" href="../../../interface/undo_redo.html#ui-undo-redo-adjust-last-operation"><span class="std std-ref">调整上一步操作</span></a> 面板的 <em>UV</em> 选项，会自动矫正现有UV映射坐标，避免图像畸变。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="merge-by-distance">
-<span id="bpy-ops-mesh-remove-doubles"></span><h3>Merge by Distance<a class="headerlink" href="#merge-by-distance" title="Permalink to this headline">¶</a></h3>
+<span id="bpy-ops-mesh-remove-doubles"></span><h3>按间距合并<a class="headerlink" href="#merge-by-distance" title="Permalink to this headline">¶</a></h3>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Mode</dt>
-<dd class="field-odd"><p>Edit Mode</p>
+<dt class="field-odd">模式</dt>
+<dd class="field-odd"><p>编辑模式</p>
 </dd>
-<dt class="field-even">Menu</dt>
-<dd class="field-even"><p><span class="menuselection">Vertex ‣ Merge by Distance</span>,
-<span class="menuselection">Context Menu ‣ Merge by Distance</span></p>
+<dt class="field-even">菜单</dt>
+<dd class="field-even"><p><span class="menuselection">顶点 ‣ 按距离融并</span>, <span class="menuselection">上下文菜单 ‣ 按距离融并</span></p>
 </dd>
 </dl>
 </div>
-<p>Merge by Distance is a useful tool to simplify a mesh by merging the selected vertices that
-are closer than a specified distance to each other.
-An alternative way to simplify a mesh is to use the <a class="reference internal" href="../../modifiers/generate/decimate.html"><span class="doc">Decimate Modifier</span></a>.</p>
+<p>按距离合并对于按距离合并选定的相互距离小于指定阈值的顶点而言非常有用。另一个可用于简化网格的方式是使用 <a class="reference internal" href="../../modifiers/generate/decimate.html"><span class="doc">Decimate Modifier</span></a> 。</p>
 <dl class="simple">
-<dt>Merge Distance</dt><dd><p>Sets the distance threshold for merging vertices.</p>
+<dt>合并间距</dt><dd><p>顶点合并的间距阈值。</p>
 </dd>
-<dt>Unselected</dt><dd><p>Allows vertices in the selection to be merged with unselected vertices.
+<dt>未选中项</dt><dd><p>Allows vertices in the selection to be merged with unselected vertices.
 When disabled, selected vertices will only be merged with other selected ones.</p>
 </dd>
 </dl>
 </div>
 </div>
 <div class="section" id="separating">
-<h2>Separating<a class="headerlink" href="#separating" title="Permalink to this headline">¶</a></h2>
+<h2>分离<a class="headerlink" href="#separating" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="rip-region">
-<span id="tool-mesh-rip-region"></span><h3>Rip Region<a class="headerlink" href="#rip-region" title="Permalink to this headline">¶</a></h3>
+<span id="tool-mesh-rip-region"></span><h3>断离区域<a class="headerlink" href="#rip-region" title="Permalink to this headline">¶</a></h3>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Mode</dt>
-<dd class="field-odd"><p>Edit Mode</p>
+<dt class="field-odd">模式</dt>
+<dd class="field-odd"><p>编辑模式</p>
 </dd>
-<dt class="field-even">Menu</dt>
-<dd class="field-even"><p><span class="menuselection">Vertex ‣ Rip Vertices</span></p>
+<dt class="field-even">菜单</dt>
+<dd class="field-even"><p><span class="menuselection">顶点 ‣ 断离顶点</span></p>
 </dd>
-<dt class="field-odd">Hotkey</dt>
+<dt class="field-odd">快捷键</dt>
 <dd class="field-odd"><p><kbd class="kbd docutils literal notranslate">V</kbd></p>
 </dd>
 </dl>
 </div>
-<p>Rip creates a “hole” in the mesh by making a copy of selected vertices and edges,
+<p>Rip creates a &quot;hole&quot; in the mesh by making a copy of selected vertices and edges,
 still linked to the neighboring non-selected vertices,
 so that the new edges are borders of the faces on one side, and the old ones,
 borders of the faces on the other side of the rip.</p>
 <div class="section" id="examples">
-<h4>Examples<a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h4>
+<h4>范例<a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h4>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 50%" />
@@ -363,34 +348,34 @@ borders of the faces on the other side of the rip.</p>
 <tbody>
 <tr class="row-odd"><td><div class="figure align-default" id="id1">
 <a class="reference internal image-reference" href="../../../_images/modeling_meshes_editing_vertices_rip-before.png"><img alt="../../../_images/modeling_meshes_editing_vertices_rip-before.png" src="../../../_images/modeling_meshes_editing_vertices_rip-before.png" style="width: 260px;" /></a>
-<p class="caption"><span class="caption-text">Selected vertex.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">选中顶点。</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
 </td>
 <td><div class="figure align-default" id="id2">
 <a class="reference internal image-reference" href="../../../_images/modeling_meshes_editing_vertices_rip-after.png"><img alt="../../../_images/modeling_meshes_editing_vertices_rip-after.png" src="../../../_images/modeling_meshes_editing_vertices_rip-after.png" style="width: 260px;" /></a>
-<p class="caption"><span class="caption-text">Hole created after using rip on vertex.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">对一个顶点使用断离操作打洞。</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
 </td>
 </tr>
 <tr class="row-even"><td><div class="figure align-default" id="id3">
 <a class="reference internal image-reference" href="../../../_images/modeling_meshes_editing_vertices_rip-edges-before.png"><img alt="../../../_images/modeling_meshes_editing_vertices_rip-edges-before.png" src="../../../_images/modeling_meshes_editing_vertices_rip-edges-before.png" style="width: 260px;" /></a>
-<p class="caption"><span class="caption-text">Edges selected.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">选中边。</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
 </div>
 </td>
 <td><div class="figure align-default" id="id4">
 <a class="reference internal image-reference" href="../../../_images/modeling_meshes_editing_vertices_rip-edges-after.png"><img alt="../../../_images/modeling_meshes_editing_vertices_rip-edges-after.png" src="../../../_images/modeling_meshes_editing_vertices_rip-edges-after.png" style="width: 260px;" /></a>
-<p class="caption"><span class="caption-text">Result of rip with edge selection.</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">对选中边使用断离操作结果。</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
 </div>
 </td>
 </tr>
 <tr class="row-odd"><td><div class="figure align-default" id="id5">
 <a class="reference internal image-reference" href="../../../_images/modeling_meshes_editing_vertices_rip-complexselection-before.png"><img alt="../../../_images/modeling_meshes_editing_vertices_rip-complexselection-before.png" src="../../../_images/modeling_meshes_editing_vertices_rip-complexselection-before.png" style="width: 260px;" /></a>
-<p class="caption"><span class="caption-text">A complex selection of vertices.</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">一组复杂的选中顶点。</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
 </div>
 </td>
 <td><div class="figure align-default" id="id6">
 <a class="reference internal image-reference" href="../../../_images/modeling_meshes_editing_vertices_rip-complexselection-after.png"><img alt="../../../_images/modeling_meshes_editing_vertices_rip-complexselection-after.png" src="../../../_images/modeling_meshes_editing_vertices_rip-complexselection-after.png" style="width: 260px;" /></a>
-<p class="caption"><span class="caption-text">Result of rip operation.</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">断离操作结果。</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
 </div>
 </td>
 </tr>
@@ -398,32 +383,31 @@ borders of the faces on the other side of the rip.</p>
 </table>
 </div>
 <div class="section" id="limitations">
-<h4>Limitations<a class="headerlink" href="#limitations" title="Permalink to this headline">¶</a></h4>
+<h4>限制<a class="headerlink" href="#limitations" title="Permalink to this headline">¶</a></h4>
 <p>Rip will only work when edges and/or vertices are selected.
 Using the tool when a face is selected (explicitly or implicitly), will return an error
-message <em>“Cannot perform ripping with faces selected this way”</em>.
-If your selection includes some edges or vertices that are not “between” two faces <a class="reference internal" href="../../../glossary/index.html#term-manifold"><span class="xref std std-term">manifold</span></a>,
-it will also fail with the message <em>“No proper selection or faces include”</em>.</p>
+message <em>&quot;Cannot perform ripping with faces selected this way&quot;</em>.
+If your selection includes some edges or vertices that are not &quot;between&quot; two faces <a class="reference internal" href="../../../glossary/index.html#term-manifold"><span class="xref std std-term">manifold</span></a>,
+it will also fail with the message <em>&quot;No proper selection or faces include&quot;</em>.</p>
 </div>
 </div>
 <div class="section" id="rip-vertices-and-fill">
-<h3>Rip Vertices and Fill<a class="headerlink" href="#rip-vertices-and-fill" title="Permalink to this headline">¶</a></h3>
+<h3>断离顶点并填充<a class="headerlink" href="#rip-vertices-and-fill" title="Permalink to this headline">¶</a></h3>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Mode</dt>
-<dd class="field-odd"><p>Edit Mode</p>
+<dt class="field-odd">模式</dt>
+<dd class="field-odd"><p>编辑模式</p>
 </dd>
-<dt class="field-even">Menu</dt>
-<dd class="field-even"><p><span class="menuselection">Vertex ‣ Rip Vertices and Fill</span></p>
+<dt class="field-even">菜单</dt>
+<dd class="field-even"><p><span class="menuselection">顶点 ‣ 断离顶点并填充</span></p>
 </dd>
-<dt class="field-odd">Hotkey</dt>
+<dt class="field-odd">快捷键</dt>
 <dd class="field-odd"><p><kbd class="kbd docutils literal notranslate">Alt-V</kbd></p>
 </dd>
 </dl>
 </div>
-<p>Rip fill works the same as the Rip tool above, but instead of leaving a hole,
-it fills in the gap with geometry.</p>
+<p>补隙断离与上文的断离工具类似，不过它会补上几何体，而不留下空洞。</p>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 50%" />
@@ -432,12 +416,12 @@ it fills in the gap with geometry.</p>
 <tbody>
 <tr class="row-odd"><td><div class="figure align-default" id="id7">
 <a class="reference internal image-reference" href="../../../_images/modeling_meshes_editing_vertices_rip-edges-before.png"><img alt="../../../_images/modeling_meshes_editing_vertices_rip-edges-before.png" src="../../../_images/modeling_meshes_editing_vertices_rip-edges-before.png" style="width: 260px;" /></a>
-<p class="caption"><span class="caption-text">Edges selected.</span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">选中边。</span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
 </div>
 </td>
 <td><div class="figure align-default" id="id8">
 <a class="reference internal image-reference" href="../../../_images/modeling_meshes_editing_vertices_rip-fill-result.png"><img alt="../../../_images/modeling_meshes_editing_vertices_rip-fill-result.png" src="../../../_images/modeling_meshes_editing_vertices_rip-fill-result.png" style="width: 260px;" /></a>
-<p class="caption"><span class="caption-text">Result of rip fill.</span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">补隙断离的结果。</span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
 </div>
 </td>
 </tr>
@@ -445,38 +429,36 @@ it fills in the gap with geometry.</p>
 </table>
 </div>
 <div class="section" id="split">
-<h3>Split<a class="headerlink" href="#split" title="Permalink to this headline">¶</a></h3>
+<h3>拆分<a class="headerlink" href="#split" title="Permalink to this headline">¶</a></h3>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Mode</dt>
-<dd class="field-odd"><p>Edit Mode</p>
+<dt class="field-odd">模式</dt>
+<dd class="field-odd"><p>编辑模式</p>
 </dd>
-<dt class="field-even">Menu</dt>
-<dd class="field-even"><p><span class="menuselection">Mesh ‣ Split</span></p>
+<dt class="field-even">菜单</dt>
+<dd class="field-even"><p><span class="menuselection">网格 ‣ 拆分</span></p>
 </dd>
-<dt class="field-odd">Hotkey</dt>
+<dt class="field-odd">快捷键</dt>
 <dd class="field-odd"><p><kbd class="kbd docutils literal notranslate">Y</kbd></p>
 </dd>
 </dl>
 </div>
-<p>Splits (disconnects) the selection from the rest of the mesh.
-The border edge to any non-selected elements are duplicated.</p>
-<p>Note that the “copy” is left exactly at the same position as the original, so you must move it
-<kbd class="kbd docutils literal notranslate">G</kbd> to see it clearly…</p>
+<p>将选中项与其他网格拆分(断开)。会对边界线的未选中元素进行复制。</p>
+<p>要注意的是“复制元素”仍位于原来的位置，所以需要使用 <kbd class="kbd docutils literal notranslate">G</kbd> 移动后才能看的比较清楚...</p>
 </div>
 <div class="section" id="rip-edge">
-<span id="tool-mesh-rip-edge"></span><h3>Rip Edge<a class="headerlink" href="#rip-edge" title="Permalink to this headline">¶</a></h3>
+<span id="tool-mesh-rip-edge"></span><h3>断离顶点并延长<a class="headerlink" href="#rip-edge" title="Permalink to this headline">¶</a></h3>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Mode</dt>
-<dd class="field-odd"><p>Edit Mode</p>
+<dt class="field-odd">模式</dt>
+<dd class="field-odd"><p>编辑模式</p>
 </dd>
-<dt class="field-even">Menu</dt>
-<dd class="field-even"><p><span class="menuselection">Vertex ‣ Rip Vertices and Extend</span></p>
+<dt class="field-even">菜单</dt>
+<dd class="field-even"><p><span class="menuselection">顶点 ‣ 断离顶点并延长</span></p>
 </dd>
-<dt class="field-odd">Hotkey</dt>
+<dt class="field-odd">快捷键</dt>
 <dd class="field-odd"><p><kbd class="kbd docutils literal notranslate">Alt-D</kbd></p>
 </dd>
 </dl>
@@ -484,64 +466,58 @@ The border edge to any non-selected elements are duplicated.</p>
 <p>This tool takes any number of selected vertices and duplicate-drags them along the closest edge to the mouse,
 When extending an edge loop, it extends the vertices at the endpoints of the loop.
 The behavior is similar to the <em>Extrude</em> tool, but it creates an n-gon.</p>
-<p>It helps to easily add details to existing edges.</p>
+<p>可以很方便地对现有边增加细节。</p>
 </div>
 <div class="section" id="separate">
-<h3>Separate<a class="headerlink" href="#separate" title="Permalink to this headline">¶</a></h3>
+<h3>分离<a class="headerlink" href="#separate" title="Permalink to this headline">¶</a></h3>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Mode</dt>
-<dd class="field-odd"><p>Edit Mode</p>
+<dt class="field-odd">模式</dt>
+<dd class="field-odd"><p>编辑模式</p>
 </dd>
-<dt class="field-even">Menu</dt>
-<dd class="field-even"><p><span class="menuselection">Mesh ‣ Separate</span></p>
+<dt class="field-even">菜单</dt>
+<dd class="field-even"><p><span class="menuselection">顶点 ‣ 分离</span></p>
 </dd>
-<dt class="field-odd">Hotkey</dt>
+<dt class="field-odd">快捷键</dt>
 <dd class="field-odd"><p><kbd class="kbd docutils literal notranslate">P</kbd></p>
 </dd>
 </dl>
 </div>
 <p>The Separate tool will <a class="reference internal" href="#split">Split</a> mesh elements into another mesh object.</p>
 <dl class="simple">
-<dt>Selection</dt><dd><p>Separates the selected elements.</p>
+<dt>选中项</dt><dd><p>分离选中元素。</p>
 </dd>
-<dt>By Material</dt><dd><p>Separates fragments based on the materials assigned to the different faces.</p>
+<dt>按材质</dt><dd><p>根据各面的不同材质进行分离。</p>
 </dd>
-<dt>By loose parts</dt><dd><p>Creates one object for every independent (disconnected) fragment of the original mesh.</p>
+<dt>按松散块</dt><dd><p>为原始网格的每一个独立(断开)的碎片创建物体。</p>
 </dd>
 </dl>
 </div>
 </div>
 <div class="section" id="vertex-slide">
-<span id="tool-mesh-vertex-slide"></span><span id="bpy-ops-transform-vert-slide"></span><h2>Vertex Slide<a class="headerlink" href="#vertex-slide" title="Permalink to this headline">¶</a></h2>
+<span id="tool-mesh-vertex-slide"></span><span id="bpy-ops-transform-vert-slide"></span><h2>顶点滑动<a class="headerlink" href="#vertex-slide" title="Permalink to this headline">¶</a></h2>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Mode</dt>
-<dd class="field-odd"><p>Edit Mode</p>
+<dt class="field-odd">模式</dt>
+<dd class="field-odd"><p>编辑模式</p>
 </dd>
-<dt class="field-even">Menu</dt>
+<dt class="field-even">菜单</dt>
 <dd class="field-even"><p><span class="menuselection">Vertex ‣ Slide Vertices</span></p>
 </dd>
-<dt class="field-odd">Hotkey</dt>
+<dt class="field-odd">快捷键</dt>
 <dd class="field-odd"><p><kbd class="kbd docutils literal notranslate">Shift-V</kbd></p>
 </dd>
 </dl>
 </div>
-<p>Vertex Slide will transform a vertex along one of its adjacent edges.
-Use <kbd class="kbd docutils literal notranslate">Shift-V</kbd> to activate tool.
-The nearest selected vertex to the mouse cursor will be the control one.
-Move the mouse along the direction of the desired edge to specify the vertex position.
-Then press <kbd class="kbd docutils literal notranslate">LMB</kbd> to confirm the transformation.</p>
+<p>顶点滑动对顶点沿其相邻边进行变换。使用 <kbd class="kbd docutils literal notranslate">Shift-V</kbd> 激活该工具。离光标最近的选中点成为控制点。沿边线移动鼠标指定顶点位置。然后按下 <kbd class="kbd docutils literal notranslate">LMB</kbd> 确认变换。</p>
 <dl class="simple">
-<dt>Even <kbd class="kbd docutils literal notranslate">E</kbd></dt><dd><p>By default, the offset value of the vertices is a percentage of the edges length along which they move.
-When Even mode is active, the vertices are shifted by an absolute value.</p>
+<dt>均匀 <kbd class="kbd docutils literal notranslate">E</kbd></dt><dd><p>偏移量默认为顶点沿边线移动距离相对其长度的百分比。当启用均匀模式后，顶点偏移量为绝对值。</p>
 </dd>
-<dt>Flipped <kbd class="kbd docutils literal notranslate">F</kbd></dt><dd><p>When Flipped is active, vertices move the same distance from adjacent vertices,
-instead of moving from their original position.</p>
+<dt>翻转 <kbd class="kbd docutils literal notranslate">F</kbd></dt><dd><p>当激活翻转，顶点从其相邻点移动相同距离，而非从原始位置开始移动。</p>
 </dd>
-<dt>Clamp <kbd class="kbd docutils literal notranslate">Alt</kbd> or <kbd class="kbd docutils literal notranslate">C</kbd></dt><dd><p>Toggle clamping the slide within the edge extents.</p>
+<dt>限定 <kbd class="kbd docutils literal notranslate">Alt</kbd> 或 <kbd class="kbd docutils literal notranslate">C</kbd></dt><dd><p>切换是否将滑动限制在边长范围内。</p>
 </dd>
 </dl>
 <table class="docutils align-default">
@@ -553,17 +529,17 @@ instead of moving from their original position.</p>
 <tbody>
 <tr class="row-odd"><td><div class="figure align-default" id="id9">
 <a class="reference internal image-reference" href="../../../_images/modeling_meshes_editing_vertices_vertex-slide1.png"><img alt="../../../_images/modeling_meshes_editing_vertices_vertex-slide1.png" src="../../../_images/modeling_meshes_editing_vertices_vertex-slide1.png" style="width: 200px;" /></a>
-<p class="caption"><span class="caption-text">Selected vertex.</span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">选中顶点。</span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
 </div>
 </td>
 <td><div class="figure align-default" id="id10">
 <a class="reference internal image-reference" href="../../../_images/modeling_meshes_editing_vertices_vertex-slide2.png"><img alt="../../../_images/modeling_meshes_editing_vertices_vertex-slide2.png" src="../../../_images/modeling_meshes_editing_vertices_vertex-slide2.png" style="width: 200px;" /></a>
-<p class="caption"><span class="caption-text">Positioning vertex interactively.</span><a class="headerlink" href="#id10" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">交互定位顶点。</span><a class="headerlink" href="#id10" title="Permalink to this image">¶</a></p>
 </div>
 </td>
 <td><div class="figure align-default" id="id11">
 <a class="reference internal image-reference" href="../../../_images/modeling_meshes_editing_vertices_vertex-slide3.png"><img alt="../../../_images/modeling_meshes_editing_vertices_vertex-slide3.png" src="../../../_images/modeling_meshes_editing_vertices_vertex-slide3.png" style="width: 200px;" /></a>
-<p class="caption"><span class="caption-text">Repositioned vertex.</span><a class="headerlink" href="#id11" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">重新定位顶点。</span><a class="headerlink" href="#id11" title="Permalink to this image">¶</a></p>
 </div>
 </td>
 </tr>
@@ -571,146 +547,124 @@ instead of moving from their original position.</p>
 </table>
 </div>
 <div class="section" id="smooth-vertex">
-<h2>Smooth Vertex<a class="headerlink" href="#smooth-vertex" title="Permalink to this headline">¶</a></h2>
+<h2>平滑顶点<a class="headerlink" href="#smooth-vertex" title="Permalink to this headline">¶</a></h2>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Mode</dt>
-<dd class="field-odd"><p>Edit Mode</p>
+<dt class="field-odd">模式</dt>
+<dd class="field-odd"><p>编辑模式</p>
 </dd>
-<dt class="field-even">Menu</dt>
-<dd class="field-even"><p><span class="menuselection">Vertex ‣ Smooth Vertices</span>,
-<span class="menuselection">Context Menu ‣ Smooth</span></p>
+<dt class="field-even">菜单</dt>
+<dd class="field-even"><p><span class="menuselection">顶点 ‣ 平滑顶点</span>, <span class="menuselection">上下文菜单 ‣ 平滑</span></p>
 </dd>
 </dl>
 </div>
 <p>This will apply the <a class="reference internal" href="transform/smooth.html"><span class="doc">Smooth Tool</span></a> once.</p>
 </div>
 <div class="section" id="convex-hull">
-<h2>Convex Hull<a class="headerlink" href="#convex-hull" title="Permalink to this headline">¶</a></h2>
+<h2>凸壳<a class="headerlink" href="#convex-hull" title="Permalink to this headline">¶</a></h2>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Mode</dt>
-<dd class="field-odd"><p>Edit Mode</p>
+<dt class="field-odd">模式</dt>
+<dd class="field-odd"><p>编辑模式</p>
 </dd>
-<dt class="field-even">Menu</dt>
-<dd class="field-even"><p><span class="menuselection">Mesh ‣ Convex Hull</span></p>
+<dt class="field-even">菜单</dt>
+<dd class="field-even"><p><span class="menuselection">网格 ‣ 凸壳</span></p>
 </dd>
 </dl>
 </div>
-<p>The Convex Hull operator takes a point cloud as input and outputs a convex hull surrounding those vertices.
-If the input contains edges or faces that lie on the convex hull, they can be used in the output as well.
-This operator can be used as a bridge tool as well.</p>
+<p>凸壳接受点云作为输入，输出围住这些顶点的凸壳。如果输入包含位于凸壳上的边或面，这些边或面也会作为输出。该操作还可以当做桥接工具使用。</p>
 <div class="figure align-default" id="id12">
 <img alt="../../../_images/modeling_meshes_editing_vertices_convex-hull.png" src="../../../_images/modeling_meshes_editing_vertices_convex-hull.png" />
-<p class="caption"><span class="caption-text">Input mesh, point cloud, and Convex Hull result.</span><a class="headerlink" href="#id12" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">输入网格，点云，凸壳操作结果。</span><a class="headerlink" href="#id12" title="Permalink to this image">¶</a></p>
 </div>
 <dl class="simple">
-<dt>Delete Unused</dt><dd><p>Removes vertices, edges, and faces that were selected, but not used as part of the hull.
-Note that vertices and edges that are used
-by other edges and faces not part of the selection will not be deleted.</p>
+<dt>删除未使用项</dt><dd><p>删除选中的但未在凸壳中用到的顶点、边和面。注意，非选中项中的边和面包含的顶点和边不会被删除。</p>
 </dd>
-<dt>Use Existing Faces</dt><dd><p>Where possible, use existing input faces that lie on the hull.
-This allows the convex hull output to contain n-gons rather than triangles
-(or quads if the <em>Join Triangles</em> option is enabled).</p>
+<dt>使用已有的面</dt><dd><p>在可能的情况下，使用位于凸壳上的现有输入面。这样可以使输出结果包含多边形而非三角面(或四边面，如果勾选 <em>合并三角面</em> 选项的话)。</p>
 </dd>
-<dt>Make Holes</dt><dd><p>Delete edges and faces in the hull that were part of the input too.
-Useful in cases like bridging to delete faces between the existing mesh and the convex hull.</p>
+<dt>生成空洞</dt><dd><p>删除位于凸壳上的输入边和面。可用于删除现有网格和凸壳两端的面，做到类似桥接的效果。</p>
 </dd>
-<dt>Join Triangles</dt><dd><p>Joins adjacent triangles into quads.
-Has all the same properties as the <em>Tris to Quads</em> operator (angle limit, compare UVs, etc.).</p>
+<dt>合并三角面</dt><dd><p>合并相邻三角面为四边面。与 <em>三角面 --&gt; 四边面</em> 操作属性相同(角度限制、比较UV等)。</p>
 </dd>
-<dt>Max Face Angle, Max Shape Angle, Compare</dt><dd><p>See <a class="reference internal" href="faces.html#mesh-faces-tristoquads"><span class="std std-ref">Triangles to Quads</span></a>.</p>
+<dt>最大面角度，最大形状角度比较</dt><dd><p>见 <a class="reference internal" href="faces.html#mesh-faces-tristoquads"><span class="std std-ref">三角面 -&gt; 四边面</span></a>。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="make-vertex-parent">
-<h2>Make Vertex Parent<a class="headerlink" href="#make-vertex-parent" title="Permalink to this headline">¶</a></h2>
+<h2>创建父级顶点<a class="headerlink" href="#make-vertex-parent" title="Permalink to this headline">¶</a></h2>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Mode</dt>
-<dd class="field-odd"><p>Edit Mode</p>
+<dt class="field-odd">模式</dt>
+<dd class="field-odd"><p>编辑模式</p>
 </dd>
-<dt class="field-even">Menu</dt>
-<dd class="field-even"><p><span class="menuselection">Vertex ‣ Make Vertex Parent</span></p>
+<dt class="field-even">菜单</dt>
+<dd class="field-even"><p><span class="menuselection">顶点 ‣ 创建父级顶点</span></p>
 </dd>
-<dt class="field-odd">Hotkey</dt>
+<dt class="field-odd">快捷键</dt>
 <dd class="field-odd"><p><kbd class="kbd docutils literal notranslate">Ctrl-P</kbd></p>
 </dd>
 </dl>
 </div>
-<p>This will parent the other selected object(s) to the vertices/edges/faces selected,
-as described <a class="reference internal" href="../../../scene_layout/object/properties/relations/parents.html"><span class="doc">here</span></a>.</p>
+<p>与 <a class="reference internal" href="../../../scene_layout/object/properties/relations/parents.html"><span class="doc">这里</span></a> 提到的一样，将选中的顶点/边/面作为其他选中物体的父级。</p>
 </div>
 <div class="section" id="add-hook">
-<span id="bpy-ops-object-hook-add-selob"></span><h2>Add Hook<a class="headerlink" href="#add-hook" title="Permalink to this headline">¶</a></h2>
+<span id="bpy-ops-object-hook-add-selob"></span><h2>挂钩<a class="headerlink" href="#add-hook" title="Permalink to this headline">¶</a></h2>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Mode</dt>
-<dd class="field-odd"><p>Edit Mode</p>
+<dt class="field-odd">模式</dt>
+<dd class="field-odd"><p>编辑模式</p>
 </dd>
-<dt class="field-even">Menu</dt>
-<dd class="field-even"><p><span class="menuselection">Vertex ‣ Hooks</span></p>
+<dt class="field-even">菜单</dt>
+<dd class="field-even"><p><span class="menuselection">顶点 ‣ 挂钩</span></p>
 </dd>
-<dt class="field-odd">Hotkey</dt>
+<dt class="field-odd">快捷键</dt>
 <dd class="field-odd"><p><kbd class="kbd docutils literal notranslate">Ctrl-H</kbd></p>
 </dd>
 </dl>
 </div>
-<p>Adds a <a class="reference internal" href="../../modifiers/deform/hooks.html"><span class="doc">Hook Modifier</span></a>
-(using either a new empty, or the current selected object) linked to the selection.
-Note that even if it appears in the history menu,
-this action cannot be undone in <em>Edit Mode</em> – because it involves other objects…</p>
-<p>When the current object has no hooks associated, only the 2 first options will appear on the menu.</p>
+<p>为选中项添加一个 <a class="reference internal" href="../../modifiers/deform/hooks.html"><span class="doc">钩挂修改器</span></a> (使用新建的空物体，或当前的选中物体)。要注意的是，尽管可以在历史菜单中找到该命令，但是在 <em>编辑模式</em> 下是无法取消该操作的 -- 因为有其他物体的参与。</p>
+<p>如果当前物体没有关联挂钩，子菜单仅显示前两个菜单选项。</p>
 <dl class="simple">
-<dt>Hook to New Object</dt><dd><p>Creates a new Hook Modifier for the active object and assigns it to the selected vertices;
-it also creates an empty at the center of those vertices, which are hooked to it.</p>
+<dt>钩挂到一个新物体</dt><dd><p>为活动物体新建一个钩挂修改器，并指定至选择的顶点；同时在这些顶点的中心添加一个空物体，作钩挂之用。</p>
 </dd>
-<dt>Hook to Selected Object</dt><dd><p>Does the same as <em>Hook to New Object</em>, but instead of hooking the vertices to a new empty,
-it hooks them to the selected object (if it exists).
-There should be only one selected object (besides the mesh being edited).</p>
+<dt>钩挂到选中物体</dt><dd><p>与 <em>钩挂到一个新物体</em> 相同，不同的是钩挂到选中物体(如果存在的话)，而不是新建用于钩挂的空物体。这时(除在编辑中的网格外)只能有一个选中物体。</p>
 </dd>
-<dt>Hook to Selected Object Bone</dt><dd><p>Does the same as <em>Hook to New Object</em>,
-but it sets the last selected bone in the also selected armature as a target.</p>
+<dt>钩挂到选中的物体骨骼</dt><dd><p>与 <em>钩挂到一个新物体</em> 相同，不同的是将选中的骨架中最后选中的骨骼作为钩挂目标。</p>
 </dd>
-<dt>Assign to Hook</dt><dd><p>The selected vertices are assigned to the chosen hook. For that to happen,
-a list of the hooks associated to the object is displayed.
-All the unselected vertices are removed from it (if they were assigned to that particular hook).
-One vertex can be assigned to more than one hook.</p>
+<dt>指定到挂钩</dt><dd><p>将选中的顶点指定至选中的挂钩。子菜单会显示与该物体关联的挂钩列表。挂钩中所有未被选中的顶点(如果已指定至该挂钩的话)都会被移除。一个顶点可以指定至多个挂钩。</p>
 </dd>
-<dt>Remove Hook</dt><dd><p>Removes the chosen hook (from the displayed list) from the object:
-the specific Hook Modifier is removed from the modifier stack.</p>
+<dt>移除挂钩</dt><dd><p>从物体中移除选定的(子菜单列表中)挂钩：从修改器堆中移除对应钩挂修改器。</p>
 </dd>
-<dt>Select Hook</dt><dd><p>Selects all vertices assigned to the chosen hook (from the hook list).</p>
+<dt>选择挂钩</dt><dd><p>选择所有指定至(挂钩列表中)选定挂钩的顶点。</p>
 </dd>
-<dt>Reset Hook</dt><dd><p>It’s equivalent to the <em>Reset</em> button of the specific Hook Modifier (chosen from the hook list).</p>
+<dt>重置挂钩</dt><dd><p>等同于对应(钩挂列表中)钩挂修改器的 <em>重置</em> 按钮。</p>
 </dd>
-<dt>Recenter Hook</dt><dd><p>It’s equivalent to the <em>Recenter</em> button of the specific Hook Modifier (chosen from the hook list).</p>
+<dt>居中挂钩</dt><dd><p>等同于对应(钩挂列表中)钩挂修改器的 <em>重新指定中心</em> 按钮。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="blend-from-shape-propagate-shapes">
-<span id="modeling-meshes-editing-vertices-shape-keys"></span><h2>Blend From Shape, Propagate Shapes<a class="headerlink" href="#blend-from-shape-propagate-shapes" title="Permalink to this headline">¶</a></h2>
+<span id="modeling-meshes-editing-vertices-shape-keys"></span><h2>从形变混合，形变传导<a class="headerlink" href="#blend-from-shape-propagate-shapes" title="Permalink to this headline">¶</a></h2>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Mode</dt>
-<dd class="field-odd"><p>Edit Mode</p>
+<dt class="field-odd">模式</dt>
+<dd class="field-odd"><p>编辑模式</p>
 </dd>
-<dt class="field-even">Menu</dt>
-<dd class="field-even"><p><span class="menuselection">Vertex ‣ Blend From Shape</span> and
-<span class="menuselection">Vertex ‣ Shape Propagate</span></p>
+<dt class="field-even">菜单</dt>
+<dd class="field-even"><p><span class="menuselection">顶点 ‣ 从形变混合</span> 和 <span class="menuselection">顶点 ‣ 形变传导</span></p>
 </dd>
 </dl>
 </div>
-<p>These are options regarding <a class="reference internal" href="../../../animation/shape_keys/index.html"><span class="doc">shape keys</span></a>.</p>
+<p>这些选项是关于 <a class="reference internal" href="../../../animation/shape_keys/index.html"><span class="doc">形态键</span></a> 的。</p>
 <dl class="simple">
-<dt>Shape Propagate</dt><dd><p>Apply selected vertex locations to all other shape keys.</p>
+<dt>形变传导</dt><dd><p>应用选中顶点的位置至所有其他形态键。</p>
 </dd>
-<dt>Blend From Shape</dt><dd><p>Blend in the shape from a shape key.</p>
+<dt>从形变混合</dt><dd><p>从形态键混合形状。</p>
 </dd>
 </dl>
 </div>
@@ -724,10 +678,10 @@ the specific Hook Modifier is removed from the modifier stack.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="edges.html" class="btn btn-neutral float-right" title="Edge Tools" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="edges.html" class="btn btn-neutral float-right" title="边工具" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="basics/symmetry.html" class="btn btn-neutral float-left" title="Symmetry" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="basics/symmetry.html" class="btn btn-neutral float-left" title="对称" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -761,7 +715,7 @@ the specific Hook Modifier is removed from the modifier stack.</p>
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Remesh &mdash; Blender Manual</title>
+  <title>重构网格 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Symmetry" href="symmetry.html" />
-    <link rel="prev" title="Dyntopo" href="dyntopo.html" /> 
+    <link rel="next" title="对称" href="symmetry.html" />
+    <link rel="prev" title="动态拓扑" href="dyntopo.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,46 +110,46 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Sculpting &amp; Painting</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../brush/index.html">Brush</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../navigation.html">Navigation</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="../../index.html#modes">Modes</a><ul class="current">
-<li class="toctree-l3 current"><a class="reference internal" href="../index.html">Sculpting</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="../introduction.html">Introduction</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../tools.html">Sculpting Tools</a></li>
-<li class="toctree-l4 current"><a class="reference internal" href="index.html">Tool Settings</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../adaptive.html">Adaptive Sculpting</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../hide_mask.html">Hiding &amp; Masking</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">雕刻 &amp; 绘制</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">简介</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../brush/index.html">笔刷</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../navigation.html">视图切换</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../index.html#modes">模式</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../index.html">雕刻</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../introduction.html">简介</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../tools.html">雕刻工具</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="index.html">工具设置</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../adaptive.html">自适应雕刻</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../hide_mask.html">隐藏 &amp; 遮罩</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../texture_paint/index.html">Texture Paint</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../vertex_paint/index.html">Vertex Paint</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../weight_paint/index.html">Weight Paint</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../texture_paint/index.html">纹理绘制</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../vertex_paint/index.html">顶点绘制</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../weight_paint/index.html">权重绘制</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">Rendering</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">渲染</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -195,17 +195,17 @@
     
       <li><a href="../../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../../index.html">Sculpting &amp; Painting</a> &raquo;</li>
+          <li><a href="../../index.html">雕刻 &amp; 绘制</a> &raquo;</li>
         
-          <li><a href="../index.html">Sculpting</a> &raquo;</li>
+          <li><a href="../index.html">雕刻</a> &raquo;</li>
         
-          <li><a href="index.html">Tool Settings</a> &raquo;</li>
+          <li><a href="index.html">工具设置</a> &raquo;</li>
         
-      <li>Remesh</li>
+      <li>重构网格</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/sculpt_paint/sculpting/tool_settings/remesh.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/sculpt_paint/sculpting/tool_settings/remesh.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -216,74 +216,59 @@
            <div itemprop="articleBody">
             
   <div class="section" id="remesh">
-<h1>Remesh<a class="headerlink" href="#remesh" title="Permalink to this headline">¶</a></h1>
+<h1>重构网格<a class="headerlink" href="#remesh" title="Permalink to this headline">¶</a></h1>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Mode</dt>
-<dd class="field-odd"><p>All Paint Modes</p>
+<dt class="field-odd">模式</dt>
+<dd class="field-odd"><p>所有绘制模式</p>
 </dd>
-<dt class="field-even">Header</dt>
-<dd class="field-even"><p><span class="menuselection">Tool Settings ‣ Remesh</span></p>
+<dt class="field-even">标题栏</dt>
+<dd class="field-even"><p><span class="menuselection">工具设置 ‣ 重构网格</span></p>
 </dd>
-<dt class="field-odd">Panel</dt>
-<dd class="field-odd"><p><span class="menuselection">Sidebar ‣ Tool ‣ Remesh</span></p>
+<dt class="field-odd">面板</dt>
+<dd class="field-odd"><p><span class="menuselection">侧栏 ‣ 工具 ‣ 重构网格</span></p>
 </dd>
-<dt class="field-even">Hotkey</dt>
-<dd class="field-even"><p><kbd class="kbd docutils literal notranslate">Ctrl-R</kbd> (Voxel), <kbd class="kbd docutils literal notranslate">Ctrl-Alt-R</kbd> (Quadriflow)</p>
+<dt class="field-even">快捷键</dt>
+<dd class="field-even"><p><kbd class="kbd docutils literal notranslate">Ctrl-R</kbd> (体素), <kbd class="kbd docutils literal notranslate">Ctrl-Alt-R</kbd> (Quadriflow)</p>
 </dd>
 </dl>
 </div>
-<p>Remeshing is a technique that automatically rebuilds the geometry with a more uniform topology.
-Remeshing can either add or remove the amount of topology depending on a defined resolution.
-This technique is especially useful for <a class="reference internal" href="../index.html"><span class="doc">sculpting</span></a>,
-to generate better topology after blocking out the initial shape.</p>
-<p>The Voxel Remesher uses an OpenVDB to generate a new manifold mesh from the current geometry.
-It produces a mesh with perfectly even distributed topology and
-it does not have any performance penalty once the new mesh is calculated.
-This makes the voxel remesher great for sculpting has it is possible to
-sculpt at a much higher level of detail than using other features
-like dyntopo which often adds more performance overhead.</p>
+<p>网格重构是一种使用更均匀的拓扑自动重建几何体的技术。网格重构可以根据定义的分辨率添加或删除拓扑量。此技术对于 <a class="reference internal" href="../index.html"><span class="doc">雕刻</span></a> 特别有用，可在在初始形状基础上生成更好的拓扑。</p>
+<p>体素网格重构使用 OpenVDB 从当前几何体生成新的流形网格。它生成具有拓扑完全均匀分布的网格，并且一旦计算新网格，它没有任何性能损失。这使得体素网格重构非常适合雕刻，使得更加高精度细节下的雕刻成为可能，而其他类似功能如dyntopo，往往会带来更多的性能开销。</p>
 <dl>
-<dt>Voxel Size</dt><dd><p>The resolution or the amount of detail the remeshed mesh will have.
-The value is used to define the size, in object space, of the <a class="reference internal" href="../../../glossary/index.html#term-voxel"><span class="xref std std-term">Voxel</span></a>.
-These voxels are assembled around the mesh and are used to determine the new geometry.
-For example a value of 0.5m will create topological patches that are about 0.5m
-(assuming <em>Preserve Volume</em> is enabled).
-Lower values preserve finer details but will result in a mesh with a much more dense topology.</p>
+<dt>体素大小</dt><dd><p>重构后网格的分辨率或细节量。该值用于定义 <a class="reference internal" href="../../../glossary/index.html#term-voxel"><span class="xref std std-term">体素</span></a> 的大小，在物体空间中。这些体素围绕网格组合，用于决定新的几何体。例如，值为 0.5m将创建大约 0.5m 的地形分块(假设启用了 <em>保留体积</em>)。该值越低，细节越精细，但会导致具有更密集拓扑的网格。</p>
 <dl class="simple">
-<dt>Sample Voxel Size</dt><dd><p>Used to adjust the <em>Voxel Size</em> by picking and an area of the mesh
-to match the denseness of polygons after the remesh operation.</p>
+<dt>采样体素大小</dt><dd><p>用于通过拾取网格和网格区域来调整 <em>体素大小</em>，以匹配重构网格操作后多边形的密集度。</p>
 </dd>
 </dl>
 </dd>
-<dt>Adaptivity</dt><dd><p>Reduces the final face count by simplifying geometry where detail is not needed.
+<dt>适应性</dt><dd><p>Reduces the final face count by simplifying geometry where detail is not needed.
 This introduce triangulation to faces that do not need as much detail.
 Note, an <em>Adaptivity</em> value greater than zero disables <em>Fix Poles</em>.</p>
 </dd>
-<dt>Fix Poles</dt><dd><p>Todo 2.81.</p>
+<dt>修复极点</dt><dd><p>Todo 2.81.</p>
 </dd>
-<dt>Smooth Normals</dt><dd><p>Applies the <a class="reference internal" href="../../../modeling/meshes/editing/normals.html#bpy-ops-object-shade-smooth"><span class="std std-ref">Smooth Normals</span></a> operator to the resulting mesh.</p>
+<dt>平滑法向</dt><dd><p>对最终网格应用 <a class="reference internal" href="../../../modeling/meshes/editing/normals.html#bpy-ops-object-shade-smooth"><span class="std std-ref">平滑法向</span></a> 操作。</p>
 </dd>
-<dt>Preserve Volume</dt><dd><p>Todo 2.81.</p>
+<dt>维持体积</dt><dd><p>Todo 2.81.</p>
 </dd>
-<dt>Preserve Paint Mask</dt><dd><p>Todo 2.81.</p>
+<dt>保留绘制遮罩</dt><dd><p>Todo 2.81.</p>
 </dd>
-<dt>Voxel Remesh</dt><dd><p>Todo 2.81.</p>
+<dt>体素重构</dt><dd><p>Todo 2.81.</p>
 </dd>
 </dl>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Limitations:</p>
 <ul class="simple">
-<li><p>Remeshing only works on the original mesh data and
-ignores generated geometry from modifiers, shape keys, rigging, etc.</p></li>
-<li><p>Remeshing will not work with the <a class="reference internal" href="../../../modeling/modifiers/generate/multiresolution.html"><span class="doc">Multiresolution Modifier</span></a>.</p></li>
+<li><p>网格重构仅适用于原始网格数据，并忽略从修改器、形态键、绑定等生成的几何结构。</p></li>
+<li><p>Remeshing will not work with the <a class="reference internal" href="../../../modeling/modifiers/generate/multiresolution.html"><span class="doc">多级精度修改器</span></a>.</p></li>
 </ul>
 </div>
 <div class="admonition seealso">
 <p class="admonition-title">See also</p>
-<p><a class="reference internal" href="../../../modeling/modifiers/generate/remesh.html"><span class="doc">Remesh modifier</span></a></p>
+<p><a class="reference internal" href="../../../modeling/modifiers/generate/remesh.html"><span class="doc">网格重构修改器</span></a></p>
 </div>
 </div>
 
@@ -295,10 +280,10 @@ ignores generated geometry from modifiers, shape keys, rigging, etc.</p></li>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="symmetry.html" class="btn btn-neutral float-right" title="Symmetry" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="symmetry.html" class="btn btn-neutral float-right" title="对称" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="dyntopo.html" class="btn btn-neutral float-left" title="Dyntopo" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="dyntopo.html" class="btn btn-neutral float-left" title="动态拓扑" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -332,7 +317,7 @@ ignores generated geometry from modifiers, shape keys, rigging, etc.</p></li>
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

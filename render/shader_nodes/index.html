@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Shader Nodes &mdash; Blender Manual</title>
+  <title>着色器节点 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Introduction" href="introduction.html" />
-    <link rel="prev" title="Wood" href="../materials/legacy_textures/types/wood.html" /> 
+    <link rel="next" title="简介" href="introduction.html" />
+    <link rel="prev" title="木纹" href="../materials/legacy_textures/types/wood.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,53 +110,53 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../physics/index.html">Physics</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Rendering</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../physics/index.html">物理</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">渲染</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../introduction.html">简介</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../eevee/index.html">Eevee</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../cycles/index.html">Cycles</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../workbench/index.html">Workbench</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../cameras.html">Cameras</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cameras.html">相机</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../lights/index.html">Lights</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../materials/index.html">Materials</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Shader Nodes</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="introduction.html">Introduction</a></li>
-<li class="toctree-l3"><a class="reference internal" href="input/index.html">Input</a></li>
-<li class="toctree-l3"><a class="reference internal" href="output/index.html">Output</a></li>
-<li class="toctree-l3"><a class="reference internal" href="shader/index.html">Shader</a></li>
-<li class="toctree-l3"><a class="reference internal" href="textures/index.html">Texture</a></li>
-<li class="toctree-l3"><a class="reference internal" href="color/index.html">Color</a></li>
-<li class="toctree-l3"><a class="reference internal" href="vector/index.html">Vector</a></li>
-<li class="toctree-l3"><a class="reference internal" href="converter/index.html">Converter</a></li>
-<li class="toctree-l3"><a class="reference internal" href="groups.html">Node Groups</a></li>
-<li class="toctree-l3"><a class="reference internal" href="osl.html">Open Shading Language</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../materials/index.html">材质</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">着色器节点</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="introduction.html">简介</a></li>
+<li class="toctree-l3"><a class="reference internal" href="input/index.html">输入节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="output/index.html">输出节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shader/index.html">着色器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="textures/index.html">纹理节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="color/index.html">颜色节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="vector/index.html">矢量着色器节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="converter/index.html">转换器节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="groups.html">节点组</a></li>
+<li class="toctree-l3"><a class="reference internal" href="osl.html">开放式着色语言 (OSL)</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../color_management.html">Color Management</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../color_management.html">色彩管理</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../freestyle/index.html">Freestyle</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../layers/index.html">Layers &amp; Passes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../output/index.html">Render Output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../layers/index.html">层 &amp; 通道</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../output/index.html">渲染输出</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -202,13 +202,13 @@
     
       <li><a href="../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../index.html">Rendering</a> &raquo;</li>
+          <li><a href="../index.html">渲染</a> &raquo;</li>
         
-      <li>Shader Nodes</li>
+      <li>着色器节点</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/render/shader_nodes/index.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/render/shader_nodes/index.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -219,135 +219,135 @@
            <div itemprop="articleBody">
             
   <div class="section" id="shader-nodes">
-<span id="render-shaders-index"></span><h1>Shader Nodes<a class="headerlink" href="#shader-nodes" title="Permalink to this headline">¶</a></h1>
+<span id="render-shaders-index"></span><h1>着色器节点<a class="headerlink" href="#shader-nodes" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="introduction.html#shaders">Shaders</a></li>
-<li class="toctree-l2"><a class="reference internal" href="introduction.html#textures">Textures</a></li>
-<li class="toctree-l2"><a class="reference internal" href="introduction.html#more">More</a></li>
-<li class="toctree-l2"><a class="reference internal" href="introduction.html#open-shading-language">Open Shading Language</a></li>
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">简介</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="introduction.html#shaders">着色器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="introduction.html#textures">纹理</a></li>
+<li class="toctree-l2"><a class="reference internal" href="introduction.html#more">扩展选区</a></li>
+<li class="toctree-l2"><a class="reference internal" href="introduction.html#open-shading-language">开放式着色语言 (OSL)</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="input/index.html">Input</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="input/ao.html">Ambient Occlusion</a></li>
-<li class="toctree-l2"><a class="reference internal" href="input/attribute.html">Attribute Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="input/bevel.html">Bevel Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="input/camera_data.html">Camera Data Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="input/fresnel.html">Fresnel Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="input/geometry.html">Geometry Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="input/hair_info.html">Hair Info Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="input/layer_weight.html">Layer Weight Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="input/light_path.html">Light Path Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="input/object_info.html">Object Info Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="input/particle_info.html">Particle Info Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="input/rgb.html">RGB Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="input/tangent.html">Tangent Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="input/texture_coordinate.html">Texture Coordinate Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="input/uv_map.html">UV Map Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="input/value.html">Value Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="input/vertex_color.html">Vertex Color Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="input/volume_info.html">Volume Info Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="input/wireframe.html">Wireframe Node</a></li>
+<li class="toctree-l1"><a class="reference internal" href="input/index.html">输入节点</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="input/ao.html">环境光遮蔽</a></li>
+<li class="toctree-l2"><a class="reference internal" href="input/attribute.html">属性节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="input/bevel.html">倒角节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="input/camera_data.html">相机数据节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="input/fresnel.html">菲涅尔节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="input/geometry.html">几何数据节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="input/hair_info.html">毛发信息节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="input/layer_weight.html">层权重节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="input/light_path.html">光程节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="input/object_info.html">物体信息节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="input/particle_info.html">粒子信息节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="input/rgb.html">RGB节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="input/tangent.html">切向节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="input/texture_coordinate.html">纹理坐标节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="input/uv_map.html">UV贴图节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="input/value.html">值(明度)节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="input/vertex_color.html">顶点颜色节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="input/volume_info.html">体积信息节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="input/wireframe.html">线框节点</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="output/index.html">Output</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="output/aov.html">AOV Output</a></li>
-<li class="toctree-l2"><a class="reference internal" href="output/material.html">Material Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="output/light.html">Light Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="output/world.html">World Node</a></li>
+<li class="toctree-l1"><a class="reference internal" href="output/index.html">输出节点</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="output/aov.html">AOV 输出</a></li>
+<li class="toctree-l2"><a class="reference internal" href="output/material.html">材质输出节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="output/light.html">灯光节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="output/world.html">世界节点</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="shader/index.html">Shader</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="shader/add.html">Add Shader</a></li>
-<li class="toctree-l2"><a class="reference internal" href="shader/anisotropic.html">Anisotropic BSDF</a></li>
-<li class="toctree-l2"><a class="reference internal" href="shader/background.html">Background</a></li>
-<li class="toctree-l2"><a class="reference internal" href="shader/diffuse.html">Diffuse BSDF</a></li>
-<li class="toctree-l2"><a class="reference internal" href="shader/emission.html">Emission</a></li>
-<li class="toctree-l2"><a class="reference internal" href="shader/glass.html">Glass BSDF</a></li>
-<li class="toctree-l2"><a class="reference internal" href="shader/glossy.html">Glossy BSDF</a></li>
-<li class="toctree-l2"><a class="reference internal" href="shader/hair.html">Hair BSDF</a></li>
-<li class="toctree-l2"><a class="reference internal" href="shader/holdout.html">Holdout</a></li>
-<li class="toctree-l2"><a class="reference internal" href="shader/mix.html">Mix Shader</a></li>
-<li class="toctree-l2"><a class="reference internal" href="shader/principled.html">Principled BSDF</a></li>
-<li class="toctree-l2"><a class="reference internal" href="shader/hair_principled.html">Principled Hair BSDF</a></li>
-<li class="toctree-l2"><a class="reference internal" href="shader/volume_principled.html">Principled Volume</a></li>
-<li class="toctree-l2"><a class="reference internal" href="shader/refraction.html">Refraction BSDF</a></li>
-<li class="toctree-l2"><a class="reference internal" href="shader/specular_bsdf.html">Specular BSDF</a></li>
-<li class="toctree-l2"><a class="reference internal" href="shader/sss.html">Subsurface Scattering</a></li>
-<li class="toctree-l2"><a class="reference internal" href="shader/toon.html">Toon BSDF</a></li>
-<li class="toctree-l2"><a class="reference internal" href="shader/translucent.html">Translucent BSDF</a></li>
-<li class="toctree-l2"><a class="reference internal" href="shader/transparent.html">Transparent BSDF</a></li>
-<li class="toctree-l2"><a class="reference internal" href="shader/velvet.html">Velvet BSDF</a></li>
-<li class="toctree-l2"><a class="reference internal" href="shader/volume_absorption.html">Volume Absorption</a></li>
-<li class="toctree-l2"><a class="reference internal" href="shader/volume_scatter.html">Volume Scatter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="shader/index.html">着色器</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="shader/add.html">相加着色器节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="shader/anisotropic.html">各向异性BSDF节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="shader/background.html">背景节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="shader/diffuse.html">漫射 BSDF节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="shader/emission.html">自发光节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="shader/glass.html">玻璃 BSDF节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="shader/glossy.html">光泽 BSDF节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="shader/hair.html">毛发 BSDF节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="shader/holdout.html">阻隔节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="shader/mix.html">混合着色器节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="shader/principled.html">原理化 BSDF着色器节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="shader/hair_principled.html">原理化毛发 BSDF节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="shader/volume_principled.html">原理化体积着色器节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="shader/refraction.html">折射 BSDF着色器节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="shader/specular_bsdf.html">高光 BSDF着色器节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="shader/sss.html">次表面散射(SSS)着色器节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="shader/toon.html">卡通 BSDF着色器节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="shader/translucent.html">半透 BSDF着色器节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="shader/transparent.html">透明 BSDF着色器节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="shader/velvet.html">丝绒 BSDF着色器节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="shader/volume_absorption.html">体积吸收着色器节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="shader/volume_scatter.html">体积散射着色器节点</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="textures/index.html">Texture</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="textures/brick.html">Brick Texture Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="textures/checker.html">Checker Texture Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="textures/environment.html">Environment Texture Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="textures/gradient.html">Gradient Texture Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="textures/ies.html">IES Texture Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="textures/image.html">Image Texture Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="textures/magic.html">Magic Texture Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="textures/musgrave.html">Musgrave Texture Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="textures/noise.html">Noise Texture Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="textures/point_density.html">Point Density Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="textures/sky.html">Sky Texture Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="textures/voronoi.html">Voronoi Texture Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="textures/wave.html">Wave Texture Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="textures/white_noise.html">White Noise Texture Node</a></li>
+<li class="toctree-l1"><a class="reference internal" href="textures/index.html">纹理节点</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="textures/brick.html">砖墙纹理着色器节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="textures/checker.html">棋盘格纹理节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="textures/environment.html">环境纹理节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="textures/gradient.html">渐变纹理着色器节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="textures/ies.html">IES纹理着色器节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="textures/image.html">图像纹理着色器节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="textures/magic.html">迷幻纹理着色器节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="textures/musgrave.html">马氏分形纹理着色器节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="textures/noise.html">噪波纹理着色器节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="textures/point_density.html">点密度着色器节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="textures/sky.html">天空纹理着色器节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="textures/voronoi.html">沃罗诺伊纹理着色器节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="textures/wave.html">波浪纹理着色器节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="textures/white_noise.html">白噪波纹理节点</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="color/index.html">Color</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="color/bright_contrast.html">Bright/Contrast Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="color/gamma.html">Gamma Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="color/hue_saturation.html">Hue Saturation Value Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="color/invert.html">Invert Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="color/light_falloff.html">Light Falloff Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="color/mix.html">Mix Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="color/rgb_curves.html">RGB Curves Node</a></li>
+<li class="toctree-l1"><a class="reference internal" href="color/index.html">颜色节点</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="color/bright_contrast.html">亮度/对比度节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="color/gamma.html">伽玛着色器节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="color/hue_saturation.html">色相/饱和度/明度 着色器节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="color/invert.html">反转着色器节点。</a></li>
+<li class="toctree-l2"><a class="reference internal" href="color/light_falloff.html">光线衰减着色器节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="color/mix.html">混合节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="color/rgb_curves.html">RGB曲线着色器节点</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="vector/index.html">Vector</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="vector/bump.html">Bump Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="vector/curves.html">Vector Curves Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="vector/displacement.html">Displacement Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="vector/mapping.html">Mapping Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="vector/normal.html">Normal Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="vector/normal_map.html">Normal Map Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="vector/vector_displacement.html">Vector Displacement Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="vector/transform.html">Vector Transform Node</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vector/index.html">矢量着色器节点</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="vector/bump.html">凸凹着色器节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="vector/curves.html">矢量曲线节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="vector/displacement.html">置换着色器节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="vector/mapping.html">映射节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="vector/normal.html">法向(正常)着色器节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="vector/normal_map.html">法线贴图着色器节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="vector/vector_displacement.html">矢量置换着色器节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="vector/transform.html">矢量变换着色器节点</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="converter/index.html">Converter</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="converter/blackbody.html">Blackbody Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="converter/clamp.html">Clamp Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="converter/color_ramp.html">Color Ramp Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="converter/combine_separate.html">Combine/Separate Nodes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="converter/map_range.html">Map Range Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="converter/math.html">Math Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="converter/rgb_to_bw.html">RGB to BW Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="converter/shader_to_rgb.html">Shader To RGB</a></li>
-<li class="toctree-l2"><a class="reference internal" href="converter/vector_math.html">Vector Math Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="converter/wavelength.html">Wavelength Node</a></li>
+<li class="toctree-l1"><a class="reference internal" href="converter/index.html">转换器节点</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="converter/blackbody.html">黑体着色器节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="converter/clamp.html">钳制节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="converter/color_ramp.html">颜色渐变着色器节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="converter/combine_separate.html">合并/分离着色器节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="converter/map_range.html">映射范围节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="converter/math.html">运算节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="converter/rgb_to_bw.html">RGB -&gt; BW 着色器节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="converter/shader_to_rgb.html">Shader --&gt; RGB着色器节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="converter/vector_math.html">矢量运算节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="converter/wavelength.html">波长着色器节点</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="groups.html">Node Groups</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="groups.html#make-group">Make Group</a></li>
-<li class="toctree-l2"><a class="reference internal" href="groups.html#edit-group">Edit Group</a></li>
-<li class="toctree-l2"><a class="reference internal" href="groups.html#ungroup">Ungroup</a></li>
-<li class="toctree-l2"><a class="reference internal" href="groups.html#group-insert">Group Insert</a></li>
-<li class="toctree-l2"><a class="reference internal" href="groups.html#appending-node-groups">Appending Node Groups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="groups.html">节点组</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="groups.html#make-group">制作节点组</a></li>
+<li class="toctree-l2"><a class="reference internal" href="groups.html#edit-group">编辑节点组</a></li>
+<li class="toctree-l2"><a class="reference internal" href="groups.html#ungroup">取消编组</a></li>
+<li class="toctree-l2"><a class="reference internal" href="groups.html#group-insert">插入节点组</a></li>
+<li class="toctree-l2"><a class="reference internal" href="groups.html#appending-node-groups">添加节点组</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="osl.html">Open Shading Language</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="osl.html#script-node">Script Node</a></li>
-<li class="toctree-l2"><a class="reference internal" href="osl.html#writing-shaders">Writing Shaders</a></li>
-<li class="toctree-l2"><a class="reference internal" href="osl.html#closures">Closures</a></li>
-<li class="toctree-l2"><a class="reference internal" href="osl.html#attributes">Attributes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="osl.html#trace">Trace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="osl.html">开放式着色语言 (OSL)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="osl.html#script-node">脚本节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="osl.html#writing-shaders">着色器写入</a></li>
+<li class="toctree-l2"><a class="reference internal" href="osl.html#closures">闭包</a></li>
+<li class="toctree-l2"><a class="reference internal" href="osl.html#attributes">属性</a></li>
+<li class="toctree-l2"><a class="reference internal" href="osl.html#trace">跟踪</a></li>
 </ul>
 </li>
 </ul>
@@ -362,10 +362,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="introduction.html" class="btn btn-neutral float-right" title="Introduction" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="introduction.html" class="btn btn-neutral float-right" title="简介" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="../materials/legacy_textures/types/wood.html" class="btn btn-neutral float-left" title="Wood" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="../materials/legacy_textures/types/wood.html" class="btn btn-neutral float-left" title="木纹" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -399,7 +399,7 @@
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

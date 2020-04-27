@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Vertex Weight Edit Modifier &mdash; Blender Manual</title>
+  <title>顶点权重编辑修改器 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Vertex Weight Mix Modifier" href="weight_mix.html" />
-    <link rel="prev" title="UV Warp Modifier" href="uv_warp.html" /> 
+    <link rel="next" title="顶点权重混合修改器" href="weight_mix.html" />
+    <link rel="prev" title="UV偏移修改器" href="uv_warp.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,57 +110,57 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Modeling</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../meshes/index.html">Meshes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../curves/index.html">Curves</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../surfaces/index.html">Surfaces</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../metas/index.html">Metaball</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../texts/index.html">Text</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../empties.html">Empties</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="../index.html">Modifiers</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="../introduction.html">Introduction</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../common_options.html">Common Modifier Options</a></li>
-<li class="toctree-l3 current"><a class="reference internal" href="../index.html#modify">Modify</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="data_transfer.html">Data Transfer Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="mesh_cache.html">Mesh Cache Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="mesh_sequence_cache.html">Mesh Sequence Cache Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="normal_edit.html">Normal Edit Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="uv_project.html">UV Project Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="uv_warp.html">UV Warp Modifier</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">Vertex Weight Edit Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="weight_mix.html">Vertex Weight Mix Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="weight_proximity.html">Vertex Weight Proximity Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="weighted_normal.html">Weighted Normal Modifier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">制作模型</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">简介</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../meshes/index.html">网格</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../curves/index.html">曲线</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../surfaces/index.html">曲面</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../metas/index.html">融球</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../texts/index.html">文本物体</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../empties.html">空物体</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html">修改器</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../introduction.html">简介</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../common_options.html">常见的修改器选项</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../index.html#modify">修改</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="data_transfer.html">数据传递修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="mesh_cache.html">网格缓存修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="mesh_sequence_cache.html">网格序列缓存修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="normal_edit.html">法线编辑修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="uv_project.html">UV 投射修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="uv_warp.html">UV偏移修改器</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">顶点权重编辑修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="weight_mix.html">顶点权重混合修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="weight_proximity.html">顶点权重邻近修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="weighted_normal.html">加权法向修改器</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../index.html#generate">Generate</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../index.html#deform">Deform</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../index.html#simulate">Simulate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../index.html#generate">生成</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../index.html#deform">形变</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../index.html#simulate">模拟</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">Rendering</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">渲染</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -206,15 +206,15 @@
     
       <li><a href="../../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../../index.html">Modeling</a> &raquo;</li>
+          <li><a href="../../index.html">制作模型</a> &raquo;</li>
         
-          <li><a href="../index.html">Modifiers</a> &raquo;</li>
+          <li><a href="../index.html">修改器</a> &raquo;</li>
         
-      <li>Vertex Weight Edit Modifier</li>
+      <li>顶点权重编辑修改器</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/modeling/modifiers/modify/weight_edit.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/modeling/modifiers/modify/weight_edit.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -225,101 +225,91 @@
            <div itemprop="articleBody">
             
   <div class="section" id="vertex-weight-edit-modifier">
-<span id="bpy-types-vertexweighteditmodifier"></span><h1>Vertex Weight Edit Modifier<a class="headerlink" href="#vertex-weight-edit-modifier" title="Permalink to this headline">¶</a></h1>
-<p>This modifier is intended to edit the weights of a vertex group.</p>
-<p>The general process is the following, for each vertex:</p>
+<span id="bpy-types-vertexweighteditmodifier"></span><h1>顶点权重编辑修改器<a class="headerlink" href="#vertex-weight-edit-modifier" title="Permalink to this headline">¶</a></h1>
+<p>这个修改器是用来编辑顶点组的权重的。</p>
+<p>对于每个顶点的一般过程如下:</p>
 <ul class="simple">
-<li><p>(Optional) It does the mapping, either through one of the predefined functions, or a custom mapping curve.</p></li>
-<li><p>It applies the influence factor, and optionally the vertex group or texture mask
-(0.0 means original weight, 1.0 means fully mapped weight).</p></li>
-<li><p>It applies back the weight to the vertex, and/or it might optionally remove the vertex
-from the group if its weight is below a given threshold, or add it if it is above a given threshold.</p></li>
+<li><p>(可选)通过预定义的函数或自定义映射曲线进行映射。</p></li>
+<li><p>应用影响因子，并且可选地应用顶点组或纹理遮罩(0.0表示原始权重，1.0表示完全映射的权重)。</p></li>
+<li><p>将权重应用于顶点，并且/或者，如果权重低于给定阈值，它可以选择从组中删除顶点，如果权重高于给定阈值，则可以添加顶点。</p></li>
 </ul>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
-<p>This modifier does implicit clamping of weight values in the standard (0.0 to 1.0) range.
-All values below 0.0 will be set to 0.0, and all values above 1.0 will be set to 1.0.</p>
+<p>此修改器会在标准(0.0到1.0)范围内隐式地限制权重值。 低于0.0的所有值都将设置为0.0，高于1.0的所有值都将设置为1.0。</p>
 </div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>You can view the modified weights in Weight Paint Mode.
-This also implies that you will have to disable the <em>Vertex Weight Edit</em> modifier
-if you want to see the original weights of the vertex group you are editing.</p>
+<p>您可以在权重绘制模式中查看修改后的权重。这也意味着，如果您想查看正在编辑的顶点组的原始权重，就必须禁用 <em>顶点权重编辑</em> 修改器。</p>
 </div>
 <div class="section" id="options">
-<h2>Options<a class="headerlink" href="#options" title="Permalink to this headline">¶</a></h2>
+<h2>选项<a class="headerlink" href="#options" title="Permalink to this headline">¶</a></h2>
 <div class="figure align-right" id="id1">
 <img alt="../../../_images/modeling_modifiers_modify_weight-edit_panel.png" src="../../../_images/modeling_modifiers_modify_weight-edit_panel.png" />
-<p class="caption"><span class="caption-text">The Vertex Weight Edit modifier panel.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">顶点权重编辑修改器面板</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
 <dl>
-<dt>Vertex Group</dt><dd><p>The vertex group to affect.</p>
+<dt>顶点组</dt><dd><p>要影响的顶点组。</p>
 </dd>
-<dt>Default Weight</dt><dd><p>The default weight to assign to all vertices not in the given vertex group.</p>
+<dt>默认权重</dt><dd><p>分配给不在给定顶点组中的所有顶点的默认权重。</p>
 </dd>
-<dt>Group Add</dt><dd><p>Adds vertices with a final weight over <em>Add Threshold</em> to the vertex group.</p>
+<dt>添加组</dt><dd><p>将最终权重超过 <em>添加阈值</em> 的顶点添加到顶点组。</p>
 </dd>
-<dt>Group Remove</dt><dd><p>Removes vertices with a final weight below <em>Remove Threshold</em> from the vertex group.</p>
+<dt>移除组</dt><dd><p>从顶点组中删除最终权重低于 <em>删除阈值</em> 的顶点。</p>
 </dd>
-<dt>Falloff Type</dt><dd><p>Type of mapping:</p>
+<dt>衰减类型</dt><dd><p>映射的类型:</p>
 <dl class="simple">
-<dt>Linear</dt><dd><p>No mapping.</p>
+<dt>线性</dt><dd><p>不映射。</p>
 </dd>
-<dt>Custom Curve</dt><dd><p>Allows the user to manually define the mapping using a curve.</p>
+<dt>自定义曲线</dt><dd><p>可以使用曲线手动定义映射。</p>
 </dd>
-<dt>Sharp, Smooth, Root and Sphere</dt><dd><p>These are classical mapping functions, from spikiest to roundest.</p>
+<dt>锐利,平滑,根凸和球状</dt><dd><p>这些是经典的映射函数，从最尖锐到最圆。</p>
 </dd>
-<dt>Random</dt><dd><p>Uses a random value for each vertex.</p>
+<dt>随机</dt><dd><p>每个顶点使用一个随机值。</p>
 </dd>
-<dt>Median Step</dt><dd><p>Creates binary weights (0.0 or 1.0), with 0.5 as cutting value.</p>
+<dt>中值梯级</dt><dd><p>创建二值权重(0.0或1.0)，其中0.5为切分值。</p>
 </dd>
 </dl>
 </dd>
 </dl>
 <div class="section" id="influence-mask-options">
-<span id="modeling-modifiers-weight-edit-influence-mask-options"></span><h3>Influence/Mask Options<a class="headerlink" href="#influence-mask-options" title="Permalink to this headline">¶</a></h3>
-<p>Those settings are the same for the three <em>Vertex Weight</em> modifiers.</p>
+<span id="modeling-modifiers-weight-edit-influence-mask-options"></span><h3>影响 / 遮罩选项<a class="headerlink" href="#influence-mask-options" title="Permalink to this headline">¶</a></h3>
+<p>对于三种 <em>顶点权重</em> 修改器，这些设置是相同的。</p>
 <dl>
-<dt>Global Influence</dt><dd><p>The overall influence of the modifier
-(0.0 will leave the vertex group’s weights untouched, 1.0 is standard influence).</p>
+<dt>全局影响</dt><dd><p>修改器的整体影响(0.0将保持顶点组的权重不变，1.0是标准影响)。</p>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
-<p>Influence only affects weights, adding/removing of vertices
-to/from vertex group is not prevented by setting this value to 0.0.</p>
+<p>影响仅作用于权重，将此值设置为0.0并不会阻止向/从顶点组添加/删除顶点。</p>
 </div>
 </dd>
 </dl>
-<p>In addition, a per-vertex fine control of the effect is possible using either a vertex group or a texture
-(both are mutually exclusive). The per-vertex values from those will be multiplied with the <em>Global Influence</em>.</p>
-<p>See <a class="reference internal" href="../common_options.html#modifiers-common-options-masking"><span class="std std-ref">common masking options</span></a> for a complete reference.</p>
+<p>此外，可以使用顶点组或纹理(两者都是互斥的)对每个顶点的精细控制影响效果。其中的每个顶点值将与 <em>全局影响</em> 相乘。</p>
+<p>参见 <a class="reference internal" href="../common_options.html#modifiers-common-options-masking"><span class="std std-ref">常见遮罩选项</span></a> 以获得完整的参考。</p>
 </div>
 </div>
 <div class="section" id="example">
-<h2>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h2>
-<p>Here is an example of various effects achieved using <em>Vertex Weight Edit</em> modifier
-(together with the <a class="reference internal" href="weight_proximity.html"><span class="doc">Vertex Weight Proximity</span></a> modifier)
-to generate weights used by the <a class="reference internal" href="../deform/displace.html"><span class="doc">Displace</span></a> modifier.</p>
+<h2>例子<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h2>
+<p>下面是一个使用 <em>顶点权重编辑</em> 修改器(以及 <a class="reference internal" href="weight_proximity.html"><span class="doc">顶点权重邻近</span></a> 修改器)来生成 <a class="reference internal" href="../deform/displace.html"><span class="doc">置换</span></a> 修改器使用的权重，产生多种效果的例子。</p>
 <table class="docutils align-default" id="id2">
-<caption><span class="caption-text"><em>Curve Map</em> variations.</span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
+<caption><span class="caption-text"><em>曲线映射</em> 差异。</span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 100%" />
 </colgroup>
 <tbody>
 <tr class="row-odd"><td><div class="figure align-default" id="id3">
 <a class="reference internal image-reference" href="../../../_images/modeling_modifiers_modify_weight-edit_mapping-concave.jpg"><img alt="../../../_images/modeling_modifiers_modify_weight-edit_mapping-concave.jpg" src="../../../_images/modeling_modifiers_modify_weight-edit_mapping-concave.jpg" style="width: 400px;" /></a>
-<p class="caption"><span class="caption-text">Concave-type mapping curve.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">凹类型映射曲线。</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
 </div>
 </td>
 </tr>
 <tr class="row-even"><td><div class="figure align-default" id="id4">
 <a class="reference internal image-reference" href="../../../_images/modeling_modifiers_modify_weight-edit_distance-edge.jpg"><img alt="../../../_images/modeling_modifiers_modify_weight-edit_distance-edge.jpg" src="../../../_images/modeling_modifiers_modify_weight-edit_distance-edge.jpg" style="width: 400px;" /></a>
-<p class="caption"><span class="caption-text">No mapping curve (linear).</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">无映射曲线(线性)。</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
 </div>
 </td>
 </tr>
 <tr class="row-odd"><td><div class="figure align-default" id="id5">
 <a class="reference internal image-reference" href="../../../_images/modeling_modifiers_modify_weight-edit_mapping-convex.jpg"><img alt="../../../_images/modeling_modifiers_modify_weight-edit_mapping-convex.jpg" src="../../../_images/modeling_modifiers_modify_weight-edit_mapping-convex.jpg" style="width: 400px;" /></a>
-<p class="caption"><span class="caption-text">Convex-type mapping curve.</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">凸类型映射曲线。</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
 </div>
 </td>
 </tr>
@@ -327,10 +317,10 @@ to generate weights used by the <a class="reference internal" href="../deform/di
 </table>
 <div class="figure align-default" id="id6">
 <a class="reference internal image-reference" href="../../../_images/modeling_modifiers_modify_weight-edit_exrem-vertices.jpg"><img alt="../../../_images/modeling_modifiers_modify_weight-edit_exrem-vertices.jpg" src="../../../_images/modeling_modifiers_modify_weight-edit_exrem-vertices.jpg" style="width: 400px;" /></a>
-<p class="caption"><span class="caption-text">Vertices with a computed weight below 0.1 removed from the vertex group.</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">从顶点组移除计算权重低于0.1的顶点。</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
 </div>
 <iframe src="https://player.vimeo.com/video/30188564" style="border: 0; height: 345px; width: 560px">
-</iframe><p><a class="reference external" href="https://wiki.blender.org/wiki/File:ManModifiersWeightVGroupEx.blend">The blend-file</a>, TEST_2 scene.</p>
+</iframe><p>TEST_2 场景 <a class="reference external" href="https://wiki.blender.org/wiki/File:ManModifiersWeightVGroupEx.blend">blend 文件</a>。</p>
 </div>
 </div>
 
@@ -342,10 +332,10 @@ to generate weights used by the <a class="reference internal" href="../deform/di
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="weight_mix.html" class="btn btn-neutral float-right" title="Vertex Weight Mix Modifier" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="weight_mix.html" class="btn btn-neutral float-right" title="顶点权重混合修改器" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="uv_warp.html" class="btn btn-neutral float-left" title="UV Warp Modifier" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="uv_warp.html" class="btn btn-neutral float-left" title="UV偏移修改器" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -379,7 +369,7 @@ to generate weights used by the <a class="reference internal" href="../deform/di
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

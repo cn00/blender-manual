@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Actions &mdash; Blender Manual</title>
+  <title>动作 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Drivers" href="drivers/index.html" />
-    <link rel="prev" title="Shrinkwrap Constraint" href="constraints/relationship/shrinkwrap.html" /> 
+    <link rel="next" title="驱动器" href="drivers/index.html" />
+    <link rel="prev" title="Shrinkwrap Constraint 缩裹约束" href="constraints/relationship/shrinkwrap.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,43 +110,43 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="index.html">Animation &amp; Rigging</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="introduction.html">Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="keyframes/index.html">Keyframes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="armatures/index.html">Armatures</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lattice.html">Lattice</a></li>
-<li class="toctree-l2"><a class="reference internal" href="constraints/index.html">Constraints</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Actions</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#working-with-actions">Working with Actions</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#bake-action">Bake Action</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">动画 &amp; 绑定</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="introduction.html">简介</a></li>
+<li class="toctree-l2"><a class="reference internal" href="keyframes/index.html">关键帧</a></li>
+<li class="toctree-l2"><a class="reference internal" href="armatures/index.html">骨架</a></li>
+<li class="toctree-l2"><a class="reference internal" href="lattice.html">晶格</a></li>
+<li class="toctree-l2"><a class="reference internal" href="constraints/index.html">约束</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">动作</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#working-with-actions">如何使用动作</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#bake-action">烘焙动作</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="drivers/index.html">Drivers</a></li>
-<li class="toctree-l2"><a class="reference internal" href="markers.html">Markers</a></li>
-<li class="toctree-l2"><a class="reference internal" href="shape_keys/index.html">Shape Keys</a></li>
-<li class="toctree-l2"><a class="reference internal" href="motion_paths.html">Motion Paths</a></li>
+<li class="toctree-l2"><a class="reference internal" href="drivers/index.html">驱动器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="markers.html">标记</a></li>
+<li class="toctree-l2"><a class="reference internal" href="shape_keys/index.html">形态键</a></li>
+<li class="toctree-l2"><a class="reference internal" href="motion_paths.html">运动路径</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../render/index.html">Rendering</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../render/index.html">渲染</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -192,13 +192,13 @@
     
       <li><a href="../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="index.html">Animation &amp; Rigging</a> &raquo;</li>
+          <li><a href="index.html">动画 &amp; 绑定</a> &raquo;</li>
         
-      <li>Actions</li>
+      <li>动作</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/animation/actions.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/animation/actions.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -209,73 +209,58 @@
            <div itemprop="articleBody">
             
   <div class="section" id="actions">
-<span id="bpy-ops-action"></span><span id="bpy-types-action"></span><h1>Actions<a class="headerlink" href="#actions" title="Permalink to this headline">¶</a></h1>
-<p>When animating objects and properties in Blender, Actions record and contain the data.
-As everything else in Blender, Actions are data-blocks.</p>
+<span id="bpy-ops-action"></span><span id="bpy-types-action"></span><h1>动作<a class="headerlink" href="#actions" title="Permalink to this headline">¶</a></h1>
+<p>在Blender中动画化物体和属性时，动作数据块将会记录和保存动画相关数据。和Blender中其它概念类似，动作是以数据块形式存储的。</p>
 <div class="figure align-default" id="id1">
 <img alt="../_images/animation_actions_data3.png" src="../_images/animation_actions_data3.png" />
-<p class="caption"><span class="caption-text">Actions.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">动作。</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
-<p>So when you animate an object by changing its location with keyframes,
-the animation is saved to the Action.</p>
-<p>Each property has a channel which it is recorded to, for example,
-Cube.location.x is recorded to Channel X Location.
-The <em>X location</em> and <em>Y location</em> properties can be shared across multiple objects,
-if all objects have <em>X location</em> and <em>Y location</em> properties beneath them.</p>
+<p>当通过使用关键帧改变物体位置动画化物体时，动画会被储存到动作中。</p>
+<p>每个属性都有一个对应的记录通道，例如， Cube.location.x 记录到X通道位置上。如果多个物体都有 <em>X轴位置</em> 和 <em>Y轴位置</em> 属性，那么这些属性可以在这些物体间共享。</p>
 <div class="figure align-default" id="id2">
 <img alt="../_images/animation_actions_keyframes.png" src="../_images/animation_actions_keyframes.png" />
-<p class="caption"><span class="caption-text">Graph Editor. Each channel has an F-curve represented by the lines between the keyframes.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">曲线编辑器。每个通道都有一条函数曲线，由关键帧之间的线条表示。</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
 <dl class="simple">
-<dt>Actions</dt><dd><p>Record and contain animation data.</p>
+<dt>动作</dt><dd><p>记录和保存动画数据。</p>
 </dd>
-<dt>Groups</dt><dd><p>Are groups of channels.</p>
+<dt>组</dt><dd><p>通道群组。</p>
 </dd>
-<dt>Channels</dt><dd><p>Record properties.</p>
+<dt>通道</dt><dd><p>记录单一属性。</p>
 </dd>
-<dt>F-Curves</dt><dd><p><a class="reference internal" href="../editors/graph_editor/fcurves/introduction.html"><span class="doc">F-Curves</span></a> are used to
-interpolate the difference between the keyframes.</p>
+<dt>函数曲线</dt><dd><p><a class="reference internal" href="../editors/graph_editor/fcurves/introduction.html"><span class="doc">函数曲线</span></a> 用于对关键帧间的变化进行插值。</p>
 </dd>
-<dt>Keyframes</dt><dd><p><a class="reference internal" href="keyframes/introduction.html"><span class="doc">Keyframes</span></a> are used to
-set the values of properties bound to a point in time.</p>
+<dt>关键帧</dt><dd><p><a class="reference internal" href="keyframes/introduction.html"><span class="doc">关键帧</span></a> 用于设置绑定到某个时间点上的属性值。</p>
 </dd>
 </dl>
 <div class="section" id="working-with-actions">
-<h2>Working with Actions<a class="headerlink" href="#working-with-actions" title="Permalink to this headline">¶</a></h2>
+<h2>如何使用动作<a class="headerlink" href="#working-with-actions" title="Permalink to this headline">¶</a></h2>
 <div class="figure align-right" id="id3">
 <img alt="../_images/animation_actions_create.png" src="../_images/animation_actions_create.png" />
-<p class="caption"><span class="caption-text">The Action data-block menu.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">动作数据块菜单。</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
 </div>
-<p>When you first animate an object by adding keyframes,
-Blender creates an <em>Action</em> to record the data.</p>
-<p><em>Actions</em> can be managed with the <em>Action data-block menu</em>
-in the Dope Sheet <a class="reference internal" href="../editors/dope_sheet/action.html"><span class="doc">Action Editor</span></a> header,
-or the Sidebar region of the <a class="reference internal" href="../editors/nla/properties_modifiers.html"><span class="doc">NLA Editor</span></a>.</p>
-<p>If you are making multiple actions for the same object,
-press the shield button for each action.
-This will give the actions a <em>Fake User</em> and will make Blender save the unlinked actions.</p>
-<p>Objects can only use one <em>Action</em> at a time for editing.
-The <a class="reference internal" href="../editors/nla/index.html"><span class="doc">NLA Editor</span></a> is used to blend multiple actions together.</p>
+<p>当您第一次通过添加关键帧动画化一个物体时，Blender为该数据创建一个 <em>动作</em> 来记录这些数据。</p>
+<p><em>动作</em> 可以使用动画摄影表的 <a class="reference internal" href="../editors/dope_sheet/action.html"><span class="doc">动作编辑器</span></a> 标题栏上的 <em>动作数据块菜单</em>，或者 <a class="reference internal" href="../editors/nla/properties_modifiers.html"><span class="doc">NLA编辑器</span></a> 的属性栏进行管理。</p>
+<p>如果要为同一对象创建多个动作，请按每个动作的屏蔽按钮。 这将使动作成为 <em>伪用户</em> 并使Blender保存未链接的动作。</p>
+<p>物体在同一时间只能编辑一个动作数据块。 <a class="reference internal" href="../editors/nla/index.html"><span class="doc">NLA编辑器</span></a> 用于将多个动作数据混合在一起。</p>
 </div>
 <div class="section" id="bake-action">
-<span id="bpy-ops-nla-bake"></span><h2>Bake Action<a class="headerlink" href="#bake-action" title="Permalink to this headline">¶</a></h2>
+<span id="bpy-ops-nla-bake"></span><h2>烘焙动作<a class="headerlink" href="#bake-action" title="Permalink to this headline">¶</a></h2>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Editor</dt>
-<dd class="field-odd"><p>3D View</p>
+<dt class="field-odd">编辑器</dt>
+<dd class="field-odd"><p>3D视图</p>
 </dd>
-<dt class="field-even">Mode</dt>
-<dd class="field-even"><p>Object and Pose Modes</p>
+<dt class="field-even">模式</dt>
+<dd class="field-even"><p>物体和姿态模式</p>
 </dd>
-<dt class="field-odd">Menu</dt>
-<dd class="field-odd"><p><span class="menuselection">Object/Pose ‣ Animation ‣ Bake Action…</span></p>
+<dt class="field-odd">菜单</dt>
+<dd class="field-odd"><p><span class="menuselection">3D视图 ‣ 物体/姿态 ‣ 动画 ‣ 烘焙动作...</span></p>
 </dd>
 </dl>
 </div>
-<p>The <em>Bake Action</em> tool will apply interpolated frames into individual keyframes.
-This can be useful for adding deviation to a cyclic action like a <a class="reference internal" href="../glossary/index.html#term-walk-cycle"><span class="xref std std-term">walk cycle</span></a>.
-This can also useful for keyframe animations created from drivers or constraints.</p>
+<p><em>烘焙动作</em> 工具用于在关键帧之间应用插值帧。这可以为循环动作，比如 <a class="reference internal" href="../glossary/index.html#term-walk-cycle"><span class="xref std std-term">行走循环</span></a> ，添加变化。这对于通过驱动或约束制作的关键帧动画也很有用。</p>
 </div>
 </div>
 
@@ -287,10 +272,10 @@ This can also useful for keyframe animations created from drivers or constraints
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="drivers/index.html" class="btn btn-neutral float-right" title="Drivers" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="drivers/index.html" class="btn btn-neutral float-right" title="驱动器" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="constraints/relationship/shrinkwrap.html" class="btn btn-neutral float-left" title="Shrinkwrap Constraint" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="constraints/relationship/shrinkwrap.html" class="btn btn-neutral float-left" title="Shrinkwrap Constraint 缩裹约束" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -324,7 +309,7 @@ This can also useful for keyframe animations created from drivers or constraints
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Layers &amp; Passes &mdash; Blender Manual</title>
+  <title>层 &amp; 通道 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="View Layers" href="layers.html" />
-    <link rel="prev" title="Python Scripting Mode" href="../freestyle/python.html" /> 
+    <link rel="next" title="视图层" href="layers.html" />
+    <link rel="prev" title="Python脚本模式" href="../freestyle/python.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,46 +110,46 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../physics/index.html">Physics</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Rendering</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../physics/index.html">物理</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">渲染</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../introduction.html">简介</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../eevee/index.html">Eevee</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../cycles/index.html">Cycles</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../workbench/index.html">Workbench</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../cameras.html">Cameras</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cameras.html">相机</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../lights/index.html">Lights</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../materials/index.html">Materials</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../shader_nodes/index.html">Shader Nodes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../color_management.html">Color Management</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../materials/index.html">材质</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../shader_nodes/index.html">着色器节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../color_management.html">色彩管理</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../freestyle/index.html">Freestyle</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Layers &amp; Passes</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="layers.html">View Layers</a></li>
-<li class="toctree-l3"><a class="reference internal" href="passes.html">Passes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="denoising.html">Denoising</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">层 &amp; 通道</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="layers.html">视图层</a></li>
+<li class="toctree-l3"><a class="reference internal" href="passes.html">通道</a></li>
+<li class="toctree-l3"><a class="reference internal" href="denoising.html">降噪</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../output/index.html">Render Output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../output/index.html">渲染输出</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -195,13 +195,13 @@
     
       <li><a href="../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../index.html">Rendering</a> &raquo;</li>
+          <li><a href="../index.html">渲染</a> &raquo;</li>
         
-      <li>Layers &amp; Passes</li>
+      <li>层 &amp; 通道</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/render/layers/index.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/render/layers/index.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -212,26 +212,26 @@
            <div itemprop="articleBody">
             
   <div class="section" id="layers-passes">
-<h1>Layers &amp; Passes<a class="headerlink" href="#layers-passes" title="Permalink to this headline">¶</a></h1>
+<h1>层 &amp; 通道<a class="headerlink" href="#layers-passes" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="layers.html">View Layers</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="layers.html#id1">View Layers</a></li>
-<li class="toctree-l2"><a class="reference internal" href="layers.html#view-layer-panel">View Layer Panel</a></li>
-<li class="toctree-l2"><a class="reference internal" href="layers.html#usage">Usage</a></li>
-<li class="toctree-l2"><a class="reference internal" href="layers.html#collections">Collections</a></li>
+<li class="toctree-l1"><a class="reference internal" href="layers.html">视图层</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="layers.html#id1">视图层</a></li>
+<li class="toctree-l2"><a class="reference internal" href="layers.html#view-layer-panel">视图层面板</a></li>
+<li class="toctree-l2"><a class="reference internal" href="layers.html#usage">用法</a></li>
+<li class="toctree-l2"><a class="reference internal" href="layers.html#collections">集合</a></li>
 <li class="toctree-l2"><a class="reference internal" href="layers.html#cycles">Cycles</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="passes.html">Passes</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="passes.html">通道</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="passes.html#cycles">Cycles</a></li>
 <li class="toctree-l2"><a class="reference internal" href="passes.html#eevee">Eevee</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="denoising.html">Denoising</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="denoising.html#options">Options</a></li>
-<li class="toctree-l2"><a class="reference internal" href="denoising.html#notes-and-issues">Notes and Issues</a></li>
-<li class="toctree-l2"><a class="reference internal" href="denoising.html#examples">Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="denoising.html">降噪</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="denoising.html#options">选项</a></li>
+<li class="toctree-l2"><a class="reference internal" href="denoising.html#notes-and-issues">注释和问题</a></li>
+<li class="toctree-l2"><a class="reference internal" href="denoising.html#examples">示例</a></li>
 </ul>
 </li>
 </ul>
@@ -246,10 +246,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="layers.html" class="btn btn-neutral float-right" title="View Layers" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="layers.html" class="btn btn-neutral float-right" title="视图层" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="../freestyle/python.html" class="btn btn-neutral float-left" title="Python Scripting Mode" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="../freestyle/python.html" class="btn btn-neutral float-left" title="Python脚本模式" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -283,7 +283,7 @@
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

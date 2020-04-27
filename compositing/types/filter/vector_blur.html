@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Vector (Motion) Blur Node &mdash; Blender Manual</title>
+  <title>矢量(运动)模糊节点 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Vector Nodes" href="../vector/index.html" />
-    <link rel="prev" title="Sun Beams Node" href="sun_beams.html" /> 
+    <link rel="next" title="矢量类节点" href="../vector/index.html" />
+    <link rel="prev" title="太阳光束节点" href="sun_beams.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,60 +110,60 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">Rendering</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Compositing</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../properties.html">Properties</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="../../index.html#node-types">Node Types</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="../input/index.html">Input Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../output/index.html">Output Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../color/index.html">Color Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../converter/index.html">Converter Nodes</a></li>
-<li class="toctree-l3 current"><a class="reference internal" href="index.html">Filter Nodes</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="bilateral_blur.html">Bilateral Blur Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="blur_node.html">Blur Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="bokeh_blur.html">Bokeh Blur Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="defocus.html">Defocus Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="denoise.html">Denoise Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="despeckle.html">Despeckle Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="dilate_erode.html">Dilate/Erode Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="directional_blur.html">Directional Blur Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="filter_node.html">Filter Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="glare.html">Glare Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="inpaint.html">Inpaint Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pixelate.html">Pixelate Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="sun_beams.html">Sun Beams Node</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">Vector (Motion) Blur Node</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">渲染</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">合成</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">简介</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../properties.html">属性</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../index.html#node-types">节点类型</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../input/index.html">输入类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../output/index.html">输出类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../color/index.html">颜色类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../converter/index.html">转换器类节点</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="index.html">滤镜(过滤)节点</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="bilateral_blur.html">双边模糊节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="blur_node.html">模糊节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="bokeh_blur.html">散景模糊节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="defocus.html">散焦节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="denoise.html">降噪节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="despeckle.html">去噪节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dilate_erode.html">膨胀/侵蚀节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="directional_blur.html">定向模糊节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="filter_node.html">滤镜节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="glare.html">辉光节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="inpaint.html">瑕疵修复节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pixelate.html">像素化节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="sun_beams.html">太阳光束节点</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">矢量(运动)模糊节点</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../vector/index.html">Vector Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../matte/index.html">Matte Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../distort/index.html">Distort Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../groups.html">Node Groups</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../layout/index.html">Layout Nodes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../vector/index.html">矢量类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../matte/index.html">蒙版类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../distort/index.html">畸变类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../groups.html">节点组</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../layout/index.html">布局类节点</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -209,17 +209,17 @@
     
       <li><a href="../../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../../../editors/index.html">Editors</a> &raquo;</li>
+          <li><a href="../../../editors/index.html">编辑器</a> &raquo;</li>
         
-          <li><a href="../../index.html">Compositing</a> &raquo;</li>
+          <li><a href="../../index.html">合成</a> &raquo;</li>
         
-          <li><a href="index.html">Filter Nodes</a> &raquo;</li>
+          <li><a href="index.html">滤镜(过滤)节点</a> &raquo;</li>
         
-      <li>Vector (Motion) Blur Node</li>
+      <li>矢量(运动)模糊节点</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/compositing/types/filter/vector_blur.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/compositing/types/filter/vector_blur.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -230,70 +230,56 @@
            <div itemprop="articleBody">
             
   <div class="section" id="vector-motion-blur-node">
-<span id="bpy-types-compositornodevecblur"></span><h1>Vector (Motion) Blur Node<a class="headerlink" href="#vector-motion-blur-node" title="Permalink to this headline">¶</a></h1>
+<span id="bpy-types-compositornodevecblur"></span><h1>矢量(运动)模糊节点<a class="headerlink" href="#vector-motion-blur-node" title="Permalink to this headline">¶</a></h1>
 <div class="figure align-right" id="id1">
 <img alt="../../../_images/compositing_node-types_CompositorNodeVecBlur.png" src="../../../_images/compositing_node-types_CompositorNodeVecBlur.png" />
-<p class="caption"><span class="caption-text">Vector Blur Node.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">矢量模糊节点。</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
-<p>The Vector Blur node is a fast method for simulating <a class="reference internal" href="../../../glossary/index.html#term-motion-blur"><span class="xref std std-term">Motion blur</span></a> in compositing.
-It uses the vector speed render pass to blur the image pixels in 2D.</p>
+<p>矢量模糊节点应用**非**物理性采集 <a class="reference internal" href="../../../glossary/index.html#term-motion-blur"><span class="xref std std-term">Motion blur</span></a> 的方法。在2D空间运用矢量速度渲染要进行模糊图像像素的通道。</p>
 <div class="section" id="inputs">
-<h2>Inputs<a class="headerlink" href="#inputs" title="Permalink to this headline">¶</a></h2>
+<h2>输入<a class="headerlink" href="#inputs" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>Image</dt><dd><p>Image input, to be linked to the “Combined” render pass.</p>
+<dt>图像</dt><dd><p>图像输入，与 &quot;合并&quot; 渲染通道相关联。</p>
 </dd>
-<dt>Z</dt><dd><p>Z depth, to be linked to the “Depth” render pass.</p>
+<dt>Z通道</dt><dd><p>Z深度，与 &quot;深度&quot; 渲染通道相关联。</p>
 </dd>
-<dt>Speed</dt><dd><p>Input for the “Vector” render pass.
-See <a class="reference internal" href="../../../render/layers/passes.html"><span class="doc">Cycles render passes</span></a>.</p>
+<dt>速率</dt><dd><p>“矢量”渲染通道的输入连接端口。参看 <a class="reference internal" href="../../../render/layers/passes.html"><span class="doc">Cycles render passes</span></a>.</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="properties">
-<h2>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
+<h2>属性<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
 <dl>
-<dt>Samples</dt><dd><p>Quality factor.</p>
+<dt>采样</dt><dd><p>品质系数。</p>
 </dd>
-<dt>Blur</dt><dd><p>Scaling factor for the motion vector (actually the “shutter speed” in frames).</p>
+<dt>模糊</dt><dd><p>运动矢量(实际帧“快门速度”)的缩放系数。</p>
 </dd>
-<dt>Speed</dt><dd><p>The vector blur could produce artifacts like streaks, lines and other.
-To tackle these problems, the filter applies clamping,
-which can be used to limit which pixels get blurred. The speed is set in pixel units.</p>
+<dt>速率</dt><dd><p>矢量模糊生成条纹状，线状等人为效果。为避免这些问题，在将要模糊的像素上应用滤镜限制其产生范围。速度设置为以像素为单位。</p>
 <dl class="simple">
-<dt>Maximum Speed</dt><dd><p>The maximum threshold. The majority of artifacts are caused by pixels moving too fast.</p>
+<dt>速度最大值</dt><dd><p>最大速度的阈值。当像素移动过快可人为干预这种情况的发生。</p>
 </dd>
-<dt>Minimum Speed</dt><dd><p>The minimum threshold for moving pixels can separate
-the hardly moving pixels from the moving ones.
-Especially when the camera itself moves,
-the vector mask can become the entire image.</p>
+<dt>速度最小值</dt><dd><p>移动像素最小速度的阈值，可从移动的像素中分离几乎不产生运动的像素。尤其当摄影机自身移动时，整个图像将作为矢量遮罩。</p>
 </dd>
 </dl>
 </dd>
 </dl>
 </div>
 <div class="section" id="outputs">
-<h2>Outputs<a class="headerlink" href="#outputs" title="Permalink to this headline">¶</a></h2>
+<h2>输出<a class="headerlink" href="#outputs" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>Image</dt><dd><p>Motion blurred image output.</p>
+<dt>图像</dt><dd><p>运动模糊图像输出。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="usage">
-<h2>Usage<a class="headerlink" href="#usage" title="Permalink to this headline">¶</a></h2>
-<p>Even with a correct compositing setup with Image, Z and Speed nodes all linked to the appropriate passes,
-there may still be artifacts. The 2D render passes does not contain 3D information,
-and so the information what is behind a moving object or outside the camera view is lost.</p>
-<p>Better results can be achieved by rendering the scene into multiple render layers,
-applying vector blur to each render layer, and then compositing the results together.
-Typically an animated character would be rendered in a separate render layer than the background set.
-Especially if hair or transparency is involved this is important.</p>
-<p>For other artifacts it can help to slightly blur the Speed pass or to set a Maximum Speed limit.
-This helps to smoothen out the motion, but too much blurring leads to its own problems.</p>
+<h2>用途<a class="headerlink" href="#usage" title="Permalink to this headline">¶</a></h2>
+<p>即使图像合成装配整体合理无误，Z通道和速度通道节点都被链接在适当的节点通道开关上，图像看起来仍然有很大的人为合成痕迹。2D渲染通道不会包含3D信息，因此一个移动物体的背面和在摄影机视口之外的信息将会丢失。</p>
+<p>通过在渲染场景实施多个渲染层，在每个渲染层应用矢量模糊节点，然后将结果合成在一起，通常可以得到更好的图像合成效果。通常，一个动画角色会剥离背景元素单独在一个渲染层进行渲染，这样可以比较好的保留头发的半透明质感效果。</p>
+<p>其他的人工合成痕迹可以通过对速度通道进行轻微模糊操作，或者对最大速度值进行限定。这将使运动效果的输出更加平滑自然，但是过多的模糊会使运动效果本身产生问题。</p>
 </div>
 <div class="section" id="example">
-<h2>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h2>
-<p>The <em>speed vector</em> in this example was created by animating the patterned sphere horizontally and
-using a frame at the mid-point of the sequence.</p>
+<h2>范例<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h2>
+<p>在此范例中，运动的棋盘格球体水平方向上创建了一个*速度矢量*效果节点，在整个序列的中间部分插入了带有此效果的一帧图像。</p>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 50%" />
@@ -302,12 +288,12 @@ using a frame at the mid-point of the sequence.</p>
 <tbody>
 <tr class="row-odd"><td><div class="figure align-default" id="id2">
 <a class="reference internal image-reference" href="../../../_images/compositing_types_filter_vector-blur_example-base.jpg"><img alt="../../../_images/compositing_types_filter_vector-blur_example-base.jpg" src="../../../_images/compositing_types_filter_vector-blur_example-base.jpg" style="width: 300px;" /></a>
-<p class="caption"><span class="caption-text">Render result, no post-processing.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">渲染结果，未经后期处理。</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
 </td>
 <td><div class="figure align-default" id="id3">
 <a class="reference internal image-reference" href="../../../_images/compositing_types_filter_vector-blur_example-1.jpg"><img alt="../../../_images/compositing_types_filter_vector-blur_example-1.jpg" src="../../../_images/compositing_types_filter_vector-blur_example-1.jpg" style="width: 300px;" /></a>
-<p class="caption"><span class="caption-text">Composite, with Samples set to 32 and Blur set to 1.0.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">合成，采样设为32，模糊1.0。</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
 </div>
 </td>
 </tr>
@@ -324,10 +310,10 @@ using a frame at the mid-point of the sequence.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../vector/index.html" class="btn btn-neutral float-right" title="Vector Nodes" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="../vector/index.html" class="btn btn-neutral float-right" title="矢量类节点" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="sun_beams.html" class="btn btn-neutral float-left" title="Sun Beams Node" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="sun_beams.html" class="btn btn-neutral float-left" title="太阳光束节点" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -361,7 +347,7 @@ using a frame at the mid-point of the sequence.</p>
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

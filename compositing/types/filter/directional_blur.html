@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Directional Blur Node &mdash; Blender Manual</title>
+  <title>定向模糊节点 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Filter Node" href="filter_node.html" />
-    <link rel="prev" title="Dilate/Erode Node" href="dilate_erode.html" /> 
+    <link rel="next" title="滤镜节点" href="filter_node.html" />
+    <link rel="prev" title="膨胀/侵蚀节点" href="dilate_erode.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,60 +110,60 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">Rendering</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Compositing</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../properties.html">Properties</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="../../index.html#node-types">Node Types</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="../input/index.html">Input Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../output/index.html">Output Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../color/index.html">Color Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../converter/index.html">Converter Nodes</a></li>
-<li class="toctree-l3 current"><a class="reference internal" href="index.html">Filter Nodes</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="bilateral_blur.html">Bilateral Blur Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="blur_node.html">Blur Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="bokeh_blur.html">Bokeh Blur Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="defocus.html">Defocus Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="denoise.html">Denoise Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="despeckle.html">Despeckle Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="dilate_erode.html">Dilate/Erode Node</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">Directional Blur Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="filter_node.html">Filter Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="glare.html">Glare Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="inpaint.html">Inpaint Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pixelate.html">Pixelate Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="sun_beams.html">Sun Beams Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="vector_blur.html">Vector (Motion) Blur Node</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">渲染</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">合成</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">简介</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../properties.html">属性</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../index.html#node-types">节点类型</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../input/index.html">输入类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../output/index.html">输出类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../color/index.html">颜色类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../converter/index.html">转换器类节点</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="index.html">滤镜(过滤)节点</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="bilateral_blur.html">双边模糊节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="blur_node.html">模糊节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="bokeh_blur.html">散景模糊节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="defocus.html">散焦节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="denoise.html">降噪节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="despeckle.html">去噪节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dilate_erode.html">膨胀/侵蚀节点</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">定向模糊节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="filter_node.html">滤镜节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="glare.html">辉光节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="inpaint.html">瑕疵修复节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pixelate.html">像素化节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="sun_beams.html">太阳光束节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="vector_blur.html">矢量(运动)模糊节点</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../vector/index.html">Vector Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../matte/index.html">Matte Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../distort/index.html">Distort Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../groups.html">Node Groups</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../layout/index.html">Layout Nodes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../vector/index.html">矢量类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../matte/index.html">蒙版类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../distort/index.html">畸变类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../groups.html">节点组</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../layout/index.html">布局类节点</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -209,17 +209,17 @@
     
       <li><a href="../../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../../../editors/index.html">Editors</a> &raquo;</li>
+          <li><a href="../../../editors/index.html">编辑器</a> &raquo;</li>
         
-          <li><a href="../../index.html">Compositing</a> &raquo;</li>
+          <li><a href="../../index.html">合成</a> &raquo;</li>
         
-          <li><a href="index.html">Filter Nodes</a> &raquo;</li>
+          <li><a href="index.html">滤镜(过滤)节点</a> &raquo;</li>
         
-      <li>Directional Blur Node</li>
+      <li>定向模糊节点</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/compositing/types/filter/directional_blur.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/compositing/types/filter/directional_blur.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -230,45 +230,42 @@
            <div itemprop="articleBody">
             
   <div class="section" id="directional-blur-node">
-<span id="bpy-types-compositornodedblur"></span><h1>Directional Blur Node<a class="headerlink" href="#directional-blur-node" title="Permalink to this headline">¶</a></h1>
+<span id="bpy-types-compositornodedblur"></span><h1>定向模糊节点<a class="headerlink" href="#directional-blur-node" title="Permalink to this headline">¶</a></h1>
 <div class="figure align-right" id="id1">
 <img alt="../../../_images/compositing_node-types_CompositorNodeDBlur.png" src="../../../_images/compositing_node-types_CompositorNodeDBlur.png" />
-<p class="caption"><span class="caption-text">Directional Blur Node.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">定向模糊节点。</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
-<p>Blurs an image in a specified direction and magnitude. Can be used to fake motion blur.</p>
+<p>在指定的方向和量级上对图像进行模糊操作。可以用来模拟运动模糊效果。</p>
 <div class="section" id="inputs">
-<h2>Inputs<a class="headerlink" href="#inputs" title="Permalink to this headline">¶</a></h2>
+<h2>输入<a class="headerlink" href="#inputs" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>Image</dt><dd><p>Standard image input.</p>
+<dt>图像</dt><dd><p>标准化图像输入。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="properties">
-<h2>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
+<h2>属性<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>Iterations</dt><dd><p>Controls how may times the image is duplicated to create the blur effect.
-Higher values give smoother results.</p>
+<dt>迭代</dt><dd><p>控制图像被复制多少次数用来创建模糊效果。较高的值会得到平滑的结果。</p>
 </dd>
-<dt>Wrap</dt><dd><p>Wraps the image on the X and Y axis to fill in areas,
-that become transparent from the blur effect.</p>
+<dt>包裹</dt><dd><p>从图像的X和Y轴循环以填充这些区域，从模糊效果到透明进行过渡。</p>
 </dd>
-<dt>Center X, Y</dt><dd><p>Sets the position where the blur center is.
-This makes a difference if the angle, spin, and/or zoom are used.</p>
+<dt>中心 X,Y</dt><dd><p>设置模糊中心的位置。如果角度，旋绕， 和/或 缩放已使用，生成的结果会有些差异。</p>
 </dd>
-<dt>Distance</dt><dd><p>How large the blur effect is.</p>
+<dt>距离</dt><dd><p>对模糊效果距离进行大小控制。</p>
 </dd>
-<dt>Angle</dt><dd><p>Image is blurred at this angle from the center.</p>
+<dt>角度</dt><dd><p>从图像中心到此角度都是模糊的范围。</p>
 </dd>
-<dt>Spin</dt><dd><p>Rotates the image each iteration to create a spin effect, from the center point.</p>
+<dt>旋绕</dt><dd><p>对每个图像进行迭代旋转，用以从图像中心点开始创建旋绕效果。</p>
 </dd>
-<dt>Zoom</dt><dd><p>Scales the image each iteration, creating the effect of a zoom.</p>
+<dt>缩放</dt><dd><p>对每个图像进行迭代缩放，创建图像逐渐缩放效果。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="outputs">
-<h2>Outputs<a class="headerlink" href="#outputs" title="Permalink to this headline">¶</a></h2>
+<h2>输出<a class="headerlink" href="#outputs" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>Image</dt><dd><p>Standard image output.</p>
+<dt>图像</dt><dd><p>标准化图像输出。</p>
 </dd>
 </dl>
 </div>
@@ -282,10 +279,10 @@ This makes a difference if the angle, spin, and/or zoom are used.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="filter_node.html" class="btn btn-neutral float-right" title="Filter Node" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="filter_node.html" class="btn btn-neutral float-right" title="滤镜节点" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="dilate_erode.html" class="btn btn-neutral float-left" title="Dilate/Erode Node" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="dilate_erode.html" class="btn btn-neutral float-left" title="膨胀/侵蚀节点" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -319,7 +316,7 @@ This makes a difference if the angle, spin, and/or zoom are used.</p>
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

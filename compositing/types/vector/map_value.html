@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Map Value Node &mdash; Blender Manual</title>
+  <title>映射值节点 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Normal Node" href="normal.html" />
-    <link rel="prev" title="Map Range Node" href="map_range.html" /> 
+    <link rel="next" title="法线节点" href="normal.html" />
+    <link rel="prev" title="映射范围节点" href="map_range.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,51 +110,51 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">Rendering</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Compositing</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../properties.html">Properties</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="../../index.html#node-types">Node Types</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="../input/index.html">Input Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../output/index.html">Output Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../color/index.html">Color Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../converter/index.html">Converter Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../filter/index.html">Filter Nodes</a></li>
-<li class="toctree-l3 current"><a class="reference internal" href="index.html">Vector Nodes</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="map_range.html">Map Range Node</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">Map Value Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="normal.html">Normal Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="normalize.html">Normalize Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="vector_curves.html">Vector Curves Node</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">渲染</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">合成</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">简介</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../properties.html">属性</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../index.html#node-types">节点类型</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../input/index.html">输入类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../output/index.html">输出类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../color/index.html">颜色类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../converter/index.html">转换器类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../filter/index.html">滤镜(过滤)节点</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="index.html">矢量类节点</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="map_range.html">映射范围节点</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">映射值节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="normal.html">法线节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="normalize.html">正则化节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="vector_curves.html">矢量曲线节点</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../matte/index.html">Matte Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../distort/index.html">Distort Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../groups.html">Node Groups</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../layout/index.html">Layout Nodes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../matte/index.html">蒙版类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../distort/index.html">畸变类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../groups.html">节点组</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../layout/index.html">布局类节点</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -200,17 +200,17 @@
     
       <li><a href="../../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../../../editors/index.html">Editors</a> &raquo;</li>
+          <li><a href="../../../editors/index.html">编辑器</a> &raquo;</li>
         
-          <li><a href="../../index.html">Compositing</a> &raquo;</li>
+          <li><a href="../../index.html">合成</a> &raquo;</li>
         
-          <li><a href="index.html">Vector Nodes</a> &raquo;</li>
+          <li><a href="index.html">矢量类节点</a> &raquo;</li>
         
-      <li>Map Value Node</li>
+      <li>映射值节点</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/compositing/types/vector/map_value.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/compositing/types/vector/map_value.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -221,60 +221,51 @@
            <div itemprop="articleBody">
             
   <div class="section" id="map-value-node">
-<span id="bpy-types-compositornodemapvalue"></span><h1>Map Value Node<a class="headerlink" href="#map-value-node" title="Permalink to this headline">¶</a></h1>
+<span id="bpy-types-compositornodemapvalue"></span><h1>映射值节点<a class="headerlink" href="#map-value-node" title="Permalink to this headline">¶</a></h1>
 <div class="figure align-right" id="id1">
 <img alt="../../../_images/compositing_node-types_CompositorNodeMapValue.png" src="../../../_images/compositing_node-types_CompositorNodeMapValue.png" />
-<p class="caption"><span class="caption-text">Map Value Node.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">映射值节点。</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
-<p>Map Value node is used to scale, offset and clamp values.</p>
+<p>映射值用于缩放，偏移和限定值。</p>
 <div class="section" id="inputs">
-<h2>Inputs<a class="headerlink" href="#inputs" title="Permalink to this headline">¶</a></h2>
+<h2>输入<a class="headerlink" href="#inputs" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>Value</dt><dd><p>Standard Value input. (Value refers to each vector in the set.)</p>
+<dt>值</dt><dd><p>标准化值输入。(引用在设置框中的矢量值)。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="properties">
-<h2>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
+<h2>属性<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>Offset</dt><dd><p>Factor added to the input value.</p>
+<dt>偏移量</dt><dd><p>把偏移因数添加到输入值。</p>
 </dd>
-<dt>Size</dt><dd><p>Scales (multiply) the input value.</p>
+<dt>尺寸</dt><dd><p>对输入值进行缩放(相乘)。</p>
 </dd>
-<dt>Use Minimum, Maximum</dt><dd><p>Enable this to activate their related operation.</p>
+<dt>使用最小值，最大值</dt><dd><p>启用此复选框将激活相应的功能。</p>
 </dd>
-<dt>Min, Max</dt><dd><p>Defines a range between minimum and maximum to <a class="reference internal" href="../../../glossary/index.html#term-clamp"><span class="xref std std-term">clamp</span></a> the input value to.</p>
+<dt>最小值，最大值</dt><dd><p>在最小值和最大值之间定义一个范围去： <a class="reference internal" href="../../../glossary/index.html#term-clamping"><span class="xref std std-term">钳制</span></a> 输入值要指定的范围。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="outputs">
-<h2>Outputs<a class="headerlink" href="#outputs" title="Permalink to this headline">¶</a></h2>
+<h2>输出<a class="headerlink" href="#outputs" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>Value</dt><dd><p>Standard value output.</p>
+<dt>值</dt><dd><p>标准化值输出。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="example">
-<h2>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h2>
+<h2>范例<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="z-depth-map">
-<h3>Z-Depth Map<a class="headerlink" href="#z-depth-map" title="Permalink to this headline">¶</a></h3>
-<p>This is particularly useful in achieving a depth of field effect,
-where the Map Value node is used to map a Z value
-(which can be 20 or 30 or even 500 depending on the scene) to the range between (0 to 1),
-suitable for connecting to a Blur node.</p>
+<h3>Z深度通道<a class="headerlink" href="#z-depth-map" title="Permalink to this headline">¶</a></h3>
+<p>这在获取Z深度通道时尤其有用，映射值节点将Z通道值(依据场景不同，数值可能为20,30甚至500)匹配到(0,1)的范围之间，这使得在连接模糊节点时数值更符合模糊节点的有效值范围。</p>
 </div>
 <div class="section" id="multiplying-values">
-<h3>Multiplying Values<a class="headerlink" href="#multiplying-values" title="Permalink to this headline">¶</a></h3>
-<p>The Map Value node can also be used to multiply values to achieve a desired output value.
-In the mini-map to the right, the Time node outputs a value between 0.0 and 1.0 evenly scaled over 30 frames.
-The <em>first</em> Map Value node multiplies the input by 2,
-resulting in an output value that scales from 0.0 to 2.0 over 30 frames.
-The <em>second</em> Map Value node subtracts 1 from the input,
-giving working values between (-1.00 to 1.0), and multiplies that by 150,
-resulting in an output value between (-150 to 150) over a 30-frame sequence.</p>
+<h3>将值相乘<a class="headerlink" href="#multiplying-values" title="Permalink to this headline">¶</a></h3>
+<p>映射值节点也可对数值进行相乘操作以得到所需输出值。在如图所示中，时间节点输出30帧的时间范围均匀分布在0.0到1.0之间的数值。<em>第一个</em> 映射值节点将输入值乘以2，将输出值范围缩放到从0.0到2.0。 <em>第二个</em> 映射值节点从输入值减去1，得到一个从(-1.00到1.0)的数值范围，然后将其乘以150，将30帧时间范围数值映射到范围在(-150到150)的输出值区间。</p>
 <div class="figure align-default" id="id2">
 <img alt="../../../_images/compositing_types_vector_map-value_example.png" src="../../../_images/compositing_types_vector_map-value_example.png" />
-<p class="caption"><span class="caption-text">Using Map Value to multiply.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">映射值乘法操作。</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 </div>
@@ -288,10 +279,10 @@ resulting in an output value between (-150 to 150) over a 30-frame sequence.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="normal.html" class="btn btn-neutral float-right" title="Normal Node" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="normal.html" class="btn btn-neutral float-right" title="法线节点" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="map_range.html" class="btn btn-neutral float-left" title="Map Range Node" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="map_range.html" class="btn btn-neutral float-left" title="映射范围节点" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -325,7 +316,7 @@ resulting in an output value between (-150 to 150) over a 30-frame sequence.</p>
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

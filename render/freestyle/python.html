@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Python Scripting Mode &mdash; Blender Manual</title>
+  <title>Python脚本模式 &mdash; Blender Manual</title>
   
 
   
@@ -64,7 +64,7 @@
     
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Layers &amp; Passes" href="../layers/index.html" />
+    <link rel="next" title="层 &amp; 通道" href="../layers/index.html" />
     <link rel="prev" title="Tip Remover" href="parameter_editor/line_style/modifiers/geometry/tip_remover.html" /> 
 </head>
 
@@ -110,52 +110,52 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../physics/index.html">Physics</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Rendering</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../physics/index.html">物理</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">渲染</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../introduction.html">简介</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../eevee/index.html">Eevee</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../cycles/index.html">Cycles</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../workbench/index.html">Workbench</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../cameras.html">Cameras</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cameras.html">相机</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../lights/index.html">Lights</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../materials/index.html">Materials</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../shader_nodes/index.html">Shader Nodes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../color_management.html">Color Management</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../materials/index.html">材质</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../shader_nodes/index.html">着色器节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../color_management.html">色彩管理</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="index.html">Freestyle</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="introduction.html">Introduction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="introduction.html">简介</a></li>
 <li class="toctree-l3"><a class="reference internal" href="render.html">Render Properties</a></li>
 <li class="toctree-l3"><a class="reference internal" href="view_layer.html">View Layer Properties</a></li>
 <li class="toctree-l3"><a class="reference internal" href="material.html">Material Properties</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="index.html#control-modes">Control Modes</a><ul class="current">
 <li class="toctree-l4"><a class="reference internal" href="parameter_editor/index.html">Parameter Editor</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">Python Scripting Mode</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Python脚本模式</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../layers/index.html">Layers &amp; Passes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../output/index.html">Render Output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../layers/index.html">层 &amp; 通道</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../output/index.html">渲染输出</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -201,15 +201,15 @@
     
       <li><a href="../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../index.html">Rendering</a> &raquo;</li>
+          <li><a href="../index.html">渲染</a> &raquo;</li>
         
           <li><a href="index.html">Freestyle</a> &raquo;</li>
         
-      <li>Python Scripting Mode</li>
+      <li>Python脚本模式</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/render/freestyle/python.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/render/freestyle/python.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -220,7 +220,7 @@
            <div itemprop="articleBody">
             
   <div class="section" id="python-scripting-mode">
-<span id="bpy-types-freestylemodulesettings"></span><h1>Python Scripting Mode<a class="headerlink" href="#python-scripting-mode" title="Permalink to this headline">¶</a></h1>
+<span id="bpy-types-freestylemodulesettings"></span><h1>Python脚本模式<a class="headerlink" href="#python-scripting-mode" title="Permalink to this headline">¶</a></h1>
 <p>The Python Scripting mode offers full programmable line stylizes.
 In this control mode, all styling operations are written as Python scripts referred to as
 style modules in the Freestyle terminology. The input to a style module is a view map
@@ -386,7 +386,7 @@ Chains shorter than 5 units will not be split anymore.</p>
 <div class="section" id="sorting">
 <h3>Sorting<a class="headerlink" href="#sorting" title="Permalink to this headline">¶</a></h3>
 <p>The sorting operator <code class="docutils literal notranslate"><span class="pre">Operators.sort()</span></code> arranges the stacking order of active 1D elements.
-It takes as argument a binary predicate used as a “smaller than” operator to order two 1D elements.</p>
+It takes as argument a binary predicate used as a &quot;smaller than&quot; operator to order two 1D elements.</p>
 <div class="highlight-python3 notranslate"><div class="highlight"><pre><span></span><span class="n">Operators</span><span class="o">.</span><span class="n">sort</span><span class="p">(</span><span class="n">Length2DBP1D</span><span class="p">())</span>
 </pre></div>
 </div>
@@ -396,7 +396,7 @@ the <code class="docutils literal notranslate"><span class="pre">Interface1D</sp
 the causal density evaluates the density of the resulting image as it is modified. If we wish
 to use such a tool to decide to remove strokes whenever the local density is too high,
 it is important to control the order in which the strokes are drawn. In this case,
-we would use the sorting operator to ensure that the most “important” lines are drawn first.</p>
+we would use the sorting operator to ensure that the most &quot;important&quot; lines are drawn first.</p>
 </div>
 <div class="section" id="stroke-creation">
 <h3>Stroke Creation<a class="headerlink" href="#stroke-creation" title="Permalink to this headline">¶</a></h3>
@@ -450,7 +450,7 @@ on the user-scriptable constructs.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../layers/index.html" class="btn btn-neutral float-right" title="Layers &amp; Passes" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="../layers/index.html" class="btn btn-neutral float-right" title="层 &amp; 通道" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="parameter_editor/line_style/modifiers/geometry/tip_remover.html" class="btn btn-neutral float-left" title="Tip Remover" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
@@ -487,7 +487,7 @@ on the user-scriptable constructs.</p>
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

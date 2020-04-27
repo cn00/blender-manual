@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Armature Modifier &mdash; Blender Manual</title>
+  <title>骨架修改器 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Hook Modifier" href="hook.html" />
-    <link rel="prev" title="Deform" href="index.html" /> 
+    <link rel="next" title="钩挂修改器" href="hook.html" />
+    <link rel="prev" title="变形" href="index.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,56 +110,56 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Grease Pencil</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../structure.html">Structure</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../primitives.html">Primitives</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../selecting.html">Selecting</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../multiframe.html">Multiframe</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../properties/index.html">Properties</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="../index.html">Modifiers</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="../introduction.html">Introduction</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../generate/index.html">Generate</a></li>
-<li class="toctree-l3 current"><a class="reference internal" href="index.html">Deform</a><ul class="current">
-<li class="toctree-l4 current"><a class="current reference internal" href="#">Armature Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="hook.html">Hook Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="lattice.html">Lattice Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="noise.html">Noise Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="offset.html">Offset Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="smooth.html">Smooth Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="thickness.html">Thickness Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="time_offset.html">Time Offset Modifier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">蜡笔</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">简介</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../structure.html">结构</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../primitives.html">基本体</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../selecting.html">选择</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../multiframe.html">多帧</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../properties/index.html">属性</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html">修改器</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../introduction.html">简介</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generate/index.html">生成</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="index.html">变形</a><ul class="current">
+<li class="toctree-l4 current"><a class="current reference internal" href="#">骨架修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="hook.html">钩挂修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="lattice.html">晶格修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="noise.html">噪波修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="offset.html">偏移修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="smooth.html">平滑修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="thickness.html">线宽修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="time_offset.html">时间偏移修改器</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../color/index.html">Color</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../color/index.html">颜色</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../visual_effects/index.html">Visual Effects</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../materials/index.html">Materials</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../animation/index.html">Animation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../index.html#modes">Modes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../visual_effects/index.html">视觉效果</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../materials/index.html">材质</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../animation/index.html">动画</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../index.html#modes">模式</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">Rendering</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">渲染</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -205,17 +205,17 @@
     
       <li><a href="../../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../../index.html">Grease Pencil</a> &raquo;</li>
+          <li><a href="../../index.html">蜡笔</a> &raquo;</li>
         
-          <li><a href="../index.html">Modifiers</a> &raquo;</li>
+          <li><a href="../index.html">修改器</a> &raquo;</li>
         
-          <li><a href="index.html">Deform</a> &raquo;</li>
+          <li><a href="index.html">变形</a> &raquo;</li>
         
-      <li>Armature Modifier</li>
+      <li>骨架修改器</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/grease_pencil/modifiers/deform/armature.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/grease_pencil/modifiers/deform/armature.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -226,52 +226,41 @@
            <div itemprop="articleBody">
             
   <div class="section" id="armature-modifier">
-<span id="bpy-types-armaturegpencilmodifier"></span><h1>Armature Modifier<a class="headerlink" href="#armature-modifier" title="Permalink to this headline">¶</a></h1>
-<p>The <em>Armature</em> Modifier is used for building skeletal systems for animating
-the poses of characters and anything else which needs to be posed.</p>
-<p>By adding an armature to an object,
-this object can be deformed accurately so that geometry does not have to be animated by hand.</p>
+<span id="bpy-types-armaturegpencilmodifier"></span><h1>骨架修改器<a class="headerlink" href="#armature-modifier" title="Permalink to this headline">¶</a></h1>
+<p><em>骨架</em> 修改器用于构建骨架系统，用于动画角色姿势和其他任何需要提出的姿势。</p>
+<p>通过向物体添加骨架，可以精确地变形此物体，从而无需手动设置几何体。</p>
 <div class="admonition seealso">
 <p class="admonition-title">See also</p>
-<p>For more details on armatures usage, see the <a class="reference internal" href="../../../animation/armatures/index.html"><span class="doc">armature section</span></a>.</p>
+<p>有关骨架使用的更多详细信息， 查看 <a class="reference internal" href="../../../animation/armatures/index.html"><span class="doc">armature section</span></a>.</p>
 </div>
 <div class="section" id="options">
-<h2>Options<a class="headerlink" href="#options" title="Permalink to this headline">¶</a></h2>
+<h2>选项<a class="headerlink" href="#options" title="Permalink to this headline">¶</a></h2>
 <div class="figure align-right" id="id1">
 <img alt="../../../_images/grease-pencil_modifiers_deform_armature_panel.png" src="../../../_images/grease-pencil_modifiers_deform_armature_panel.png" />
-<p class="caption"><span class="caption-text">The Armature modifier.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">骨架修改器。</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
 <dl class="simple">
-<dt>Object</dt><dd><p>The name of the armature object used by this modifier.</p>
+<dt>对象</dt><dd><p>此修改器使用的骨架物体的名称。</p>
 </dd>
 </dl>
 <div class="section" id="bind-to">
-<h3>Bind To<a class="headerlink" href="#bind-to" title="Permalink to this headline">¶</a></h3>
-<p>Methods to bind the armature to the strokes.</p>
+<h3>绑定到<a class="headerlink" href="#bind-to" title="Permalink to this headline">¶</a></h3>
+<p>将骨架绑定到笔画的方法。</p>
 <dl>
-<dt>Vertex Groups</dt><dd><p>When enabled, bones of a given name will deform points which belong to
-<a class="reference internal" href="../../../modeling/meshes/properties/vertex_groups/index.html"><span class="doc">vertex groups</span></a> of the same name.
-e.g. a bone named “forearm”, will only affect the points in the “forearm” vertex group.</p>
-<p>The influence of one bone on a given point is controlled by the weight of this point in the relevant group.
-A much more precise method than <em>Bone Envelopes</em>, but also generally longer to set up.</p>
+<dt>顶点组</dt><dd><p>启用后，给定名称的骨骼将变形与其同名的 <a class="reference internal" href="../../../modeling/meshes/properties/vertex_groups/index.html"><span class="doc">顶点组</span></a> 中的点。 e.g. 为名&quot;前臂&quot;的骨骼, 只会影响&quot;前臂&quot;顶点组的点。</p>
+<p>一个骨骼对给定点的影响由相关组中该点的权重控制。 比 <em>骨骼封装</em> 更精确的方法，但通常设置时间也更长。</p>
 </dd>
-<dt>Bone Envelopes</dt><dd><p>When enabled, bones will deform points or control points near them,
-defined by each bone’s envelope radius and distance.
-Enable/Disable bone <a class="reference internal" href="../../../animation/armatures/bones/properties/deform.html#armature-bones-envelope"><span class="std std-ref">envelopes</span></a> defining the deformation
-(i.e. bones deform points in their neighborhood).</p>
+<dt>骨骼封装</dt><dd><p>启用后，骨骼将使其附近的点或控制点变形，由每个骨骼的封套半径和距离定义。 启用/禁用骨骼 <a class="reference internal" href="../../../animation/armatures/bones/properties/deform.html#armature-bones-envelope"><span class="std std-ref">envelopes</span></a> 定义变形 (即骨骼在其附近使点变形)。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="influence-filter">
-<h3>Influence Filter<a class="headerlink" href="#influence-filter" title="Permalink to this headline">¶</a></h3>
+<h3>影响过滤<a class="headerlink" href="#influence-filter" title="Permalink to this headline">¶</a></h3>
 <dl>
-<dt>Vertex Group</dt><dd><p>The name of a vertex group of the object, the weights of which will be used to determine the influence of this
-Armature Modifier’s result when mixing it with the results from other <em>Armature</em> ones.</p>
-<p>Only meaningful when having at least two of these modifiers on the same object,
-with <em>Multi Modifier</em> activated.</p>
+<dt>顶点组</dt><dd><p>物体的顶点组的名称，其权重将用于确定此骨架修改器与其他 <em>骨骼</em> 结果混合时的影响。</p>
+<p>只有在同一物体上至少有两个修改器且激活了 <em>多重编辑</em> 时才有意义。</p>
 <dl class="simple">
-<dt>Invert <code class="docutils literal notranslate"><span class="pre">&lt;-&gt;</span></code></dt><dd><p>Inverts the influence set by the vertex group defined in previous setting
-(i.e. reverses the weight values of this group).</p>
+<dt>反转 <code class="docutils literal notranslate"><span class="pre">&lt;-&gt;</span></code></dt><dd><p>反转之前定义的顶点组的效果(即反转该组的权重值)。</p>
 </dd>
 </dl>
 </dd>
@@ -288,10 +277,10 @@ with <em>Multi Modifier</em> activated.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="hook.html" class="btn btn-neutral float-right" title="Hook Modifier" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="hook.html" class="btn btn-neutral float-right" title="钩挂修改器" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="index.html" class="btn btn-neutral float-left" title="Deform" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="index.html" class="btn btn-neutral float-left" title="变形" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -325,7 +314,7 @@ with <em>Multi Modifier</em> activated.</p>
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

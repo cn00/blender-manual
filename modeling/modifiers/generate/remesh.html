@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Remesh Modifier &mdash; Blender Manual</title>
+  <title>重构网格修改器 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Screw Modifier" href="screw.html" />
-    <link rel="prev" title="Multiresolution Modifier" href="multiresolution.html" /> 
+    <link rel="next" title="螺旋修改器" href="screw.html" />
+    <link rel="prev" title="多级精度修改器" href="multiresolution.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,64 +110,64 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Modeling</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../meshes/index.html">Meshes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../curves/index.html">Curves</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../surfaces/index.html">Surfaces</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../metas/index.html">Metaball</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../texts/index.html">Text</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../empties.html">Empties</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="../index.html">Modifiers</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="../introduction.html">Introduction</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../common_options.html">Common Modifier Options</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../index.html#modify">Modify</a></li>
-<li class="toctree-l3 current"><a class="reference internal" href="../index.html#generate">Generate</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="array.html">Array Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="bevel.html">Bevel Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="booleans.html">Boolean Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="build.html">Build Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="decimate.html">Decimate Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="edge_split.html">Edge Split Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="mask.html">Mask Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="mirror.html">Mirror Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="multiresolution.html">Multiresolution Modifier</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">Remesh Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="screw.html">Screw Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="skin.html">Skin Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="solidify.html">Solidify Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="subdivision_surface.html">Subdivision Surface Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="triangulate.html">Triangulate Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="weld.html">Weld Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="wireframe.html">Wireframe Modifier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">制作模型</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">简介</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../meshes/index.html">网格</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../curves/index.html">曲线</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../surfaces/index.html">曲面</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../metas/index.html">融球</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../texts/index.html">文本物体</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../empties.html">空物体</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html">修改器</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../introduction.html">简介</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../common_options.html">常见的修改器选项</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../index.html#modify">修改</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../index.html#generate">生成</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="array.html">阵列修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="bevel.html">倒角修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="booleans.html">布尔修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="build.html">建形修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="decimate.html">精简修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="edge_split.html">拆边修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="mask.html">遮罩修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="mirror.html">镜像修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="multiresolution.html">多级精度修改器</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">重构网格修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="screw.html">螺旋修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="skin.html">蒙皮修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="solidify.html">实体化修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="subdivision_surface.html">表面细分修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="triangulate.html">三角化修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="weld.html">焊接修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="wireframe.html">线框修改器</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../index.html#deform">Deform</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../index.html#simulate">Simulate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../index.html#deform">形变</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../index.html#simulate">模拟</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">Rendering</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">渲染</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -213,15 +213,15 @@
     
       <li><a href="../../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../../index.html">Modeling</a> &raquo;</li>
+          <li><a href="../../index.html">制作模型</a> &raquo;</li>
         
-          <li><a href="../index.html">Modifiers</a> &raquo;</li>
+          <li><a href="../index.html">修改器</a> &raquo;</li>
         
-      <li>Remesh Modifier</li>
+      <li>重构网格修改器</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/modeling/modifiers/generate/remesh.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/modeling/modifiers/generate/remesh.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -232,55 +232,48 @@
            <div itemprop="articleBody">
             
   <div class="section" id="remesh-modifier">
-<span id="bpy-types-remeshmodifier"></span><h1>Remesh Modifier<a class="headerlink" href="#remesh-modifier" title="Permalink to this headline">¶</a></h1>
-<p>The <em>Remesh</em> modifier is a tool for generating new mesh topology.
-The output follows the surface curvature of the input, but its topology contains only quads.</p>
+<span id="bpy-types-remeshmodifier"></span><h1>重构网格修改器<a class="headerlink" href="#remesh-modifier" title="Permalink to this headline">¶</a></h1>
+<p><em>重构网格</em> 修改器是用来生成新的网格拓扑的工具。依据输入的表面曲率作输出，但其拓扑结构只包含四边形。</p>
 <div class="section" id="options">
-<h2>Options<a class="headerlink" href="#options" title="Permalink to this headline">¶</a></h2>
+<h2>选项<a class="headerlink" href="#options" title="Permalink to this headline">¶</a></h2>
 <div class="figure align-right" id="id1">
 <img alt="../../../_images/modeling_modifiers_generate_remesh_panel.png" src="../../../_images/modeling_modifiers_generate_remesh_panel.png" />
-<p class="caption"><span class="caption-text">The Remesh modifier.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">重构网格修改器。</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
 <dl>
-<dt>Mode</dt><dd><p>There are three basic modes available in the <em>Remesh</em> modifier.
-The output topology is almost identical between the three modes, what changes is the smoothing.</p>
+<dt>模式</dt><dd><p>在 <em>重构网格</em> 修改器中有三种基本模式。三种模式输出的拓扑结构基本相同，变化的是如何进行平滑。</p>
 <dl class="simple">
-<dt>Blocks</dt><dd><p>There is no smoothing at all.</p>
+<dt>块状</dt><dd><p>未作平滑处理。</p>
 </dd>
-<dt>Smooth</dt><dd><p>Output a smooth surface.</p>
+<dt>平滑</dt><dd><p>输出一个平滑表面。</p>
 </dd>
-<dt>Sharp</dt><dd><p>Similar to <em>Smooth</em>, but preserves sharp edges and corners.</p>
+<dt>锐边</dt><dd><p>类似于 <em>光滑</em> ，但保留锐边和转角。</p>
 </dd>
 </dl>
 </dd>
-<dt>Octree Depth</dt><dd><p>Sets the resolution of the output. Low values will generate larger faces relative to the input,
-higher values will generate a denser output.</p>
+<dt>八叉树算法深度</dt><dd><p>设置输出的分辨率。低值将产生相对于输入而言较大的面，较高的值将产生更密集的面。</p>
 </dd>
-<dt>Scale</dt><dd><p>The result can be tweaked further by this, lower values effectively decrease the output resolution.</p>
+<dt>缩放</dt><dd><p>结果还可以通过设置缩放作进一步地调整，较低的值有效地降低输出分辨率。</p>
 </dd>
-<dt>Sharpness</dt><dd><p>Shown when using the <em>Sharp Mode</em>. Higher values produce edges more similar to the input,
-while lower values filter out noise.</p>
+<dt>锐度</dt><dd><p>在使用 <em>锐边模式</em> 时会显示该项。数值越高，越接近输入值，数值调低会有滤噪效果。</p>
 </dd>
-<dt>Smooth Shading</dt><dd><p>Output faces with smooth shading rather than flat shading.
-The smooth/flat shading of the input faces is not preserved.</p>
+<dt>平滑着色</dt><dd><p>输出面用光滑着色，而不是平坦着色。输入面的光滑/平坦着色不被保留。</p>
 </dd>
-<dt>Remove Disconnected Pieces</dt><dd><p>Filter out small disconnected pieces of the output.</p>
-<p>Thin parts of the input mesh can become lose, and generate small isolated bits of mesh.
-This option will remove those.</p>
+<dt>移除分离的块</dt><dd><p>过滤掉输出中不连接的小块。</p>
+<p>输入网格的薄壁部分会丢失并产生小的孤立的网格。这个选项将删除掉这些小块。</p>
 <dl class="simple">
-<dt>Threshold</dt><dd><p>Use this to control how small a disconnected component must be to be removed.</p>
+<dt>阈值</dt><dd><p>用该选项控制断开连接的部分达到多小后必须删除。</p>
 </dd>
 </dl>
 </dd>
 </dl>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>The input mesh should have some thickness to it. If the input is completely flat,
-add a <a class="reference internal" href="solidify.html"><span class="doc">Solidify Modifier</span></a> above the <em>Remesh</em> one.</p>
+<p>输入网格应该有一定的厚度。如果其输入是一个完全的平面，在 <em>重构网格</em> 修改器之上添加一个 <a class="reference internal" href="solidify.html"><span class="doc">实体化</span></a> 修改器。</p>
 </div>
 </div>
 <div class="section" id="examples">
-<h2>Examples<a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h2>
+<h2>例子<a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h2>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 33%" />
@@ -290,33 +283,33 @@ add a <a class="reference internal" href="solidify.html"><span class="doc">Solid
 <tbody>
 <tr class="row-odd"><td><div class="figure align-default" id="id2">
 <a class="reference internal image-reference" href="../../../_images/modeling_modifiers_generate_remesh_example-none.png"><img alt="../../../_images/modeling_modifiers_generate_remesh_example-none.png" src="../../../_images/modeling_modifiers_generate_remesh_example-none.png" style="width: 320px;" /></a>
-<p class="caption"><span class="caption-text">Unmodified mesh.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">修改前网格。</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
 </td>
 <td><div class="figure align-default" id="id3">
 <a class="reference internal image-reference" href="../../../_images/modeling_modifiers_generate_remesh_example-blocks-depth-3.png"><img alt="../../../_images/modeling_modifiers_generate_remesh_example-blocks-depth-3.png" src="../../../_images/modeling_modifiers_generate_remesh_example-blocks-depth-3.png" style="width: 320px;" /></a>
-<p class="caption"><span class="caption-text">Blocks mode with Octree Depth 3.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">块状模式，八叉树深度为3。</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
 </div>
 </td>
 <td><div class="figure align-default" id="id4">
 <a class="reference internal image-reference" href="../../../_images/modeling_modifiers_generate_remesh_example-smooth-depth-3.png"><img alt="../../../_images/modeling_modifiers_generate_remesh_example-smooth-depth-3.png" src="../../../_images/modeling_modifiers_generate_remesh_example-smooth-depth-3.png" style="width: 320px;" /></a>
-<p class="caption"><span class="caption-text">Smooth mode with Octree Depth 3.</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">平滑模式，八叉树深度为3。</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
 </div>
 </td>
 </tr>
 <tr class="row-even"><td><div class="figure align-default" id="id5">
 <a class="reference internal image-reference" href="../../../_images/modeling_modifiers_generate_remesh_example-sharp-depth-2.png"><img alt="../../../_images/modeling_modifiers_generate_remesh_example-sharp-depth-2.png" src="../../../_images/modeling_modifiers_generate_remesh_example-sharp-depth-2.png" style="width: 320px;" /></a>
-<p class="caption"><span class="caption-text">Sharp mode with Octree Depth 2.</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">锐边模式，八叉树深度为2。</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
 </div>
 </td>
 <td><div class="figure align-default" id="id6">
 <a class="reference internal image-reference" href="../../../_images/modeling_modifiers_generate_remesh_example-sharp-depth-3.png"><img alt="../../../_images/modeling_modifiers_generate_remesh_example-sharp-depth-3.png" src="../../../_images/modeling_modifiers_generate_remesh_example-sharp-depth-3.png" style="width: 320px;" /></a>
-<p class="caption"><span class="caption-text">Sharp mode with Octree Depth 3.</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">锐边模式，八叉树深度为3。</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
 </div>
 </td>
 <td><div class="figure align-default" id="id7">
 <a class="reference internal image-reference" href="../../../_images/modeling_modifiers_generate_remesh_example-sharp-depth-4.png"><img alt="../../../_images/modeling_modifiers_generate_remesh_example-sharp-depth-4.png" src="../../../_images/modeling_modifiers_generate_remesh_example-sharp-depth-4.png" style="width: 320px;" /></a>
-<p class="caption"><span class="caption-text">Sharp mode with Octree Depth 4.</span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">锐边模式，八叉树深度为4。</span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
 </div>
 </td>
 </tr>
@@ -324,7 +317,7 @@ add a <a class="reference internal" href="solidify.html"><span class="doc">Solid
 </table>
 <div class="figure align-default" id="id8">
 <a class="reference internal image-reference" href="../../../_images/modeling_modifiers_generate_remesh_example-text-topology.png"><img alt="../../../_images/modeling_modifiers_generate_remesh_example-text-topology.png" src="../../../_images/modeling_modifiers_generate_remesh_example-text-topology.png" style="width: 520px;" /></a>
-<p class="caption"><span class="caption-text">The Remesh Modifier applied to a text to improve its topology.</span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">对文本应用重构网格修改器，可以改善拓扑结构。</span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
 </div>
 <iframe src="https://www.youtube.com/embed/Mh-gUnS2c0Y" style="border: 0; height: 345px; width: 560px">
 </iframe><iframe src="https://player.vimeo.com/video/21096739" style="border: 0; height: 345px; width: 560px">
@@ -339,10 +332,10 @@ add a <a class="reference internal" href="solidify.html"><span class="doc">Solid
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="screw.html" class="btn btn-neutral float-right" title="Screw Modifier" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="screw.html" class="btn btn-neutral float-right" title="螺旋修改器" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="multiresolution.html" class="btn btn-neutral float-left" title="Multiresolution Modifier" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="multiresolution.html" class="btn btn-neutral float-left" title="多级精度修改器" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -376,7 +369,7 @@ add a <a class="reference internal" href="solidify.html"><span class="doc">Solid
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

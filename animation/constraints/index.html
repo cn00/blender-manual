@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Constraints &mdash; Blender Manual</title>
+  <title>约束 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Introduction" href="introduction.html" />
-    <link rel="prev" title="Lattice" href="../lattice.html" /> 
+    <link rel="next" title="简介" href="introduction.html" />
+    <link rel="prev" title="晶格" href="../lattice.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,89 +110,89 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Animation &amp; Rigging</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../introduction.html">Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../keyframes/index.html">Keyframes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../armatures/index.html">Armatures</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../lattice.html">Lattice</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Constraints</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="introduction.html">Introduction</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#interface">Interface</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="interface/adding_removing.html">Adding/Removing a Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="interface/header.html">Header</a></li>
-<li class="toctree-l4"><a class="reference internal" href="interface/common.html">Common</a></li>
-<li class="toctree-l4"><a class="reference internal" href="interface/stack.html">Stack</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">动画 &amp; 绑定</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../introduction.html">简介</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../keyframes/index.html">关键帧</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../armatures/index.html">骨架</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lattice.html">晶格</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">约束</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="introduction.html">简介</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#interface">界面</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="interface/adding_removing.html">添加/移除约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="interface/header.html">Header 标题栏</a></li>
+<li class="toctree-l4"><a class="reference internal" href="interface/common.html">Common 常用选项</a></li>
+<li class="toctree-l4"><a class="reference internal" href="interface/stack.html">堆栈</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#motion-tracking">Motion Tracking</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="motion_tracking/camera_solver.html">Camera Solver Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="motion_tracking/object_solver.html">Object Solver Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="motion_tracking/follow_track.html">Follow Track Constraint</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#motion-tracking">运动追踪</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="motion_tracking/camera_solver.html">Camera Solver Constraint 相机解算</a></li>
+<li class="toctree-l4"><a class="reference internal" href="motion_tracking/object_solver.html">Object Solver Constraint 物体解算</a></li>
+<li class="toctree-l4"><a class="reference internal" href="motion_tracking/follow_track.html">Follow Track Constraint 跟踪轨迹</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#transform">Transform</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="transform/copy_location.html">Copy Location Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="transform/copy_rotation.html">Copy Rotation Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="transform/copy_scale.html">Copy Scale Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="transform/copy_transforms.html">Copy Transforms Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="transform/limit_distance.html">Limit Distance Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="transform/limit_location.html">Limit Location Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="transform/limit_rotation.html">Limit Rotation Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="transform/limit_scale.html">Limit Scale Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="transform/maintain_volume.html">Maintain Volume Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="transform/transformation.html">Transformation Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="transform/transform_cache.html">Transform Cache Constraint</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#transform">变换</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="transform/copy_location.html">Copy Location Constraint 复制位置约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="transform/copy_rotation.html">Copy Rotation Constraint 复制旋转约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="transform/copy_scale.html">Copy Scale Constraint 复制缩放约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="transform/copy_transforms.html">复制变换约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="transform/limit_distance.html">Limit Distance Constraint 限定距离约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="transform/limit_location.html">Limit Location Constraint 限定位置约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="transform/limit_rotation.html">Limit Rotation Constraint 限定旋转约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="transform/limit_scale.html">Limit Scale Constraint 限定缩放约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="transform/maintain_volume.html">Maintain Volume Constraint 维持体积约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="transform/transformation.html">Transformation Constraint 自设变换约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="transform/transform_cache.html">Transform Cache Constraint 变换缓存约束</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#tracking">Tracking</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="tracking/clamp_to.html">Clamp To Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tracking/damped_track.html">Damped Track Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tracking/ik_solver.html">IK Solver Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tracking/locked_track.html">Locked Track Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tracking/spline_ik.html">Spline IK Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tracking/stretch_to.html">Stretch To Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tracking/track_to.html">Track To Constraint</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tracking">跟踪</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="tracking/clamp_to.html">Clamp To Constraint 钳制到约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="tracking/damped_track.html">Damped Track Constraint  阻尼跟踪约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="tracking/ik_solver.html">IK Solver Constraint 反向运动学约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="tracking/locked_track.html">Locked Track Constraint 锁定跟踪约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="tracking/spline_ik.html">Spline IK Constraint  样条线IK约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="tracking/stretch_to.html">Stretch To Constraint 拉伸至约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="tracking/track_to.html">Track To Constraint 标准跟踪约束</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#relationship">Relationship</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="relationship/action.html">Action Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="relationship/armature.html">Armature Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="relationship/child_of.html">Child Of Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="relationship/floor.html">Floor Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="relationship/follow_path.html">Follow Path Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="relationship/pivot.html">Pivot Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="relationship/shrinkwrap.html">Shrinkwrap Constraint</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#relationship">关系</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="relationship/action.html">Action Constraint  动作关系约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="relationship/armature.html">骨架约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="relationship/child_of.html">Child Of Constraint 子级约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="relationship/floor.html">Floor Constraint 基面约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="relationship/follow_path.html">Follow Path Constraint 跟随路径约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="relationship/pivot.html">Pivot Constraint 轴心约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="relationship/shrinkwrap.html">Shrinkwrap Constraint 缩裹约束</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../actions.html">Actions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../drivers/index.html">Drivers</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../markers.html">Markers</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../shape_keys/index.html">Shape Keys</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../motion_paths.html">Motion Paths</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../actions.html">动作</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../drivers/index.html">驱动器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../markers.html">标记</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../shape_keys/index.html">形态键</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../motion_paths.html">运动路径</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../render/index.html">Rendering</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../render/index.html">渲染</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -238,13 +238,13 @@
     
       <li><a href="../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../index.html">Animation &amp; Rigging</a> &raquo;</li>
+          <li><a href="../index.html">动画 &amp; 绑定</a> &raquo;</li>
         
-      <li>Constraints</li>
+      <li>约束</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/animation/constraints/index.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/animation/constraints/index.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -255,79 +255,79 @@
            <div itemprop="articleBody">
             
   <div class="section" id="constraints">
-<span id="bpy-ops-constraint"></span><span id="bpy-types-constraint"></span><span id="constraints-index"></span><h1>Constraints<a class="headerlink" href="#constraints" title="Permalink to this headline">¶</a></h1>
+<span id="bpy-ops-constraint"></span><span id="bpy-types-constraint"></span><span id="constraints-index"></span><h1>约束<a class="headerlink" href="#constraints" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="introduction.html#tips">Tips</a></li>
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">简介</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="introduction.html#tips">Tips 小贴士</a></li>
 </ul>
 </li>
 </ul>
 </div>
 <div class="section" id="interface">
-<h2>Interface<a class="headerlink" href="#interface" title="Permalink to this headline">¶</a></h2>
+<h2>界面<a class="headerlink" href="#interface" title="Permalink to this headline">¶</a></h2>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="interface/adding_removing.html">Adding/Removing a Constraint</a></li>
-<li class="toctree-l1"><a class="reference internal" href="interface/header.html">Header</a></li>
-<li class="toctree-l1"><a class="reference internal" href="interface/common.html">Common</a></li>
-<li class="toctree-l1"><a class="reference internal" href="interface/stack.html">Stack</a></li>
+<li class="toctree-l1"><a class="reference internal" href="interface/adding_removing.html">添加/移除约束</a></li>
+<li class="toctree-l1"><a class="reference internal" href="interface/header.html">Header 标题栏</a></li>
+<li class="toctree-l1"><a class="reference internal" href="interface/common.html">Common 常用选项</a></li>
+<li class="toctree-l1"><a class="reference internal" href="interface/stack.html">堆栈</a></li>
 </ul>
 </div>
 </div>
 <div class="section" id="motion-tracking">
-<h2>Motion Tracking<a class="headerlink" href="#motion-tracking" title="Permalink to this headline">¶</a></h2>
+<h2>运动追踪<a class="headerlink" href="#motion-tracking" title="Permalink to this headline">¶</a></h2>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="motion_tracking/camera_solver.html">Camera Solver Constraint</a></li>
-<li class="toctree-l1"><a class="reference internal" href="motion_tracking/object_solver.html">Object Solver Constraint</a></li>
-<li class="toctree-l1"><a class="reference internal" href="motion_tracking/follow_track.html">Follow Track Constraint</a></li>
+<li class="toctree-l1"><a class="reference internal" href="motion_tracking/camera_solver.html">Camera Solver Constraint 相机解算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="motion_tracking/object_solver.html">Object Solver Constraint 物体解算</a></li>
+<li class="toctree-l1"><a class="reference internal" href="motion_tracking/follow_track.html">Follow Track Constraint 跟踪轨迹</a></li>
 </ul>
 </div>
 </div>
 <div class="section" id="transform">
-<h2>Transform<a class="headerlink" href="#transform" title="Permalink to this headline">¶</a></h2>
+<h2>变换<a class="headerlink" href="#transform" title="Permalink to this headline">¶</a></h2>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="transform/copy_location.html">Copy Location Constraint</a></li>
-<li class="toctree-l1"><a class="reference internal" href="transform/copy_rotation.html">Copy Rotation Constraint</a></li>
-<li class="toctree-l1"><a class="reference internal" href="transform/copy_scale.html">Copy Scale Constraint</a></li>
-<li class="toctree-l1"><a class="reference internal" href="transform/copy_transforms.html">Copy Transforms Constraint</a></li>
-<li class="toctree-l1"><a class="reference internal" href="transform/limit_distance.html">Limit Distance Constraint</a></li>
-<li class="toctree-l1"><a class="reference internal" href="transform/limit_location.html">Limit Location Constraint</a></li>
-<li class="toctree-l1"><a class="reference internal" href="transform/limit_rotation.html">Limit Rotation Constraint</a></li>
-<li class="toctree-l1"><a class="reference internal" href="transform/limit_scale.html">Limit Scale Constraint</a></li>
-<li class="toctree-l1"><a class="reference internal" href="transform/maintain_volume.html">Maintain Volume Constraint</a></li>
-<li class="toctree-l1"><a class="reference internal" href="transform/transformation.html">Transformation Constraint</a></li>
-<li class="toctree-l1"><a class="reference internal" href="transform/transform_cache.html">Transform Cache Constraint</a></li>
+<li class="toctree-l1"><a class="reference internal" href="transform/copy_location.html">Copy Location Constraint 复制位置约束</a></li>
+<li class="toctree-l1"><a class="reference internal" href="transform/copy_rotation.html">Copy Rotation Constraint 复制旋转约束</a></li>
+<li class="toctree-l1"><a class="reference internal" href="transform/copy_scale.html">Copy Scale Constraint 复制缩放约束</a></li>
+<li class="toctree-l1"><a class="reference internal" href="transform/copy_transforms.html">复制变换约束</a></li>
+<li class="toctree-l1"><a class="reference internal" href="transform/limit_distance.html">Limit Distance Constraint 限定距离约束</a></li>
+<li class="toctree-l1"><a class="reference internal" href="transform/limit_location.html">Limit Location Constraint 限定位置约束</a></li>
+<li class="toctree-l1"><a class="reference internal" href="transform/limit_rotation.html">Limit Rotation Constraint 限定旋转约束</a></li>
+<li class="toctree-l1"><a class="reference internal" href="transform/limit_scale.html">Limit Scale Constraint 限定缩放约束</a></li>
+<li class="toctree-l1"><a class="reference internal" href="transform/maintain_volume.html">Maintain Volume Constraint 维持体积约束</a></li>
+<li class="toctree-l1"><a class="reference internal" href="transform/transformation.html">Transformation Constraint 自设变换约束</a></li>
+<li class="toctree-l1"><a class="reference internal" href="transform/transform_cache.html">Transform Cache Constraint 变换缓存约束</a></li>
 </ul>
 </div>
 </div>
 <div class="section" id="tracking">
-<h2>Tracking<a class="headerlink" href="#tracking" title="Permalink to this headline">¶</a></h2>
+<h2>跟踪<a class="headerlink" href="#tracking" title="Permalink to this headline">¶</a></h2>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="tracking/clamp_to.html">Clamp To Constraint</a></li>
-<li class="toctree-l1"><a class="reference internal" href="tracking/damped_track.html">Damped Track Constraint</a></li>
-<li class="toctree-l1"><a class="reference internal" href="tracking/ik_solver.html">IK Solver Constraint</a></li>
-<li class="toctree-l1"><a class="reference internal" href="tracking/locked_track.html">Locked Track Constraint</a></li>
-<li class="toctree-l1"><a class="reference internal" href="tracking/spline_ik.html">Spline IK Constraint</a></li>
-<li class="toctree-l1"><a class="reference internal" href="tracking/stretch_to.html">Stretch To Constraint</a></li>
-<li class="toctree-l1"><a class="reference internal" href="tracking/track_to.html">Track To Constraint</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tracking/clamp_to.html">Clamp To Constraint 钳制到约束</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tracking/damped_track.html">Damped Track Constraint  阻尼跟踪约束</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tracking/ik_solver.html">IK Solver Constraint 反向运动学约束</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tracking/locked_track.html">Locked Track Constraint 锁定跟踪约束</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tracking/spline_ik.html">Spline IK Constraint  样条线IK约束</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tracking/stretch_to.html">Stretch To Constraint 拉伸至约束</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tracking/track_to.html">Track To Constraint 标准跟踪约束</a></li>
 </ul>
 </div>
 </div>
 <div class="section" id="relationship">
-<h2>Relationship<a class="headerlink" href="#relationship" title="Permalink to this headline">¶</a></h2>
+<h2>关系<a class="headerlink" href="#relationship" title="Permalink to this headline">¶</a></h2>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="relationship/action.html">Action Constraint</a></li>
-<li class="toctree-l1"><a class="reference internal" href="relationship/armature.html">Armature Constraint</a></li>
-<li class="toctree-l1"><a class="reference internal" href="relationship/child_of.html">Child Of Constraint</a></li>
-<li class="toctree-l1"><a class="reference internal" href="relationship/floor.html">Floor Constraint</a></li>
-<li class="toctree-l1"><a class="reference internal" href="relationship/follow_path.html">Follow Path Constraint</a></li>
-<li class="toctree-l1"><a class="reference internal" href="relationship/pivot.html">Pivot Constraint</a></li>
-<li class="toctree-l1"><a class="reference internal" href="relationship/shrinkwrap.html">Shrinkwrap Constraint</a></li>
+<li class="toctree-l1"><a class="reference internal" href="relationship/action.html">Action Constraint  动作关系约束</a></li>
+<li class="toctree-l1"><a class="reference internal" href="relationship/armature.html">骨架约束</a></li>
+<li class="toctree-l1"><a class="reference internal" href="relationship/child_of.html">Child Of Constraint 子级约束</a></li>
+<li class="toctree-l1"><a class="reference internal" href="relationship/floor.html">Floor Constraint 基面约束</a></li>
+<li class="toctree-l1"><a class="reference internal" href="relationship/follow_path.html">Follow Path Constraint 跟随路径约束</a></li>
+<li class="toctree-l1"><a class="reference internal" href="relationship/pivot.html">Pivot Constraint 轴心约束</a></li>
+<li class="toctree-l1"><a class="reference internal" href="relationship/shrinkwrap.html">Shrinkwrap Constraint 缩裹约束</a></li>
 </ul>
 </div>
 </div>
@@ -341,10 +341,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="introduction.html" class="btn btn-neutral float-right" title="Introduction" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="introduction.html" class="btn btn-neutral float-right" title="简介" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="../lattice.html" class="btn btn-neutral float-left" title="Lattice" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="../lattice.html" class="btn btn-neutral float-left" title="晶格" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -378,7 +378,7 @@
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Keying Node &mdash; Blender Manual</title>
+  <title>抠像节点 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Keying Screen Node" href="keying_screen.html" />
-    <link rel="prev" title="Ellipse Mask Node" href="ellipse_mask.html" /> 
+    <link rel="next" title="屏幕抠像节点" href="keying_screen.html" />
+    <link rel="prev" title="椭圆遮罩节点" href="ellipse_mask.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,59 +110,59 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">Rendering</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Compositing</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../properties.html">Properties</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="../../index.html#node-types">Node Types</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="../input/index.html">Input Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../output/index.html">Output Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../color/index.html">Color Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../converter/index.html">Converter Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../filter/index.html">Filter Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../vector/index.html">Vector Nodes</a></li>
-<li class="toctree-l3 current"><a class="reference internal" href="index.html">Matte Nodes</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="box_mask.html">Box Mask Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="channel_key.html">Channel Key Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="chroma_key.html">Chroma Key Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="color_key.html">Color Key Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="color_spill.html">Color Spill Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="cryptomatte.html">Cryptomatte</a></li>
-<li class="toctree-l4"><a class="reference internal" href="difference_key.html">Difference Key Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="distance_key.html">Distance Key Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="double_edge_mask.html">Double Edge Mask Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="ellipse_mask.html">Ellipse Mask Node</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">Keying Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="keying_screen.html">Keying Screen Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="luminance_key.html">Luminance Key Node</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">渲染</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">合成</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">简介</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../properties.html">属性</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../index.html#node-types">节点类型</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../input/index.html">输入类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../output/index.html">输出类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../color/index.html">颜色类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../converter/index.html">转换器类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../filter/index.html">滤镜(过滤)节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../vector/index.html">矢量类节点</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="index.html">蒙版类节点</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="box_mask.html">方形遮罩节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="channel_key.html">通道抠像节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="chroma_key.html">色度抠像节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="color_key.html">色彩抠像节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="color_spill.html">色彩溢出节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="cryptomatte.html">Cryptomatte节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="difference_key.html">色差抠像节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="distance_key.html">色距抠像节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="double_edge_mask.html">双边遮罩节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ellipse_mask.html">椭圆遮罩节点</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">抠像节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="keying_screen.html">屏幕抠像节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="luminance_key.html">亮度抠像节点</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../distort/index.html">Distort Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../groups.html">Node Groups</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../layout/index.html">Layout Nodes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../distort/index.html">畸变类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../groups.html">节点组</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../layout/index.html">布局类节点</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -208,17 +208,17 @@
     
       <li><a href="../../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../../../editors/index.html">Editors</a> &raquo;</li>
+          <li><a href="../../../editors/index.html">编辑器</a> &raquo;</li>
         
-          <li><a href="../../index.html">Compositing</a> &raquo;</li>
+          <li><a href="../../index.html">合成</a> &raquo;</li>
         
-          <li><a href="index.html">Matte Nodes</a> &raquo;</li>
+          <li><a href="index.html">蒙版类节点</a> &raquo;</li>
         
-      <li>Keying Node</li>
+      <li>抠像节点</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/compositing/types/matte/keying.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/compositing/types/matte/keying.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -229,108 +229,73 @@
            <div itemprop="articleBody">
             
   <div class="section" id="keying-node">
-<span id="bpy-types-compositornodekeying"></span><h1>Keying Node<a class="headerlink" href="#keying-node" title="Permalink to this headline">¶</a></h1>
+<span id="bpy-types-compositornodekeying"></span><h1>抠像节点<a class="headerlink" href="#keying-node" title="Permalink to this headline">¶</a></h1>
 <div class="figure align-right" id="id1">
 <img alt="../../../_images/compositing_node-types_CompositorNodeKeying.png" src="../../../_images/compositing_node-types_CompositorNodeKeying.png" />
-<p class="caption"><span class="caption-text">Keying Node.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">抠像节点。</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
-<p>The <em>Keying</em> node is a one-stop-shop for “green screen” / “blue screen” removal.
-It performs both chroma keying to remove the backdrop and despill to correct color cast from the backdrop.
-Additionally, you can perform common operations used to tweak the resulting matte.</p>
+<p><em>抠像</em> 节点对于绿屏/蓝屏去背是一站式解决方案。它结合了色度抠像移除背景和色彩溢出去校正前景物体表面从背景中吸收的颜色信息。另外，用户可以对生成的遮片进行一些常规操作。</p>
 <div class="section" id="inputs">
-<h2>Inputs<a class="headerlink" href="#inputs" title="Permalink to this headline">¶</a></h2>
+<h2>输入<a class="headerlink" href="#inputs" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>Image</dt><dd><p>Standard image input.</p>
+<dt>图像</dt><dd><p>标准化图像输入。</p>
 </dd>
-<dt>Key Color</dt><dd><p>The color of content to be removed. This may be a single color,
-or a reference image such as generated by
-the <a class="reference internal" href="keying_screen.html"><span class="doc">Keying Screen Node</span></a>.</p>
+<dt>关键色彩</dt><dd><p>打算移除的颜色部分。可以是单一颜色，或者是由 <a class="reference internal" href="keying_screen.html"><span class="doc">屏幕抠像节点</span></a> 生成的参考图像。</p>
 </dd>
-<dt>Garbage Matte</dt><dd><p>An optional mask of area(s) to always <em>exclude</em> from the output.
-This is removed from the chroma key generated matte.</p>
+<dt>垃圾遮片</dt><dd><p>被遮住的区域会在输出时 <em>移除</em> 此部分。比如从色度抠像生成的遮片中移除不需要的部分。</p>
 </dd>
-<dt>Core Matte</dt><dd><p>An optional mask of area(s) to always <em>include</em> in the output.
-This is merged with the chroma key generated matte.</p>
+<dt>核心遮片</dt><dd><p>被遮住的区域会在输出时 <em>包含</em> 此部分。比如从色度抠像生成的遮片中移除不需要的部分。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="properties">
-<h2>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
+<h2>属性<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
 <dl>
-<dt>Pre Blur</dt><dd><p>Reduce the effects of color noise in the image by blurring only color by the given amount,
-leaving luminosity intact. This will affect matte calculation only, not the result image.</p>
+<dt>预模糊</dt><dd><p>在不损失颜色亮度的前提下，用给定的数值模糊要处理的颜色以达到减少颜色杂质的效果。此操作只对计算遮片有效果，不会对图像本身进行颜色破坏。</p>
 </dd>
-<dt>Screen Balance</dt><dd><p>This is the balance between color channels compared with the key color.
-0.5 will average the other channels (red and blue in the case of a green screen).</p>
-<p>This may be tweaked in tandem with <em>Clip Black</em> and <em>Clip White</em> while
-checking the <em>Matte</em> output to create a mask with optimal separation.</p>
+<dt>屏幕平衡</dt><dd><p>在颜色通道和关键颜色之间比较平衡。取值0.5会平均化其他的颜色通道(在绿屏中指的是红色通道和蓝色通道)。</p>
+<p>稍微调整*限制黑色* 和 <em>限制白色</em> 将检查 <em>遮片</em> 将输出为最优的遮片分离效果。</p>
 </dd>
-<dt>Despill Factor</dt><dd><p>Controls how much color bleed from the key color is removed from the input
-image: 0 means no despilling, 1 means all possible spilling will be removed.
-The underlying implementation is the same as adjusting the <em>Unspill</em> amount
-of the <a class="reference internal" href="color_spill.html"><span class="doc">Color Spill Node</span></a>.</p>
+<dt>非溢出系数</dt><dd><p>用于控制和关键颜色差距多大的颜色进行溢出移除处理：0则无溢出，1意味所有可能颜色均作为溢出被移除。通常处理色彩溢出的方法是调节 <a class="reference internal" href="color_spill.html"><span class="doc">色彩溢出节点</span></a> 的 <em>非溢出</em> 值。</p>
 </dd>
-<dt>Despill Balance</dt><dd><p>This controls how the color channels are compared when computing spill,
-affecting the hue and shade of the corrected colors.
-It is similar to setting the <em>Limiting Channel</em>
-in the <a class="reference internal" href="color_spill.html"><span class="doc">Color Spill Node</span></a>.</p>
+<dt>非溢出平衡</dt><dd><p>此参数用于控制在计算颜色溢出时，多少颜色通道被进行比较，将影响校正颜色的色相和阴影。和此项参数相似的还有 <a class="reference internal" href="color_spill.html"><span class="doc">色彩溢出节点</span></a> 中的 <em>Limiting Channel</em> 参数。</p>
 </dd>
-<dt>Edge Kernel Radius</dt><dd><p>Defines the radius in pixel used to detect an edge.</p>
+<dt>边缘核心半径</dt><dd><p>定义查找边缘的像素半径。</p>
 </dd>
-<dt>Edge Kernel Tolerance</dt><dd><p>Defines threshold used to check if pixels in radius are the same as current pixel:
-if the difference between pixel colors is higher than this threshold then the point
-will be considered an edge.</p>
+<dt>边缘核心容差</dt><dd><p>用于检测半径范围内的像素是否与当前像素相同的阈值。当像素颜色值之间的差异高于该阈值将被认定为边缘。</p>
 </dd>
-<dt>Clip Black</dt><dd><p>This sets the threshold for what becomes fully transparent in the output (black in the matte).
-It should be set as low as possible. Uneven backdrops will require this value to be increased.
-Use of the <a class="reference internal" href="keying_screen.html"><span class="doc">Keying Screen Node</span></a> can help
-keep this value low. You may also use a <em>Garbage Matte</em> to exclude problematic areas.</p>
-<p>This value does not impact areas detected as edges to ensure edge detail is preserved.</p>
+<dt>限制黑色</dt><dd><p>此参数设置在输出中哪些部分将成为完全透明(遮片中的黑色部分)。对一些背景边缘不平整的可以加大这个参数。使用  <a class="reference internal" href="keying_screen.html"><span class="doc">屏幕抠像节点</span></a> 将帮助此值处于低数值区间。用户可以使用 <em>垃圾遮片</em> 来排除有问题的区域。</p>
+<p>此值不影响那些被探测到的边缘区域以确保边缘细节被保留。</p>
 </dd>
-<dt>Clip White</dt><dd><p>This sets the threshold for what becomes fully opaque in the output (white in the matte).
-It should be set as high as possible. Colors close to green in the foreground
-may require reducing this value and/or adjusting the <em>Screen Balance</em>.
-Particularly problematic parts can fixed with a <em>Core Matte</em> instead of a low <em>Clip White</em>.</p>
-<p>This value does not impact areas detected as edges to ensure edge detail is preserved.</p>
+<dt>亮调</dt><dd><p>此参数用户设置在输出中哪些部分将成为完全不透明(遮片中的白色部分)。此值应尽量调高其数值。对于和绿屏背景相近的前景色应调低这个数值或者调节 <em>屏幕平衡</em> 。某些有问题的区域可以通过调节 <em>核心遮片</em> 代替 设置较低数值的 <em>亮调</em> 参数。</p>
+<p>此值不影响那些被探测到的边缘区域以确保边缘细节被保留。</p>
 </dd>
-<dt>Dilate/Erode</dt><dd><p>Enlarge (positive numbers) or shrink (negative numbers) the matte by the specified number of pixels.
-This is similar to using the <a class="reference internal" href="../filter/dilate_erode.html"><span class="doc">Dilate/Erode Node</span></a> on the matte.</p>
-<p>This a simple way to include more or less along the edges of the matte, particularly combined with <em>Post Blur</em>.</p>
+<dt>膨胀/腐蚀</dt><dd><p>通过指定像素值来增加(正值)或减小(负值)遮片。这和在遮片上使用 <a class="reference internal" href="../filter/dilate_erode.html"><span class="doc">膨胀/侵蚀节点</span></a> 相似。</p>
+<p>此参数对包含一些遮片边缘的信息，特别是合并了的 <em>后置模糊</em> 信息。</p>
 </dd>
-<dt>Feather Falloff</dt><dd><p>The rate of the falloff at the edges of the matte when feathering, to manage edge detail.</p>
+<dt>羽化衰减</dt><dd><p>设置当羽化时，遮片边缘的衰减率，间接的处理了边缘的细节。</p>
 </dd>
-<dt>Feather Distance</dt><dd><p>Controls how much the matte is feathered inwards (negative number) or outwards (positive number).</p>
+<dt>羽化距离</dt><dd><p>控制向内(负值)或向外(正值)的羽化程度。</p>
 </dd>
-<dt>Post Blur</dt><dd><p>Make the matte less sharp, for smoother transitions to the background and noise reduction.</p>
+<dt>后置模糊</dt><dd><p>降低遮片的锐利程度，平滑背景颜色并减少杂点。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="outputs">
-<h2>Outputs<a class="headerlink" href="#outputs" title="Permalink to this headline">¶</a></h2>
+<h2>输出<a class="headerlink" href="#outputs" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>Image</dt><dd><p>Processed image with the <em>Matte</em> applied to the images’ <a class="reference internal" href="../../../glossary/index.html#term-alpha-channel"><span class="xref std std-term">alpha channel</span></a>.</p>
+<dt>图像</dt><dd><p>将 <em>遮片</em> 应用到图像的 <a class="reference internal" href="../../../glossary/index.html#term-alpha-channel"><span class="xref std std-term">Alpha通道</span></a> 的处理过的图像。</p>
 </dd>
-<dt>Matte</dt><dd><p>Output matte to use for checking the quality of the key, or to manually apply
-using a <a class="reference internal" href="../converter/set_alpha.html"><span class="doc">Set Alpha Node</span></a> or
-<a class="reference internal" href="../color/mix.html"><span class="doc">Mix Node</span></a>.</p>
+<dt>遮片</dt><dd><p>输出遮片供下游节点使用以查看遮片生成的好坏，或者手动添加 <a class="reference internal" href="../converter/set_alpha.html"><span class="doc">设置Alpha节点</span></a> 或 <a class="reference internal" href="../color/mix.html"><span class="doc">混合节点</span></a>。</p>
 </dd>
-<dt>Edges</dt><dd><p>Shows what edges were detected on the matte.
-Useful for adjusting the <em>Edge Kernel Radius</em> and <em>Edge Kernel Tolerance</em>.</p>
+<dt>边</dt><dd><p>显示遮片上哪些边将被探测到。调节 <em>边缘核心半径</em> and <em>边缘核心容差</em> 将是有效的方法。</p>
 </dd>
 </dl>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
-<p>If there are problems with the edges of the matte, it may help to start with
-adjusting the <em>Edge Kernel</em> parameters before adjusting feathering.
-Detected edges are not subject to <em>Clip Black</em> / <em>Clip White</em> thresholds
-to preserve fine edge detail. You can check edge detection by connecting
-a <a class="reference internal" href="../output/viewer.html"><span class="doc">Viewer Node</span></a> to the <em>Edges</em> output.</p>
-<p>Sharper detected edges (smaller <em>Edge Kernel Radius</em>, like 2 / larger <em>Edge Kernel Tolerance</em>, like 0.4)
-will create a sharper matte, but may loose some detail like stray hairs.
-A sharp matte is good, but disappearing or flickering hairs are distracting.</p>
-<p>Fat edges (larger <em>Edge Kernel Radius</em>, like 8 / smaller <em>Edge Kernel Tolerance</em>, like 0.05)
-will capture more edge detail, but may also produce a halo around the subject.
-The halo can be adjusted with <em>Feather</em> controls along with <em>Dilate/Erode</em>.</p>
+<p>若遮片的边缘有问题，在设置羽化效果之前调节 <em>边缘核心</em> 参数会有所帮助。探测边缘将不受 <em>限制黑色</em>/<em>亮调</em> 扩展影响以保持一个好的边缘细节。通过将 <a class="reference internal" href="../output/viewer.html"><span class="doc">预览器节点</span></a> 连接到 <em>Edges</em> 的输出端口上可以检测遮片边缘的情况。</p>
+<p>锐化遮片边缘(调小 <em>核心边缘半径</em> 值，比如2 / 增大 <em>边缘核心容差</em> ，比如0.4 )将会使遮片边缘更加锐利，但会丢失像散乱头发的模糊细节。一个锐利的遮片边缘是好的，但是消失或忽隐忽现的头发会让人心烦意乱。</p>
+<p>平坦的边缘(增大 <em>边缘核心半径</em>， 比如 8 / 减小 <em>边缘核容差</em>, like 0.05)</p>
 </div>
 </div>
 </div>
@@ -343,10 +308,10 @@ The halo can be adjusted with <em>Feather</em> controls along with <em>Dilate/Er
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="keying_screen.html" class="btn btn-neutral float-right" title="Keying Screen Node" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="keying_screen.html" class="btn btn-neutral float-right" title="屏幕抠像节点" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="ellipse_mask.html" class="btn btn-neutral float-left" title="Ellipse Mask Node" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="ellipse_mask.html" class="btn btn-neutral float-left" title="椭圆遮罩节点" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -380,7 +345,7 @@ The halo can be adjusted with <em>Feather</em> controls along with <em>Dilate/Er
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>UV Warp Modifier &mdash; Blender Manual</title>
+  <title>UV偏移修改器 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Vertex Weight Edit Modifier" href="weight_edit.html" />
-    <link rel="prev" title="UV Project Modifier" href="uv_project.html" /> 
+    <link rel="next" title="顶点权重编辑修改器" href="weight_edit.html" />
+    <link rel="prev" title="UV 投射修改器" href="uv_project.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,57 +110,57 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Modeling</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../meshes/index.html">Meshes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../curves/index.html">Curves</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../surfaces/index.html">Surfaces</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../metas/index.html">Metaball</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../texts/index.html">Text</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../empties.html">Empties</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="../index.html">Modifiers</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="../introduction.html">Introduction</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../common_options.html">Common Modifier Options</a></li>
-<li class="toctree-l3 current"><a class="reference internal" href="../index.html#modify">Modify</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="data_transfer.html">Data Transfer Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="mesh_cache.html">Mesh Cache Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="mesh_sequence_cache.html">Mesh Sequence Cache Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="normal_edit.html">Normal Edit Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="uv_project.html">UV Project Modifier</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">UV Warp Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="weight_edit.html">Vertex Weight Edit Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="weight_mix.html">Vertex Weight Mix Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="weight_proximity.html">Vertex Weight Proximity Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="weighted_normal.html">Weighted Normal Modifier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">制作模型</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">简介</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../meshes/index.html">网格</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../curves/index.html">曲线</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../surfaces/index.html">曲面</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../metas/index.html">融球</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../texts/index.html">文本物体</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../empties.html">空物体</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html">修改器</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../introduction.html">简介</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../common_options.html">常见的修改器选项</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../index.html#modify">修改</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="data_transfer.html">数据传递修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="mesh_cache.html">网格缓存修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="mesh_sequence_cache.html">网格序列缓存修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="normal_edit.html">法线编辑修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="uv_project.html">UV 投射修改器</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">UV偏移修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="weight_edit.html">顶点权重编辑修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="weight_mix.html">顶点权重混合修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="weight_proximity.html">顶点权重邻近修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="weighted_normal.html">加权法向修改器</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../index.html#generate">Generate</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../index.html#deform">Deform</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../index.html#simulate">Simulate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../index.html#generate">生成</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../index.html#deform">形变</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../index.html#simulate">模拟</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">Rendering</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">渲染</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -206,15 +206,15 @@
     
       <li><a href="../../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../../index.html">Modeling</a> &raquo;</li>
+          <li><a href="../../index.html">制作模型</a> &raquo;</li>
         
-          <li><a href="../index.html">Modifiers</a> &raquo;</li>
+          <li><a href="../index.html">修改器</a> &raquo;</li>
         
-      <li>UV Warp Modifier</li>
+      <li>UV偏移修改器</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/modeling/modifiers/modify/uv_warp.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/modeling/modifiers/modify/uv_warp.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -225,38 +225,32 @@
            <div itemprop="articleBody">
             
   <div class="section" id="uv-warp-modifier">
-<span id="bpy-types-uvwarpmodifier"></span><h1>UV Warp Modifier<a class="headerlink" href="#uv-warp-modifier" title="Permalink to this headline">¶</a></h1>
-<p>The <em>UV Warp</em> modifier uses two objects to define a transformation which is applied to the chosen UV map.</p>
-<p>Its purpose is to give you direct control over the object’s UVs in the 3D View,
-allowing you to directly move, rotate and scale existing UV coordinates using controller objects or bones.</p>
+<span id="bpy-types-uvwarpmodifier"></span><h1>UV偏移修改器<a class="headerlink" href="#uv-warp-modifier" title="Permalink to this headline">¶</a></h1>
+<p><em>UV 偏移</em> 修改器使用两个物体来定义应用于所选UV坐标的变换。</p>
+<p>它的目的是让你在3D视图中直接控制对象的UV，允许你使用控制器对象或骨骼直接移动、旋转和缩放现有的UV坐标。</p>
 <div class="section" id="options">
-<h2>Options<a class="headerlink" href="#options" title="Permalink to this headline">¶</a></h2>
+<h2>选项<a class="headerlink" href="#options" title="Permalink to this headline">¶</a></h2>
 <div class="figure align-right">
 <img alt="../../../_images/modeling_modifiers_modify_uv-warp_panel.png" src="../../../_images/modeling_modifiers_modify_uv-warp_panel.png" />
 </div>
 <dl class="simple">
-<dt>UV Center</dt><dd><p>The center point of the UV map to use when applying scale or rotation.
-With (0, 0) at the bottom left and (1, 1) at the top right. Defaults to (0.5, 0.5).</p>
+<dt>UV 中心</dt><dd><p>应用缩放或旋转时要使用的UV贴图的中心点。 左下角为(0,0)，右上角为(1,1)。 默认为(0.5,0.5)。</p>
 </dd>
-<dt>UV Axis</dt><dd><p>The axes to use when mapping the 3D coordinates into 2D.</p>
+<dt>UV轴向</dt><dd><p>映射3D坐标到2D坐标所用的轴。</p>
 </dd>
-<dt>From, To</dt><dd><p>The two objects used to define the transformation. See <a class="reference internal" href="#usage">Usage</a> below.</p>
+<dt>从,至</dt><dd><p>用来定义变换的两个物体。见下面的 <a class="reference internal" href="#usage">使用</a>。</p>
 </dd>
-<dt>Vertex Group</dt><dd><p>The vertex group can be used to scale the influence of the transformation per vertex.</p>
+<dt>顶点组</dt><dd><p>顶点组可以用来缩放每个顶点的变换的影响程度。</p>
 </dd>
-<dt>UV Map</dt><dd><p>Which UV map to modify.
-Defaults to the active rendering layer.</p>
+<dt>UV 贴图</dt><dd><p>要修改的 UV贴图。 默认为激活的渲染层。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="usage">
-<h2>Usage<a class="headerlink" href="#usage" title="Permalink to this headline">¶</a></h2>
-<p>How the UVs are warped is determined by the difference between the transforms (location, rotation and scale)
-of the <em>from</em> and <em>to</em> objects.</p>
-<p>If the <em>to</em> object has the same transforms as the <em>from</em> object, the UVs will not be changed.</p>
-<p>Assuming the <em>UV Axis</em> of the modifier is X/Y and the scale of the objects is (1, 1, 1), if the <em>to</em> object is
-one unit away from the <em>from</em> object on the X axis, the UVs will be transformed on the U axis (horizontally)
-by one full UV space (the entire width of the image).</p>
+<h2>使用<a class="headerlink" href="#usage" title="Permalink to this headline">¶</a></h2>
+<p>UV偏移的方式取决于 <em>从</em> 和 <em>至</em> 物体的变换(位置，旋转和缩放)之间的差异。</p>
+<p>如果 <em>至</em> 物体与 <em>从</em> 物体有一样的变换，则UV不会发生改变。</p>
+<p>假设修改器的 <em>UV轴</em> 为X/Y轴且对象的缩放系数为(1,1,1)，如果 <em>到</em> 物体与X轴上的 <em>从</em> 物体相距一个单位，则 UV将在U轴(水平)上平移一个完整的UV空间(图像的整个宽度)。</p>
 </div>
 </div>
 
@@ -268,10 +262,10 @@ by one full UV space (the entire width of the image).</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="weight_edit.html" class="btn btn-neutral float-right" title="Vertex Weight Edit Modifier" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="weight_edit.html" class="btn btn-neutral float-right" title="顶点权重编辑修改器" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="uv_project.html" class="btn btn-neutral float-left" title="UV Project Modifier" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="uv_project.html" class="btn btn-neutral float-left" title="UV 投射修改器" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -305,7 +299,7 @@ by one full UV space (the entire width of the image).</p>
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

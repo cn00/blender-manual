@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Vector Math Node &mdash; Blender Manual</title>
+  <title>矢量运算节点 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Wavelength Node" href="wavelength.html" />
-    <link rel="prev" title="Shader To RGB" href="shader_to_rgb.html" /> 
+    <link rel="next" title="波长着色器节点" href="wavelength.html" />
+    <link rel="prev" title="Shader --&gt; RGB着色器节点" href="shader_to_rgb.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,65 +110,65 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">Physics</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Rendering</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">物理</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">渲染</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">简介</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../eevee/index.html">Eevee</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../cycles/index.html">Cycles</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../workbench/index.html">Workbench</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../cameras.html">Cameras</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../cameras.html">相机</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../lights/index.html">Lights</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../materials/index.html">Materials</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="../index.html">Shader Nodes</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="../introduction.html">Introduction</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../input/index.html">Input</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../output/index.html">Output</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../shader/index.html">Shader</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../textures/index.html">Texture</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../color/index.html">Color</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../vector/index.html">Vector</a></li>
-<li class="toctree-l3 current"><a class="reference internal" href="index.html">Converter</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="blackbody.html">Blackbody Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="clamp.html">Clamp Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="color_ramp.html">Color Ramp Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="combine_separate.html">Combine/Separate Nodes</a></li>
-<li class="toctree-l4"><a class="reference internal" href="map_range.html">Map Range Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="math.html">Math Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="rgb_to_bw.html">RGB to BW Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="shader_to_rgb.html">Shader To RGB</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">Vector Math Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="wavelength.html">Wavelength Node</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../materials/index.html">材质</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html">着色器节点</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../introduction.html">简介</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../input/index.html">输入节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../output/index.html">输出节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../shader/index.html">着色器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../textures/index.html">纹理节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../color/index.html">颜色节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../vector/index.html">矢量着色器节点</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="index.html">转换器节点</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="blackbody.html">黑体着色器节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="clamp.html">钳制节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="color_ramp.html">颜色渐变着色器节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="combine_separate.html">合并/分离着色器节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="map_range.html">映射范围节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="math.html">运算节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="rgb_to_bw.html">RGB -&gt; BW 着色器节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="shader_to_rgb.html">Shader --&gt; RGB着色器节点</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">矢量运算节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="wavelength.html">波长着色器节点</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../groups.html">Node Groups</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../osl.html">Open Shading Language</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../groups.html">节点组</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../osl.html">开放式着色语言 (OSL)</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../color_management.html">Color Management</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../color_management.html">色彩管理</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../freestyle/index.html">Freestyle</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../layers/index.html">Layers &amp; Passes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../output/index.html">Render Output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../layers/index.html">层 &amp; 通道</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../output/index.html">渲染输出</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -214,17 +214,17 @@
     
       <li><a href="../../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../../index.html">Rendering</a> &raquo;</li>
+          <li><a href="../../index.html">渲染</a> &raquo;</li>
         
-          <li><a href="../index.html">Shader Nodes</a> &raquo;</li>
+          <li><a href="../index.html">着色器节点</a> &raquo;</li>
         
-          <li><a href="index.html">Converter</a> &raquo;</li>
+          <li><a href="index.html">转换器节点</a> &raquo;</li>
         
-      <li>Vector Math Node</li>
+      <li>矢量运算节点</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/render/shader_nodes/converter/vector_math.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/render/shader_nodes/converter/vector_math.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -235,84 +235,82 @@
            <div itemprop="articleBody">
             
   <div class="section" id="vector-math-node">
-<span id="bpy-types-shadernodevectormath"></span><h1>Vector Math Node<a class="headerlink" href="#vector-math-node" title="Permalink to this headline">¶</a></h1>
+<span id="bpy-types-shadernodevectormath"></span><h1>矢量运算节点<a class="headerlink" href="#vector-math-node" title="Permalink to this headline">¶</a></h1>
 <div class="figure align-right" id="id1">
 <img alt="../../../_images/render_shader-nodes_converter_vector-math_node.png" src="../../../_images/render_shader-nodes_converter_vector-math_node.png" />
-<p class="caption"><span class="caption-text">Vector Math Node.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">矢量运算节点。</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
-<p>The <em>Vector Math</em> node performs the selected math operation on the input vectors.</p>
+<p><em>矢量运算</em> 节点对输入矢量执行选定的数学运算。</p>
 <div class="section" id="inputs">
-<h2>Inputs<a class="headerlink" href="#inputs" title="Permalink to this headline">¶</a></h2>
-<p>The inputs of the node are dynamic. Some inputs are only available in certain operations.
-For instance, the <em>Scale</em> input is only available in the <em>Scale</em> operator.</p>
+<h2>输入选项<a class="headerlink" href="#inputs" title="Permalink to this headline">¶</a></h2>
+<p>节点的输入是动态的。 某些输入仅在某些操作中可用。 例如， <em>缩放</em> 输入仅在 <em>缩放</em> 运算符中可用。</p>
 <dl class="simple">
-<dt>Vector</dt><dd><p>Input vector A.</p>
+<dt>矢量</dt><dd><p>矢量输入A。</p>
 </dd>
-<dt>Vector</dt><dd><p>Input vector B.</p>
+<dt>矢量</dt><dd><p>矢量输入B。</p>
 </dd>
-<dt>Scale</dt><dd><p>Input Scale.</p>
+<dt>缩放</dt><dd><p>输入缩放</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="properties">
-<h2>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
+<h2>属性<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
 <dl>
-<dt>Operation</dt><dd><p>The vector math operator to be applied on the input vectors.</p>
+<dt>操作</dt><dd><p>矢量数学运算符将应用于输入矢量。</p>
 <dl class="simple">
-<dt>Add</dt><dd><p>The sum of A and B.</p>
+<dt>相加</dt><dd><p>A和B相加。</p>
 </dd>
-<dt>Subtract</dt><dd><p>The difference between A and B.</p>
+<dt>相减</dt><dd><p>A和B之间的差值。</p>
 </dd>
-<dt>Multiply</dt><dd><p>The entrywise product of A and B.
+<dt>正片叠底</dt><dd><p>The entrywise product of A and B.
 <span class="math notranslate nohighlight">\((A.x * B.x, A.y * B.y, A.z * B.z)\)</span></p>
 </dd>
-<dt>Divide</dt><dd><p>The entrywise division of A by B. Division by zero returns zero.
+<dt>相除</dt><dd><p>The entrywise division of A by B. Division by zero returns zero.
 <span class="math notranslate nohighlight">\((A.x / B.x, A.y / B.y, A.z / B.z)\)</span></p>
 </dd>
-<dt>Cross Product</dt><dd><p>The cross product of A and B.</p>
+<dt>叉乘</dt><dd><p>A和B的叉积。</p>
 </dd>
-<dt>Project</dt><dd><p>The projection of A onto B.</p>
+<dt>投影</dt><dd><p>A在B上的投影。</p>
 </dd>
-<dt>Reflect</dt><dd><p>The reflection of A around the normal B. B need not be normalized.</p>
+<dt>反射</dt><dd><p>The reflection of A around the normal B. B need not be normalized.</p>
 </dd>
-<dt>Dot Product</dt><dd><p>The dot product of A and B.</p>
+<dt>点乘</dt><dd><p>A和B的点积。</p>
 </dd>
-<dt>Distance</dt><dd><p>The distance between A and B.</p>
+<dt>距离</dt><dd><p>A和B之间的距离。</p>
 </dd>
-<dt>Length</dt><dd><p>The length of A.</p>
+<dt>长度</dt><dd><p>A的长度</p>
 </dd>
-<dt>Scale</dt><dd><p>The result of multiplying A by the scalar input <em>Scale</em>.</p>
+<dt>缩放</dt><dd><p>A与标量输入 <em>缩放</em> 相乘的结果。</p>
 </dd>
-<dt>Normalize</dt><dd><p>The result of normalizing A.</p>
+<dt>规格化</dt><dd><p>规格化A的结果。</p>
 </dd>
-<dt>Snap</dt><dd><p>The result of rounding A to the largest integer multiple of B less than or equal A.</p>
+<dt>吸附</dt><dd><p>将A舍入为B小于或等于A的最大整数倍的结果。</p>
 </dd>
-<dt>Floor</dt><dd><p>The entrywise floor of A.</p>
+<dt>基面</dt><dd><p>A的基面。</p>
 </dd>
-<dt>Ceil</dt><dd><p>The entrywise ceiling of A.</p>
+<dt>向上取整</dt><dd><p>A的逐项取整。</p>
 </dd>
-<dt>Modulo</dt><dd><p>The entrywise modulo of A by B.</p>
+<dt>模数</dt><dd><p>A通过B逐项取模。</p>
 </dd>
-<dt>Fraction</dt><dd><p>The fractional part of A.</p>
+<dt>分数</dt><dd><p>A的小数部分。</p>
 </dd>
-<dt>Absolute</dt><dd><p>The entrywise absolute value of A.</p>
+<dt>绝对</dt><dd><p>A的逐项取绝对值。</p>
 </dd>
-<dt>Minimum</dt><dd><p>The entrywise minimum from A and B.</p>
+<dt>最小值</dt><dd><p>A和B中的输入最小值。</p>
 </dd>
-<dt>Maximum</dt><dd><p>The entrywise maximum from A and B.</p>
+<dt>最大值</dt><dd><p>A和B的输入最大值。</p>
 </dd>
 </dl>
 </dd>
 </dl>
 </div>
 <div class="section" id="outputs">
-<h2>Outputs<a class="headerlink" href="#outputs" title="Permalink to this headline">¶</a></h2>
-<p>The output of the node is dynamic. It is either a vector or a scalar depending on the operator.
-For instance, the <em>Length</em> operator have a scalar output while the <em>Add</em> operator have a vector output.</p>
+<h2>输出选项<a class="headerlink" href="#outputs" title="Permalink to this headline">¶</a></h2>
+<p>节点的输出是动态的。 根据运算符，它可以是矢量，也可以是标量。 例如， <em>长度</em> 运算符具有标量输出，而 <em>相加</em> 运算符具有矢量输出。</p>
 <dl class="simple">
-<dt>Vector</dt><dd><p>Output vector.</p>
+<dt>矢量</dt><dd><p>输出矢量。</p>
 </dd>
-<dt>Value</dt><dd><p>Output value.</p>
+<dt>值</dt><dd><p>输出值。</p>
 </dd>
 </dl>
 </div>
@@ -326,10 +324,10 @@ For instance, the <em>Length</em> operator have a scalar output while the <em>Ad
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="wavelength.html" class="btn btn-neutral float-right" title="Wavelength Node" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="wavelength.html" class="btn btn-neutral float-right" title="波长着色器节点" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="shader_to_rgb.html" class="btn btn-neutral float-left" title="Shader To RGB" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="shader_to_rgb.html" class="btn btn-neutral float-left" title="Shader --&gt; RGB着色器节点" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -363,7 +361,7 @@ For instance, the <em>Length</em> operator have a scalar output while the <em>Ad
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

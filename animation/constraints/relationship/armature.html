@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Armature Constraint &mdash; Blender Manual</title>
+  <title>骨架约束 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Child Of Constraint" href="child_of.html" />
-    <link rel="prev" title="Action Constraint" href="action.html" /> 
+    <link rel="next" title="Child Of Constraint 子级约束" href="child_of.html" />
+    <link rel="prev" title="Action Constraint 动作关系约束" href="action.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,56 +110,56 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Animation &amp; Rigging</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../keyframes/index.html">Keyframes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../armatures/index.html">Armatures</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../lattice.html">Lattice</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="../index.html">Constraints</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="../introduction.html">Introduction</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../index.html#interface">Interface</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../index.html#motion-tracking">Motion Tracking</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../index.html#transform">Transform</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../index.html#tracking">Tracking</a></li>
-<li class="toctree-l3 current"><a class="reference internal" href="../index.html#relationship">Relationship</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="action.html">Action Constraint</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">Armature Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="child_of.html">Child Of Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="floor.html">Floor Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="follow_path.html">Follow Path Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pivot.html">Pivot Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="shrinkwrap.html">Shrinkwrap Constraint</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">动画 &amp; 绑定</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">简介</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../keyframes/index.html">关键帧</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../armatures/index.html">骨架</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lattice.html">晶格</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html">约束</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../introduction.html">简介</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../index.html#interface">界面</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../index.html#motion-tracking">运动追踪</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../index.html#transform">变换</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../index.html#tracking">跟踪</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../index.html#relationship">关系</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="action.html">Action Constraint  动作关系约束</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">骨架约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="child_of.html">Child Of Constraint 子级约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="floor.html">Floor Constraint 基面约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="follow_path.html">Follow Path Constraint 跟随路径约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pivot.html">Pivot Constraint 轴心约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="shrinkwrap.html">Shrinkwrap Constraint 缩裹约束</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../actions.html">Actions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../drivers/index.html">Drivers</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../markers.html">Markers</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../shape_keys/index.html">Shape Keys</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../motion_paths.html">Motion Paths</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../actions.html">动作</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../drivers/index.html">驱动器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../markers.html">标记</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../shape_keys/index.html">形态键</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../motion_paths.html">运动路径</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">Rendering</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">渲染</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -205,15 +205,15 @@
     
       <li><a href="../../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../../index.html">Animation &amp; Rigging</a> &raquo;</li>
+          <li><a href="../../index.html">动画 &amp; 绑定</a> &raquo;</li>
         
-          <li><a href="../index.html">Constraints</a> &raquo;</li>
+          <li><a href="../index.html">约束</a> &raquo;</li>
         
-      <li>Armature Constraint</li>
+      <li>骨架约束</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/animation/constraints/relationship/armature.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/animation/constraints/relationship/armature.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -224,67 +224,53 @@
            <div itemprop="articleBody">
             
   <div class="section" id="armature-constraint">
-<span id="bpy-types-armatureconstraint"></span><h1>Armature Constraint<a class="headerlink" href="#armature-constraint" title="Permalink to this headline">¶</a></h1>
-<p><em>Armature</em> is the constraint version of the <a class="reference internal" href="../../../modeling/modifiers/deform/armature.html#bpy-types-armaturemodifier"><span class="std std-ref">Armature Modifier</span></a>,
-exactly reproducing the weight-blended bone transformations and applying it to its owner orientation.
-It can be used like a variant of the <a class="reference internal" href="child_of.html#bpy-types-childofconstraint"><span class="std std-ref">Child Of</span></a> constraint
-that can handle multiple parents at once, but requires all of them to be bones.</p>
+<span id="bpy-types-armatureconstraint"></span><h1>骨架约束<a class="headerlink" href="#armature-constraint" title="Permalink to this headline">¶</a></h1>
+<p><em>骨架</em> 是 <a class="reference internal" href="../../../modeling/modifiers/deform/armature.html#bpy-types-armaturemodifier"><span class="std std-ref">骨架修改器</span></a> 的约束版，它可以复制权重混合的骨骼变换并应用到约束骨架对象上。也可以像 <a class="reference internal" href="child_of.html#bpy-types-childofconstraint"><span class="std std-ref">子级</span></a> 约束一样同时复制多个父级目标，但要求所有父级都是骨骼。</p>
 <div class="section" id="target-list">
-<h2>Target List<a class="headerlink" href="#target-list" title="Permalink to this headline">¶</a></h2>
+<h2>目标列表<a class="headerlink" href="#target-list" title="Permalink to this headline">¶</a></h2>
 <div class="figure align-default" id="id1">
 <img alt="../../../_images/animation_constraints_relationship_armature_panel.png" src="../../../_images/animation_constraints_relationship_armature_panel.png" />
-<p class="caption"><span class="caption-text">Armature panel.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">骨架约束面板</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
-<p>This specifies the list of bones used by the constraint to deform its owner.</p>
+<p>这里指定用于约束骨架对象的骨架列表。</p>
 <dl>
-<dt>Add Target Bone</dt><dd><p>This button adds a new empty entry at the end of the target list.</p>
+<dt>添加目标骨骼</dt><dd><p>点击此按键将在目标列表末尾添加一个空条目。</p>
 </dd>
-<dt>Target Entries</dt><dd><p>Each target bone has the following input fields and controls:</p>
+<dt>目标项</dt><dd><p>每个目标骨骼都有以下输入框和控件：</p>
 <dl>
-<dt>Armature</dt><dd><p>Unlike the modifier, the constraint can use bones coming from
-different armatures at the same time.</p>
+<dt>骨架</dt><dd><p>和修改器不同，约束的目标对象可以同时选择不同骨架的骨骼。</p>
 </dd>
-<dt>Bone</dt><dd><p>Name of the target bone.</p>
+<dt>骨骼</dt><dd><p>目标骨骼的名称。</p>
 </dd>
-<dt>Remove Button <code class="docutils literal notranslate"><span class="pre">-</span></code></dt><dd><p>Removes the entry from the target list.</p>
+<dt>移除按钮 <code class="docutils literal notranslate"><span class="pre">-</span></code></dt><dd><p>从目标列表中删除本条目。</p>
 </dd>
-<dt>Blend Weight</dt><dd><p>Weight associated with the bone, equivalent to vertex groups in the modifier.</p>
-<p>This value can be animated.</p>
+<dt>混合权重</dt><dd><p>和目标骨骼关联的权重，相当于骨架修改器中的顶点组。</p>
+<p>此值可以设置动画帧。</p>
 </dd>
 </dl>
 </dd>
-<dt>Normalize Weights</dt><dd><p>This button normalizes all weight values in the target list so that they add up to 1.0.</p>
+<dt>将权重规格化</dt><dd><p>此按钮可以规格化所有目标骨骼的权重值，使它们的总值相加为1.0。</p>
 </dd>
 </dl>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Unlike the modifier, the constraint does not take
-the <a class="reference internal" href="../../armatures/bones/properties/deform.html"><span class="doc">Deform</span></a> checkbox
-of bones into account, and can use any bone as target.</p>
+<p>与修改器不同，约束不考虑骨骼的 <a class="reference internal" href="../../armatures/bones/properties/deform.html"><span class="doc">形变</span></a> ，并且可以使用任何骨骼作为目标。</p>
 </div>
 </div>
 <div class="section" id="options">
-<h2>Options<a class="headerlink" href="#options" title="Permalink to this headline">¶</a></h2>
-<p>Additional settings of the constraint.</p>
+<h2>设置<a class="headerlink" href="#options" title="Permalink to this headline">¶</a></h2>
+<p>约束的其他设置。</p>
 <dl>
-<dt>Preserve Volume</dt><dd><p>Like the matching option of the modifier, it enables the use of quaternions
-for preserving the volume of the object during deformation.</p>
+<dt>维持体积</dt><dd><p>与修改器的匹配选项一样，它允许使用四元数来保持变形期间对象的体积。</p>
 </dd>
-<dt>Use Envelopes</dt><dd><p>To approximate envelope-only behavior of the modifier,
-add all relevant bones with weight 1.0 and enable this option.</p>
+<dt>使用骨骼封套</dt><dd><p>如果想得到近似骨架修改器的骨骼封套效果，请添加权重为1.0的所有相关骨骼并启用此选项。</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Unlike the modifier, the constraint always requires explicitly listing all
-of its target bones with associated weights. This option merely enables
-envelopes for all bones, as if they had <a class="reference internal" href="../../armatures/bones/properties/deform.html#armature-bones-envelope"><span class="std std-ref">Envelope Multiply</span></a> enabled.</p>
+<p>与修改器不同，骨架约束始终要求明确列出其所有目标骨骼以及相关权重。 此选项只能启用所有骨骼的封套，就好像它们启用了 <a class="reference internal" href="../../armatures/bones/properties/deform.html#armature-bones-envelope"><span class="std std-ref">多重骨骼封套</span></a> 。</p>
 </div>
 </dd>
-<dt>Use Current Location</dt><dd><p>Only for constraints on bones: Instead of using the rest location,
-use the current location of the owner bone to compute envelope weights or
-binding to B-Bone segments.</p>
-<p>With envelope weights, this can be used to change the active “parent” bone
-of the owner bone dependent on its location. For non-bones this mode is always active,
-because they don’t have a rest location.</p>
+<dt>使用当前位置</dt><dd><p>约束对象必须是骨骼才会有这个选项。它的作用是使用约束对象的骨骼当前位置来计算封套权重或者绑定到B骨骼线段，而不是使用其他位置。</p>
+<p>使用封套权重，可以此选项来检验根据约束对象骨骼的位置来更改活动“父级”骨骼。对于非骨骼物体，此模式始终处于启用状态，因为他们没有固定位置。</p>
 </dd>
 </dl>
 </div>
@@ -298,10 +284,10 @@ because they don’t have a rest location.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="child_of.html" class="btn btn-neutral float-right" title="Child Of Constraint" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="child_of.html" class="btn btn-neutral float-right" title="Child Of Constraint 子级约束" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="action.html" class="btn btn-neutral float-left" title="Action Constraint" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="action.html" class="btn btn-neutral float-left" title="Action Constraint 动作关系约束" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -335,7 +321,7 @@ because they don’t have a rest location.</p>
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

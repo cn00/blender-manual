@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>IK Solver Constraint &mdash; Blender Manual</title>
+  <title>IK Solver Constraint 反向运动学约束 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Locked Track Constraint" href="locked_track.html" />
-    <link rel="prev" title="Damped Track Constraint" href="damped_track.html" /> 
+    <link rel="next" title="Locked Track Constraint 锁定跟踪约束" href="locked_track.html" />
+    <link rel="prev" title="Damped Track Constraint 阻尼跟踪约束" href="damped_track.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,56 +110,56 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Animation &amp; Rigging</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../keyframes/index.html">Keyframes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../armatures/index.html">Armatures</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../lattice.html">Lattice</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="../index.html">Constraints</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="../introduction.html">Introduction</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../index.html#interface">Interface</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../index.html#motion-tracking">Motion Tracking</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../index.html#transform">Transform</a></li>
-<li class="toctree-l3 current"><a class="reference internal" href="../index.html#tracking">Tracking</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="clamp_to.html">Clamp To Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="damped_track.html">Damped Track Constraint</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">IK Solver Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="locked_track.html">Locked Track Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="spline_ik.html">Spline IK Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="stretch_to.html">Stretch To Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="track_to.html">Track To Constraint</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">动画 &amp; 绑定</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">简介</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../keyframes/index.html">关键帧</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../armatures/index.html">骨架</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lattice.html">晶格</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html">约束</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../introduction.html">简介</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../index.html#interface">界面</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../index.html#motion-tracking">运动追踪</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../index.html#transform">变换</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../index.html#tracking">跟踪</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="clamp_to.html">Clamp To Constraint 钳制到约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="damped_track.html">Damped Track Constraint  阻尼跟踪约束</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">IK Solver Constraint 反向运动学约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="locked_track.html">Locked Track Constraint 锁定跟踪约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="spline_ik.html">Spline IK Constraint  样条线IK约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="stretch_to.html">Stretch To Constraint 拉伸至约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="track_to.html">Track To Constraint 标准跟踪约束</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../index.html#relationship">Relationship</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../index.html#relationship">关系</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../actions.html">Actions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../drivers/index.html">Drivers</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../markers.html">Markers</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../shape_keys/index.html">Shape Keys</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../motion_paths.html">Motion Paths</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../actions.html">动作</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../drivers/index.html">驱动器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../markers.html">标记</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../shape_keys/index.html">形态键</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../motion_paths.html">运动路径</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">Rendering</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">渲染</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -205,15 +205,15 @@
     
       <li><a href="../../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../../index.html">Animation &amp; Rigging</a> &raquo;</li>
+          <li><a href="../../index.html">动画 &amp; 绑定</a> &raquo;</li>
         
-          <li><a href="../index.html">Constraints</a> &raquo;</li>
+          <li><a href="../index.html">约束</a> &raquo;</li>
         
-      <li>IK Solver Constraint</li>
+      <li>IK Solver Constraint 反向运动学约束</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/animation/constraints/tracking/ik_solver.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/animation/constraints/tracking/ik_solver.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -224,69 +224,57 @@
            <div itemprop="articleBody">
             
   <div class="section" id="ik-solver-constraint">
-<span id="bpy-types-kinematicconstraint"></span><h1>IK Solver Constraint<a class="headerlink" href="#ik-solver-constraint" title="Permalink to this headline">¶</a></h1>
-<p>The <em>Inverse Kinematics</em> constraint implements the <em>inverse kinematics</em> armature
-posing technique. Hence, it is only available for bones.
-To quickly create an IK constraint with a target, select a bone in Pose Mode,
-and press <kbd class="kbd docutils literal notranslate">Shift-I</kbd>.</p>
-<p>This constraint is fully documented in
-the <a class="reference internal" href="../../armatures/posing/bone_constraints/index.html#bone-constraints-inverse-kinematics"><span class="std std-ref">Inverse Kinematics</span></a> page, part of the rigging chapter.</p>
+<span id="bpy-types-kinematicconstraint"></span><h1>IK Solver Constraint 反向运动学约束<a class="headerlink" href="#ik-solver-constraint" title="Permalink to this headline">¶</a></h1>
+<p><em>反向运动学(IK)</em> 约束实现 <em>反向运动学(IK)</em> 骨骼姿态技术。因此，它仅仅适用于骨骼。在姿势模式下，选择一根骨骼，按 <kbd class="kbd docutils literal notranslate">Shift-I</kbd>，用一个目标(target)快速创建一个IK约束。</p>
+<p>此约束的完整文档在rigging章节 <a class="reference internal" href="../../armatures/posing/bone_constraints/index.html#bone-constraints-inverse-kinematics"><span class="std std-ref">反向运动学</span></a> 页部分。</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>The IK constraints are special in that they modify multiple bones.
-For this reason, they ignore their position in the stack and
-always run after all other constraints on the affected bones. To apply constraints after IK,
-it is necessary to first copy the final transformation to a new bone chain,
-e.g. using <a class="reference internal" href="../transform/copy_transforms.html"><span class="doc">Copy Transforms</span></a>.</p>
+<p>IK约束是很特殊的约束，因为它们修改了多个骨骼。 出于这个原因，他们忽略了他们在堆栈中的位置，并且总是在受影响的骨骼上的所有其他约束之后运行。 要在IK之后应用约束，必须首先将最终转换复制到新的骨骼链，例如， 使用 <a class="reference internal" href="../transform/copy_transforms.html"><span class="doc">复制形变约束</span></a>.</p>
 </div>
 <div class="section" id="options">
-<h2>Options<a class="headerlink" href="#options" title="Permalink to this headline">¶</a></h2>
+<h2>选项<a class="headerlink" href="#options" title="Permalink to this headline">¶</a></h2>
 <dl>
-<dt>Target</dt><dd><p><a class="reference internal" href="../../../interface/controls/templates/data_block.html#ui-data-id"><span class="std std-ref">Data ID</span></a> used to select the an armature.</p>
+<dt>Target 目标</dt><dd><p><a class="reference internal" href="../../../interface/controls/templates/data_block.html#ui-data-id"><span class="std std-ref">数据ID</span></a> 用于选择骨架。</p>
 </dd>
-<dt>Pole Target</dt><dd><p>Object for pole rotation.</p>
+<dt>Pole Target 极向目标</dt><dd><p>极向旋转物体。</p>
 </dd>
-<dt>Iterations</dt><dd><p>Maximum number of solving iterations.</p>
+<dt>Iterations 迭代</dt><dd><p>最大迭代次数。</p>
 </dd>
-<dt>Chain Length</dt><dd><p>How many bones are included in the IK effect. Set to 0 to include all bones.</p>
+<dt>Chain Length链长</dt><dd><p>有多少骨骼都包括在 IK 效果。设置为 0时，包括所有的骨骼。</p>
 <dl class="simple">
-<dt>Use Tail</dt><dd><p>Include bone’s tail as last element in chain.</p>
+<dt>Use Tail 使用尾部</dt><dd><p>在链中的最后一个元素包括骨的尾部。</p>
 </dd>
-<dt>Stretch</dt><dd><p>Enable IK stretching.</p>
-</dd>
-</dl>
-</dd>
-<dt>Weight</dt><dd><dl class="simple">
-<dt>Position</dt><dd><p>For Tree-IK: Weight of position control for this target.</p>
-</dd>
-<dt>Rotations</dt><dd><p>Chain follows rotation of target.</p>
+<dt>Stretch拉伸</dt><dd><p>启用 IK 拉伸。</p>
 </dd>
 </dl>
 </dd>
-<dt>Target</dt><dd><p>Disable for targetless IK.</p>
+<dt>Weight 权重</dt><dd><dl class="simple">
+<dt>Position 位置</dt><dd><p>树-IK ︰此目标控制的权重的位置。</p>
 </dd>
-<dt>Rotation</dt><dd><p>Chain follows rotation of target.</p>
+<dt>旋转</dt><dd><p>链跟随目标旋转。</p>
+</dd>
+</dl>
+</dd>
+<dt>Target 目标</dt><dd><p>禁用 targetless IK。</p>
+</dd>
+<dt>Rotation旋转</dt><dd><p>链跟随目标旋转。</p>
 </dd>
 </dl>
 <div class="section" id="itasc-solver">
-<h3>iTaSC Solver<a class="headerlink" href="#itasc-solver" title="Permalink to this headline">¶</a></h3>
-<p>If the <a class="reference internal" href="../../armatures/posing/bone_constraints/inverse_kinematics/introduction.html#rigging-armatures-posing-bone-constraints-ik-model-itasc"><span class="std std-ref">iTaSC IK Solver</span></a>
-is used, the IK Solver Constraint changes to add these addition parameters.</p>
+<h3>iTaSC解决方案<a class="headerlink" href="#itasc-solver" title="Permalink to this headline">¶</a></h3>
+<p>如果使用 <a class="reference internal" href="../../armatures/posing/bone_constraints/inverse_kinematics/introduction.html#rigging-armatures-posing-bone-constraints-ik-model-itasc"><span class="std std-ref">iTaSC IK Solver</span></a> ，则IK解算器约束将更改为添加这些添加参数。</p>
 <dl>
-<dt>IK Type</dt><dd><dl>
-<dt>Copy Pose</dt><dd><p>Equivalent to the traditional end effector position and orientation constraint:
-the end effector is constrained to take the position, and optionally the orientation,
-of a given target, which is set in the target field.</p>
+<dt>IK类型</dt><dd><dl>
+<dt>复制姿势</dt><dd><p>相当于传统的末端执行器位置和方向约束：末端执行器被约束为获取在目标场中设置的给定目标的位置和可选的方向。</p>
 <dl>
-<dt>Position/Rotation Locking</dt><dd><p>Allows to obtain various effect by not constraining the coordinates along certain axis.</p>
+<dt>位置/旋转锁定</dt><dd><p>允许通过不约束沿某个轴的坐标来获得各种效果。</p>
 <blockquote>
 <div><dl>
-<dt>Axis Reference</dt><dd><p>Specifies how to compute the axis coordinates.</p>
+<dt>Axis Reference</dt><dd><p>指定如何计算轴坐标。</p>
 <dl class="simple">
-<dt>Bone</dt><dd><p>The coordinates are the position and orientation of the target relative to the bone.</p>
+<dt>骨骼</dt><dd><p>坐标是目标相对于骨骼的位置和方向。</p>
 </dd>
-<dt>Target</dt><dd><p>The opposite of <em>Bone</em>, the coordinates are the position and
-orientation of the tip of the bone relative to the target.</p>
+<dt>Target 目标</dt><dd><p>与 <em>骨骼</em> 相反，坐标是骨骼尖端相对于目标的位置和方向。</p>
 </dd>
 </dl>
 </dd>
@@ -295,18 +283,18 @@ orientation of the tip of the bone relative to the target.</p>
 </dd>
 </dl>
 </dd>
-<dt>Distance</dt><dd><p>Specify that the end effector will stay inside, at, or outside a sphere centered on the target object.</p>
+<dt>距离</dt><dd><p>指定末端效应器将保持在目标对象中心的球体内部，内部或外部。</p>
 <dl class="simple">
-<dt>Limit Mode</dt><dd><dl class="simple">
-<dt>Inside</dt><dd><p>The end effector will stay inside of the distance from the target object.</p>
+<dt>限制模式</dt><dd><dl class="simple">
+<dt>内部</dt><dd><p>末端执行器将保持在距目标物体的距离内。</p>
 </dd>
-<dt>Outside</dt><dd><p>The end effector will stay outside of the distance from the target object.</p>
+<dt>外部</dt><dd><p>末端执行器将保持在距目标对象的距离之外。</p>
 </dd>
-<dt>On Surface</dt><dd><p>The end effector will stay exactly at the distance from the target object.</p>
+<dt>在表面上</dt><dd><p>末端效应器将精确地保持在距目标物体的距离处。</p>
 </dd>
 </dl>
 </dd>
-<dt>Distance</dt><dd><p>The radius from the target object.</p>
+<dt>距离</dt><dd><p>目标对象的半径。</p>
 </dd>
 </dl>
 </dd>
@@ -315,7 +303,7 @@ orientation of the tip of the bone relative to the target.</p>
 </dl>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>The <em>Influence</em> parameter is not implemented if <em>Pole Target</em> is used.</p>
+<p>如果使用 <em>极点目标</em> ，则 <em>影响</em> 是不起作用的。</p>
 </div>
 <iframe src="https://player.vimeo.com/video/171279647" style="border: 0; height: 345px; width: 560px">
 </iframe></div>
@@ -330,10 +318,10 @@ orientation of the tip of the bone relative to the target.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="locked_track.html" class="btn btn-neutral float-right" title="Locked Track Constraint" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="locked_track.html" class="btn btn-neutral float-right" title="Locked Track Constraint 锁定跟踪约束" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="damped_track.html" class="btn btn-neutral float-left" title="Damped Track Constraint" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="damped_track.html" class="btn btn-neutral float-left" title="Damped Track Constraint 阻尼跟踪约束" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -367,7 +355,7 @@ orientation of the tip of the bone relative to the target.</p>
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

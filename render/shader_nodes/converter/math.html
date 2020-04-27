@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Math Node &mdash; Blender Manual</title>
+  <title>运算节点 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="RGB to BW Node" href="rgb_to_bw.html" />
-    <link rel="prev" title="Map Range Node" href="map_range.html" /> 
+    <link rel="next" title="RGB -&gt; BW 着色器节点" href="rgb_to_bw.html" />
+    <link rel="prev" title="映射范围节点" href="map_range.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,65 +110,65 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">Physics</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Rendering</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">物理</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">渲染</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">简介</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../eevee/index.html">Eevee</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../cycles/index.html">Cycles</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../workbench/index.html">Workbench</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../cameras.html">Cameras</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../cameras.html">相机</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../lights/index.html">Lights</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../materials/index.html">Materials</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="../index.html">Shader Nodes</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="../introduction.html">Introduction</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../input/index.html">Input</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../output/index.html">Output</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../shader/index.html">Shader</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../textures/index.html">Texture</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../color/index.html">Color</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../vector/index.html">Vector</a></li>
-<li class="toctree-l3 current"><a class="reference internal" href="index.html">Converter</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="blackbody.html">Blackbody Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="clamp.html">Clamp Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="color_ramp.html">Color Ramp Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="combine_separate.html">Combine/Separate Nodes</a></li>
-<li class="toctree-l4"><a class="reference internal" href="map_range.html">Map Range Node</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">Math Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="rgb_to_bw.html">RGB to BW Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="shader_to_rgb.html">Shader To RGB</a></li>
-<li class="toctree-l4"><a class="reference internal" href="vector_math.html">Vector Math Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="wavelength.html">Wavelength Node</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../materials/index.html">材质</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html">着色器节点</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../introduction.html">简介</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../input/index.html">输入节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../output/index.html">输出节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../shader/index.html">着色器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../textures/index.html">纹理节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../color/index.html">颜色节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../vector/index.html">矢量着色器节点</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="index.html">转换器节点</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="blackbody.html">黑体着色器节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="clamp.html">钳制节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="color_ramp.html">颜色渐变着色器节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="combine_separate.html">合并/分离着色器节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="map_range.html">映射范围节点</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">运算节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="rgb_to_bw.html">RGB -&gt; BW 着色器节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="shader_to_rgb.html">Shader --&gt; RGB着色器节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="vector_math.html">矢量运算节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="wavelength.html">波长着色器节点</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../groups.html">Node Groups</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../osl.html">Open Shading Language</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../groups.html">节点组</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../osl.html">开放式着色语言 (OSL)</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../color_management.html">Color Management</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../color_management.html">色彩管理</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../freestyle/index.html">Freestyle</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../layers/index.html">Layers &amp; Passes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../output/index.html">Render Output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../layers/index.html">层 &amp; 通道</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../output/index.html">渲染输出</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -214,17 +214,17 @@
     
       <li><a href="../../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../../index.html">Rendering</a> &raquo;</li>
+          <li><a href="../../index.html">渲染</a> &raquo;</li>
         
-          <li><a href="../index.html">Shader Nodes</a> &raquo;</li>
+          <li><a href="../index.html">着色器节点</a> &raquo;</li>
         
-          <li><a href="index.html">Converter</a> &raquo;</li>
+          <li><a href="index.html">转换器节点</a> &raquo;</li>
         
-      <li>Math Node</li>
+      <li>运算节点</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/render/shader_nodes/converter/math.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/render/shader_nodes/converter/math.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -235,73 +235,71 @@
            <div itemprop="articleBody">
             
   <span class="target" id="bpy-types-shadernodemath"></span><div class="section" id="math-node">
-<h1>Math Node<a class="headerlink" href="#math-node" title="Permalink to this headline">¶</a></h1>
+<h1>运算节点<a class="headerlink" href="#math-node" title="Permalink to this headline">¶</a></h1>
 <div class="figure align-right" id="id1">
 <img alt="../../../_images/compositing_node-types_CompositorNodeMath.png" src="../../../_images/compositing_node-types_CompositorNodeMath.png" />
-<p class="caption"><span class="caption-text">Math node.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">运算节点。</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
-<p>The <em>Math Node</em> performs math operations.</p>
+<p><em>运算</em> 节点执行运算操作。</p>
 <div class="section" id="inputs">
-<h2>Inputs<a class="headerlink" href="#inputs" title="Permalink to this headline">¶</a></h2>
+<h2>输入选项<a class="headerlink" href="#inputs" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>Value</dt><dd><p>First numerical value. The trigonometric functions accept values in radians.</p>
+<dt>值(明度)</dt><dd><p>第一个数值。三角函数可接受弧度值。</p>
 </dd>
-<dt>Value</dt><dd><p>Second numerical value.
-This value is <strong>not</strong> used in functions that accept only one parameter
-like the trigonometric functions, Round and Absolute.</p>
+<dt>值(明度)</dt><dd><p>第二个数值。该值 <strong>不能</strong> 用于三角函数，轮函数和绝对函数等只含有一个参数的函数。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="properties">
-<h2>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
+<h2>属性<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
 <dl>
-<dt>Operation</dt><dd><p>Mathematical operation to use; see below for a list of supported operations:</p>
+<dt>操作</dt><dd><p>可用的数学运算如下所列：</p>
 <table class="hlist"><tr><td><ul class="simple">
-<li><p><strong>Functions</strong></p></li>
-<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Addition">Add</a></p></li>
-<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Subtraction">Subtract</a></p></li>
-<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Multiplication">Multiply</a></p></li>
-<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Division_(mathematics)">Divide</a></p></li>
-<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Multiply%E2%80%93accumulate_operation">Multiply Add</a></p></li>
-<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Exponential_function">Power</a></p></li>
-<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Logarithm">Logarithm</a></p></li>
-<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Square_root">Square Root</a></p></li>
-<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Square_root">Inverse Square Root</a></p></li>
-<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Absolute_value">Absolute</a></p></li>
-<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/E_(mathematical_constant)">Exponent</a></p></li>
+<li><p><strong>函数</strong></p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Addition">相加</a></p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Subtraction">相减</a></p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Multiplication">相乘</a></p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Division_(mathematics)">相减</a></p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Multiply%E2%80%93accumulate_operation">乘后相加</a></p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Exponential_function">乘方</a></p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Logarithm">对数</a></p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Square_root">平方根</a></p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Square_root">平方根取倒</a></p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Absolute_value">绝对</a></p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/E_(mathematical_constant)">指数</a></p></li>
 </ul>
 </td><td><ul class="simple">
-<li><p><strong>Comparison</strong></p></li>
-<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Maxima_and_minima">Minimum</a></p></li>
-<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Maxima_and_minima">Maximum</a></p></li>
-<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Inequality_(mathematics)">Less Than</a></p></li>
-<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Inequality_(mathematics)">Greater Than</a></p></li>
-<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Sign_function">Sign</a></p></li>
-<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Comparison_function">Compare</a></p></li>
-<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Smooth_maximum">Smooth Minimum</a></p></li>
-<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Smooth_maximum">Smooth Maximum</a></p></li>
+<li><p><strong>比较</strong></p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Maxima_and_minima">最小值</a></p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Maxima_and_minima">最大值</a></p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Inequality_(mathematics)">小于</a></p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Inequality_(mathematics)">大于</a></p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Sign_function">符号</a></p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Comparison_function">比较</a></p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Smooth_maximum">平滑最小值</a></p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Smooth_maximum">平滑最大值</a></p></li>
 <li></li>
-<li></li>
-<li></li>
-</ul>
-</td><td><ul class="simple">
-<li><p><strong>Rounding</strong></p></li>
-<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Round_function">Round</a></p></li>
-<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Floor_and_ceiling_functions">Floor</a></p></li>
-<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Floor_and_ceiling_functions">Ceil</a></p></li>
-<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Truncation">Truncate</a></p></li>
-<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Rational_function">Fraction</a></p></li>
-<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Modulo_operation">Modulo</a></p></li>
-<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Rounding">Snap</a></p></li>
-<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Rounding">Wrap</a></p></li>
-<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Rounding">Pingpong</a></p></li>
 <li></li>
 <li></li>
 </ul>
 </td><td><ul class="simple">
-<li><p><strong>Conversion</strong></p></li>
-<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Radian#Conversion_between_radians_and_degrees">To Radians</a></p></li>
-<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Radian#Conversion_between_radians_and_degrees">To Degrees</a></p></li>
+<li><p><strong>取舍</strong></p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Round_function">四舍五入</a></p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Floor_and_ceiling_functions">向下取整</a></p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Floor_and_ceiling_functions">向上取整</a></p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Truncation">截短</a></p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Rational_function">分数</a></p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Modulo_operation">模数</a></p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Rounding">吸附</a></p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Rounding">循环</a></p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Rounding">乒乓</a></p></li>
+<li></li>
+<li></li>
+</ul>
+</td><td><ul class="simple">
+<li><p><strong>转换</strong></p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Radian#Conversion_between_radians_and_degrees">到弧度</a></p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Radian#Conversion_between_radians_and_degrees">到角度</a></p></li>
 <li></li>
 <li></li>
 <li></li>
@@ -314,14 +312,14 @@ like the trigonometric functions, Round and Absolute.</p>
 </ul>
 </td></tr></table>
 </dd>
-<dt>Clamp</dt><dd><p>Limits the output to the range (0 to 1). See <a class="reference internal" href="../../../glossary/index.html#term-clamp"><span class="xref std std-term">clamp</span></a>.</p>
+<dt>钳制</dt><dd><p>将输出限制为在(0到1)。参见 <a class="reference internal" href="../../../glossary/index.html#term-clamping"><span class="xref std std-term">钳制</span></a> 。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="outputs">
-<h2>Outputs<a class="headerlink" href="#outputs" title="Permalink to this headline">¶</a></h2>
+<h2>输出选项<a class="headerlink" href="#outputs" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>Value</dt><dd><p>Numerical value output.</p>
+<dt>值(明度)</dt><dd><p>数值输出。</p>
 </dd>
 </dl>
 </div>
@@ -335,10 +333,10 @@ like the trigonometric functions, Round and Absolute.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="rgb_to_bw.html" class="btn btn-neutral float-right" title="RGB to BW Node" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="rgb_to_bw.html" class="btn btn-neutral float-right" title="RGB -&gt; BW 着色器节点" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="map_range.html" class="btn btn-neutral float-left" title="Map Range Node" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="map_range.html" class="btn btn-neutral float-left" title="映射范围节点" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -372,7 +370,7 @@ like the trigonometric functions, Round and Absolute.</p>
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

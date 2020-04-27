@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Copy Scale Constraint &mdash; Blender Manual</title>
+  <title>Copy Scale Constraint 复制缩放约束 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Copy Transforms Constraint" href="copy_transforms.html" />
-    <link rel="prev" title="Copy Rotation Constraint" href="copy_rotation.html" /> 
+    <link rel="next" title="复制变换约束" href="copy_transforms.html" />
+    <link rel="prev" title="Copy Rotation Constraint 复制旋转约束" href="copy_rotation.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,60 +110,60 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Animation &amp; Rigging</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../keyframes/index.html">Keyframes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../armatures/index.html">Armatures</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../lattice.html">Lattice</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="../index.html">Constraints</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="../introduction.html">Introduction</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../index.html#interface">Interface</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../index.html#motion-tracking">Motion Tracking</a></li>
-<li class="toctree-l3 current"><a class="reference internal" href="../index.html#transform">Transform</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="copy_location.html">Copy Location Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="copy_rotation.html">Copy Rotation Constraint</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">Copy Scale Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="copy_transforms.html">Copy Transforms Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="limit_distance.html">Limit Distance Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="limit_location.html">Limit Location Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="limit_rotation.html">Limit Rotation Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="limit_scale.html">Limit Scale Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="maintain_volume.html">Maintain Volume Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="transformation.html">Transformation Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="transform_cache.html">Transform Cache Constraint</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">动画 &amp; 绑定</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">简介</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../keyframes/index.html">关键帧</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../armatures/index.html">骨架</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lattice.html">晶格</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html">约束</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../introduction.html">简介</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../index.html#interface">界面</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../index.html#motion-tracking">运动追踪</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../index.html#transform">变换</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="copy_location.html">Copy Location Constraint 复制位置约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="copy_rotation.html">Copy Rotation Constraint 复制旋转约束</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Copy Scale Constraint 复制缩放约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="copy_transforms.html">复制变换约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="limit_distance.html">Limit Distance Constraint 限定距离约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="limit_location.html">Limit Location Constraint 限定位置约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="limit_rotation.html">Limit Rotation Constraint 限定旋转约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="limit_scale.html">Limit Scale Constraint 限定缩放约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="maintain_volume.html">Maintain Volume Constraint 维持体积约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="transformation.html">Transformation Constraint 自设变换约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="transform_cache.html">Transform Cache Constraint 变换缓存约束</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../index.html#tracking">Tracking</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../index.html#relationship">Relationship</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../index.html#tracking">跟踪</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../index.html#relationship">关系</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../actions.html">Actions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../drivers/index.html">Drivers</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../markers.html">Markers</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../shape_keys/index.html">Shape Keys</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../motion_paths.html">Motion Paths</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../actions.html">动作</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../drivers/index.html">驱动器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../markers.html">标记</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../shape_keys/index.html">形态键</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../motion_paths.html">运动路径</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">Rendering</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">渲染</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -209,15 +209,15 @@
     
       <li><a href="../../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../../index.html">Animation &amp; Rigging</a> &raquo;</li>
+          <li><a href="../../index.html">动画 &amp; 绑定</a> &raquo;</li>
         
-          <li><a href="../index.html">Constraints</a> &raquo;</li>
+          <li><a href="../index.html">约束</a> &raquo;</li>
         
-      <li>Copy Scale Constraint</li>
+      <li>Copy Scale Constraint 复制缩放约束</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/animation/constraints/transform/copy_scale.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/animation/constraints/transform/copy_scale.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -228,43 +228,34 @@
            <div itemprop="articleBody">
             
   <div class="section" id="copy-scale-constraint">
-<span id="bpy-types-copyscaleconstraint"></span><h1>Copy Scale Constraint<a class="headerlink" href="#copy-scale-constraint" title="Permalink to this headline">¶</a></h1>
-<p>The <em>Copy Scale</em> constraint forces its owner to have the same scale as its target.</p>
+<span id="bpy-types-copyscaleconstraint"></span><h1>Copy Scale Constraint 复制缩放约束<a class="headerlink" href="#copy-scale-constraint" title="Permalink to this headline">¶</a></h1>
+<p>复制缩放(Copy Rotation)约束强制约束对象获得目标的缩放。</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Here we talk of <em>scale</em>, not of <em>size</em>! Indeed, you can have two objects,
-one much bigger than the other, and yet both of them have the same scale.
-This is also true with bones: in <em>Pose Mode</em>,
-they all have a unitary scale when they are in rest position,
-represented by their visible length.</p>
+<p>在这里我们谈的是 <em>缩放</em>，而不是 <em>大小</em>！事实上，两个物体，一个比另一个大很多，但两者可以有相同的缩放。这对于骨骼同样成立：在 <em>姿势模式</em> 下，静止位置的骨骼有统一的缩放，代表它们的可见长度。</p>
 </div>
 <div class="section" id="options">
-<h2>Options<a class="headerlink" href="#options" title="Permalink to this headline">¶</a></h2>
+<h2>选项<a class="headerlink" href="#options" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>Target</dt><dd><p><a class="reference internal" href="../../../interface/controls/templates/data_block.html#ui-data-id"><span class="std std-ref">Data ID</span></a> used to select the constraints target,
-and is not functional (red state) when it has none.</p>
+<dt>Target 目标</dt><dd><p><a class="reference internal" href="../../../interface/controls/templates/data_block.html#ui-data-id"><span class="std std-ref">数据ID</span></a> 用于选择约束目标，当它为空时此约束不起作用(该约束的名称背景显示为红色状态)。</p>
 </dd>
-<dt>X, Y, Z</dt><dd><p>These buttons control which axes of the target scale are copied.</p>
+<dt>X, Y, Z</dt><dd><p>这些复选框用于选择被复制缩放的轴向。</p>
 </dd>
-<dt>Power</dt><dd><p>Allows raising the copied scale to the specified arbitrary power.</p>
+<dt>能量(乘方)</dt><dd><p>允许将约束对象获得的目标比例做相乘处理。</p>
 </dd>
 <dt>Make Uniform</dt><dd><p>Instead of copying scale for individual axes, apply a uniform scaling factor
 to all axes of the owner that achieves the same overall change in volume.</p>
 </dd>
-<dt>Offset</dt><dd><p>When enabled, the constraint combines the copied scale with the owner’s scale,
-instead of overwriting it.</p>
+<dt>Offset 偏移量</dt><dd><p>启用后，将目标对象的比例和约束对象自身的比例混合，而不是覆盖掉约束对象的自身比例。</p>
 </dd>
-<dt>Additive</dt><dd><p>Uses addition instead of multiplication in the implementation of the <em>Offset</em> option.</p>
+<dt>添加</dt><dd><p>启用后，在 <em>偏移量</em> 选项的运算将使用加法而不是乘法。</p>
 </dd>
-<dt>Space</dt><dd><p>Standard conversion between spaces.</p>
+<dt>Space 空间</dt><dd><p>空间之间的标准转换。</p>
 </dd>
 </dl>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Since scale is a multiplicative quantity, it should be combined using multiplication,
-and split into fractions or inverted via power. Thus the use of <em>Power</em> is
-more mathematically correct than <em>Influence</em>, which uses linear interpolation.
-The use of the <em>Additive</em> option is also not recommended.</p>
+<p>由于比例是乘法量，它更应该使用乘法组合，并分成分数或通过幂反转。因此，使用 <em>能量(乘方)</em> 在数学上比使用线性插值的 <em>影响</em> 更正确。也不建议启用 <em>添加</em> 选项。</p>
 </div>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
@@ -283,10 +274,10 @@ disable other axes, enable <em>Make Uniform</em>, and set <em>Power</em> to 3.</
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="copy_transforms.html" class="btn btn-neutral float-right" title="Copy Transforms Constraint" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="copy_transforms.html" class="btn btn-neutral float-right" title="复制变换约束" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="copy_rotation.html" class="btn btn-neutral float-left" title="Copy Rotation Constraint" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="copy_rotation.html" class="btn btn-neutral float-left" title="Copy Rotation Constraint 复制旋转约束" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -320,7 +311,7 @@ disable other axes, enable <em>Make Uniform</em>, and set <em>Power</em> to 3.</
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

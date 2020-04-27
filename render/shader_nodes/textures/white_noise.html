@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>White Noise Texture Node &mdash; Blender Manual</title>
+  <title>白噪波纹理节点 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Color" href="../color/index.html" />
-    <link rel="prev" title="Wave Texture Node" href="wave.html" /> 
+    <link rel="next" title="颜色节点" href="../color/index.html" />
+    <link rel="prev" title="波浪纹理着色器节点" href="wave.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,69 +110,69 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">Physics</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Rendering</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">物理</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">渲染</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">简介</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../eevee/index.html">Eevee</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../cycles/index.html">Cycles</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../workbench/index.html">Workbench</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../cameras.html">Cameras</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../cameras.html">相机</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../lights/index.html">Lights</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../materials/index.html">Materials</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="../index.html">Shader Nodes</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="../introduction.html">Introduction</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../input/index.html">Input</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../output/index.html">Output</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../shader/index.html">Shader</a></li>
-<li class="toctree-l3 current"><a class="reference internal" href="index.html">Texture</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="brick.html">Brick Texture Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="checker.html">Checker Texture Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="environment.html">Environment Texture Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="gradient.html">Gradient Texture Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="ies.html">IES Texture Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="image.html">Image Texture Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="magic.html">Magic Texture Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="musgrave.html">Musgrave Texture Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="noise.html">Noise Texture Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="point_density.html">Point Density Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="sky.html">Sky Texture Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="voronoi.html">Voronoi Texture Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="wave.html">Wave Texture Node</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">White Noise Texture Node</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../materials/index.html">材质</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html">着色器节点</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../introduction.html">简介</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../input/index.html">输入节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../output/index.html">输出节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../shader/index.html">着色器</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="index.html">纹理节点</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="brick.html">砖墙纹理着色器节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="checker.html">棋盘格纹理节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="environment.html">环境纹理节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="gradient.html">渐变纹理着色器节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ies.html">IES纹理着色器节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="image.html">图像纹理着色器节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="magic.html">迷幻纹理着色器节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="musgrave.html">马氏分形纹理着色器节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="noise.html">噪波纹理着色器节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="point_density.html">点密度着色器节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="sky.html">天空纹理着色器节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="voronoi.html">沃罗诺伊纹理着色器节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="wave.html">波浪纹理着色器节点</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">白噪波纹理节点</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../color/index.html">Color</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../vector/index.html">Vector</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../converter/index.html">Converter</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../groups.html">Node Groups</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../osl.html">Open Shading Language</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../color/index.html">颜色节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../vector/index.html">矢量着色器节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../converter/index.html">转换器节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../groups.html">节点组</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../osl.html">开放式着色语言 (OSL)</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../color_management.html">Color Management</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../color_management.html">色彩管理</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../freestyle/index.html">Freestyle</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../layers/index.html">Layers &amp; Passes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../output/index.html">Render Output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../layers/index.html">层 &amp; 通道</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../output/index.html">渲染输出</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -218,17 +218,17 @@
     
       <li><a href="../../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../../index.html">Rendering</a> &raquo;</li>
+          <li><a href="../../index.html">渲染</a> &raquo;</li>
         
-          <li><a href="../index.html">Shader Nodes</a> &raquo;</li>
+          <li><a href="../index.html">着色器节点</a> &raquo;</li>
         
-          <li><a href="index.html">Texture</a> &raquo;</li>
+          <li><a href="index.html">纹理节点</a> &raquo;</li>
         
-      <li>White Noise Texture Node</li>
+      <li>白噪波纹理节点</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/render/shader_nodes/textures/white_noise.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/render/shader_nodes/textures/white_noise.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -239,83 +239,76 @@
            <div itemprop="articleBody">
             
   <div class="section" id="white-noise-texture-node">
-<span id="bpy-types-shadernodetexwhitenoise"></span><h1>White Noise Texture Node<a class="headerlink" href="#white-noise-texture-node" title="Permalink to this headline">¶</a></h1>
-<p>The <em>White Noise Texture</em> node returns a random number based on an input <a class="reference internal" href="../../../glossary/index.html#term-seed"><span class="xref std std-term">seed</span></a>.
-The seed can be a number, a 2D vector, a 3D vector, or a 4D vector; depending on the <em>Dimensions</em> property.
-The output number ranges between zero and one.</p>
+<span id="bpy-types-shadernodetexwhitenoise"></span><h1>白噪波纹理节点<a class="headerlink" href="#white-noise-texture-node" title="Permalink to this headline">¶</a></h1>
+<p><em>白噪波纹理</em> 节点基于输入的 <a class="reference internal" href="../../../glossary/index.html#term-seed"><span class="xref std std-term">种子</span></a> 返回随机数。随机种可以是数字、二维、三维或四维矢量。取决于 <em>维度(规格尺寸)</em> 属性。输出数值介于 0 到 1 之间。</p>
 <div class="figure align-right" id="id1">
 <img alt="../../../_images/render_shader-nodes_textures_white-noise_node.png" src="../../../_images/render_shader-nodes_textures_white-noise_node.png" />
-<p class="caption"><span class="caption-text">White Noise Texture Node.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">白噪波纹理节点。</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
 <div class="section" id="inputs">
-<h2>Inputs<a class="headerlink" href="#inputs" title="Permalink to this headline">¶</a></h2>
-<p>The inputs are dynamic, they become available if needed depending on the node properties.</p>
+<h2>输入<a class="headerlink" href="#inputs" title="Permalink to this headline">¶</a></h2>
+<p>输入是动态的，下面的输入端口会在选择的节点属性需要时出现。</p>
 <dl class="simple">
-<dt>Vector</dt><dd><p>Vector used as seed in 2D, 3D, and 4D dimensions.</p>
+<dt>矢量</dt><dd><p>用于二维、三维及四维随机种的矢量。</p>
 </dd>
-<dt>W</dt><dd><p>Value used as seed in 1D and 4D dimensions.</p>
+<dt>W</dt><dd><p>用于一维及四维随机种的数值。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="properties">
-<h2>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
+<h2>属性<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
 <dl>
-<dt>Dimensions</dt><dd><p>The dimensions of the space to evaluate the noise in.</p>
+<dt>规格尺寸</dt><dd><p>用于计算噪波的空间维度。</p>
 <dl class="simple">
-<dt>1D</dt><dd><p>The <em>W</em> input is used as seed.</p>
+<dt>1D</dt><dd><p><em>W</em> 作为随机种。</p>
 </dd>
-<dt>2D</dt><dd><p>The X and Y components of the <em>Vector</em> input are used as seed.</p>
+<dt>2D</dt><dd><p>输入 <em>矢量</em> 的 X 和 Y 分量用作随机种。</p>
 </dd>
-<dt>3D</dt><dd><p>The <em>Vector</em> input is used as seed.</p>
+<dt>3D</dt><dd><p>使用 <em>矢量</em> 作为随机种。</p>
 </dd>
-<dt>4D</dt><dd><p>Both the <em>Vector</em> input and the <em>W</em> input are used as seed.</p>
+<dt>4D</dt><dd><p><em>矢量</em> 输入和 <em>W</em> 输入同时用作种子。</p>
 </dd>
 </dl>
 </dd>
 </dl>
 </div>
 <div class="section" id="outputs">
-<h2>Outputs<a class="headerlink" href="#outputs" title="Permalink to this headline">¶</a></h2>
+<h2>输出<a class="headerlink" href="#outputs" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>Value</dt><dd><p>Output random value.</p>
+<dt>值</dt><dd><p>输出随机值。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="notes">
-<span id="shader-white-noise-notes"></span><h2>Notes<a class="headerlink" href="#notes" title="Permalink to this headline">¶</a></h2>
-<p>The slightest difference in seed values would result in completely different outputs.
-Consequently, bad precision may have significant impact on the output.
-Usually, we can mitigate this issue by:</p>
+<span id="shader-white-noise-notes"></span><h2>注意事项<a class="headerlink" href="#notes" title="Permalink to this headline">¶</a></h2>
+<p>随机种数值的微小差异将导致完全不同的输出。因此，不良精度可能会对输出产生重大影响。通常，我们可以通过下面的方法缓和这一问题：</p>
 <ul class="simple">
-<li><p>Eliminating the problematic seed value. If the problematic seed value is constant,
-it should be eliminated by choosing a lower dimension or multiplying it by zero.</p></li>
-<li><p>Adding an arbitrary value to the seed. The issue might only happen at certain boundaries,
-like unit boundaries, so simply adding an arbitrary value might solve the issue.</p></li>
-<li><p>Taking the absolute value of the seed. In computing, zero may be positive or negative,
-so taking the absolute values unifies the zero into a single value.</p></li>
+<li><p>消除有问题的随机种数值。如果有问题的随机种是常数，则应通过选择较低的维度或将其乘以零来消除该问题。</p></li>
+<li><p>将随机种与任意数值相加。该问题可能只发生在特定边界(如单位边界)上，因此只需与任意数值相加即可解决问题。</p></li>
+<li><p>对随机种取绝对值。在计算中，零可能是正的或负的，因此取绝对值可统一为单一取值。</p></li>
 </ul>
 <div class="figure align-default" id="id2">
 <img alt="../../../_images/render_shader-nodes_textures_white-noise_issue.png" src="../../../_images/render_shader-nodes_textures_white-noise_issue.png" />
-<p class="caption"><span class="caption-text">Precision issue due to signed zeros on the Z axis.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">由于Z轴上有符号的零而导致的精度问题。</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
 <div class="figure align-default" id="id3">
 <img alt="../../../_images/render_shader-nodes_textures_white-noise_solution1.png" src="../../../_images/render_shader-nodes_textures_white-noise_solution1.png" />
-<p class="caption"><span class="caption-text">Mitigating the issue by eliminating the Z axis.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">通过拿掉Z轴来缓和问题。</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
 </div>
 <div class="figure align-default" id="id4">
 <img alt="../../../_images/render_shader-nodes_textures_white-noise_solution2.png" src="../../../_images/render_shader-nodes_textures_white-noise_solution2.png" />
-<p class="caption"><span class="caption-text">Mitigating the issue by adding an arbitrary value.</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">通过与任意数值相加来缓和问题。</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
 </div>
 <div class="figure align-default" id="id5">
 <img alt="../../../_images/render_shader-nodes_textures_white-noise_solution3.png" src="../../../_images/render_shader-nodes_textures_white-noise_solution3.png" />
-<p class="caption"><span class="caption-text">Mitigating the issue by taking the absolute value.</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">通过取绝对值来缓和问题。</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 <div class="section" id="examples">
-<h2>Examples<a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h2>
+<h2>举例<a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h2>
 <div class="figure align-default" id="id6">
 <img alt="../../../_images/render_shader-nodes_textures_white-noise_solution1.png" src="../../../_images/render_shader-nodes_textures_white-noise_solution1.png" />
-<p class="caption"><span class="caption-text">Generating cell noise using the <em>Snap</em> vector operation and the <em>White Noise</em> node.</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">使用 <em>吸附</em> 矢量操作和 <em>白噪波</em> 节点生成格子噪波。</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 </div>
@@ -328,10 +321,10 @@ so taking the absolute values unifies the zero into a single value.</p></li>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../color/index.html" class="btn btn-neutral float-right" title="Color" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="../color/index.html" class="btn btn-neutral float-right" title="颜色节点" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="wave.html" class="btn btn-neutral float-left" title="Wave Texture Node" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="wave.html" class="btn btn-neutral float-left" title="波浪纹理着色器节点" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -365,7 +358,7 @@ so taking the absolute values unifies the zero into a single value.</p></li>
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

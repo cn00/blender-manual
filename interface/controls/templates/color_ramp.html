@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Color Ramp Widget &mdash; Blender Manual</title>
+  <title>颜色渐变部件 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Curve Widget" href="curve.html" />
-    <link rel="prev" title="Color Picker" href="color_picker.html" /> 
+    <link rel="next" title="曲线部件" href="curve.html" />
+    <link rel="prev" title="拾色器" href="color_picker.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,47 +110,47 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">User Interface</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../splash.html">Splash Screen</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../index.html#window-system">Window System</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../index.html#keymap">Keymap</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="../../index.html#interface-controls">Interface Controls</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="../../index.html#buttons-and-controls">Buttons and Controls</a></li>
-<li class="toctree-l3 current"><a class="reference internal" href="../../index.html#extended-controls">Extended Controls</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="data_block.html">Data-Block Menu</a></li>
-<li class="toctree-l4"><a class="reference internal" href="list_presets.html">List Views &amp; Presets</a></li>
-<li class="toctree-l4"><a class="reference internal" href="color_picker.html">Color Picker</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">Color Ramp Widget</a></li>
-<li class="toctree-l4"><a class="reference internal" href="curve.html">Curve Widget</a></li>
-<li class="toctree-l4"><a class="reference internal" href="operator_search.html">Operator Search</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../nodes/index.html">Nodes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">用户界面</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../splash.html">启动画面</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../index.html#window-system">窗口系统</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../index.html#keymap">键位映射</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../index.html#interface-controls">界面控件</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../index.html#buttons-and-controls">按钮与控件</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../../index.html#extended-controls">扩展控件</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="data_block.html">数据块菜单</a></li>
+<li class="toctree-l4"><a class="reference internal" href="list_presets.html">列表视图 &amp; 预设</a></li>
+<li class="toctree-l4"><a class="reference internal" href="color_picker.html">拾色器</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">颜色渐变部件</a></li>
+<li class="toctree-l4"><a class="reference internal" href="curve.html">曲线部件</a></li>
+<li class="toctree-l4"><a class="reference internal" href="operator_search.html">操作搜索</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../nodes/index.html">节点</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../index.html#tools">Tools</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../index.html#tools">工具</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">Rendering</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">渲染</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -196,13 +196,13 @@
     
       <li><a href="../../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../../index.html">User Interface</a> &raquo;</li>
+          <li><a href="../../index.html">用户界面</a> &raquo;</li>
         
-      <li>Color Ramp Widget</li>
+      <li>颜色渐变部件</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/interface/controls/templates/color_ramp.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/interface/controls/templates/color_ramp.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -213,96 +213,85 @@
            <div itemprop="articleBody">
             
   <div class="section" id="color-ramp-widget">
-<span id="bpy-types-colorramp"></span><span id="ui-color-ramp-widget"></span><h1>Color Ramp Widget<a class="headerlink" href="#color-ramp-widget" title="Permalink to this headline">¶</a></h1>
-<p><em>Color Ramps</em> enables the user to specify a range of colors based on color stops.
-Color stops are similar to a mark indicating where exactly the chosen color should be.
-The interval from each of the stops, added to the ramp, is a result of the color interpolation and
-chosen interpolation method.</p>
+<span id="bpy-types-colorramp"></span><span id="ui-color-ramp-widget"></span><h1>颜色渐变部件<a class="headerlink" href="#color-ramp-widget" title="Permalink to this headline">¶</a></h1>
+<p><em>颜色渐变</em> 使用户能够指定基于颜色断点的颜色变化。颜色断点类似于标记，用于标明该点的确切颜色。颜色断点之间的颜色取决于颜色断点颜色与插值方式。</p>
 <div class="figure align-default" id="id1">
 <img alt="../../../_images/interface_controls_templates_color-ramp_color-ramp.png" src="../../../_images/interface_controls_templates_color-ramp_color-ramp.png" />
-<p class="caption"><span class="caption-text">Color ramp.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">颜色渐变。</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
 <div class="section" id="controls">
-<h2>Controls<a class="headerlink" href="#controls" title="Permalink to this headline">¶</a></h2>
+<h2>控件<a class="headerlink" href="#controls" title="Permalink to this headline">¶</a></h2>
 <dl>
-<dt>Add <code class="docutils literal notranslate"><span class="pre">+</span></code></dt><dd><p>Clicking on this button will add a stop to your color ramp.
-The stops are added from the last selected stop to the next one, from left to right and
-they will be placed in the middle of both stops.</p>
+<dt>添加 <code class="docutils literal notranslate"><span class="pre">+</span></code></dt><dd><p>单击该按钮，为自定义权重映射添加颜色断点。新添加的颜色断点位于最后选中的颜色断点与其左侧的颜色断点中间。</p>
 </dd>
-<dt>Delete <code class="docutils literal notranslate"><span class="pre">-</span></code></dt><dd><p>Deletes the selected color stop from the list.</p>
+<dt>删除 <code class="docutils literal notranslate"><span class="pre">-</span></code></dt><dd><p>从列表中删除选中颜色断点。</p>
 </dd>
-<dt>Specials <code class="docutils literal notranslate"><span class="pre">v</span></code></dt><dd><p>Contains more operators for the color ramp.</p>
+<dt>专项菜单 <code class="docutils literal notranslate"><span class="pre">v</span></code></dt><dd><p>包含更多颜色渐变的操作。</p>
 <dl class="simple">
-<dt>Flip Color Ramp</dt><dd><p>Flips the gradient, inverting the values of the color ramp.</p>
+<dt>反转渐变色</dt><dd><p>翻转渐变条，翻转自定义权重绘制范围的值。</p>
 </dd>
-<dt>Distribute Stops from Left</dt><dd><p>Distribute the stops so that every step has the same space to the right.
-This is mostly useful when used with Constant interpolation mode.</p>
+<dt>从左侧分布断点</dt><dd><p>从左至右均匀分布每一个断点，当与插入常值一起使用时，这非常有用。</p>
 </dd>
-<dt>Distribute Stops Evenly</dt><dd><p>Space between all neighboring stops becomes equal.</p>
+<dt>均匀分布断点</dt><dd><p>使每一个断点之间的距离保持相等。</p>
 </dd>
-<dt>Eyedropper (pipette icon) <kbd class="kbd docutils literal notranslate">E</kbd></dt><dd><p>An <a class="reference internal" href="../buttons/eyedropper.html#ui-eyedropper"><span class="std std-ref">Eyedropper</span></a> to sample a color or gradient from the interface to be used in the color ramp.</p>
+<dt>吸管工具(吸管图标) <kbd class="kbd docutils literal notranslate">E</kbd></dt><dd><p>使用 <a class="reference internal" href="../buttons/eyedropper.html#ui-eyedropper"><span class="std std-ref">吸管工具</span></a> 从界面中采样颜色或渐变色。</p>
 </dd>
-<dt>Reset Color Ramp</dt><dd><p>Resets the color ramp to its default state.</p>
+<dt>重置颜色渐变</dt><dd><p>恢复颜色渐变至初始状态。</p>
 </dd>
 </dl>
 </dd>
-<dt>Color Mode</dt><dd><p>Selection of the <a class="reference internal" href="../../../glossary/index.html#term-color-space"><span class="xref std std-term">color space</span></a> used for interpolation.</p>
+<dt>色彩模式</dt><dd><p>选择用于插值的 <a class="reference internal" href="../../../glossary/index.html#term-color-space"><span class="xref std std-term">色彩空间</span></a>。</p>
 <dl class="simple">
-<dt>RGB</dt><dd><p>Blends color by mixing each color channel and combining.</p>
+<dt>RGB</dt><dd><p>混合各个颜色通道，并合成颜色。</p>
 </dd>
-<dt>HSV/HSL</dt><dd><p>Blends colors by first converting to HSV or HSL, mixing, then combining again.
-This has the advantage of maintaining saturation between different hues,
-where RGB would de-saturate, this allows for a richer gradient.</p>
+<dt>HSV/HSL</dt><dd><p>先转换颜色为HSV或者HSL，然后混合，在合成颜色。该方法的优势在于可以保持不同色调之间的饱和度，获得更丰富的渐变，而RGB则会降低饱和度。</p>
 </dd>
 </dl>
 </dd>
-<dt>Interpolation Options</dt><dd><p>Enables the user to choose the types of calculations for the color interpolation for each color stop.</p>
+<dt>插值选项</dt><dd><p>供用户选择颜色断点之间的插值计算方法类型。</p>
 <dl class="simple">
 <dt>RGB</dt><dd><dl class="simple">
-<dt>B-Spline</dt><dd><p>Uses a <em>B-Spline</em> Interpolation for the color stops.</p>
+<dt>插值样条</dt><dd><p>颜色断点之间使用 <em>B-样条曲线</em> 插值。</p>
 </dd>
-<dt>Cardinal</dt><dd><p>Uses a <em>Cardinal</em> Interpolation for the color stops.</p>
+<dt>原始</dt><dd><p>颜色断点之间使用 <em>原始</em> 插值。</p>
 </dd>
-<dt>Linear</dt><dd><p>Uses a <em>Linear</em> Interpolation for the color stops.</p>
+<dt>线性</dt><dd><p>颜色断点之间使用 <em>线性</em> 插值。</p>
 </dd>
-<dt>Ease</dt><dd><p>Uses an <em>Ease</em> Interpolation for the color stops.</p>
+<dt>移动</dt><dd><p>颜色断点之间使用 <em>移动</em> 插值。</p>
 </dd>
-<dt>Constant</dt><dd><p>Uses a <em>Constant</em> Interpolation for the color stops.</p>
+<dt>常值</dt><dd><p>颜色断点之间使用 <em>常数</em> 插值。</p>
 </dd>
 </dl>
 </dd>
-<dt>HSV and HSL</dt><dd><dl class="simple">
-<dt>Clockwise</dt><dd><p>Clockwise interpolation around the HSV/HSL wheel.</p>
+<dt>HSV 与 HSL</dt><dd><dl class="simple">
+<dt>顺时针</dt><dd><p>沿HSV/HSL 色轮顺时针插值。</p>
 </dd>
-<dt>Counter-Clockwise</dt><dd><p>Counterclockwise around the HSV/HSL wheel.</p>
+<dt>逆时针</dt><dd><p>沿HSV/HSL 色轮顺时针插值。</p>
 </dd>
-<dt>Near</dt><dd><p>Nearest route around the wheel.</p>
+<dt>相近</dt><dd><p>色轮上最近的路径。</p>
 </dd>
-<dt>Far</dt><dd><p>Furthest route around the wheel.</p>
+<dt>远</dt><dd><p>色轮上最远的路径。</p>
 </dd>
 </dl>
 </dd>
 </dl>
 <div class="figure align-default" id="id2">
 <a class="reference internal image-reference" href="../../../_images/interface_controls_templates_color-ramp_interpolation.png"><img alt="../../../_images/interface_controls_templates_color-ramp_interpolation.png" src="../../../_images/interface_controls_templates_color-ramp_interpolation.png" style="width: 600px;" /></a>
-<p class="caption"><span class="caption-text">HSV and HSL interpolation options.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">HSV 与 HSL插值选项。</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
 </dd>
-<dt>Active Color Stop</dt><dd><p>Index of the active color stop (shown as a dashed line).
-Allows you to change the active color when colors may be too close to easily select with the cursor.</p>
+<dt>活动颜色断点</dt><dd><p>活动颜色断点 (显示为虚线)索引。在颜色断点过于密集时，可以用于改变活动颜色断点。</p>
 </dd>
-<dt>Position</dt><dd><p>This slider controls the positioning of the selected color stop in the range.</p>
+<dt>位置</dt><dd><p>该滑块用于控制选中颜色断点在条上的位置。</p>
 </dd>
-<dt>Color</dt><dd><p>Opens a color picker for the user to specify color and Alpha for the selected color stop.
-When a color is using Alpha, the color field is then divided in two, with the left side
-showing the base color and the right side showing the color with the alpha value.</p>
+<dt>颜色</dt><dd><p>打开颜色选择器选择颜色点和Alpha通道值。 当颜色使用Alpha时，颜色区域将被分为两部分，左侧显示基色，右侧显示带alpha值的颜色。</p>
 </dd>
 </dl>
 <div class="section" id="shortcuts">
-<h3>Shortcuts<a class="headerlink" href="#shortcuts" title="Permalink to this headline">¶</a></h3>
+<h3>快捷键<a class="headerlink" href="#shortcuts" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li><p><kbd class="kbd docutils literal notranslate">LMB</kbd> (drag) moves colors.</p></li>
-<li><p><kbd class="kbd docutils literal notranslate">Ctrl-LMB</kbd> (click) adds a new control point.</p></li>
+<li><p><kbd class="kbd docutils literal notranslate">LMB</kbd> (拖动) 移动颜色。</p></li>
+<li><p><kbd class="kbd docutils literal notranslate">Ctrl-LMB</kbd> (单击) 添加控制点。</p></li>
 </ul>
 </div>
 </div>
@@ -316,10 +305,10 @@ showing the base color and the right side showing the color with the alpha value
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="curve.html" class="btn btn-neutral float-right" title="Curve Widget" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="curve.html" class="btn btn-neutral float-right" title="曲线部件" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="color_picker.html" class="btn btn-neutral float-left" title="Color Picker" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="color_picker.html" class="btn btn-neutral float-left" title="拾色器" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -353,7 +342,7 @@ showing the base color and the right side showing the color with the alpha value
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

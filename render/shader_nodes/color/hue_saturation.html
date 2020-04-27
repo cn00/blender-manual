@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Hue Saturation Value Node &mdash; Blender Manual</title>
+  <title>色相/饱和度/明度 着色器节点 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Invert Node" href="invert.html" />
-    <link rel="prev" title="Gamma Node" href="gamma.html" /> 
+    <link rel="next" title="反转着色器节点。" href="invert.html" />
+    <link rel="prev" title="伽玛着色器节点" href="gamma.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,62 +110,62 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">Physics</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Rendering</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">物理</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">渲染</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">简介</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../eevee/index.html">Eevee</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../cycles/index.html">Cycles</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../workbench/index.html">Workbench</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../cameras.html">Cameras</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../cameras.html">相机</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../lights/index.html">Lights</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../materials/index.html">Materials</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="../index.html">Shader Nodes</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="../introduction.html">Introduction</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../input/index.html">Input</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../output/index.html">Output</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../shader/index.html">Shader</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../textures/index.html">Texture</a></li>
-<li class="toctree-l3 current"><a class="reference internal" href="index.html">Color</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="bright_contrast.html">Bright/Contrast Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="gamma.html">Gamma Node</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">Hue Saturation Value Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="invert.html">Invert Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="light_falloff.html">Light Falloff Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="mix.html">Mix Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="rgb_curves.html">RGB Curves Node</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../materials/index.html">材质</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html">着色器节点</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../introduction.html">简介</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../input/index.html">输入节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../output/index.html">输出节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../shader/index.html">着色器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../textures/index.html">纹理节点</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="index.html">颜色节点</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="bright_contrast.html">亮度/对比度节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="gamma.html">伽玛着色器节点</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">色相/饱和度/明度 着色器节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="invert.html">反转着色器节点。</a></li>
+<li class="toctree-l4"><a class="reference internal" href="light_falloff.html">光线衰减着色器节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="mix.html">混合节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="rgb_curves.html">RGB曲线着色器节点</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../vector/index.html">Vector</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../converter/index.html">Converter</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../groups.html">Node Groups</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../osl.html">Open Shading Language</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../vector/index.html">矢量着色器节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../converter/index.html">转换器节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../groups.html">节点组</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../osl.html">开放式着色语言 (OSL)</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../color_management.html">Color Management</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../color_management.html">色彩管理</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../freestyle/index.html">Freestyle</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../layers/index.html">Layers &amp; Passes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../output/index.html">Render Output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../layers/index.html">层 &amp; 通道</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../output/index.html">渲染输出</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -211,17 +211,17 @@
     
       <li><a href="../../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../../index.html">Rendering</a> &raquo;</li>
+          <li><a href="../../index.html">渲染</a> &raquo;</li>
         
-          <li><a href="../index.html">Shader Nodes</a> &raquo;</li>
+          <li><a href="../index.html">着色器节点</a> &raquo;</li>
         
-          <li><a href="index.html">Color</a> &raquo;</li>
+          <li><a href="index.html">颜色节点</a> &raquo;</li>
         
-      <li>Hue Saturation Value Node</li>
+      <li>色相/饱和度/明度 着色器节点</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/render/shader_nodes/color/hue_saturation.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/render/shader_nodes/color/hue_saturation.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -232,80 +232,68 @@
            <div itemprop="articleBody">
             
   <span class="target" id="bpy-types-shadernodehuesaturation"></span><div class="section" id="hue-saturation-value-node">
-<h1>Hue Saturation Value Node<a class="headerlink" href="#hue-saturation-value-node" title="Permalink to this headline">¶</a></h1>
+<h1>色相/饱和度/明度 着色器节点<a class="headerlink" href="#hue-saturation-value-node" title="Permalink to this headline">¶</a></h1>
 <div class="figure align-right" id="id1">
 <img alt="../../../_images/compositing_node-types_CompositorNodeHueSat.png" src="../../../_images/compositing_node-types_CompositorNodeHueSat.png" />
-<p class="caption"><span class="caption-text">Hue Saturation Node.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">色相/饱和度/明度 着色器节点。</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
-<p>The <em>Hue Saturation Value Node</em> applies a color transformation in the HSV color space.
-Called “Hue Saturation Value” in shader and texture context.</p>
+<p><em>色相/饱和度/明度</em> 节点在HSV颜色空间中应用颜色变换。在着色器和纹理中称为 <em>色相/饱和度/明度</em> 。</p>
 <div class="section" id="inputs">
-<h2>Inputs<a class="headerlink" href="#inputs" title="Permalink to this headline">¶</a></h2>
+<h2>输入选项<a class="headerlink" href="#inputs" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>Factor</dt><dd><p>Controls the amount of influence the node exerts on the output image.</p>
+<dt>系数</dt><dd><p>控制节点对输出图像施加的影响量。</p>
 </dd>
-<dt>Image</dt><dd><p>Standard image input.</p>
+<dt>图像</dt><dd><p>标准图像输入。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="properties">
-<h2>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
-<p>The transformations are relative shifts.
-In the shader and texture context the following properties are available as input sockets.</p>
+<h2>属性<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
+<p>转变是相对移动。在着色器和纹理中，以下属性可用作输入接口。</p>
 <dl class="simple">
-<dt>Hue</dt><dd><p>Specifies the hue rotation of the image. 360° are mapped to (0 to 1).
-The hue shifts of 0 (-180°) and 1 (+180°) have the same result.</p>
+<dt>色相</dt><dd><p>指定图像的色调旋转。360°映射到(0到1)。色调偏移0 (-180°) 和1 (+ 180°) 具有相同的结果。</p>
 </dd>
-<dt>Saturation</dt><dd><p>A saturation of 0 removes hues from the image, resulting in a grayscale image.
-A shift greater than 1.0 increases saturation.</p>
+<dt>饱和度</dt><dd><p>饱和度为0时，会从图像中消除色调，从而产生灰度图像。大于1.0的偏移会增加饱和度。</p>
 </dd>
-<dt>Value</dt><dd><p>Value is the overall brightness of the image.
-De/Increasing values shift an image darker/lighter.</p>
+<dt>明度</dt><dd><p>明度值是图像的整体亮度。降低/增加取值会使图像变暗/变亮。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="outputs">
-<h2>Outputs<a class="headerlink" href="#outputs" title="Permalink to this headline">¶</a></h2>
+<h2>输出选项<a class="headerlink" href="#outputs" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>Image</dt><dd><p>Standard image output.</p>
+<dt>图像</dt><dd><p>标准图像输出。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="hue-saturation-tips">
-<h2>Hue/Saturation Tips<a class="headerlink" href="#hue-saturation-tips" title="Permalink to this headline">¶</a></h2>
-<p>Some things to keep in mind that might help you use this node better:</p>
+<h2>色相/饱和度 小贴士<a class="headerlink" href="#hue-saturation-tips" title="Permalink to this headline">¶</a></h2>
+<p>注意以下事项，有助于更好地使用此节点：</p>
 <dl class="simple">
-<dt>Hues are vice versa</dt><dd><p>A blue image, with a Hue setting at either end of the spectrum (0 or 1),
-is output as yellow (recall that white, minus blue, equals yellow).
-A yellow image, with a Hue setting at 0 or 1, is blue.</p>
+<dt>色相具有反转特性</dt><dd><p>蓝色图像将色相设定为0或1，其输出则为黄色(白色减去蓝色，等于黄色)。黄色图像将色相设定为0或1，其输出则为蓝色。</p>
 </dd>
-<dt>Hue and Saturation work together.</dt><dd><p>So, a Hue of 0.5 keeps the blues the same shade of blue,
-but <em>Saturation</em> can deepen or lighten the intensity of that color.</p>
+<dt>色相和饱和度协同工作。</dt><dd><p>色相设定为0.5时，输出为蓝色，但 <em>饱和度</em> 可以加深或减轻该颜色的强度。</p>
 </dd>
-<dt>Gray &amp; White are neutral hues</dt><dd><p>A gray image, where the RGB values are equal, has no hue. Therefore,
-this node can only affect it with <em>Value</em>. This applies to all shades of gray,
-from black to white; wherever the values are equal.</p>
+<dt>灰色和白色是中性色相</dt><dd><p>RGB值相等的灰色图像没有色相。因此，此节点只能通过 <em>值</em> 产生效果。这适用于所有灰色，从黑色到白色，只要数值相同即可。</p>
 </dd>
-<dt>Changing the effect over time</dt><dd><p>The Hue and Saturation values can be animated with a <em>Time Node</em> or by animating the property.</p>
+<dt>随着时间的推移改变效果</dt><dd><p>可以使用 <em>时间</em> 节点或通过动画属性为色相和饱和度设置取值。</p>
 </dd>
 </dl>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Tinge</p>
-<p>This HSV node simply shifts hues that are already there.
-To colorize a gray image, or to add a tint to an image,
-use a Mix node to add in a static color from an RGB input node with your image.</p>
+<p>淡色</p>
+<p>此HSV节点仅仅改变原本的色相。将一个单色RGB输入节点和要进行着色处理的图像同时连接到“混合”节点，对灰度图像彩色化，或者对图像进行着色处理。</p>
 </div>
 </div>
 <div class="section" id="hsv-example">
-<h2>HSV Example<a class="headerlink" href="#hsv-example" title="Permalink to this headline">¶</a></h2>
+<h2>HSV 示例<a class="headerlink" href="#hsv-example" title="Permalink to this headline">¶</a></h2>
 <div class="figure align-default" id="id2">
 <a class="reference internal image-reference" href="../../../_images/compositing_types_color_hue-saturation_example.jpg"><img alt="../../../_images/compositing_types_color_hue-saturation_example.jpg" src="../../../_images/compositing_types_color_hue-saturation_example.jpg" style="width: 700px;" /></a>
-<p class="caption"><span class="caption-text">A basic example.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">HSV示例效果。</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
 <div class="figure align-default" id="id3">
 <a class="reference internal image-reference" href="../../../_images/compositing_types_input_mask_example.png"><img alt="../../../_images/compositing_types_input_mask_example.png" src="../../../_images/compositing_types_input_mask_example.png" style="width: 700px;" /></a>
-<p class="caption"><span class="caption-text">An example of using the Factor input for masking.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">使用系数输入进行屏蔽的效果。</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 </div>
@@ -318,10 +306,10 @@ use a Mix node to add in a static color from an RGB input node with your image.<
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="invert.html" class="btn btn-neutral float-right" title="Invert Node" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="invert.html" class="btn btn-neutral float-right" title="反转着色器节点。" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="gamma.html" class="btn btn-neutral float-left" title="Gamma Node" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="gamma.html" class="btn btn-neutral float-left" title="伽玛着色器节点" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -355,7 +343,7 @@ use a Mix node to add in a static color from an RGB input node with your image.<
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

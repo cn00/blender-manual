@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Ellipse Mask Node &mdash; Blender Manual</title>
+  <title>椭圆遮罩节点 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Keying Node" href="keying.html" />
-    <link rel="prev" title="Double Edge Mask Node" href="double_edge_mask.html" /> 
+    <link rel="next" title="抠像节点" href="keying.html" />
+    <link rel="prev" title="双边遮罩节点" href="double_edge_mask.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,59 +110,59 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">Rendering</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Compositing</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../properties.html">Properties</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="../../index.html#node-types">Node Types</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="../input/index.html">Input Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../output/index.html">Output Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../color/index.html">Color Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../converter/index.html">Converter Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../filter/index.html">Filter Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../vector/index.html">Vector Nodes</a></li>
-<li class="toctree-l3 current"><a class="reference internal" href="index.html">Matte Nodes</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="box_mask.html">Box Mask Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="channel_key.html">Channel Key Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="chroma_key.html">Chroma Key Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="color_key.html">Color Key Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="color_spill.html">Color Spill Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="cryptomatte.html">Cryptomatte</a></li>
-<li class="toctree-l4"><a class="reference internal" href="difference_key.html">Difference Key Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="distance_key.html">Distance Key Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="double_edge_mask.html">Double Edge Mask Node</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">Ellipse Mask Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="keying.html">Keying Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="keying_screen.html">Keying Screen Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="luminance_key.html">Luminance Key Node</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">渲染</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">合成</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">简介</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../properties.html">属性</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../index.html#node-types">节点类型</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../input/index.html">输入类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../output/index.html">输出类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../color/index.html">颜色类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../converter/index.html">转换器类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../filter/index.html">滤镜(过滤)节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../vector/index.html">矢量类节点</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="index.html">蒙版类节点</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="box_mask.html">方形遮罩节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="channel_key.html">通道抠像节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="chroma_key.html">色度抠像节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="color_key.html">色彩抠像节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="color_spill.html">色彩溢出节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="cryptomatte.html">Cryptomatte节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="difference_key.html">色差抠像节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="distance_key.html">色距抠像节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="double_edge_mask.html">双边遮罩节点</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">椭圆遮罩节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="keying.html">抠像节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="keying_screen.html">屏幕抠像节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="luminance_key.html">亮度抠像节点</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../distort/index.html">Distort Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../groups.html">Node Groups</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../layout/index.html">Layout Nodes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../distort/index.html">畸变类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../groups.html">节点组</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../layout/index.html">布局类节点</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -208,17 +208,17 @@
     
       <li><a href="../../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../../../editors/index.html">Editors</a> &raquo;</li>
+          <li><a href="../../../editors/index.html">编辑器</a> &raquo;</li>
         
-          <li><a href="../../index.html">Compositing</a> &raquo;</li>
+          <li><a href="../../index.html">合成</a> &raquo;</li>
         
-          <li><a href="index.html">Matte Nodes</a> &raquo;</li>
+          <li><a href="index.html">蒙版类节点</a> &raquo;</li>
         
-      <li>Ellipse Mask Node</li>
+      <li>椭圆遮罩节点</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/compositing/types/matte/ellipse_mask.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/compositing/types/matte/ellipse_mask.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -229,65 +229,55 @@
            <div itemprop="articleBody">
             
   <div class="section" id="ellipse-mask-node">
-<span id="bpy-types-compositornodeellipsemask"></span><h1>Ellipse Mask Node<a class="headerlink" href="#ellipse-mask-node" title="Permalink to this headline">¶</a></h1>
+<span id="bpy-types-compositornodeellipsemask"></span><h1>椭圆遮罩节点<a class="headerlink" href="#ellipse-mask-node" title="Permalink to this headline">¶</a></h1>
 <div class="figure align-right" id="id1">
 <img alt="../../../_images/compositing_node-types_CompositorNodeEllipseMask.png" src="../../../_images/compositing_node-types_CompositorNodeEllipseMask.png" />
-<p class="caption"><span class="caption-text">Ellipse Mask Node.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">椭圆遮罩节点。</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
-<p>The <em>Ellipse Mask</em> node creates an image suitable for use as a simple matte or vignette mask.</p>
+<p><em>椭圆遮罩</em> 节点通过使用一个椭圆形的简单图案来创建遮罩形状。</p>
 <div class="section" id="inputs">
-<h2>Inputs<a class="headerlink" href="#inputs" title="Permalink to this headline">¶</a></h2>
+<h2>输入<a class="headerlink" href="#inputs" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>Mask</dt><dd><p>An optional mask to use as the base for mask operations.</p>
+<dt>遮罩</dt><dd><p>使用可选择的遮罩做为遮罩操作的基础。</p>
 </dd>
-<dt>Value</dt><dd><p>Intensity of the generated mask.</p>
+<dt>值</dt><dd><p>生成遮罩的遮挡强度。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="properties">
-<h2>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
+<h2>属性<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
 <dl>
-<dt>X, Y</dt><dd><p>Position of the center of the ellipse as a fraction of the total width or height.
-(0.5, 0.5 creates a centered ellipse; 0.0, 0.0 creates an ellipse with its center in the lower left.)</p>
+<dt>X,Y坐标</dt><dd><p>椭圆中心的位置占总宽度或总高度的比例。(0.5,0.5创建一个居中的椭圆形遮罩，0.0,0.0创建一个中心点在左下角的椭圆形遮罩)。</p>
 </dd>
-<dt>Width</dt><dd><p>Width of the ellipse as a fraction of the total image width.</p>
+<dt>矩形遮罩宽度</dt><dd><p>椭圆形遮罩的总宽度。</p>
 </dd>
-<dt>Height</dt><dd><p>Height of the ellipse as a fraction of the total image <em>width</em>, not height.
-Equal <em>Width</em> and <em>Height</em> values with produce a circle.</p>
+<dt>矩形遮罩高度</dt><dd><p>椭圆形遮罩的总径向宽度。相同数值的 <em>宽度</em> 和 <em>径向宽度*(在 *Height</em> 这个单词上，英文原文和中文界面blender汉字内涵有差异)会形成圆形。</p>
 </dd>
-<dt>Rotation</dt><dd><p>Rotation of the ellipse around its center point.</p>
+<dt>旋转</dt><dd><p>椭圆形遮罩围绕中心点的旋转角度。</p>
 </dd>
-<dt>Mask Type</dt><dd><p>Operation to use against the input mask.</p>
+<dt>遮罩类型</dt><dd><p>将输入的遮罩进行集合运算。</p>
 <dl class="simple">
-<dt>Add</dt><dd><p>This yields the <em>union</em> of the input mask and the generated mask:
-Areas covered by the generated mask are set to the specified <em>Value</em>.
-Other parts of the input masked are passed through unchanged, or set to black if there is no input mask.</p>
+<dt>相加</dt><dd><p>将输入的遮罩和已有遮罩进行 <em>结合</em> 操作：生成遮罩的罩盖程度由 <em>值</em> 参数指定。输入遮罩的未显示部分不发生改变或者当无输入遮罩的情况，设置为黑背景。</p>
 </dd>
-<dt>Subtract</dt><dd><p>Values of the input mask have the specified <em>Value</em> subtracted from them.</p>
+<dt>相减</dt><dd><p>依据 <em>值</em> 参数和输入遮罩进行相减操作。</p>
 </dd>
-<dt>Multiply</dt><dd><p>This yields the <em>intersection</em> of this generated mask and the input mask:
-Values of the input mask are multiplied by the specified <em>Value</em> for the area covered by the generated mask.
-All other areas become black.</p>
+<dt>正片叠底</dt><dd><p>这个操作将输入遮罩和已有遮罩进行交集运算：输入遮罩的遮挡程度由 <em>值</em> 指定，生成最终的遮罩外观，其他部分被遮挡不显示。</p>
 </dd>
-<dt>Not</dt><dd><p>Any area covered by both the input mask and the generated mask becomes black.
-Areas covered by the generated mask that are black on the input mask become the specified <em>Value</em>.
-Areas uncovered by the generated mask remain unchanged.</p>
+<dt>非</dt><dd><p>输入遮罩和生成遮罩所有重叠的部分变为被遮挡。<em>值</em> 参数指定遮挡程度，未被生成遮罩覆盖到的部分维持原有状态不变。</p>
 </dd>
 </dl>
 </dd>
 </dl>
 </div>
 <div class="section" id="outputs">
-<h2>Outputs<a class="headerlink" href="#outputs" title="Permalink to this headline">¶</a></h2>
+<h2>输出<a class="headerlink" href="#outputs" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>Mask</dt><dd><p>A generated elliptical mask merged with the input mask.
-The created mask is the size of the current scene render dimensions.</p>
+<dt>遮罩</dt><dd><p>和输入遮罩相合并生成一个椭圆形的遮罩。创建遮罩的大小也就是当前场景能渲染部分的大小。</p>
 </dd>
 </dl>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
-<p>For soft edges, pass the output mask through a slight <a class="reference internal" href="../filter/blur_node.html"><span class="doc">Blur node</span></a>.
-For a vignette, pass the output of this through a heavy blur.</p>
+<p>对于软边缘，请将输出遮罩传递到一个轻度的 <a class="reference internal" href="../filter/blur_node.html"><span class="doc">模糊节点</span></a>。对于插画，请将此输出传递给一个重度模糊。</p>
 </div>
 </div>
 </div>
@@ -300,10 +290,10 @@ For a vignette, pass the output of this through a heavy blur.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="keying.html" class="btn btn-neutral float-right" title="Keying Node" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="keying.html" class="btn btn-neutral float-right" title="抠像节点" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="double_edge_mask.html" class="btn btn-neutral float-left" title="Double Edge Mask Node" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="double_edge_mask.html" class="btn btn-neutral float-left" title="双边遮罩节点" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -337,7 +327,7 @@ For a vignette, pass the output of this through a heavy blur.</p>
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

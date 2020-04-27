@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Projections &mdash; Blender Manual</title>
+  <title>投影 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Regions" href="regions.html" />
-    <link rel="prev" title="Aligning" href="align.html" /> 
+    <link rel="next" title="视图框" href="regions.html" />
+    <link rel="prev" title="对齐" href="align.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,70 +110,70 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Editors</a><ul class="current">
-<li class="toctree-l2 current"><a class="reference internal" href="../index.html">3D Viewport</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="../introduction.html">Introduction</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../startup_scene.html">Startup Scene</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../modes.html">Object Modes</a></li>
-<li class="toctree-l3 current"><a class="reference internal" href="index.html">Navigating</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="navigation.html">Navigation</a></li>
-<li class="toctree-l4"><a class="reference internal" href="walk_fly.html">Fly/Walk Mode</a></li>
-<li class="toctree-l4"><a class="reference internal" href="align.html">Aligning</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">Projections</a></li>
-<li class="toctree-l4"><a class="reference internal" href="regions.html">Regions</a></li>
-<li class="toctree-l4"><a class="reference internal" href="views.html">Contextual Views</a></li>
-<li class="toctree-l4"><a class="reference internal" href="camera_view.html">Camera View</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">编辑器</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html">3D视图</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../introduction.html">简介</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../startup_scene.html">启动场景</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../modes.html">物体模式</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="index.html">漫游</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="navigation.html">漫游</a></li>
+<li class="toctree-l4"><a class="reference internal" href="walk_fly.html">飞行/行走模式</a></li>
+<li class="toctree-l4"><a class="reference internal" href="align.html">对齐</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">投影</a></li>
+<li class="toctree-l4"><a class="reference internal" href="regions.html">视图框</a></li>
+<li class="toctree-l4"><a class="reference internal" href="views.html">上下文视图</a></li>
+<li class="toctree-l4"><a class="reference internal" href="camera_view.html">相机视图</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../3d_cursor.html">3D Cursor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../selecting.html">Selecting</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../controls/index.html">Controls</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../toolbar/index.html">Toolbar</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../properties/index.html">Properties</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../viewport_render.html">Viewport Render</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../3d_cursor.html">3D游标</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../selecting.html">选择</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../controls/index.html">控件</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../toolbar/index.html">工具栏</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../properties/index.html">属性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../viewport_render.html">视图渲染</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../image/index.html">Image Editor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../uv/index.html">UV Editor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../shader_editor.html">Shader Editor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../compositing/index.html">Compositor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../texture_node/index.html">Texture Nodes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../video_editing/index.html">Video Sequencer</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../clip/index.html">Movie Clip Editor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../dope_sheet/index.html">Dope Sheet</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../timeline.html">Timeline</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../graph_editor/index.html">Graph Editor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../drivers_editor.html">Drivers Editor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../nla/index.html">Nonlinear Animation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../text_editor.html">Text Editor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../python_console.html">Python Console</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../info_editor.html">Info Editor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../outliner.html">Outliner</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../properties_editor.html">Properties Editor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../file_browser.html">File Browser</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../preferences/index.html">Preferences</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../image/index.html">图像编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../uv/index.html">UV编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../shader_editor.html">着色器编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../compositing/index.html">合成器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../texture_node/index.html">纹理节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../video_editing/index.html">视频序列编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../clip/index.html">影片剪辑编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../dope_sheet/index.html">动画摄影表</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../timeline.html">时间线</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../graph_editor/index.html">曲线编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../drivers_editor.html">驱动器编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../nla/index.html">非线性动画</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../text_editor.html">文本编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../python_console.html">Python 控制台</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../info_editor.html">信息编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../outliner.html">大纲视图</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../properties_editor.html">属性编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../file_browser.html">文件浏览器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../preferences/index.html">偏好设置</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">Rendering</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">渲染</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -219,17 +219,17 @@
     
       <li><a href="../../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../../index.html">Editors</a> &raquo;</li>
+          <li><a href="../../index.html">编辑器</a> &raquo;</li>
         
-          <li><a href="../index.html">3D Viewport</a> &raquo;</li>
+          <li><a href="../index.html">3D视图</a> &raquo;</li>
         
-          <li><a href="index.html">Navigating</a> &raquo;</li>
+          <li><a href="index.html">漫游</a> &raquo;</li>
         
-      <li>Projections</li>
+      <li>投影</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/editors/3dview/navigate/projections.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/editors/3dview/navigate/projections.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -240,24 +240,22 @@
            <div itemprop="articleBody">
             
   <div class="section" id="projections">
-<h1>Projections<a class="headerlink" href="#projections" title="Permalink to this headline">¶</a></h1>
+<h1>投影<a class="headerlink" href="#projections" title="Permalink to this headline">¶</a></h1>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Mode</dt>
-<dd class="field-odd"><p>All modes</p>
+<dt class="field-odd">模式</dt>
+<dd class="field-odd"><p>所有模式</p>
 </dd>
-<dt class="field-even">Menu</dt>
-<dd class="field-even"><p><span class="menuselection">View ‣ Perspective/Orthographic</span></p>
+<dt class="field-even">菜单</dt>
+<dd class="field-even"><p><span class="menuselection">视图(View) ‣ 透视/正交(Perspective/Orthographic)</span></p>
 </dd>
-<dt class="field-odd">Hotkey</dt>
+<dt class="field-odd">快捷键</dt>
 <dd class="field-odd"><p><kbd class="kbd docutils literal notranslate">Numpad5</kbd></p>
 </dd>
 </dl>
 </div>
-<p>These operators change the projection of the viewport camera.
-Each 3D View supports two different types of projection.
-These are demonstrated in the Fig. below.</p>
+<p>这些操作会改变物体在视图相机中的投影。 每个3D视图都支持两种不同类型的投影。 如下图所示。</p>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 50%" />
@@ -266,39 +264,26 @@ These are demonstrated in the Fig. below.</p>
 <tbody>
 <tr class="row-odd"><td><div class="figure align-default" id="id1">
 <a class="reference internal image-reference" href="../../../_images/editors_3dview_navigate_projections_view-orthographic.png"><img alt="../../../_images/editors_3dview_navigate_projections_view-orthographic.png" src="../../../_images/editors_3dview_navigate_projections_view-orthographic.png" style="width: 320px;" /></a>
-<p class="caption"><span class="caption-text">Orthographic projections.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">正交投影。</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
 </td>
 <td><div class="figure align-default" id="id2">
 <a class="reference internal image-reference" href="../../../_images/editors_3dview_navigate_projections_view-perspective.png"><img alt="../../../_images/editors_3dview_navigate_projections_view-perspective.png" src="../../../_images/editors_3dview_navigate_projections_view-perspective.png" style="width: 320px;" /></a>
-<p class="caption"><span class="caption-text">Perspective projections.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">透视投影。</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
 </td>
 </tr>
 </tbody>
 </table>
-<p>Our eye is used to perspective viewing because distant objects appear smaller.
-Orthographic projection often seems a bit odd at first,
-because objects stay the same size regardless of their distance.
-It is like viewing the scene from an infinitely distant point.
-Nevertheless, orthographic viewing is very useful
-(it is the default in Blender and most other 3D applications),
-because it provides a more “technical” insight into the scene,
-making it easier to model and judge proportions.</p>
+<p>我们的眼睛习惯于透视观察，因为远处的物体看起来更小。正交投影通常看起来有点奇怪，因为无论距离如何，物体都保持相同的尺寸。 这就像从无限远的地方观看场景。 然而，正交观看非常有用(它是Blender和大多数其他3D应用程序中的默认设置)，因为它提供了对场景的更“技术的”视角，使得更容易建模和判断比例。</p>
 <div class="section" id="options">
-<h2>Options<a class="headerlink" href="#options" title="Permalink to this headline">¶</a></h2>
-<p>To change the projection for a 3D View, choose the <span class="menuselection">View ‣ Orthographic</span>
-or the <span class="menuselection">View ‣ Perspective</span> menu entry.
-The <kbd class="kbd docutils literal notranslate">Numpad5</kbd> shortcut toggles between the two modes.
-Changing the projection for a 3D View does not affect the way the scene will be rendered.
-Rendering is in perspective by default. If you need to create an orthographic rendering,
-select the camera, go to the Camera tab and
-press the <em>Orthographic</em> button in the <em>Lens</em> panel.</p>
+<h2>选项<a class="headerlink" href="#options" title="Permalink to this headline">¶</a></h2>
+<p>要更改3D视图的投影，请切换选择 <span class="menuselection">视图(View) ‣ 透视/正交(Perspective/Orthographic)</span> 菜单项。 <kbd class="kbd docutils literal notranslate">Numpad5</kbd> 快捷键在两种模式之间切换。 更改3D视图的投影不会影响场景的渲染方式。 默认情况下，渲染是透视的。 如果需要创建正交渲染，请选择相机，转到“相机”选项卡，然后按 <em>镜头</em> 面板中的 <em>类型</em> 选择器选择 <em>正交</em> 。</p>
 <div class="admonition seealso">
 <p class="admonition-title">See also</p>
 <ul class="simple">
-<li><p><a class="reference internal" href="../../../render/cameras.html#camera-lens-type"><span class="std std-ref">Render perspectives</span></a></p></li>
-<li><p><a class="reference internal" href="../../../glossary/index.html#term-projection"><span class="xref std std-term">Camera Projections</span></a></p></li>
+<li><p><a class="reference internal" href="../../../render/cameras.html#camera-lens-type"><span class="std std-ref">渲染透视</span></a></p></li>
+<li><p><a class="reference internal" href="../../../glossary/index.html#term-projection"><span class="xref std std-term">相机投影</span></a></p></li>
 </ul>
 </div>
 </div>
@@ -312,10 +297,10 @@ press the <em>Orthographic</em> button in the <em>Lens</em> panel.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="regions.html" class="btn btn-neutral float-right" title="Regions" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="regions.html" class="btn btn-neutral float-right" title="视图框" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="align.html" class="btn btn-neutral float-left" title="Aligning" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="align.html" class="btn btn-neutral float-left" title="对齐" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -349,7 +334,7 @@ press the <em>Orthographic</em> button in the <em>Lens</em> panel.</p>
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Scopes &mdash; Blender Manual</title>
+  <title>示波器 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Image Settings" href="image_settings.html" />
-    <link rel="prev" title="View Tab" href="view_tab.html" /> 
+    <link rel="next" title="图像设置" href="image_settings.html" />
+    <link rel="prev" title="查看选项卡" href="view_tab.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,63 +110,63 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Editors</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../3dview/index.html">3D Viewport</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="index.html">Image Editor</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="introduction.html">Introduction</a></li>
-<li class="toctree-l3"><a class="reference internal" href="navigating.html">Navigating</a></li>
-<li class="toctree-l3"><a class="reference internal" href="view_tab.html">View Tab</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">Scopes</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#histogram">Histogram</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#waveform">Waveform</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#vectorscope">Vectorscope</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#sample-line">Sample Line</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#scope-samples">Scope Samples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">编辑器</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../3dview/index.html">3D视图</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">图像编辑器</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="introduction.html">简介</a></li>
+<li class="toctree-l3"><a class="reference internal" href="navigating.html">导航</a></li>
+<li class="toctree-l3"><a class="reference internal" href="view_tab.html">查看选项卡</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">示波器</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#histogram">直方图</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#waveform">波形图</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#vectorscope">矢量示波图</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#sample-line">采样线</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#scope-samples">示波器采样</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="image_settings.html">Image Settings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="image_settings.html">图像设置</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../uv/index.html">UV Editor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../shader_editor.html">Shader Editor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../compositing/index.html">Compositor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../texture_node/index.html">Texture Nodes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../video_editing/index.html">Video Sequencer</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../clip/index.html">Movie Clip Editor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../dope_sheet/index.html">Dope Sheet</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../timeline.html">Timeline</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../graph_editor/index.html">Graph Editor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../drivers_editor.html">Drivers Editor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../nla/index.html">Nonlinear Animation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../text_editor.html">Text Editor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../python_console.html">Python Console</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../info_editor.html">Info Editor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../outliner.html">Outliner</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../properties_editor.html">Properties Editor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../file_browser.html">File Browser</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../preferences/index.html">Preferences</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../uv/index.html">UV编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../shader_editor.html">着色器编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../compositing/index.html">合成器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../texture_node/index.html">纹理节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../video_editing/index.html">视频序列编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../clip/index.html">影片剪辑编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../dope_sheet/index.html">动画摄影表</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../timeline.html">时间线</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../graph_editor/index.html">曲线编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../drivers_editor.html">驱动器编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nla/index.html">非线性动画</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../text_editor.html">文本编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../python_console.html">Python 控制台</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../info_editor.html">信息编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../outliner.html">大纲视图</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../properties_editor.html">属性编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../file_browser.html">文件浏览器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preferences/index.html">偏好设置</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../render/index.html">Rendering</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../render/index.html">渲染</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -212,15 +212,15 @@
     
       <li><a href="../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../index.html">Editors</a> &raquo;</li>
+          <li><a href="../index.html">编辑器</a> &raquo;</li>
         
-          <li><a href="index.html">Image Editor</a> &raquo;</li>
+          <li><a href="index.html">图像编辑器</a> &raquo;</li>
         
-      <li>Scopes</li>
+      <li>示波器</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/editors/image/scopes.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/editors/image/scopes.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -231,69 +231,63 @@
            <div itemprop="articleBody">
             
   <div class="section" id="scopes">
-<h1>Scopes<a class="headerlink" href="#scopes" title="Permalink to this headline">¶</a></h1>
+<h1>示波器<a class="headerlink" href="#scopes" title="Permalink to this headline">¶</a></h1>
 <div class="figure align-right" id="id1">
 <img alt="../../_images/editors_image_scopes_main.png" src="../../_images/editors_image_scopes_main.png" />
-<p class="caption"><span class="caption-text">Scopes in the image editor.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">图像编辑器中的示波器。</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
 <div class="section" id="histogram">
-<h2>Histogram<a class="headerlink" href="#histogram" title="Permalink to this headline">¶</a></h2>
-<p>This mode displays a graph showing the distribution of color information in the pixels of
-the currently displayed image. The X axis represents values of pixel, from 0 to 1 (or 0 to 255),
-while the Y axis represents the number of pixels in that tonal range.
-A predominantly dark image would have most of its information toward the left side of the graph.</p>
-<p>Use this mode to balance out the tonal range in an image.
-A well balanced image should have a nice smooth distribution of color values.</p>
+<h2>直方图<a class="headerlink" href="#histogram" title="Permalink to this headline">¶</a></h2>
+<p>该模式显示一张图表，表示当前显示图像的像素点的颜色信息的分布。 X轴表示像素的值，从0到1(或0到255)，而Y轴表示该色调范围内的像素数。 主要是暗色调的图像将其大部分信息集中在图表的左侧。</p>
+<p>使用此模式可平衡调节图像中的色调范围。 均衡的图像应具有良好的平滑分布的颜色值。</p>
 <dl class="simple">
-<dt>Luma</dt><dd><p>Shows the luminosity of an image.</p>
+<dt>亮度</dt><dd><p>显示图像的亮度。</p>
 </dd>
-<dt>RGB</dt><dd><p>Shows the <abbr title="Red, Green, Blue">RGB</abbr> channels stacked on top of each other.</p>
+<dt>RGB</dt><dd><p>堆叠显示 <abbr title="Red, Green, Blue">RGB</abbr> 通道信息。</p>
 </dd>
-<dt>R/G/B/A</dt><dd><p>Depending on the channel you choose the scope will show the appropriate channel.</p>
+<dt>R/G/B/A</dt><dd><p>根据您选择的通道，示波器将显示相应的通道。</p>
 </dd>
-<dt>Show line</dt><dd><p>Displays lines rather than filled shapes.</p>
+<dt>显示线条</dt><dd><p>显示线条而非形状填充。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="waveform">
-<h2>Waveform<a class="headerlink" href="#waveform" title="Permalink to this headline">¶</a></h2>
+<h2>波形图<a class="headerlink" href="#waveform" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>Waveform Opacity</dt><dd><p>Opacity of the points.</p>
+<dt>波形不透明度</dt><dd><p>点的不透明度。</p>
 </dd>
-<dt>Waveform Mode</dt><dd><dl class="simple">
-<dt>Luma</dt><dd><p>ToDo.</p>
+<dt>波形模式</dt><dd><dl class="simple">
+<dt>亮度</dt><dd><p>待完成。</p>
 </dd>
-<dt>Parade</dt><dd><p>The RGB channels are shown side-by-side.</p>
+<dt>检阅</dt><dd><p>RGB通道分开显示。</p>
 </dd>
-<dt>Red Green Blue</dt><dd><p>Shows the RGB channels overlaid as a “Full color” waveform.
-It is useful for color grading.</p>
+<dt>红绿蓝</dt><dd><p>叠加显示RGB通道为 <em>全色彩</em> 波形，用于颜色调校。</p>
 </dd>
 </dl>
 </dd>
 </dl>
 </div>
 <div class="section" id="vectorscope">
-<h2>Vectorscope<a class="headerlink" href="#vectorscope" title="Permalink to this headline">¶</a></h2>
+<h2>矢量示波图<a class="headerlink" href="#vectorscope" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>Vectorscope Opacity</dt><dd><p>Opacity of the points.</p>
+<dt>矢量不透明度</dt><dd><p>点的不透明度。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="sample-line">
-<h2>Sample Line<a class="headerlink" href="#sample-line" title="Permalink to this headline">¶</a></h2>
-<p>The <em>Sample Line</em> scope is the same as the <a class="reference internal" href="#histogram">Histogram</a>
-but allows you to get the sample data from a line.</p>
+<h2>采样线<a class="headerlink" href="#sample-line" title="Permalink to this headline">¶</a></h2>
+<p><em>采样线</em> 与 <a class="reference internal" href="#histogram">直方图</a> 相同，不过是在图像上绘制直线进行采样。</p>
 <dl class="simple">
-<dt>Sample Line</dt><dd><p>Used to draw a line to use to read the sample data from.</p>
+<dt>采样线</dt><dd><p>用于绘制直线，读取采样数据。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="scope-samples">
-<h2>Scope Samples<a class="headerlink" href="#scope-samples" title="Permalink to this headline">¶</a></h2>
+<h2>示波器采样<a class="headerlink" href="#scope-samples" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>Full Sample</dt><dd><p>Sample every pixel.</p>
+<dt>全采样</dt><dd><p>对每一个像素点采样。</p>
 </dd>
-<dt>Accuracy</dt><dd><p>Proportion of original image source pixel lines to sample.</p>
+<dt>精度</dt><dd><p>对原始图像像素线的采样比例。</p>
 </dd>
 </dl>
 </div>
@@ -307,10 +301,10 @@ but allows you to get the sample data from a line.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="image_settings.html" class="btn btn-neutral float-right" title="Image Settings" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="image_settings.html" class="btn btn-neutral float-right" title="图像设置" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="view_tab.html" class="btn btn-neutral float-left" title="View Tab" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="view_tab.html" class="btn btn-neutral float-left" title="查看选项卡" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -344,7 +338,7 @@ but allows you to get the sample data from a line.</p>
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

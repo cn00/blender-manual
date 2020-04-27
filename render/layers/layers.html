@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>View Layers &mdash; Blender Manual</title>
+  <title>视图层 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Passes" href="passes.html" />
-    <link rel="prev" title="Layers &amp; Passes" href="index.html" /> 
+    <link rel="next" title="通道" href="passes.html" />
+    <link rel="prev" title="层 &amp; 通道" href="index.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,53 +110,53 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../physics/index.html">Physics</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Rendering</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../physics/index.html">物理</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">渲染</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../introduction.html">简介</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../eevee/index.html">Eevee</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../cycles/index.html">Cycles</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../workbench/index.html">Workbench</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../cameras.html">Cameras</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cameras.html">相机</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../lights/index.html">Lights</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../materials/index.html">Materials</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../shader_nodes/index.html">Shader Nodes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../color_management.html">Color Management</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../materials/index.html">材质</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../shader_nodes/index.html">着色器节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../color_management.html">色彩管理</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../freestyle/index.html">Freestyle</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="index.html">Layers &amp; Passes</a><ul class="current">
-<li class="toctree-l3 current"><a class="current reference internal" href="#">View Layers</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#id1">View Layers</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#view-layer-panel">View Layer Panel</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#usage">Usage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#collections">Collections</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">层 &amp; 通道</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">视图层</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id1">视图层</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#view-layer-panel">视图层面板</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#usage">用法</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#collections">集合</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#cycles">Cycles</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="passes.html">Passes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="denoising.html">Denoising</a></li>
+<li class="toctree-l3"><a class="reference internal" href="passes.html">通道</a></li>
+<li class="toctree-l3"><a class="reference internal" href="denoising.html">降噪</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../output/index.html">Render Output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../output/index.html">渲染输出</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -202,15 +202,15 @@
     
       <li><a href="../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../index.html">Rendering</a> &raquo;</li>
+          <li><a href="../index.html">渲染</a> &raquo;</li>
         
-          <li><a href="index.html">Layers &amp; Passes</a> &raquo;</li>
+          <li><a href="index.html">层 &amp; 通道</a> &raquo;</li>
         
-      <li>View Layers</li>
+      <li>视图层</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/render/layers/layers.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/render/layers/layers.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -221,143 +221,127 @@
            <div itemprop="articleBody">
             
   <div class="section" id="view-layers">
-<span id="render-layers"></span><span id="bpy-types-renderlayer"></span><span id="bpy-types-scenerenderlayer"></span><h1>View Layers<a class="headerlink" href="#view-layers" title="Permalink to this headline">¶</a></h1>
-<p>Renders can be separated into layers, to composite them back together afterwards.</p>
-<p>Some example usages are applying compositing effects to characters separately,
-blurring the background and foreground layers separately for depth of field,
-or rendering different lighting variations of the same scene.</p>
-<p>Using View Layers can also save you from having to re-render your entire image each time you change something,
-allowing you to instead re-render only the layer(s) that you need.</p>
+<span id="render-layers"></span><span id="bpy-types-renderlayer"></span><span id="bpy-types-scenerenderlayer"></span><h1>视图层<a class="headerlink" href="#view-layers" title="Permalink to this headline">¶</a></h1>
+<p>渲染可以被分成不同的层，然后将它们重新组合在一起。</p>
+<p>一些示例用法是将合成效果分别应用于角色，或分别为模糊背景和前景层用于景深，或渲染同一场景的不同光照变化。</p>
+<p>使用视图层还可以避免每次更改时重新渲染整个图像，从而允许您仅重新渲染所需的图层。</p>
 <div class="section" id="id1">
-<h2>View Layers<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<h2>视图层<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
 <div class="figure align-default" id="id2">
 <img alt="../../_images/render_layers_layers_list.png" src="../../_images/render_layers_layers_list.png" />
-<p class="caption"><span class="caption-text">View Layers.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">视图层。</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
-<p>In the top of the screen there is a list of all the View Layers in the active scene.</p>
+<p>在屏幕顶部，有一个激活的场景中所有视图层的列表。</p>
 <dl>
-<dt>Add View Layer</dt><dd><p>Will add a new view layer to the active scene.</p>
+<dt>添加视图层</dt><dd><p>将向激活的场景添加新视图层。</p>
 </dd>
-<dt>Remove View Layer</dt><dd><p>Will remove the selected view layer from the active scene.</p>
+<dt>删除视图层</dt><dd><p>将从激活的场景中删除选择的视图层。</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>A scene must at least have a single view layer.</p>
+<p>一个场景必须至少具有一个视图层。</p>
 </div>
 </dd>
 </dl>
 </div>
 <div class="section" id="view-layer-panel">
-<h2>View Layer Panel<a class="headerlink" href="#view-layer-panel" title="Permalink to this headline">¶</a></h2>
+<h2>视图层面板<a class="headerlink" href="#view-layer-panel" title="Permalink to this headline">¶</a></h2>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Panel</dt>
-<dd class="field-odd"><p><span class="menuselection">Properties editor ‣ Scene ‣ View Layer</span></p>
+<dt class="field-odd">面板</dt>
+<dd class="field-odd"><p><span class="menuselection">属性编辑器 ‣ 场景 ‣ 视图层</span></p>
 </dd>
 </dl>
 </div>
 <div class="figure align-default" id="id3">
 <img alt="../../_images/render_layers_layers_panel.png" src="../../_images/render_layers_layers_panel.png" />
-<p class="caption"><span class="caption-text">View Layer panel (shown here for the Eevee render engine)</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">视图层面板(这里显示的是Eevee渲染引擎)</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
 </div>
-<p>The Layer Panel shows the settings of the active View Layer.</p>
+<p>视图层面板显示活动的视图层的设置。</p>
 <dl>
-<dt>Use for Rendering</dt><dd><p>The active view layer will be used during rendering.</p>
+<dt>用于渲染</dt><dd><p>渲染期间将使用活动的视图层。</p>
 </dd>
-<dt>Render Single Layer</dt><dd><p>Only render the active view layer.</p>
+<dt>渲染单个层</dt><dd><p>仅渲染激活的视图层。</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>This option is ignored when rendering from the command line.</p>
+<p>从命令行渲染时，将忽略此选项。</p>
 </div>
 </dd>
 </dl>
 <div class="admonition seealso">
 <p class="admonition-title">See also</p>
-<p>Additional options shown in this panel are different for each render engine.
-See <a class="reference internal" href="passes.html"><span class="doc">Render Passes</span></a> for the options per render
-engine.</p>
+<p>此面板中显示的其他选项对于每个渲染引擎都是不同的。有关每个渲染引擎的选项，请参见 <a class="reference internal" href="passes.html"><span class="doc">通道</span></a> 。</p>
 </div>
 </div>
 <div class="section" id="usage">
-<h2>Usage<a class="headerlink" href="#usage" title="Permalink to this headline">¶</a></h2>
-<p>Each Render Layer has an associated set of <a class="reference internal" href="../../scene_layout/collections/collections.html"><span class="doc">Collections</span></a>.
-Objects which are on one of the associated collections are shown in that Render Layer,
-as long as that collection is also visible.</p>
+<h2>用法<a class="headerlink" href="#usage" title="Permalink to this headline">¶</a></h2>
+<p>每个视图层都有一组相关的 <a class="reference internal" href="../../scene_layout/collections/collections.html"><span class="doc">集合</span></a> 。只要该集合也可见，则该视图层中将显示其中一个关联集合上的对象。</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>Only the objects in visible Scene Layers will be rendered.
-So, if only Collection 1 is visible and your Render Layer set specifies to render only Collections 2 and 3,
-nothing will be rendered.</p>
+<p>仅渲染可见场景中的对象。因此，如果只有集合1可见并且您的渲染层集指定仅渲染集合2和3，则不会渲染任何内容。</p>
 </div>
 </div>
 <div class="section" id="collections">
-<h2>Collections<a class="headerlink" href="#collections" title="Permalink to this headline">¶</a></h2>
-<p>Per collection you can adjust the way how the render engine needs to render the objects inside.
-Based on the render engine different options can be set.</p>
+<h2>集合<a class="headerlink" href="#collections" title="Permalink to this headline">¶</a></h2>
+<p>每个集合都可以调整渲染引擎渲染内部对象的方式。基于渲染引擎，可以设置不同的选项。</p>
 <div class="figure align-default" id="id4">
 <img alt="../../_images/render_layers_layers_viewlayer-collection.png" src="../../_images/render_layers_layers_viewlayer-collection.png" />
-<p class="caption"><span class="caption-text">Collection/View layer settings</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">集合/视图层设置</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
 </div>
 <dl class="simple">
-<dt>Disable from View Layer</dt><dd><p>Remove this collection from the active view layer. Objects that are only in
-this collection will not be rendered for the active view layer.</p>
+<dt>从视图层禁用</dt><dd><p>从活动视图层中排除该集合。仅在该集合中的对象不会为活动视图层进行渲染。</p>
 </dd>
-<dt>Enable in View Layer</dt><dd><p>Add this collection to the active view layer. Objects inside the collection
-will be rendered with the active view layer.</p>
+<dt>在视图层中启用</dt><dd><p>将该集合加入活动视图层。集合中的对象将使用活动视图层进行渲染。</p>
 </dd>
-<dt>Set Indirect Only</dt><dd><p>Objects inside this collection will only contribute to the final image
-indirectly through shadows and reflections.</p>
+<dt>设为仅间接作用</dt><dd><p>改集合中的对象仅通过阴影和反射间接地对最终图像做出贡献。</p>
 </dd>
-<dt>Clear Indirect Only</dt><dd><p>Clear the Set Indirect Only flag. Objects inside this collection will contribute normal to the final image.</p>
+<dt>清除仅间接作用</dt><dd><p>清除“设为仅间接作用”标志。该集合中的对象将对最终图像作出正常的贡献。</p>
 </dd>
-<dt>Set Holdout</dt><dd><p>Objects inside this collection will generate a holdout/mask in the active view layer.</p>
+<dt>设为阻隔</dt><dd><p>该集合中的对象将在活动视图层中生成一个阻隔/遮罩。</p>
 </dd>
-<dt>Clear Holdout</dt><dd><p>Clear the Set Holdout flag.</p>
+<dt>清除阻隔</dt><dd><p>清除“设为阻隔”标志。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="cycles">
 <h2>Cycles<a class="headerlink" href="#cycles" title="Permalink to this headline">¶</a></h2>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Panel</dt>
-<dd class="field-odd"><p><span class="menuselection">View Layers ‣ Layer</span></p>
+<dt class="field-odd">面板</dt>
+<dd class="field-odd"><p><span class="menuselection">视图层 ‣ 层</span></p>
 </dd>
 </dl>
 </div>
-<p>This section covers only the Render Layer settings appropriate for the Cycles renderer.
-For the engine-independent settings, see <a class="reference internal" href="#render-layers"><span class="std std-ref">this section</span></a>.</p>
+<p>本节仅介绍适用于Cycles渲染器的渲染层设置。有关与该引擎无关的设置，请参阅 <a class="reference internal" href="#render-layers"><span class="std std-ref">本节</span></a> 。</p>
 <div class="section" id="view-layer">
-<h3>View Layer<a class="headerlink" href="#view-layer" title="Permalink to this headline">¶</a></h3>
+<h3>视图层<a class="headerlink" href="#view-layer" title="Permalink to this headline">¶</a></h3>
 <dl class="simple">
-<dt>Exclude</dt><dd><p>Scene layers are shared between all render layers;
-however, sometimes it is useful to leave out some object influence for a particular render layer.</p>
+<dt>排除</dt><dd><p>场景图层在所有渲染层之间是通用的; 但是，有时省略特定渲染层的某些对象是有用的。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="filter">
-<h3>Filter<a class="headerlink" href="#filter" title="Permalink to this headline">¶</a></h3>
+<h3>滤镜(过滤)<a class="headerlink" href="#filter" title="Permalink to this headline">¶</a></h3>
 <dl class="simple">
-<dt>Use Environment</dt><dd><p>Disables rendering the <em>Environment</em> render pass in the final render.</p>
+<dt>启用环境</dt><dd><p>启用在最终渲染中渲染 <em>环境</em> 。</p>
 </dd>
-<dt>Use Ambient Occlusion</dt><dd><p>Disables rendering the <em>Ambient Occlusion</em> render pass in the final render.</p>
+<dt>启用环境光这笔(AO)</dt><dd><p>启用在最终渲染中渲染 <em>环境光遮蔽(AO)</em> 。</p>
 </dd>
-<dt>Use Surfaces</dt><dd><p>Disables rendering object materials in the final render.</p>
+<dt>启用面</dt><dd><p>启用在最终渲染中渲染实体材质。</p>
 </dd>
-<dt>Use Hair</dt><dd><p>Disables rendering hair strands in the final render.</p>
+<dt>启用毛发</dt><dd><p>启用在最终渲染中渲染头毛发。</p>
 </dd>
-<dt>Use Freestyle</dt><dd><p>Disables freestyle rendering in the final render.</p>
+<dt>启用Freestyle</dt><dd><p>启用在最终渲染中渲染Freestyle。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="override">
-<h3>Override<a class="headerlink" href="#override" title="Permalink to this headline">¶</a></h3>
+<h3>覆盖<a class="headerlink" href="#override" title="Permalink to this headline">¶</a></h3>
 <dl class="simple">
-<dt>Material Override</dt><dd><p>Overrides all materials in the render layer.</p>
+<dt>材质覆盖</dt><dd><p>覆盖该视图层中的所有材质。</p>
 </dd>
-<dt>Samples</dt><dd><p>View layer samples to override the scene samples.
-Controlled by the <a class="reference internal" href="../cycles/render_settings/sampling.html#render-cycles-integrator-layer-samples"><span class="std std-ref">layer samples</span></a> in the sampling panel.</p>
+<dt>采样</dt><dd><p>视图层采样次数覆盖场景采样次数。由采样面板中的 <a class="reference internal" href="../cycles/render_settings/sampling.html#render-cycles-integrator-layer-samples"><span class="std std-ref">图层采样</span></a> 控制。</p>
 </dd>
 </dl>
 </div>
@@ -372,10 +356,10 @@ Controlled by the <a class="reference internal" href="../cycles/render_settings/
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="passes.html" class="btn btn-neutral float-right" title="Passes" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="passes.html" class="btn btn-neutral float-right" title="通道" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="index.html" class="btn btn-neutral float-left" title="Layers &amp; Passes" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="index.html" class="btn btn-neutral float-left" title="层 &amp; 通道" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -409,7 +393,7 @@ Controlled by the <a class="reference internal" href="../cycles/render_settings/
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

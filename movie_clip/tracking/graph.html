@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Graph View &mdash; Blender Manual</title>
+  <title>曲线视图 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Dope Sheet View" href="dope_sheet.html" />
-    <link rel="prev" title="Annotation" href="clip/properties/annotation.html" /> 
+    <link rel="next" title="动画摄影表视图" href="dope_sheet.html" />
+    <link rel="prev" title="标注" href="clip/properties/annotation.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,43 +110,43 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../render/index.html">Rendering</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Tracking &amp; Masking</a><ul class="current">
-<li class="toctree-l2 current"><a class="reference internal" href="index.html">Motion Tracking</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="introduction.html">Introduction</a></li>
-<li class="toctree-l3"><a class="reference internal" href="clip/index.html">Clip View</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">Graph View</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#introduction">Introduction</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#header">Header</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#usage">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../render/index.html">渲染</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../compositing/index.html">合成</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">跟踪 &amp; 遮罩</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">运动跟踪，摄像机反求</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="introduction.html">简介</a></li>
+<li class="toctree-l3"><a class="reference internal" href="clip/index.html">剪辑视图</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">曲线视图</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#introduction">简介</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#header">标题栏</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#usage">用法</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="dope_sheet.html">Dope Sheet View</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dope_sheet.html">动画摄影表视图</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../masking/index.html">Masking</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../editors/clip/index.html">Movie Clip Editor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../masking/index.html">制作遮罩</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../editors/clip/index.html">影片剪辑编辑器</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -192,15 +192,15 @@
     
       <li><a href="../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../index.html">Tracking &amp; Masking</a> &raquo;</li>
+          <li><a href="../index.html">跟踪 &amp; 遮罩</a> &raquo;</li>
         
-          <li><a href="index.html">Motion Tracking</a> &raquo;</li>
+          <li><a href="index.html">运动跟踪，摄像机反求</a> &raquo;</li>
         
-      <li>Graph View</li>
+      <li>曲线视图</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/movie_clip/tracking/graph.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/movie_clip/tracking/graph.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -211,49 +211,42 @@
            <div itemprop="articleBody">
             
   <div class="section" id="graph-view">
-<h1>Graph View<a class="headerlink" href="#graph-view" title="Permalink to this headline">¶</a></h1>
+<h1>曲线视图<a class="headerlink" href="#graph-view" title="Permalink to this headline">¶</a></h1>
 <div class="figure align-default" id="id1">
 <img alt="../../_images/movie-clip_tracking_graph_example.png" src="../../_images/movie-clip_tracking_graph_example.png" />
-<p class="caption"><span class="caption-text">Graph View.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">曲线视图。</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
 <div class="section" id="introduction">
-<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
-<p>The graph or curves view has numerous purposes based on the color of the lines.
-The red and green lines on the graph show you the speed of the trackers at a given frame.
-Green is vertical movement, Red is horizontal. Therefore the first frames will always be at zero.</p>
-<p>The blue line is the line that comes out when you click on the film strip is the average per-frame error.
-This curve is available only after pressing camera solve and is not editable.
-This is the one line that you want to be as flat as possible and as closer to zero as you can.
-The high points will show you where in your shot you are having inaccurate tracking.</p>
-<p>Frames outside of scene frame range are darkened.</p>
+<h2>简介<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<p>图形或曲线视图有许多基于线条颜色的用途。图上的红色和绿色线条显示给定帧处的跟踪器速度。绿色是垂直运动，红色是水平运动。因此，第一帧将始终为零。</p>
+<p>蓝线是当你点击电影胶片时出现的线，是每帧的平均误差。此曲线仅在按下相机解算方法后才可用，且不可编辑。这是你希望尽可能平坦的一条线，并且尽可能接近于零。较高点会告诉你在你拍摄的地方你有不准确的跟踪。</p>
+<p>场景范围外的帧变暗。</p>
 </div>
 <div class="section" id="header">
-<h2>Header<a class="headerlink" href="#header" title="Permalink to this headline">¶</a></h2>
+<h2>标题栏<a class="headerlink" href="#header" title="Permalink to this headline">¶</a></h2>
 <dl>
 <dt>Show Selected (mouse cursor icon)</dt><dd><p>Displays the graph for only selected trackers.</p>
 </dd>
 <dt>Display Hidden (ghost icon)</dt><dd><p>Displays channels from objects that are hidden.</p>
 </dd>
-<dt>Filter</dt><dd><p>Display options, defines what curves are visible.</p>
+<dt>滤镜</dt><dd><p>显示选项，定义哪些曲线为可见。</p>
 <dl class="simple">
-<dt>Frames</dt><dd><p>Visualizes per-frame average reprojection error of all tracks in the active tracking object.</p>
+<dt>帧数</dt><dd><p>可视化活动跟踪对象中所有跟踪点轨迹的每帧平均重投影错误。</p>
 </dd>
-<dt>Motion</dt><dd><p>Shows curves for X and Y speed of tracks.</p>
+<dt>运动</dt><dd><p>显示跟踪轨迹点的相关曲线的X轴和Y轴速度。</p>
 </dd>
-<dt>Error</dt><dd><p>Per-frame reprojection error of tracks.</p>
+<dt>错误</dt><dd><p>跟踪轨迹的每帧重投影误差。</p>
 </dd>
 </dl>
 </dd>
 </dl>
 </div>
 <div class="section" id="usage">
-<h2>Usage<a class="headerlink" href="#usage" title="Permalink to this headline">¶</a></h2>
-<p>The curves are useful to see if particular trackers are moving differently than the average.
-A line that spikes from the rest of the curve usually means a tracking error.</p>
-<p>You can manually edit the curve by selecting a point in the curve and dragging it or deleting,
-that will affect the corresponding tracker on that particular frame.</p>
+<h2>用法<a class="headerlink" href="#usage" title="Permalink to this headline">¶</a></h2>
+<p>这些曲线有助于查看特定追踪器的移动是否与平均值不同。产生跳跃性直线判定后的曲线延续代表着跟踪信息的错误。</p>
+<p>通过选择曲线中的一个点并拖动或删除，可以手动编辑曲线，这将影响该特定帧上相应的跟踪器。</p>
 <dl class="simple">
-<dt>Lock to Playhead <kbd class="kbd docutils literal notranslate">L</kbd></dt><dd><p>Center the view around the playhead.</p>
+<dt>锁定时间指针 <kbd class="kbd docutils literal notranslate">L</kbd></dt><dd><p>将视图围绕播放以指针为中心。</p>
 </dd>
 </dl>
 </div>
@@ -267,10 +260,10 @@ that will affect the corresponding tracker on that particular frame.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="dope_sheet.html" class="btn btn-neutral float-right" title="Dope Sheet View" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="dope_sheet.html" class="btn btn-neutral float-right" title="动画摄影表视图" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="clip/properties/annotation.html" class="btn btn-neutral float-left" title="Annotation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="clip/properties/annotation.html" class="btn btn-neutral float-left" title="标注" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -304,7 +297,7 @@ that will affect the corresponding tracker on that particular frame.</p>
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

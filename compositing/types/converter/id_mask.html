@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>ID Mask Node &mdash; Blender Manual</title>
+  <title>ID遮罩节点 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Math Node" href="math.html" />
-    <link rel="prev" title="Combine/Separate Nodes" href="combine_separate.html" /> 
+    <link rel="next" title="运算节点" href="math.html" />
+    <link rel="prev" title="合并/分离节点" href="combine_separate.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,54 +110,54 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">Rendering</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Compositing</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../properties.html">Properties</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="../../index.html#node-types">Node Types</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="../input/index.html">Input Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../output/index.html">Output Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../color/index.html">Color Nodes</a></li>
-<li class="toctree-l3 current"><a class="reference internal" href="index.html">Converter Nodes</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="alpha_convert.html">Alpha Convert Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="color_ramp.html">Color Ramp Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="combine_separate.html">Combine/Separate Nodes</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">ID Mask Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="math.html">Math Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="rgb_to_bw.html">RGB to BW Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="set_alpha.html">Set Alpha Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="switch_view.html">Switch View Node</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">渲染</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">合成</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">简介</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../properties.html">属性</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../index.html#node-types">节点类型</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../input/index.html">输入类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../output/index.html">输出类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../color/index.html">颜色类节点</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="index.html">转换器类节点</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="alpha_convert.html">Alpha转换节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="color_ramp.html">颜色渐变节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="combine_separate.html">合并/分离节点</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">ID遮罩节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="math.html">运算节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="rgb_to_bw.html">RGB -&gt; BW节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="set_alpha.html">设置Alpha节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="switch_view.html">视图切换节点</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../filter/index.html">Filter Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../vector/index.html">Vector Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../matte/index.html">Matte Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../distort/index.html">Distort Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../groups.html">Node Groups</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../layout/index.html">Layout Nodes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../filter/index.html">滤镜(过滤)节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../vector/index.html">矢量类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../matte/index.html">蒙版类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../distort/index.html">畸变类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../groups.html">节点组</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../layout/index.html">布局类节点</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -203,17 +203,17 @@
     
       <li><a href="../../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../../../editors/index.html">Editors</a> &raquo;</li>
+          <li><a href="../../../editors/index.html">编辑器</a> &raquo;</li>
         
-          <li><a href="../../index.html">Compositing</a> &raquo;</li>
+          <li><a href="../../index.html">合成</a> &raquo;</li>
         
-          <li><a href="index.html">Converter Nodes</a> &raquo;</li>
+          <li><a href="index.html">转换器类节点</a> &raquo;</li>
         
-      <li>ID Mask Node</li>
+      <li>ID遮罩节点</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/compositing/types/converter/id_mask.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/compositing/types/converter/id_mask.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -224,64 +224,53 @@
            <div itemprop="articleBody">
             
   <div class="section" id="bpy-types-compositornodeidmask">
-<span id="id-mask-node"></span><h1>ID Mask Node<a class="headerlink" href="#bpy-types-compositornodeidmask" title="Permalink to this headline">¶</a></h1>
+<span id="id-mask-node"></span><h1>ID遮罩节点<a class="headerlink" href="#bpy-types-compositornodeidmask" title="Permalink to this headline">¶</a></h1>
 <div class="figure align-right" id="id1">
 <img alt="../../../_images/compositing_node-types_CompositorNodeIDMask.png" src="../../../_images/compositing_node-types_CompositorNodeIDMask.png" />
-<p class="caption"><span class="caption-text">ID Mask Node.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">ID遮罩节点。</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
-<p>The <em>ID Mask Node</em> can be used to access an alpha mask per object or per material.</p>
+<p><em>ID遮罩节点</em> 用于获取每个对象或每个材质的alpha遮罩。</p>
 <div class="section" id="inputs">
-<h2>Inputs<a class="headerlink" href="#inputs" title="Permalink to this headline">¶</a></h2>
+<h2>输入<a class="headerlink" href="#inputs" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>ID value</dt><dd><p>Input for the <em>Object Index</em> or <em>Material Index</em> render pass.
-Which is an output of the <a class="reference internal" href="../input/render_layers.html"><span class="doc">Render Layers node</span></a> or
-the <a class="reference internal" href="../input/render_layers.html"><span class="doc">Image node</span></a> with a multi-layer format.</p>
+<dt>ID遮罩</dt><dd><p><em>对象索引</em> 或 <em>材质索引</em> 渲染通道提供输入。其是 <a class="reference internal" href="../input/render_layers.html"><span class="doc">渲染层节点</span></a> 或带有多层格式的 <a class="reference internal" href="../input/render_layers.html"><span class="doc">图像节点</span></a> 。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="properties">
-<h2>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
+<h2>属性<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>Index</dt><dd><p>Selection of the previously specified index.</p>
+<dt>编号</dt><dd><p>选择预先指定的编号。</p>
 </dd>
-<dt>Anti-Aliased</dt><dd><p>This post-process function refines the mask. See <a class="reference internal" href="../../../glossary/index.html#term-anti-aliasing"><span class="xref std std-term">anti-aliasing</span></a>.</p>
+<dt>抗锯齿</dt><dd><p>对遮罩进行提炼优化的后处理功能。参看 <a class="reference internal" href="../../../glossary/index.html#term-anti-aliasing"><span class="xref std std-term">抗锯齿</span></a>。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="outputs">
-<h2>Outputs<a class="headerlink" href="#outputs" title="Permalink to this headline">¶</a></h2>
+<h2>输出<a class="headerlink" href="#outputs" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>Alpha</dt><dd><p>The mask is white where the object is and black where it is not.
-If the object is transparent, the alpha mask represent that with gray values.</p>
+<dt>Alpha(通道)</dt><dd><p>白色的遮罩部分为保留部分，黑色的遮罩部分是移除部分。若对象带有透明像素，alpha遮罩呈现出灰度值变化。</p>
 </dd>
 </dl>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>In Blender Internal if a transparent object is in front of another,
-the mask will not reflect partial visibility of the object behind.</p>
+<p>在Blender内部，若一个透明对象在另一个对象的前面，遮罩并不会将后面被遮挡对象的部分显示出来。</p>
 </div>
 </div>
 <div class="section" id="setup">
-<h2>Setup<a class="headerlink" href="#setup" title="Permalink to this headline">¶</a></h2>
-<p>An index can be specify for any object or material in the scene.
-The Object Index can be set in Properties Editor <span class="menuselection">Object ‣ Relations ‣ Pass Index</span>
-and <span class="menuselection">Material ‣ Settings ‣ Pass Index</span> for the Material Index.
-To be accessible after rendering, <em>Object Index</em> or <em>Material Index</em> render pass has to be enabled.</p>
+<h2>装配<a class="headerlink" href="#setup" title="Permalink to this headline">¶</a></h2>
+<p>在场景中的任何对象或材质都可以被指定编号。对象编号可以在属性编辑器(不是快捷键N弹出的面板，而是软件最右侧添加修改器那个面板)中设置： <span class="menuselection">物体(上下文) ‣ 关系 ‣ 通道编号</span> ，材质索引在 <span class="menuselection">材质(上下文) ‣ 设置 ‣ 通道编号</span> 。在渲染后 <em>(物体)通道编号</em> 或 <em>(材质)通道编号</em> 渲染通道被开启。</p>
 <div class="figure align-default" id="id2">
 <img alt="../../../_images/compositing_types_converter_id-mask_relations-panel.png" src="../../../_images/compositing_types_converter_id-mask_relations-panel.png" />
-<p class="caption"><span class="caption-text">Object Pass Index.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">对象通道编号。</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 <div class="section" id="example">
-<h2>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h2>
-<p>In this example, the left rear red cube is assigned Pass Index 1, and the right cube Pass Index 2.
-Where the two cubes intersect, there is going to be noticeable pixelation because they come together
-at a sharp angle and are different colors. Using the mask from object 1,
-which is smoothed (anti-aliased) at the edges, we use a <em>Mix Node</em> set on <em>Multiply</em>
-to multiply the smoothed edges of the image, thus removing those nasty lines, thus, being smoothed out.</p>
+<h2>范例<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h2>
+<p>在这个范例中，左侧鲜红色矩形物体指定为编号1，右侧的矩形物体指定为编号2.当两个物体有相互交叉，可以从像素排列看出来，因为在一起的交叠部分有个尖锐的角度，颜色也不相同。在物体1上使用遮罩，在其表面有平滑(抗锯齿)的边缘，这是因为改善了使视觉看着不舒服的线条，使其平滑显示。</p>
 <div class="figure align-default" id="id3">
 <img alt="../../../_images/compositing_types_converter_id-mask_example.png" src="../../../_images/compositing_types_converter_id-mask_example.png" />
-<p class="caption"><span class="caption-text">ID Mask node example.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">ID遮罩节点范例。</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 </div>
@@ -294,10 +283,10 @@ to multiply the smoothed edges of the image, thus removing those nasty lines, th
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="math.html" class="btn btn-neutral float-right" title="Math Node" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="math.html" class="btn btn-neutral float-right" title="运算节点" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="combine_separate.html" class="btn btn-neutral float-left" title="Combine/Separate Nodes" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="combine_separate.html" class="btn btn-neutral float-left" title="合并/分离节点" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -331,7 +320,7 @@ to multiply the smoothed edges of the image, thus removing those nasty lines, th
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

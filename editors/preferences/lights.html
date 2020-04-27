@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Lights &mdash; Blender Manual</title>
+  <title>灯光 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Editing" href="editing.html" />
-    <link rel="prev" title="Viewport" href="viewport.html" /> 
+    <link rel="next" title="编辑" href="editing.html" />
+    <link rel="prev" title="视图" href="viewport.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,70 +110,70 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Editors</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../3dview/index.html">3D Viewport</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../image/index.html">Image Editor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../uv/index.html">UV Editor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../shader_editor.html">Shader Editor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../compositing/index.html">Compositor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../texture_node/index.html">Texture Nodes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../video_editing/index.html">Video Sequencer</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../clip/index.html">Movie Clip Editor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../dope_sheet/index.html">Dope Sheet</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../timeline.html">Timeline</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../graph_editor/index.html">Graph Editor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../drivers_editor.html">Drivers Editor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../nla/index.html">Nonlinear Animation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../text_editor.html">Text Editor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../python_console.html">Python Console</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../info_editor.html">Info Editor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../outliner.html">Outliner</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../properties_editor.html">Properties Editor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../file_browser.html">File Browser</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="index.html">Preferences</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="introduction.html">Introduction</a></li>
-<li class="toctree-l3"><a class="reference internal" href="interface.html">Interface</a></li>
-<li class="toctree-l3"><a class="reference internal" href="themes.html">Themes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="viewport.html">Viewport</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">Lights</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#studio-lights">Studio Lights</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#matcaps">MatCaps</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#hdris">HDRIs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">编辑器</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../3dview/index.html">3D视图</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../image/index.html">图像编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../uv/index.html">UV编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../shader_editor.html">着色器编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../compositing/index.html">合成器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../texture_node/index.html">纹理节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../video_editing/index.html">视频序列编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../clip/index.html">影片剪辑编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../dope_sheet/index.html">动画摄影表</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../timeline.html">时间线</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../graph_editor/index.html">曲线编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../drivers_editor.html">驱动器编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nla/index.html">非线性动画</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../text_editor.html">文本编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../python_console.html">Python 控制台</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../info_editor.html">信息编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../outliner.html">大纲视图</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../properties_editor.html">属性编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../file_browser.html">文件浏览器</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">偏好设置</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="introduction.html">简介</a></li>
+<li class="toctree-l3"><a class="reference internal" href="interface.html">界面</a></li>
+<li class="toctree-l3"><a class="reference internal" href="themes.html">主题</a></li>
+<li class="toctree-l3"><a class="reference internal" href="viewport.html">视图</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">灯光</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#studio-lights">棚灯</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#matcaps">快照材质</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#hdris">HDR</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="editing.html">Editing</a></li>
-<li class="toctree-l3"><a class="reference internal" href="animation.html">Animation</a></li>
-<li class="toctree-l3"><a class="reference internal" href="addons.html">Add-ons</a></li>
-<li class="toctree-l3"><a class="reference internal" href="input.html">Input</a></li>
-<li class="toctree-l3"><a class="reference internal" href="navigation.html">Navigation</a></li>
-<li class="toctree-l3"><a class="reference internal" href="keymap.html">Keymap</a></li>
-<li class="toctree-l3"><a class="reference internal" href="system.html">System</a></li>
-<li class="toctree-l3"><a class="reference internal" href="save_load.html">Save &amp; Load</a></li>
-<li class="toctree-l3"><a class="reference internal" href="file_paths.html">File Paths</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editing.html">编辑</a></li>
+<li class="toctree-l3"><a class="reference internal" href="animation.html">动画</a></li>
+<li class="toctree-l3"><a class="reference internal" href="addons.html">插件</a></li>
+<li class="toctree-l3"><a class="reference internal" href="input.html">输入</a></li>
+<li class="toctree-l3"><a class="reference internal" href="navigation.html">视图切换</a></li>
+<li class="toctree-l3"><a class="reference internal" href="keymap.html">键位映射</a></li>
+<li class="toctree-l3"><a class="reference internal" href="system.html">系统</a></li>
+<li class="toctree-l3"><a class="reference internal" href="save_load.html">保存和加载</a></li>
+<li class="toctree-l3"><a class="reference internal" href="file_paths.html">文件路径</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../render/index.html">Rendering</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../render/index.html">渲染</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -219,15 +219,15 @@
     
       <li><a href="../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../index.html">Editors</a> &raquo;</li>
+          <li><a href="../index.html">编辑器</a> &raquo;</li>
         
-          <li><a href="index.html">Preferences</a> &raquo;</li>
+          <li><a href="index.html">偏好设置</a> &raquo;</li>
         
-      <li>Lights</li>
+      <li>灯光</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/editors/preferences/lights.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/editors/preferences/lights.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -238,61 +238,49 @@
            <div itemprop="articleBody">
             
   <div class="section" id="lights">
-<h1>Lights<a class="headerlink" href="#lights" title="Permalink to this headline">¶</a></h1>
+<h1>灯光<a class="headerlink" href="#lights" title="Permalink to this headline">¶</a></h1>
 <div class="figure align-default" id="id1">
 <img alt="../../_images/editors_preferences_section_lights.png" src="../../_images/editors_preferences_section_lights.png" />
-<p class="caption"><span class="caption-text">Blender Preferences Lights section.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Blender偏好设置灯光部分。</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
 <div class="section" id="studio-lights">
-<span id="prefs-lights-studio"></span><h2>Studio Lights<a class="headerlink" href="#studio-lights" title="Permalink to this headline">¶</a></h2>
-<p><em>Studio Lights</em> are used to illuminate 3D viewport during <em>Solid View</em> and will not be rendered.</p>
-<p>Unlike lights in the scene, the lighting direction follows the viewport orientation.</p>
+<span id="prefs-lights-studio"></span><h2>棚灯<a class="headerlink" href="#studio-lights" title="Permalink to this headline">¶</a></h2>
+<p><em>棚灯</em> 用于在 <em>Solid View</em> 期间照亮3D视图，不会参与渲染。</p>
+<p>与场景中的灯光不同，灯光方向是沿着视图方向的。</p>
 <div class="section" id="editor">
-<span id="bpy-types-usersolidlight"></span><h3>Editor<a class="headerlink" href="#editor" title="Permalink to this headline">¶</a></h3>
-<p>There are up to four virtual light sources.</p>
-<p>The Light icons allow the user to enable or disable individual lights.
-At least one of the four lights must remain enabled for the 3D View.
-The lights are equal, except for their direction and color.
-You can control the direction of the lights, as well as their diffuse and specular colors.</p>
+<span id="bpy-types-usersolidlight"></span><h3>编辑器<a class="headerlink" href="#editor" title="Permalink to this headline">¶</a></h3>
+<p>最多有四个虚拟光源。</p>
+<p>灯光图标允许用户启用或禁用单个灯光。 必须为3D视图至少启用四个灯中的一个。 除了方向和颜色外，灯光是相同的。可以控制灯光的方向，以及漫反射和镜面反射颜色。</p>
 <dl>
-<dt>Light</dt><dd><dl>
-<dt>Use Light</dt><dd><p>Toggles the specific light.</p>
+<dt>灯光</dt><dd><dl>
+<dt>使用灯光</dt><dd><p>切换特定灯光。</p>
 </dd>
-<dt>Diffuse</dt><dd><p>This is the constant color of the light.</p>
+<dt>漫反射</dt><dd><p>这是光的恒定颜色。</p>
 </dd>
-<dt>Specular</dt><dd><p>This is the highlight color of the light.</p>
+<dt>镜面反射</dt><dd><p>这是灯光的高亮颜色。</p>
 </dd>
-<dt>Smooth</dt><dd><p>Smooth the shading from this light.</p>
-<p><em>This has the effect of lighting to be less direct.</em></p>
+<dt>平滑</dt><dd><p>从灯光中平滑阴影。</p>
+<p><em>这种照明效果不那么直接。</em></p>
 </dd>
-<dt>Direction</dt><dd><p>The direction of the light, (see <a class="reference internal" href="../../interface/controls/buttons/buttons.html#ui-direction-button"><span class="std std-ref">Direction Buttons</span></a>).</p>
-<p>The direction of the light will be the same as shown at the sphere surface.</p>
+<dt>方向</dt><dd><p>光的方向(参见 <a class="reference internal" href="../../interface/controls/buttons/buttons.html#ui-direction-button"><span class="std std-ref">方向按钮</span></a>)。</p>
+<p>光线的方向将与球体表面所示的方向相同。</p>
 </dd>
 </dl>
 </dd>
-<dt>Ambient Color</dt><dd><p>The color of unlit areas.</p>
+<dt>环境色</dt><dd><p>未照亮区域的颜色。</p>
 </dd>
 </dl>
 </div>
 </div>
 <div class="section" id="matcaps">
-<span id="prefs-lights-matcaps"></span><h2>MatCaps<a class="headerlink" href="#matcaps" title="Permalink to this headline">¶</a></h2>
-<p>This panel manages <a class="reference internal" href="../../glossary/index.html#term-matcap"><span class="xref std std-term">MatCap</span></a> image files
-which can used to light the view when <a class="reference internal" href="../../render/workbench/lighting.html#render-workbench-matcap"><span class="std std-ref">MatCap</span></a> shading is enabled.</p>
-<p>Two kinds of images are supported for MatCaps. Regular image files and
-multilayered OpenEXR files. When using multilayered OpenEXR files,
-the layer named “diffuse” will be used as a diffuse pass, the layer named “specular”
-will be used as a specular pass. Regular images will be handled as “diffuse” and
-will not support specular highlighting.</p>
-<p>The diffuse pass is multiplied with the base color of the objects and the specular pass is added on top.
-MatCaps, that only have a diffuse pass tend to look very metallic,
-with a separate specular pass it is possible to simulate a wider variety of materials.</p>
+<span id="prefs-lights-matcaps"></span><h2>快照材质<a class="headerlink" href="#matcaps" title="Permalink to this headline">¶</a></h2>
+<p>此面板管理 <a class="reference internal" href="../../glossary/index.html#term-matcap"><span class="xref std std-term">MatCap</span></a> 图像文件，当启用 <a class="reference internal" href="../../render/workbench/lighting.html#render-workbench-matcap"><span class="std std-ref">快照材质</span></a> 着色时，该文件可用于照亮视图。</p>
+<p>MatCaps 支持两种类型的图像。常规图像文件和多层 OpenEXR 文件。当使用多层 OpenEXR 文件时，名为&quot;漫反射&quot;的层将用作漫射通道，名为&quot;镜面&quot;的层将用作高光通道。常规图像将作为&quot;漫射&quot;处理，不支持高光亮点显示。</p>
+<p>漫射通道与物体的基本颜色相乘，并在其上添加高光通道。Matcaps只有漫射通道看起来非常金属，加上单独的高光通道后，可以模拟更多的材质变化。</p>
 </div>
 <div class="section" id="hdris">
-<h2>HDRIs<a class="headerlink" href="#hdris" title="Permalink to this headline">¶</a></h2>
-<p>This panel manages <a class="reference internal" href="../../glossary/index.html#term-hdri"><span class="xref std std-term">HDRI</span></a> image files
-which can be used to light the view when <a class="reference internal" href="../3dview/controls/shading.html#dview-material-preview"><span class="std std-ref">Material Preview</span></a> or
-<a class="reference internal" href="../3dview/controls/shading.html#dview-rendered"><span class="std std-ref">Rendered</span></a> shading is enabled.</p>
+<h2>HDR<a class="headerlink" href="#hdris" title="Permalink to this headline">¶</a></h2>
+<p>此面板管理 <a class="reference internal" href="../../glossary/index.html#term-hdri"><span class="xref std std-term">HDRI</span></a> 图像文件，当启用 <a class="reference internal" href="../3dview/controls/shading.html#dview-material-preview"><span class="std std-ref">材质预览</span></a> 或 <a class="reference internal" href="../3dview/controls/shading.html#dview-rendered"><span class="std std-ref">渲染</span></a> 着色时，该文件可用于照亮视图。</p>
 </div>
 </div>
 
@@ -304,10 +292,10 @@ which can be used to light the view when <a class="reference internal" href="../
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="editing.html" class="btn btn-neutral float-right" title="Editing" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="editing.html" class="btn btn-neutral float-right" title="编辑" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="viewport.html" class="btn btn-neutral float-left" title="Viewport" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="viewport.html" class="btn btn-neutral float-left" title="视图" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -341,7 +329,7 @@ which can be used to light the view when <a class="reference internal" href="../
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

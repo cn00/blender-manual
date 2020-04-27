@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Strokes &mdash; Blender Manual</title>
+  <title>笔画 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Viewport Display" href="display.html" />
-    <link rel="prev" title="Onion Skinning" href="onion_skinning.html" /> 
+    <link rel="next" title="视图显示" href="display.html" />
+    <link rel="prev" title="洋葱皮" href="onion_skinning.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,52 +110,52 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Grease Pencil</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../introduction.html">Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../structure.html">Structure</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../primitives.html">Primitives</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../selecting.html">Selecting</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../multiframe.html">Multiframe</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="index.html">Properties</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="data.html">Object Data</a></li>
-<li class="toctree-l3"><a class="reference internal" href="layers.html">2D Layers</a></li>
-<li class="toctree-l3"><a class="reference internal" href="onion_skinning.html">Onion Skinning</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">Strokes</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#stroke-depth-order">Stroke Depth Order</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#stroke-thickness">Stroke Thickness</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#further-options">Further Options</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">蜡笔</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../introduction.html">简介</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../structure.html">结构</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../primitives.html">基本体</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../selecting.html">选择</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../multiframe.html">多帧</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">属性</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="data.html">物体数据</a></li>
+<li class="toctree-l3"><a class="reference internal" href="layers.html">2D图层</a></li>
+<li class="toctree-l3"><a class="reference internal" href="onion_skinning.html">洋葱皮</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">笔画</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#stroke-depth-order">笔画深度的次序</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#stroke-thickness">笔画宽度</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#further-options">更多选项</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="display.html">Viewport Display</a></li>
+<li class="toctree-l3"><a class="reference internal" href="display.html">视图显示</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../modifiers/index.html">Modifiers</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../visual_effects/index.html">Visual Effects</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../materials/index.html">Materials</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../animation/index.html">Animation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../index.html#modes">Modes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../modifiers/index.html">修改器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../visual_effects/index.html">视觉效果</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../materials/index.html">材质</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../animation/index.html">动画</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#modes">模式</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../render/index.html">Rendering</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../render/index.html">渲染</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -201,15 +201,15 @@
     
       <li><a href="../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../index.html">Grease Pencil</a> &raquo;</li>
+          <li><a href="../index.html">蜡笔</a> &raquo;</li>
         
-          <li><a href="index.html">Properties</a> &raquo;</li>
+          <li><a href="index.html">属性</a> &raquo;</li>
         
-      <li>Strokes</li>
+      <li>笔画</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/grease_pencil/properties/strokes.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/grease_pencil/properties/strokes.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -220,20 +220,18 @@
            <div itemprop="articleBody">
             
   <div class="section" id="strokes">
-<h1>Strokes<a class="headerlink" href="#strokes" title="Permalink to this headline">¶</a></h1>
+<h1>笔画<a class="headerlink" href="#strokes" title="Permalink to this headline">¶</a></h1>
 <div class="figure align-right" id="id1">
 <img alt="../../_images/grease-pencil_properties_strokes_panel.png" src="../../_images/grease-pencil_properties_strokes_panel.png" />
-<p class="caption"><span class="caption-text">Strokes panel.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">笔画面板。</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
 <p>General settings for Grease Pencil strokes.</p>
 <div class="section" id="stroke-depth-order">
-<h2>Stroke Depth Order<a class="headerlink" href="#stroke-depth-order" title="Permalink to this headline">¶</a></h2>
+<h2>笔画深度的次序<a class="headerlink" href="#stroke-depth-order" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>2D Layers</dt><dd><p>The Strokes drawing order respect the order of the 2D layers list (top to bottom)
-and ignores the real position of the strokes in 3D space.
-See <a class="reference internal" href="layers.html"><span class="doc">2D Layers</span></a> for more information.</p>
+<dt>2D图层</dt><dd><p>笔画绘制顺序遵循2D图层列表的顺序(从上到下)，并忽略3D空间中笔划的实际位置。 查看 <a class="reference internal" href="layers.html"><span class="doc">2D图层</span></a> 来获得更多的信息。</p>
 </dd>
-<dt>3D Location</dt><dd><p>The strokes drawing order is based on the stroke location in 3D space.</p>
+<dt>3D位置</dt><dd><p>笔画绘制顺序基于3D空间中的笔画位置。</p>
 </dd>
 </dl>
 <table class="docutils align-default">
@@ -244,12 +242,12 @@ See <a class="reference internal" href="layers.html"><span class="doc">2D Layers
 <tbody>
 <tr class="row-odd"><td><div class="figure align-default" id="id2">
 <a class="reference internal image-reference" href="../../_images/grease-pencil_properties_strokes_depth-order-2d.png"><img alt="../../_images/grease-pencil_properties_strokes_depth-order-2d.png" src="../../_images/grease-pencil_properties_strokes_depth-order-2d.png" style="width: 320px;" /></a>
-<p class="caption"><span class="caption-text">Blue, Green and Red strokes in three different layers using 2D Layers depth order.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">使用2D图层深度顺序，在三个不同的图层中对蓝色、绿色和红色的笔画进行排序。</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
 </td>
 <td><div class="figure align-default" id="id3">
 <a class="reference internal image-reference" href="../../_images/grease-pencil_properties_strokes_depth-order-3d.png"><img alt="../../_images/grease-pencil_properties_strokes_depth-order-3d.png" src="../../_images/grease-pencil_properties_strokes_depth-order-3d.png" style="width: 320px;" /></a>
-<p class="caption"><span class="caption-text">Blue, Green and Red strokes in three different layers using 3D Location depth order.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">使用蓝色，绿色和红色的笔画表示位于三个不同的层的3D位置深度顺序。</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
 </div>
 </td>
 </tr>
@@ -257,27 +255,22 @@ See <a class="reference internal" href="layers.html"><span class="doc">2D Layers
 </table>
 </div>
 <div class="section" id="stroke-thickness">
-<h2>Stroke Thickness<a class="headerlink" href="#stroke-thickness" title="Permalink to this headline">¶</a></h2>
+<h2>笔画宽度<a class="headerlink" href="#stroke-thickness" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>World Space</dt><dd><p>The thickness is relative to world space.
-Stroke thickness change with the screen zoom factor.</p>
+<dt>世界坐标</dt><dd><p>宽度与世界空间有关。笔画宽度随屏幕缩放系数的变化而变化。</p>
 </dd>
-<dt>Screen Space</dt><dd><p>The thickness is relative to screen space.
-Stroke thickness remains the same regardless of the screen zoom factor.</p>
+<dt>屏幕坐标</dt><dd><p>宽度与屏幕空间有关。无论屏幕缩放系数如何，笔画宽度都保持不变。</p>
 </dd>
-<dt>Thickness Scale</dt><dd><p>Sets a thickness scale factor for all strokes.</p>
+<dt>宽度范围</dt><dd><p>为所有笔画设置宽度比例。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="further-options">
-<h2>Further Options<a class="headerlink" href="#further-options" title="Permalink to this headline">¶</a></h2>
+<h2>更多选项<a class="headerlink" href="#further-options" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>Force Fill Update</dt><dd><p>Toggle the use of recalculation for filled strokes.
-When using modifiers the filled strokes must be calculated with every deformation to keep its accuracy.
-Keep in mind this extra calculations will have an impact on the performance
-(less <abbr title="Frames per Second">FPS</abbr>).</p>
+<dt>强制填充更新</dt><dd><p>切换对填充笔画重新计算的使用。使用修改器时，必须计算填充笔画的每个变形，以保持其准确性。请记住，这种额外的计算将对性能产生影响 (更低的 <abbr title="Frames per Second">FPS</abbr>).</p>
 </dd>
-<dt>Adaptive UVs</dt><dd><p>UVs in textured strokes are calculated automatically depending on the stroke size.</p>
+<dt>自适应 UV</dt><dd><p>纹理笔画中的UV会根据笔画大小自动计算。</p>
 </dd>
 </dl>
 </div>
@@ -291,10 +284,10 @@ Keep in mind this extra calculations will have an impact on the performance
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="display.html" class="btn btn-neutral float-right" title="Viewport Display" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="display.html" class="btn btn-neutral float-right" title="视图显示" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="onion_skinning.html" class="btn btn-neutral float-left" title="Onion Skinning" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="onion_skinning.html" class="btn btn-neutral float-left" title="洋葱皮" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -328,7 +321,7 @@ Keep in mind this extra calculations will have an impact on the performance
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

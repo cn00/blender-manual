@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Cryptomatte &mdash; Blender Manual</title>
+  <title>Cryptomatte节点 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Difference Key Node" href="difference_key.html" />
-    <link rel="prev" title="Color Spill Node" href="color_spill.html" /> 
+    <link rel="next" title="色差抠像节点" href="difference_key.html" />
+    <link rel="prev" title="色彩溢出节点" href="color_spill.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,59 +110,59 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">Rendering</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Compositing</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../properties.html">Properties</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="../../index.html#node-types">Node Types</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="../input/index.html">Input Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../output/index.html">Output Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../color/index.html">Color Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../converter/index.html">Converter Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../filter/index.html">Filter Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../vector/index.html">Vector Nodes</a></li>
-<li class="toctree-l3 current"><a class="reference internal" href="index.html">Matte Nodes</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="box_mask.html">Box Mask Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="channel_key.html">Channel Key Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="chroma_key.html">Chroma Key Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="color_key.html">Color Key Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="color_spill.html">Color Spill Node</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">Cryptomatte</a></li>
-<li class="toctree-l4"><a class="reference internal" href="difference_key.html">Difference Key Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="distance_key.html">Distance Key Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="double_edge_mask.html">Double Edge Mask Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="ellipse_mask.html">Ellipse Mask Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="keying.html">Keying Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="keying_screen.html">Keying Screen Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="luminance_key.html">Luminance Key Node</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">渲染</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">合成</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">简介</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../properties.html">属性</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../index.html#node-types">节点类型</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../input/index.html">输入类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../output/index.html">输出类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../color/index.html">颜色类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../converter/index.html">转换器类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../filter/index.html">滤镜(过滤)节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../vector/index.html">矢量类节点</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="index.html">蒙版类节点</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="box_mask.html">方形遮罩节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="channel_key.html">通道抠像节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="chroma_key.html">色度抠像节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="color_key.html">色彩抠像节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="color_spill.html">色彩溢出节点</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Cryptomatte节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="difference_key.html">色差抠像节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="distance_key.html">色距抠像节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="double_edge_mask.html">双边遮罩节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ellipse_mask.html">椭圆遮罩节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="keying.html">抠像节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="keying_screen.html">屏幕抠像节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="luminance_key.html">亮度抠像节点</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../distort/index.html">Distort Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../groups.html">Node Groups</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../layout/index.html">Layout Nodes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../distort/index.html">畸变类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../groups.html">节点组</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../layout/index.html">布局类节点</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -208,17 +208,17 @@
     
       <li><a href="../../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../../../editors/index.html">Editors</a> &raquo;</li>
+          <li><a href="../../../editors/index.html">编辑器</a> &raquo;</li>
         
-          <li><a href="../../index.html">Compositing</a> &raquo;</li>
+          <li><a href="../../index.html">合成</a> &raquo;</li>
         
-          <li><a href="index.html">Matte Nodes</a> &raquo;</li>
+          <li><a href="index.html">蒙版类节点</a> &raquo;</li>
         
-      <li>Cryptomatte</li>
+      <li>Cryptomatte节点</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/compositing/types/matte/cryptomatte.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/compositing/types/matte/cryptomatte.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -229,73 +229,59 @@
            <div itemprop="articleBody">
             
   <div class="section" id="cryptomatte">
-<h1>Cryptomatte<a class="headerlink" href="#cryptomatte" title="Permalink to this headline">¶</a></h1>
+<h1>Cryptomatte节点<a class="headerlink" href="#cryptomatte" title="Permalink to this headline">¶</a></h1>
 <div class="figure align-right" id="id1">
 <img alt="../../../_images/compositing_node-types_CompositorNodeCryptomatte.png" src="../../../_images/compositing_node-types_CompositorNodeCryptomatte.png" />
-<p class="caption"><span class="caption-text">Cryptomatte Node.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Cryptomatte 节点。</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
-<p>The Cryptomatte node uses the Cryptomatte standard to efficiently create mattes for compositing.
-Cycles outputs the required render passes, which can then be used in the Compositor
-or another Compositor with Cryptomatte support to create masks for specified objects.</p>
-<p>Unlike the Material and Object Index passes, the objects to isolate are selected in compositing,
-and mattes will be anti-aliased and take into account effects like motion blur and transparency.</p>
+<p><em>Cryptomatte</em> 节点使用Cryptomatte标准高效地创建用于合成的遮罩。Cycles输出所需的渲染通道，然后可在合成器或其他具有Cryptomatte支持的合成器中使用，以为指定物体创建蒙版。</p>
+<p>与材质和对象索引通道不同，要隔离的对象在合成过程中被选中，遮罩将具有抗锯齿特性，并考虑运动模糊和透明度等效果。</p>
 <div class="section" id="inputs">
-<h2>Inputs<a class="headerlink" href="#inputs" title="Permalink to this headline">¶</a></h2>
+<h2>输入<a class="headerlink" href="#inputs" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>Image</dt><dd><p>Standard image input.</p>
+<dt>图像</dt><dd><p>标准图像输入。</p>
 </dd>
-<dt>Crypto Passes</dt><dd><p>Each crypto layer will be given its own render pass;
-each of these render passes must be connected to one of these crypto layer inputs.
-By default there are only four layers, see <a class="reference internal" href="#adding-removing-layers">Adding/Removing Layers</a> to add more.</p>
+<dt>Crypto 通道</dt><dd><p>每个crypto层都将获得其自己的渲染通道；个渲染通道都必须连接到这些crypto层的输入之一。默认情况下，只有4个图层，请参阅 <a class="reference internal" href="#adding-removing-layers">添加/移除 层</a>  以添加更多图层。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="properties">
-<h2>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
+<h2>参数<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>Add/Remove</dt><dd><p>Adds/Removes an object or material from matte, by picking a color from the <em>Pick</em> output.</p>
+<dt>添加/移除</dt><dd><p>通过从 <em>选取</em> 输出中选取颜色，从蒙版中添加/移除对象或材质。</p>
 </dd>
-<dt>Matte ID</dt><dd><p>List of object and material crypto IDs to include in matte.
-This can be used for example to quickly clear all mattes by deleting the text
-or used to copy-and-paste crypto IDs from other software.</p>
+<dt>蒙版ID</dt><dd><p>要包含在蒙版中的对象和材质的 crypto ID 列表。例如，这可用于通过删除文本来删除所有蒙版，或用于从其他软件复制和粘贴 crypto ID。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="outputs">
-<h2>Outputs<a class="headerlink" href="#outputs" title="Permalink to this headline">¶</a></h2>
+<h2>输出<a class="headerlink" href="#outputs" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>Image</dt><dd><p>A colored output of the input image with the matte applied to only include selected layers.</p>
+<dt>图像</dt><dd><p>输入图像的一个彩色输出结果，仅选定的图层应用了蒙版。</p>
 </dd>
-<dt>Matte</dt><dd><p>A black-and-white alpha mask of the all the selected crypto layers.</p>
+<dt>蒙版</dt><dd><p>选定 crypto 层的一个黑白 alpha 遮罩。</p>
 </dd>
-<dt>Pick</dt><dd><p>A colored representation of the Cryptomatte pass which can be used
-with a Viewer node to select which crypto passes are used to create the matte image.</p>
+<dt>选取</dt><dd><p>Cryptomatte 通道的彩色表示形式，可与预览器节点一起使用，以选择哪些 crypto 通道用于创建蒙版图像。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="usage">
-<h2>Usage<a class="headerlink" href="#usage" title="Permalink to this headline">¶</a></h2>
+<h2>用法<a class="headerlink" href="#usage" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic simple">
-<li><p>Enable Cryptomatte Object render pass in the Passes panel, and render.</p></li>
-<li><p>In the compositing nodes, create a Cryptomatte node and
-link the Render Layer matching Image and Cryptomatte passes to it.</p></li>
-<li><p>Attach a Viewer node to the Pick output of the Cryptomatte node.</p></li>
-<li><p>Use the Cryptomatte Add/Remove button to sample objects in the Pick Viewer node.</p></li>
-<li><p>Use the Matte output of the Cryptomatte node to get the alpha mask.</p></li>
+<li><p>启用通道面板中的 Cryptomatte 对象渲染通道，并渲染。</p></li>
+<li><p>在合成节点中，创建一个 Cryptomatte 节点，并将渲染图层匹配图像和 Cryptomatte 通道和它链接。</p></li>
+<li><p>将查看器节点附加到 Cryptomatte 节点的拾取输出。</p></li>
+<li><p>使用 Cryptomatte 添加/移除按钮来在选取查看器系节点中取样对象。</p></li>
+<li><p>使用 Cryptomatte 节点的蒙版输出来获取alpha遮罩。</p></li>
 </ol>
 <div class="section" id="adding-removing-layers">
-<h3>Adding/Removing Layers<a class="headerlink" href="#adding-removing-layers" title="Permalink to this headline">¶</a></h3>
-<p>By default there are only four crypto layers available as inputs to the Cryptomatte node.
-You can add or remove layer inputs through
-<span class="menuselection">Sidebar ‣ Item ‣ Properties ‣ Add/Remove Crypto Layer</span>.
-These operators will add/remove layers from the bottom of the pass inputs.</p>
+<h3>添加/移除 层<a class="headerlink" href="#adding-removing-layers" title="Permalink to this headline">¶</a></h3>
+<p>默认情况下，只有4个crypto层可作为 Cryptomatte 节点的输入。您可以通过 <span class="menuselection">侧栏 ‣ 条目 ‣ 属性 ‣ 添加/移除Crypto层</span> 来添加或移除图层。这些操作符将从渲染通道输入的的底部添加/移除图层。</p>
 </div>
 </div>
 <div class="section" id="example">
-<h2>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h2>
-<p>In the example below, you can see the pass output on the right side.
-On the left side you can see a couple of objects that were selected through the <em>Cryptomatte</em> node.
-Notice how the cube on the left has a sphere shaped cut-out from a sphere that was not selected in the node.</p>
+<h2>示例<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h2>
+<p>在下面的示例中，您可以看到右侧的通道输出。在左侧，您可以看到几个通过 <em>Cryptomatte</em> 节点选择的对象。请注意左侧立方体有一个球形的切口，即为Cryptomatte节点未选择的球。</p>
 <div class="figure align-default">
 <img alt="../../../_images/compositing_types_matte_cryptomatte_example.png" src="../../../_images/compositing_types_matte_cryptomatte_example.png" />
 </div>
@@ -310,10 +296,10 @@ Notice how the cube on the left has a sphere shaped cut-out from a sphere that w
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="difference_key.html" class="btn btn-neutral float-right" title="Difference Key Node" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="difference_key.html" class="btn btn-neutral float-right" title="色差抠像节点" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="color_spill.html" class="btn btn-neutral float-left" title="Color Spill Node" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="color_spill.html" class="btn btn-neutral float-left" title="色彩溢出节点" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -347,7 +333,7 @@ Notice how the cube on the left has a sphere shaped cut-out from a sphere that w
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

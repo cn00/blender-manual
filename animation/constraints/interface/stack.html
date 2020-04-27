@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Stack &mdash; Blender Manual</title>
+  <title>堆栈 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Camera Solver Constraint" href="../motion_tracking/camera_solver.html" />
-    <link rel="prev" title="Common" href="common.html" /> 
+    <link rel="next" title="Camera Solver Constraint 相机解算" href="../motion_tracking/camera_solver.html" />
+    <link rel="prev" title="Common 常用选项" href="common.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,53 +110,53 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Animation &amp; Rigging</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../keyframes/index.html">Keyframes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../armatures/index.html">Armatures</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../lattice.html">Lattice</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="../index.html">Constraints</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="../introduction.html">Introduction</a></li>
-<li class="toctree-l3 current"><a class="reference internal" href="../index.html#interface">Interface</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="adding_removing.html">Adding/Removing a Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="header.html">Header</a></li>
-<li class="toctree-l4"><a class="reference internal" href="common.html">Common</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">Stack</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">动画 &amp; 绑定</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">简介</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../keyframes/index.html">关键帧</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../armatures/index.html">骨架</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lattice.html">晶格</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html">约束</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../introduction.html">简介</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../index.html#interface">界面</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="adding_removing.html">添加/移除约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="header.html">Header 标题栏</a></li>
+<li class="toctree-l4"><a class="reference internal" href="common.html">Common 常用选项</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">堆栈</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../index.html#motion-tracking">Motion Tracking</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../index.html#transform">Transform</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../index.html#tracking">Tracking</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../index.html#relationship">Relationship</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../index.html#motion-tracking">运动追踪</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../index.html#transform">变换</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../index.html#tracking">跟踪</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../index.html#relationship">关系</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../actions.html">Actions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../drivers/index.html">Drivers</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../markers.html">Markers</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../shape_keys/index.html">Shape Keys</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../motion_paths.html">Motion Paths</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../actions.html">动作</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../drivers/index.html">驱动器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../markers.html">标记</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../shape_keys/index.html">形态键</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../motion_paths.html">运动路径</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">Rendering</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">渲染</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -202,15 +202,15 @@
     
       <li><a href="../../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../../index.html">Animation &amp; Rigging</a> &raquo;</li>
+          <li><a href="../../index.html">动画 &amp; 绑定</a> &raquo;</li>
         
-          <li><a href="../index.html">Constraints</a> &raquo;</li>
+          <li><a href="../index.html">约束</a> &raquo;</li>
         
-      <li>Stack</li>
+      <li>堆栈</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/animation/constraints/interface/stack.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/animation/constraints/interface/stack.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -221,19 +221,14 @@
            <div itemprop="articleBody">
             
   <div class="section" id="stack">
-<h1>Stack<a class="headerlink" href="#stack" title="Permalink to this headline">¶</a></h1>
-<p>The combination of all the constraints affecting an object is called the Constraints Stack.
-The Stack is in the Constraints panel, below the Add Constraint menu.</p>
-<p>Constraints in the stack are evaluated from top to bottom.
-The order of each constraint has a substantial impact on the final outcome of the stack.
-Changing the order of the constraints can change the behavior of the entire stack.</p>
+<h1>堆栈<a class="headerlink" href="#stack" title="Permalink to this headline">¶</a></h1>
+<p>影响物体的所有约束的组合被称为约束堆栈。堆栈位于约束(Constraints)面板中，在&quot; Add Constraint(添加约束)&quot;菜单下方。</p>
+<p>在堆栈中的约束是从顶部到底部计算的。每个约束的顺序对堆栈的最终结果有实质性的影响。更改约束的顺序可以更改整个堆栈的行为。</p>
 <div class="figure align-default" id="id1">
 <img alt="../../../_images/animation_constraints_interface_stack_example.png" src="../../../_images/animation_constraints_interface_stack_example.png" />
-<p class="caption"><span class="caption-text">The constraints in this example stack are evaluated from top to bottom starting with
-the “Copy Location” constraint and ending with the final “Damped Track” constraint.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">此示例堆栈中的约束从上到下进行计算，从 “复制位置” 约束开始，以最终的 “阻尼跟踪” 约束结束。</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
-<p>To change the order of a constraint use the up/down arrows
-in the <a class="reference internal" href="header.html"><span class="doc">header</span></a>.</p>
+<p>若要更改约束的顺序在( <a class="reference internal" href="header.html"><span class="doc">header 标题栏</span></a>)中点击向上/向下箭头。</p>
 </div>
 
 
@@ -244,10 +239,10 @@ in the <a class="reference internal" href="header.html"><span class="doc">header
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../motion_tracking/camera_solver.html" class="btn btn-neutral float-right" title="Camera Solver Constraint" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="../motion_tracking/camera_solver.html" class="btn btn-neutral float-right" title="Camera Solver Constraint 相机解算" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="common.html" class="btn btn-neutral float-left" title="Common" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="common.html" class="btn btn-neutral float-left" title="Common 常用选项" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -281,7 +276,7 @@ in the <a class="reference internal" href="header.html"><span class="doc">header
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

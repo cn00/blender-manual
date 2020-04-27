@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Subsurface Scattering &mdash; Blender Manual</title>
+  <title>次表面散射(SSS)着色器节点 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Toon BSDF" href="toon.html" />
-    <link rel="prev" title="Specular BSDF" href="specular_bsdf.html" /> 
+    <link rel="next" title="卡通 BSDF着色器节点" href="toon.html" />
+    <link rel="prev" title="高光 BSDF着色器节点" href="specular_bsdf.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,77 +110,77 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">Physics</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Rendering</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">物理</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">渲染</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">简介</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../eevee/index.html">Eevee</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../cycles/index.html">Cycles</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../workbench/index.html">Workbench</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../cameras.html">Cameras</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../cameras.html">相机</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../lights/index.html">Lights</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../materials/index.html">Materials</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="../index.html">Shader Nodes</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="../introduction.html">Introduction</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../input/index.html">Input</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../output/index.html">Output</a></li>
-<li class="toctree-l3 current"><a class="reference internal" href="index.html">Shader</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="add.html">Add Shader</a></li>
-<li class="toctree-l4"><a class="reference internal" href="anisotropic.html">Anisotropic BSDF</a></li>
-<li class="toctree-l4"><a class="reference internal" href="background.html">Background</a></li>
-<li class="toctree-l4"><a class="reference internal" href="diffuse.html">Diffuse BSDF</a></li>
-<li class="toctree-l4"><a class="reference internal" href="emission.html">Emission</a></li>
-<li class="toctree-l4"><a class="reference internal" href="glass.html">Glass BSDF</a></li>
-<li class="toctree-l4"><a class="reference internal" href="glossy.html">Glossy BSDF</a></li>
-<li class="toctree-l4"><a class="reference internal" href="hair.html">Hair BSDF</a></li>
-<li class="toctree-l4"><a class="reference internal" href="holdout.html">Holdout</a></li>
-<li class="toctree-l4"><a class="reference internal" href="mix.html">Mix Shader</a></li>
-<li class="toctree-l4"><a class="reference internal" href="principled.html">Principled BSDF</a></li>
-<li class="toctree-l4"><a class="reference internal" href="hair_principled.html">Principled Hair BSDF</a></li>
-<li class="toctree-l4"><a class="reference internal" href="volume_principled.html">Principled Volume</a></li>
-<li class="toctree-l4"><a class="reference internal" href="refraction.html">Refraction BSDF</a></li>
-<li class="toctree-l4"><a class="reference internal" href="specular_bsdf.html">Specular BSDF</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">Subsurface Scattering</a></li>
-<li class="toctree-l4"><a class="reference internal" href="toon.html">Toon BSDF</a></li>
-<li class="toctree-l4"><a class="reference internal" href="translucent.html">Translucent BSDF</a></li>
-<li class="toctree-l4"><a class="reference internal" href="transparent.html">Transparent BSDF</a></li>
-<li class="toctree-l4"><a class="reference internal" href="velvet.html">Velvet BSDF</a></li>
-<li class="toctree-l4"><a class="reference internal" href="volume_absorption.html">Volume Absorption</a></li>
-<li class="toctree-l4"><a class="reference internal" href="volume_scatter.html">Volume Scatter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../materials/index.html">材质</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html">着色器节点</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../introduction.html">简介</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../input/index.html">输入节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../output/index.html">输出节点</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="index.html">着色器</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="add.html">相加着色器节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="anisotropic.html">各向异性BSDF节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="background.html">背景节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="diffuse.html">漫射 BSDF节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="emission.html">自发光节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="glass.html">玻璃 BSDF节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="glossy.html">光泽 BSDF节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="hair.html">毛发 BSDF节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="holdout.html">阻隔节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="mix.html">混合着色器节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="principled.html">原理化 BSDF着色器节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="hair_principled.html">原理化毛发 BSDF节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="volume_principled.html">原理化体积着色器节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="refraction.html">折射 BSDF着色器节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="specular_bsdf.html">高光 BSDF着色器节点</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">次表面散射(SSS)着色器节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="toon.html">卡通 BSDF着色器节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="translucent.html">半透 BSDF着色器节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="transparent.html">透明 BSDF着色器节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="velvet.html">丝绒 BSDF着色器节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="volume_absorption.html">体积吸收着色器节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="volume_scatter.html">体积散射着色器节点</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../textures/index.html">Texture</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../color/index.html">Color</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../vector/index.html">Vector</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../converter/index.html">Converter</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../groups.html">Node Groups</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../osl.html">Open Shading Language</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../textures/index.html">纹理节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../color/index.html">颜色节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../vector/index.html">矢量着色器节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../converter/index.html">转换器节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../groups.html">节点组</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../osl.html">开放式着色语言 (OSL)</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../color_management.html">Color Management</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../color_management.html">色彩管理</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../freestyle/index.html">Freestyle</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../layers/index.html">Layers &amp; Passes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../output/index.html">Render Output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../layers/index.html">层 &amp; 通道</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../output/index.html">渲染输出</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -226,17 +226,17 @@
     
       <li><a href="../../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../../index.html">Rendering</a> &raquo;</li>
+          <li><a href="../../index.html">渲染</a> &raquo;</li>
         
-          <li><a href="../index.html">Shader Nodes</a> &raquo;</li>
+          <li><a href="../index.html">着色器节点</a> &raquo;</li>
         
-          <li><a href="index.html">Shader</a> &raquo;</li>
+          <li><a href="index.html">着色器</a> &raquo;</li>
         
-      <li>Subsurface Scattering</li>
+      <li>次表面散射(SSS)着色器节点</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/render/shader_nodes/shader/sss.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/render/shader_nodes/shader/sss.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -247,88 +247,59 @@
            <div itemprop="articleBody">
             
   <div class="section" id="subsurface-scattering">
-<span id="bpy-types-shadernodesubsurfacescattering"></span><h1>Subsurface Scattering<a class="headerlink" href="#subsurface-scattering" title="Permalink to this headline">¶</a></h1>
+<span id="bpy-types-shadernodesubsurfacescattering"></span><h1>次表面散射(SSS)着色器节点<a class="headerlink" href="#subsurface-scattering" title="Permalink to this headline">¶</a></h1>
 <div class="figure align-right" id="id1">
 <img alt="../../../_images/render_shader-nodes_shader_sss_node.png" src="../../../_images/render_shader-nodes_shader_sss_node.png" />
-<p class="caption"><span class="caption-text">Subsurface Scattering Shader.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">次表面散射节点次表面散射(SSS)着色器节点。</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
-<p>The <em>Subsurface Scattering</em> node is used to add simple subsurface multiple scattering,
-for materials such as skin, wax, marble, milk and others. For these materials,
-rather than light being reflect directly off the surface, it will penetrate the surface and
-bounce around internally before getting absorbed or leaving the surface at a nearby point.</p>
-<p>How far the color scatters on average can be configured per RGB color channel. For example,
-for skin, red colors scatter further, which gives distinctive red-colored shadows,
-and a soft appearance.</p>
+<p><em>次表面散射</em> 节点用于为诸如皮肤，蜡，大理石，牛奶等材质添加简单的次表面多次散射效果。对于上述材质，光线不会直接从表面反射，而是会穿透表面并在内部反弹，然后被吸收或离开表面到达附近的点。</p>
+<p>可以根据RGB颜色通道配置颜色散布的平均距离。例如，对于皮肤，红色会进一步散射，从而产生独特的红色阴影和柔和的外观。</p>
 <div class="section" id="inputs">
-<h2>Inputs<a class="headerlink" href="#inputs" title="Permalink to this headline">¶</a></h2>
+<h2>输入选项<a class="headerlink" href="#inputs" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>Color</dt><dd><p>Color of the surface, or physically speaking, the probability that light is reflected for each wavelength.</p>
+<dt>颜色</dt><dd><p>物体表面的颜色，从物理学角度讲，既光线中的不同波长被反射的概率。</p>
 </dd>
-<dt>Scale</dt><dd><p>Global scale factor for the scattering radius.</p>
+<dt>缩放</dt><dd><p>散射半径的全局全局缩放系数。</p>
 </dd>
-<dt>Radius</dt><dd><p>Average distance that light scatters below the surface.
-Higher radius gives a softer appearance, as light bleeds into shadows and through the object.
-The scattering distance is specified separately for the RGB channels,
-to render materials such as skin where red light scatters deeper.
-The X, Y and Z values are mapped to the R, G and B values, respectively.</p>
+<dt>半径</dt><dd><p>光散射到表面下方的平均距离。较高的半径可以使外观更柔和，因为光线会流入阴影区域并穿过物体。散射距离是针对RGB通道单独指定的，对于具有较强红光散射的皮肤材质，渲染效果较佳。X，Y和Z的数值会分别映射到R，G和B的值。</p>
 </dd>
-<dt>Sharpness</dt><dd><p>Used only with <em>Cubic</em> falloff.
-Values increasing from 0 to 1 prevents softening of sharp edges and reduces unwanted darkening.</p>
+<dt>锐度</dt><dd><p>仅在 <em>Cubic</em> 衰减模式下有效。设定值从0增加到1可防止锐边柔化并减少不必要的变暗。</p>
 </dd>
-<dt>Normal</dt><dd><p>Normal used for shading; if nothing is connected the default shading normal is used.</p>
+<dt>法向(正常)</dt><dd><p>用于着色的法向；如果不与其它节点连接，则使用默认着色法向。</p>
 </dd>
-<dt>Texture Blur</dt><dd><p>How much of the texture will be blurred along with the lighting,
-mixing the texture at the incoming and outgoing points on the surface.
-Note that the right choice depends on the texture.
-Consider for example a texture created from a photograph of skin,
-in this case the colors will already be pre-blurred and texture blur could be set to 0.
-Even for hand-painted textures, no blurring or minimal blurring might be appropriate,
-as a texture artist would likely paint in softening already.
-One would usually not even know what an unblurred skin texture looks like; we always see it blurred.
-For a procedural texture on the other hand this option would likely have a higher value.</p>
+<dt>纹理模糊</dt><dd><p>在表面上的传入和传出点混合纹理，所以，纹理的模糊程度与光线的模糊程度相同。请注意，选择纹理才能得到正确的渲染结果。例如，利用皮肤的照片创建纹理时，颜色已经预先模糊，纹理模糊可以设置为0。即使对于手绘纹理，也不适合进行模糊或最小模糊处理，因为绘制纹理的作者可能已经进行过模糊处理了。由于我们看到的皮肤纹理永远都是模糊的，因此，人们通常甚至不知道什么是不模糊的皮肤纹理。另一方面，对于程序纹理，此选项可能须要设定更高的数值。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="properties">
-<h2>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
+<h2>属性<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
 <dl>
-<dt>Method</dt><dd><p>Rendering method to simulate subsurface scattering.</p>
+<dt>方式</dt><dd><p>模拟次表面散射的渲染方式。</p>
 <dl class="simple">
-<dt>Christensen-Burley</dt><dd><p>Is an approximation to physically-based volume scattering.
-Gives less blurry results than Cubic and Gaussian functions.</p>
+<dt>克里斯坦森-伯利</dt><dd><p>基于物理学中体积散射的近似值。与三次型和高斯函数相比，其渲染结果更加模糊。</p>
 </dd>
-<dt>Random Walk <span class="guilabel">Cycles Only</span></dt><dd><p>Provides the most accurate results for thin and curved objects.
-This comes at the cost of increased render time or noise for more dense media like skin,
-but also better geometry detail preservation.
-Random Walk uses true volumetric scattering inside the mesh,
-which means that it works best for closed meshes.
-Overlapping faces and holes in the mesh can cause problems.</p>
+<dt>随机游走 <span class="guilabel">仅适用于Cycles引擎</span></dt><dd><p>对薄物体和弯曲物体的计算结果较理想。这是以增加渲染时间或噪点为代价，来使密集的介质(如皮肤)获得较好的渲染效果，并且可以更好保存物体的几何细节。随机游走模式在网格内部使用真正体积散射，这意味着它更加适用于闭合网格。 网格中的重叠面和孔可能会导致渲染出现问题。</p>
 </dd>
-<dt>Cubic</dt><dd><p>Is a sharp falloff useful for many simple materials. The function is <span class="math notranslate nohighlight">\((radius - x)^3\)</span>.</p>
+<dt>三次型</dt><dd><p>对于许多简单的材料来说是一个尖锐的衰减。公式为 <span class="math notranslate nohighlight">\((radius - x)^3\)</span>。</p>
 </dd>
-<dt>Gaussian</dt><dd><p>Gives a smoother falloff following a normal distribution,
-which is particularly useful for more advanced materials that use measured
-data that was fitted to one or more such Gaussian functions.
-The function is <span class="math notranslate nohighlight">\(e^{-8x^2/ radius^2}\)</span>,
-such that the radius roughly matches the maximum falloff distance.
-To match a given measured variance <em>v</em>, set <span class="math notranslate nohighlight">\(radius = sqrt(16 × v)\)</span>.</p>
+<dt>高斯</dt><dd><p>在正态分布之后给出更平滑的衰减，将一个或多个这种高斯函数的测量数据应用于更高级的材料时，该方式更具优势。公式为 <span class="math notranslate nohighlight">\(e^{-8x^2/ radius^2}\)</span>，计算后的半径可以大致匹配最大衰减距离。要匹配给定的测量方差 <em>v</em> ，可设置 <span class="math notranslate nohighlight">\(radius = sqrt(16 × v)\)</span> 。</p>
 </dd>
 </dl>
 </dd>
 </dl>
 </div>
 <div class="section" id="outputs">
-<h2>Outputs<a class="headerlink" href="#outputs" title="Permalink to this headline">¶</a></h2>
+<h2>输出选项<a class="headerlink" href="#outputs" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>BSSRDF</dt><dd><p><abbr title="Bidirectional subsurface scattering distribution function">BSSRDF</abbr> shader output.</p>
+<dt>BSSRDF</dt><dd><p><abbr title="Bidirectional subsurface scattering distribution function">双向次表面散射反射分布函数</abbr> 着色器输出。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="examples">
-<h2>Examples<a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h2>
+<h2>举例<a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h2>
 <div class="figure align-default" id="id2">
 <img alt="../../../_images/render_shader-nodes_shader_sss_example.jpg" src="../../../_images/render_shader-nodes_shader_sss_example.jpg" />
-<p class="caption"><span class="caption-text">Random Walk subsurface scattering.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">随机游走次表面散射效果。</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 </div>
@@ -341,10 +312,10 @@ To match a given measured variance <em>v</em>, set <span class="math notranslate
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="toon.html" class="btn btn-neutral float-right" title="Toon BSDF" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="toon.html" class="btn btn-neutral float-right" title="卡通 BSDF着色器节点" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="specular_bsdf.html" class="btn btn-neutral float-left" title="Specular BSDF" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="specular_bsdf.html" class="btn btn-neutral float-left" title="高光 BSDF着色器节点" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -378,7 +349,7 @@ To match a given measured variance <em>v</em>, set <span class="math notranslate
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

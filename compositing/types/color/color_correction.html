@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Color Correction Node &mdash; Blender Manual</title>
+  <title>色彩校正节点 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Gamma Node" href="gamma.html" />
-    <link rel="prev" title="Color Balance Node" href="color_balance.html" /> 
+    <link rel="next" title="伽玛节点" href="gamma.html" />
+    <link rel="prev" title="色彩平衡节点" href="color_balance.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,58 +110,58 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">Rendering</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Compositing</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../properties.html">Properties</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="../../index.html#node-types">Node Types</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="../input/index.html">Input Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../output/index.html">Output Nodes</a></li>
-<li class="toctree-l3 current"><a class="reference internal" href="index.html">Color Nodes</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="alpha_over.html">Alpha Over Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="bright_contrast.html">Bright/Contrast Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="color_balance.html">Color Balance Node</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">Color Correction Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="gamma.html">Gamma Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="hue_correct.html">Hue Correct Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="hue_saturation.html">Hue Saturation Value Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="invert.html">Invert Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="mix.html">Mix Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="rgb_curves.html">RGB Curves Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tone_map.html">Tone Map Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="z_combine.html">Z Combine Node</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">渲染</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">合成</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">简介</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../properties.html">属性</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../index.html#node-types">节点类型</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../input/index.html">输入类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../output/index.html">输出类节点</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="index.html">颜色类节点</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="alpha_over.html">Alpha上叠节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="bright_contrast.html">亮度/对比度节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="color_balance.html">色彩平衡节点</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">色彩校正节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="gamma.html">伽玛节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="hue_correct.html">色相校正节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="hue_saturation.html">色相/饱和度/明度节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="invert.html">反相节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="mix.html">混合节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="rgb_curves.html">RGB曲线节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="tone_map.html">色调映射节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="z_combine.html">Z通道合成节点</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../converter/index.html">Converter Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../filter/index.html">Filter Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../vector/index.html">Vector Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../matte/index.html">Matte Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../distort/index.html">Distort Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../groups.html">Node Groups</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../layout/index.html">Layout Nodes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../converter/index.html">转换器类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../filter/index.html">滤镜(过滤)节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../vector/index.html">矢量类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../matte/index.html">蒙版类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../distort/index.html">畸变类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../groups.html">节点组</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../layout/index.html">布局类节点</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -207,17 +207,17 @@
     
       <li><a href="../../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../../../editors/index.html">Editors</a> &raquo;</li>
+          <li><a href="../../../editors/index.html">编辑器</a> &raquo;</li>
         
-          <li><a href="../../index.html">Compositing</a> &raquo;</li>
+          <li><a href="../../index.html">合成</a> &raquo;</li>
         
-          <li><a href="index.html">Color Nodes</a> &raquo;</li>
+          <li><a href="index.html">颜色类节点</a> &raquo;</li>
         
-      <li>Color Correction Node</li>
+      <li>色彩校正节点</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/compositing/types/color/color_correction.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/compositing/types/color/color_correction.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -228,66 +228,62 @@
            <div itemprop="articleBody">
             
   <div class="section" id="color-correction-node">
-<span id="bpy-types-compositornodecolorcorrection"></span><h1>Color Correction Node<a class="headerlink" href="#color-correction-node" title="Permalink to this headline">¶</a></h1>
+<span id="bpy-types-compositornodecolorcorrection"></span><h1>色彩校正节点<a class="headerlink" href="#color-correction-node" title="Permalink to this headline">¶</a></h1>
 <div class="figure align-default" id="id1">
 <img alt="../../../_images/compositing_node-types_CompositorNodeColorCorrection.png" src="../../../_images/compositing_node-types_CompositorNodeColorCorrection.png" />
-<p class="caption"><span class="caption-text">Color Balance Node.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">色彩校正节点。</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
-<p>The Color Correction node can adjust the color of an image, separately in several tonal ranges
-(highlights, midtones and shadows) and only affect the necessary RGB channels.</p>
+<p>色彩校正节点可以调整图像的颜色，单独调整色调范围(高光，中间调和阴影)和仅影响需要的RGB通道。</p>
 <div class="section" id="properties">
-<h2>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
+<h2>属性<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>Red, Green, Blue</dt><dd><p>Specifies which RGB channels will be affected by correction.</p>
+<dt>红，绿，蓝</dt><dd><p>指定在色彩校正中哪些RGB通道被影响。</p>
 </dd>
 </dl>
 <div class="section" id="correction-tools-columns">
-<h3>Correction Tools (Columns)<a class="headerlink" href="#correction-tools-columns" title="Permalink to this headline">¶</a></h3>
+<h3>校正工具(呈竖排显示)<a class="headerlink" href="#correction-tools-columns" title="Permalink to this headline">¶</a></h3>
 <dl class="simple">
-<dt>Saturation</dt><dd><p>Adjusts the image’s saturation.</p>
+<dt>饱和度</dt><dd><p>调节图像饱和度。</p>
 </dd>
-<dt>Contrast</dt><dd><p>Adjust image contrast.</p>
+<dt>对比度</dt><dd><p>调节图像对比度。</p>
 </dd>
-<dt>Gamma</dt><dd><p>Exponential gamma correction, affecting the midtones of the image. (Works like Power in the Color Balance node.)</p>
+<dt>伽玛</dt><dd><p>指数级伽玛校正，仅影响图像的中间调。(和“色彩平衡”节点的“能量”参数类似)。</p>
 </dd>
-<dt>Gain</dt><dd><p>Multiplier, stronger influence on the highlights. (Works like Slope in the Color Balance node.)</p>
+<dt>增益</dt><dd><p>是个乘数型参数，对图像的高光部分影响较大。(和“色彩平衡”节点的“斜率”参数类似)。</p>
 </dd>
-<dt>Lift</dt><dd><p>This value (can be negative) will be added (+), linear lightens or darkens the image.
-(Works like <em>Offset</em> in the Color Balance node.)</p>
+<dt>Lift(提升)</dt><dd><p>在图像上线性增加 (+)数值(可为负值)，使图像变亮或变暗。(和色彩平衡节点的 <em>偏移量</em> 参数类似)。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="tonal-ranges-rows">
-<h3>Tonal Ranges (Rows)<a class="headerlink" href="#tonal-ranges-rows" title="Permalink to this headline">¶</a></h3>
+<h3>色调范围(呈横排显示)<a class="headerlink" href="#tonal-ranges-rows" title="Permalink to this headline">¶</a></h3>
 <dl class="simple">
-<dt>Master</dt><dd><p>These sliders affect the entire tonal range.</p>
+<dt>主要</dt><dd><p>这些滑块影响图像整个色调范围。</p>
 </dd>
-<dt>Highlights</dt><dd><p>These sliders only affect the highlights.</p>
+<dt>高亮</dt><dd><p>这些滑块只影响高光颜色。</p>
 </dd>
-<dt>Midtones</dt><dd><p>These sliders only affect the midtones.</p>
+<dt>中间调</dt><dd><p>这些滑块只影响中间调颜色。</p>
 </dd>
-<dt>Shadows</dt><dd><p>Affects the dark tones of an image often affecting the shadows.</p>
+<dt>阴影</dt><dd><p>通常影响图像的阴影等暗部区域颜色。</p>
 </dd>
-<dt>Midtones Start, Midtones End</dt><dd><p>Defines the start and the end of midtones range, i.e.
-values where the whole tonal range is divided into the highlights, midtones and shadows
-(there is also a smooth transition between the ranges of width 0.2 units).</p>
+<dt>中间调开始，中间调末端</dt><dd><p>定义中间调的开始和末端范围，比如，此值将图像的整个调性范围划分为高光，中间调和阴影三部分(在各色调范围之间有0.2个单位的平滑过渡)。</p>
 </dd>
 </dl>
 </div>
 </div>
 <div class="section" id="inputs">
-<h2>Inputs<a class="headerlink" href="#inputs" title="Permalink to this headline">¶</a></h2>
+<h2>输入<a class="headerlink" href="#inputs" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>Image</dt><dd><p>Standard image input.</p>
+<dt>图像</dt><dd><p>标准化图像输入。</p>
 </dd>
-<dt>Mask</dt><dd><p>Controls the amount of influence the node exerts on the output image.</p>
+<dt>遮罩</dt><dd><p>控制此节点在输出图像上的作用效果程度。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="outputs">
-<h2>Outputs<a class="headerlink" href="#outputs" title="Permalink to this headline">¶</a></h2>
+<h2>输出<a class="headerlink" href="#outputs" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>Color</dt><dd><p>Standard image output.</p>
+<dt>颜色</dt><dd><p>标准化图像输出。</p>
 </dd>
 </dl>
 </div>
@@ -301,10 +297,10 @@ values where the whole tonal range is divided into the highlights, midtones and 
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="gamma.html" class="btn btn-neutral float-right" title="Gamma Node" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="gamma.html" class="btn btn-neutral float-right" title="伽玛节点" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="color_balance.html" class="btn btn-neutral float-left" title="Color Balance Node" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="color_balance.html" class="btn btn-neutral float-left" title="色彩平衡节点" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -338,7 +334,7 @@ values where the whole tonal range is divided into the highlights, midtones and 
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

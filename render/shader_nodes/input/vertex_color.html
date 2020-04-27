@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Vertex Color Node &mdash; Blender Manual</title>
+  <title>顶点颜色节点 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Volume Info Node" href="volume_info.html" />
-    <link rel="prev" title="Value Node" href="value.html" /> 
+    <link rel="next" title="体积信息节点" href="volume_info.html" />
+    <link rel="prev" title="值(明度)节点" href="value.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,74 +110,74 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">Physics</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Rendering</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">物理</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">渲染</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">简介</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../eevee/index.html">Eevee</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../cycles/index.html">Cycles</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../workbench/index.html">Workbench</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../cameras.html">Cameras</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../cameras.html">相机</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../lights/index.html">Lights</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../materials/index.html">Materials</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="../index.html">Shader Nodes</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="../introduction.html">Introduction</a></li>
-<li class="toctree-l3 current"><a class="reference internal" href="index.html">Input</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="ao.html">Ambient Occlusion</a></li>
-<li class="toctree-l4"><a class="reference internal" href="attribute.html">Attribute Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="bevel.html">Bevel Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="camera_data.html">Camera Data Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="fresnel.html">Fresnel Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="geometry.html">Geometry Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="hair_info.html">Hair Info Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="layer_weight.html">Layer Weight Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="light_path.html">Light Path Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="object_info.html">Object Info Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="particle_info.html">Particle Info Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="rgb.html">RGB Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tangent.html">Tangent Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="texture_coordinate.html">Texture Coordinate Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="uv_map.html">UV Map Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="value.html">Value Node</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">Vertex Color Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="volume_info.html">Volume Info Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="wireframe.html">Wireframe Node</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../materials/index.html">材质</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html">着色器节点</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../introduction.html">简介</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="index.html">输入节点</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="ao.html">环境光遮蔽</a></li>
+<li class="toctree-l4"><a class="reference internal" href="attribute.html">属性节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="bevel.html">倒角节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="camera_data.html">相机数据节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="fresnel.html">菲涅尔节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="geometry.html">几何数据节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="hair_info.html">毛发信息节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="layer_weight.html">层权重节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="light_path.html">光程节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="object_info.html">物体信息节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="particle_info.html">粒子信息节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="rgb.html">RGB节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="tangent.html">切向节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="texture_coordinate.html">纹理坐标节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="uv_map.html">UV贴图节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="value.html">值(明度)节点</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">顶点颜色节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="volume_info.html">体积信息节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="wireframe.html">线框节点</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../output/index.html">Output</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../shader/index.html">Shader</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../textures/index.html">Texture</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../color/index.html">Color</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../vector/index.html">Vector</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../converter/index.html">Converter</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../groups.html">Node Groups</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../osl.html">Open Shading Language</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../output/index.html">输出节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../shader/index.html">着色器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../textures/index.html">纹理节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../color/index.html">颜色节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../vector/index.html">矢量着色器节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../converter/index.html">转换器节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../groups.html">节点组</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../osl.html">开放式着色语言 (OSL)</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../color_management.html">Color Management</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../color_management.html">色彩管理</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../freestyle/index.html">Freestyle</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../layers/index.html">Layers &amp; Passes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../output/index.html">Render Output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../layers/index.html">层 &amp; 通道</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../output/index.html">渲染输出</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -223,17 +223,17 @@
     
       <li><a href="../../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../../index.html">Rendering</a> &raquo;</li>
+          <li><a href="../../index.html">渲染</a> &raquo;</li>
         
-          <li><a href="../index.html">Shader Nodes</a> &raquo;</li>
+          <li><a href="../index.html">着色器节点</a> &raquo;</li>
         
-          <li><a href="index.html">Input</a> &raquo;</li>
+          <li><a href="index.html">输入节点</a> &raquo;</li>
         
-      <li>Vertex Color Node</li>
+      <li>顶点颜色节点</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/render/shader_nodes/input/vertex_color.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/render/shader_nodes/input/vertex_color.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -244,34 +244,29 @@
            <div itemprop="articleBody">
             
   <div class="section" id="vertex-color-node">
-<span id="bpy-types-shadernodevertexcolor"></span><h1>Vertex Color Node<a class="headerlink" href="#vertex-color-node" title="Permalink to this headline">¶</a></h1>
+<span id="bpy-types-shadernodevertexcolor"></span><h1>顶点颜色节点<a class="headerlink" href="#vertex-color-node" title="Permalink to this headline">¶</a></h1>
 <div class="figure align-right" id="id1">
 <img alt="../../../_images/render_shader-nodes_input_vertex-color_node.png" src="../../../_images/render_shader-nodes_input_vertex-color_node.png" />
-<p class="caption"><span class="caption-text">Vertex Color node.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">顶点颜色节点。</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
-<p>The <em>Vertex Color</em> node provides vertex colors as well as their alpha value.</p>
+<p><em>顶点颜色</em> 节点提供顶点颜色及其 alpha 值。</p>
 <div class="section" id="inputs">
-<h2>Inputs<a class="headerlink" href="#inputs" title="Permalink to this headline">¶</a></h2>
-<p>This node has no inputs.</p>
+<h2>输入<a class="headerlink" href="#inputs" title="Permalink to this headline">¶</a></h2>
+<p>该节点没有输入选项。</p>
 </div>
 <div class="section" id="properties">
-<h2>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
+<h2>属性<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>Vertex Color</dt><dd><p>The target vertex color.
-The listed vertex colors are those of the mesh of the active object.
-If the active object has no mesh, a warning will be displayed.
-If the property is marked in red, it means the vertex color is not available in
-the mesh of the active object, but it may be available in other meshes of
-objects that share this material!</p>
+<dt>顶点颜色</dt><dd><p>目标顶点颜色。列出的顶点颜色是活动物体网格的颜色。如果活动物体没有网格，将显示警告。如果属性标记为红色，则表示顶点颜色在活动物体的网格中不可用，但它可能在共享此材质的其他物体网格中可用！</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="outputs">
-<h2>Outputs<a class="headerlink" href="#outputs" title="Permalink to this headline">¶</a></h2>
+<h2>输出<a class="headerlink" href="#outputs" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>Color</dt><dd><p>Vertex color.</p>
+<dt>颜色</dt><dd><p>顶点颜色。</p>
 </dd>
-<dt>Alpha</dt><dd><p>Alpha value.</p>
+<dt>Alpha</dt><dd><p>Alpha 值。</p>
 </dd>
 </dl>
 </div>
@@ -285,10 +280,10 @@ objects that share this material!</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="volume_info.html" class="btn btn-neutral float-right" title="Volume Info Node" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="volume_info.html" class="btn btn-neutral float-right" title="体积信息节点" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="value.html" class="btn btn-neutral float-left" title="Value Node" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="value.html" class="btn btn-neutral float-left" title="值(明度)节点" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -322,7 +317,7 @@ objects that share this material!</p>
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

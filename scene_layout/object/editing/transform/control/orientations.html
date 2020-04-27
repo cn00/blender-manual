@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Transform Orientations &mdash; Blender Manual</title>
+  <title>变换坐标系 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../../../../genindex.html" />
     <link rel="search" title="Search" href="../../../../../search.html" />
-    <link rel="next" title="Pivot Point" href="pivot_point/index.html" />
-    <link rel="prev" title="Snapping" href="snap.html" /> 
+    <link rel="next" title="轴心点" href="pivot_point/index.html" />
+    <link rel="prev" title="吸附" href="snap.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,47 +110,47 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../../../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../../editors/index.html">Editors</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../../../../index.html">Scenes &amp; Objects</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../../../scene/index.html">Scenes</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="../../../index.html">Objects</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="../../../introduction.html">Introduction</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../types.html">Object Types</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../origin.html">Object Origin</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../selecting.html">Selecting</a></li>
-<li class="toctree-l3 current"><a class="reference internal" href="../../index.html">Editing</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="../../introduction.html">Introduction</a></li>
-<li class="toctree-l4 current"><a class="reference internal" href="../index.html">Transform</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../duplication.html">Duplication</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../index.html">场景 &amp; 物体</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../scene/index.html">场景</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../index.html">物体</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../../introduction.html">简介</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../types.html">物体类型</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../origin.html">物体原点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../selecting.html">选择</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../../index.html">编辑</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../introduction.html">简介</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../index.html">变换</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../duplication.html">复制</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../properties/index.html">Properties</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../toolbar/index.html">Toolbar</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../properties/index.html">属性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../toolbar/index.html">工具栏</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../../../collections/index.html">Collections</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../../view_layers/index.html">View Layers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../collections/index.html">集合</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../view_layers/index.html">视图层</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../../render/index.html">Rendering</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../render/index.html">渲染</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -196,21 +196,21 @@
     
       <li><a href="../../../../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../../../../index.html">Scenes &amp; Objects</a> &raquo;</li>
+          <li><a href="../../../../index.html">场景 &amp; 物体</a> &raquo;</li>
         
-          <li><a href="../../../index.html">Objects</a> &raquo;</li>
+          <li><a href="../../../index.html">物体</a> &raquo;</li>
         
-          <li><a href="../../index.html">Editing</a> &raquo;</li>
+          <li><a href="../../index.html">编辑</a> &raquo;</li>
         
-          <li><a href="../index.html">Transform</a> &raquo;</li>
+          <li><a href="../index.html">变换</a> &raquo;</li>
         
-          <li><a href="index.html">Transform Control</a> &raquo;</li>
+          <li><a href="index.html">变换控件</a> &raquo;</li>
         
-      <li>Transform Orientations</li>
+      <li>变换坐标系</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/scene_layout/object/editing/transform/control/orientations.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/scene_layout/object/editing/transform/control/orientations.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -221,132 +221,106 @@
            <div itemprop="articleBody">
             
   <span class="target" id="bpy-types-spaceview3d-transform-orientation"><span id="bpy-types-transformorientation"></span></span><div class="section" id="transform-orientations">
-<h1>Transform Orientations<a class="headerlink" href="#transform-orientations" title="Permalink to this headline">¶</a></h1>
+<h1>变换坐标系<a class="headerlink" href="#transform-orientations" title="Permalink to this headline">¶</a></h1>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Mode</dt>
-<dd class="field-odd"><p>Object and Edit Modes</p>
+<dt class="field-odd">模式</dt>
+<dd class="field-odd"><p>物体模式和编辑模式</p>
 </dd>
-<dt class="field-even">Panel</dt>
-<dd class="field-even"><p><span class="menuselection">Sidebar region ‣ Transform Orientations</span></p>
+<dt class="field-even">面板</dt>
+<dd class="field-even"><p><span class="menuselection">侧栏(Sidebar region) ‣ 变换坐标系(Transform Orientations)</span></p>
 </dd>
-<dt class="field-odd">Hotkey</dt>
+<dt class="field-odd">快捷键</dt>
 <dd class="field-odd"><p><kbd class="kbd docutils literal notranslate">Comma</kbd></p>
 </dd>
 </dl>
 </div>
-<p><em>Transform Orientations</em> affect the behavior of
-<a class="reference internal" href="../basics.html"><span class="doc">Transformations</span></a>: <em>Location</em>, <em>Rotation</em>, and <em>Scale</em>.
-You will see an effect on
-the <a class="reference internal" href="gizmos.html"><span class="doc">Object Gizmo</span></a>
-(the widget in the center of the selection), as well as on transformation constraints,
-<a class="reference internal" href="axis_locking.html"><span class="doc">Axis Locking</span></a>.</p>
-<p>For example, when you press <kbd class="kbd docutils literal notranslate">X</kbd>, during the execution of the operation,
-it will constrain the transformation to the <em>Global</em> X axis.
-But if you press <kbd class="kbd docutils literal notranslate">X</kbd> a second time it will constrain to your <em>Transform Orientation</em>’s X axis.</p>
+<p><em>变换坐标系</em> 影响 <a class="reference internal" href="../basics.html"><span class="doc">变换</span></a>: <em>位置</em> 、 <em>旋转</em> 、 与 <em>缩放</em> 操作。 可以看到 <a class="reference internal" href="gizmos.html"><span class="doc">物体Gizmo</span></a> (位于选中项的中心的部件)，和变换约束， <a class="reference internal" href="axis_locking.html"><span class="doc">轴向锁定</span></a> 。</p>
+<p>比如，在执行该操作时按下 <kbd class="kbd docutils literal notranslate">X</kbd>，变换将约束在 <em>全局</em> X轴向。但是如果再按一次 <kbd class="kbd docutils literal notranslate">X</kbd>， 变换将约束在 <em>变换Gizmo系</em> 的X轴向.</p>
 <div class="figure align-default" id="id1">
 <img alt="../../../../../_images/scene-layout_object_editing_transform_control_orientations_menu.png" src="../../../../../_images/scene-layout_object_editing_transform_control_orientations_menu.png" />
-<p class="caption"><span class="caption-text">Transform Orientations selector.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">变换坐标系选择器。</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
-<p>The Orientations options can be set through the <em>Transform Orientation</em> selector in a 3D View header.</p>
-<p>In addition to the five preset options,
-you can define your own custom orientation (see <a class="reference internal" href="#custom-orientations">Custom Orientations</a> below).</p>
+<p>坐标系选项可以通过3D视图标题栏中的 <em>变换坐标</em> 选择器进行设置。</p>
+<p>除了五个预设选项外，你还可以定义自己的自定义坐标系(参见下面的 <a class="reference internal" href="#custom-orientations">自定义坐标系</a> )。</p>
 <div class="section" id="orientations">
-<h2>Orientations<a class="headerlink" href="#orientations" title="Permalink to this headline">¶</a></h2>
+<h2>坐标系<a class="headerlink" href="#orientations" title="Permalink to this headline">¶</a></h2>
 <dl>
-<dt>Global</dt><dd><p>The gizmo matches the <em>Global</em> (or <em>World</em>) axis.</p>
-<p>The <a class="reference internal" href="../../../../../editors/3dview/startup_scene.html"><span class="doc">Axis</span></a> in the top right corner of the viewport,
-and the <em>Grid Floor</em>, shows the axes of world coordinate system.</p>
+<dt>全局</dt><dd><p>小部件匹配 <em>全局</em> (或 <em>世界</em>)坐标。</p>
+<p>视图右上角的 <a class="reference internal" href="../../../../../editors/3dview/startup_scene.html"><span class="doc">轴</span></a> 以及 <em>栅格地面</em> ，指示了世界坐标系的轴向。</p>
 </dd>
-<dt>Local</dt><dd><p>The gizmo matches the <em>Object</em> axis.</p>
-<p>When an object is rotated, the direction of the <em>Local</em> gizmo
-matches to the object’s rotation relative to the global axes.
-While the <em>Global</em> gizmo always correspond to world coordinates.</p>
+<dt>局部</dt><dd><p>gizmo匹配 <em>物体</em> 坐标轴。</p>
+<p>当物体被旋转后， <em>局部</em> gizmo的方向与物体相对全局的旋转轴向一致。而 <em>全局</em> gizmo则始终与世界坐标系一致。</p>
 </dd>
-<dt>Normal</dt><dd><p>The Z axis of the gizmo will match
-the <a class="reference internal" href="../../../../../modeling/meshes/editing/normals.html"><span class="doc">Normal</span></a> of the selected element.
-If multiple elements are selected, it will orient towards the average of those normals.</p>
-<p>In <em>Object Mode</em>, this is equivalent to <em>Local</em> orientation.</p>
+<dt>法向</dt><dd><p>Gizmo的Z轴将与选中元素点 <a class="reference internal" href="../../../../../modeling/meshes/editing/normals.html"><span class="doc">法向</span></a> 方向一致。如果选中多个物体，其朝向将与其平均法线方向一致。</p>
+<p>在 <em>物体模式</em> 下，这相当于 <em>局部</em> 坐标系。</p>
 </dd>
-<dt>Gimbal</dt><dd><p>Uses a <a class="reference internal" href="../../../../../glossary/index.html#term-gimbal"><span class="xref std std-term">Gimbal</span></a> behavior that can be changed
-depending on the current <a class="reference internal" href="../../../properties/transforms.html#rotation-modes"><span class="std std-ref">Rotation Mode</span></a>.</p>
+<dt>万向</dt><dd><p>使用一个术语 <a class="reference internal" href="../../../../../glossary/index.html#term-gimbal"><span class="xref std std-term">Gimbal</span></a> ，行为可以根据 <a class="reference internal" href="../../../properties/transforms.html#rotation-modes"><span class="std std-ref">旋转模式</span></a> 改变。</p>
 </dd>
-<dt>View</dt><dd><p>The gizmo will match the 3D View (viewport):</p>
+<dt>视图</dt><dd><p>Gizmo将匹配3D视图(视角):</p>
 <ul class="simple">
-<li><p>Y: Up/Down</p></li>
-<li><p>X: Left/Right</p></li>
-<li><p>Z: Towards/Away from the screen</p></li>
+<li><p>Y: 向上/向下</p></li>
+<li><p>X: 左/右</p></li>
+<li><p>Z: 朝向/远离屏幕</p></li>
 </ul>
 </dd>
 </dl>
 <div class="section" id="custom-orientations">
-<h3>Custom Orientations<a class="headerlink" href="#custom-orientations" title="Permalink to this headline">¶</a></h3>
+<h3>自定义坐标系<a class="headerlink" href="#custom-orientations" title="Permalink to this headline">¶</a></h3>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Mode</dt>
-<dd class="field-odd"><p>Object and Edit Modes</p>
+<dt class="field-odd">模式</dt>
+<dd class="field-odd"><p>物体模式和编辑模式</p>
 </dd>
-<dt class="field-even">Panel</dt>
-<dd class="field-even"><p><span class="menuselection">Sidebar region ‣ Transform Orientations</span></p>
+<dt class="field-even">面板</dt>
+<dd class="field-even"><p><span class="menuselection">侧栏(Sidebar region) ‣ 变换坐标系(Transform Orientations)</span></p>
 </dd>
 </dl>
 </div>
-<p>You can define custom transform orientations, using object or mesh elements. Custom transform
-orientations defined from objects use the <em>Local</em> orientation of the object whereas those
-defined from selected mesh elements (vertices, edges, faces)
-use the <em>Normal</em> orientation of the selection.</p>
+<p>用户可以使用物体或网格元素来自定义变换坐标系。从物体定义的自定义变换坐标系使用物体的 <em>局部</em> 坐标系，而从所选网格元素(顶点、边、面)定义的自定义变换坐标系使用选中元素的 <em>法线</em> 坐标系。</p>
 <div class="figure align-default" id="id2">
 <img alt="../../../../../_images/scene-layout_object_editing_transform_control_orientations_custom.png" src="../../../../../_images/scene-layout_object_editing_transform_control_orientations_custom.png" />
-<p class="caption"><span class="caption-text">Transform Orientations panel.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">变换坐标系面板。</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
-<p>The <em>Transform Orientations</em> panel, found in the header of the 3D View,
-can be used to manage transform orientations: selecting the active orientation,
-adding (“+” icon), deleting (“X” icon) and rename custom orientations.</p>
-<p>The default name for these orientations comes from whatever you have selected.
-If an edge, it will be titled, “Edge”, if an object,
-it will take that object’s name, etc.</p>
+<p>3D视图标题栏中的 <em>变换坐标系</em> 面板，可用于管理变换坐标系：选择激活的坐标系，添加(&quot;+&quot; 图标)，和删除(&quot;X&quot; 图标)，重命名自定义坐标系。</p>
+<p>这些坐标系的默认名称来自选中项。如果是一条边，它将被称为“边”；如果是一个物体，它将采用该物体的名字，等等。</p>
 <div class="section" id="create-orientation">
-<h4>Create Orientation<a class="headerlink" href="#create-orientation" title="Permalink to this headline">¶</a></h4>
-<p>To create a custom orientation, select the object or mesh element(s) and
-click the “+” button on the <em>Transform Orientations</em> panel.</p>
+<h4>创建坐标系<a class="headerlink" href="#create-orientation" title="Permalink to this headline">¶</a></h4>
+<p>选中物体或网格元素，按下 <em>变换坐标系</em> 面板中的 &quot;+&quot; 按钮，创建自定义坐标系。</p>
 <div class="figure align-default" id="id3">
 <img alt="../../../../../_images/scene-layout_object_editing_transform_control_orientations_custom-name.png" src="../../../../../_images/scene-layout_object_editing_transform_control_orientations_custom-name.png" />
-<p class="caption"><span class="caption-text">Create Orientation <a class="reference internal" href="../../../../../interface/undo_redo.html#ui-undo-redo-adjust-last-operation"><span class="std std-ref">Adjust Last Operation</span></a> panel.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">创建坐标系 <a class="reference internal" href="../../../../../interface/undo_redo.html#ui-undo-redo-adjust-last-operation"><span class="std std-ref">调整上一步操作</span></a> 面板。</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
 </div>
-<p>Just after creating the orientation,
-the <em>Create Orientation</em> <a class="reference internal" href="../../../../../interface/undo_redo.html#ui-undo-redo-adjust-last-operation"><span class="std std-ref">Adjust Last Operation</span></a> panel gives a few options:</p>
+<p>在创建坐标系后，<em>创建坐标系</em> <a class="reference internal" href="../../../../../interface/undo_redo.html#ui-undo-redo-adjust-last-operation"><span class="std std-ref">调整上一步操作</span></a> 面板提供了几个选项：</p>
 <dl class="simple">
-<dt>Name</dt><dd><p>Text field for naming the new orientation.</p>
+<dt>名称</dt><dd><p>用于命名新坐标系的文本框。</p>
 </dd>
-<dt>Use View</dt><dd><p>The new orientation will be aligned to the view space.</p>
+<dt>使用视图</dt><dd><p>新的坐标系将与视图空间对齐。</p>
 </dd>
-<dt>Use after creation</dt><dd><p>If checked it leaves the newly created orientation active.</p>
+<dt>创建后使用</dt><dd><p>如果选中，则会使新创建的坐标系处于活动状态。</p>
 </dd>
-<dt>Overwrite previous</dt><dd><p>If the new orientation is given an existing name, a suffix will be added to it to avoid overwriting the old one,
-unless <em>Overwrite previous</em> is checked, in which case it will be overwritten.</p>
+<dt>覆盖已有</dt><dd><p>如果新的坐标系被赋予一个现有的名字，它将被添加一个后缀，以避免覆盖旧的，除非 <em>覆盖已有</em> 被选中，在这种情况下，它将会覆盖。</p>
 </dd>
 </dl>
 </div>
 </div>
 </div>
 <div class="section" id="align-to-transform-orientation">
-<span id="bpy-ops-transform-transform"></span><h2>Align to Transform Orientation<a class="headerlink" href="#align-to-transform-orientation" title="Permalink to this headline">¶</a></h2>
+<span id="bpy-ops-transform-transform"></span><h2>与变换坐标系对齐<a class="headerlink" href="#align-to-transform-orientation" title="Permalink to this headline">¶</a></h2>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Mode</dt>
-<dd class="field-odd"><p>Object and Edit Modes</p>
+<dt class="field-odd">模式</dt>
+<dd class="field-odd"><p>物体模式和编辑模式</p>
 </dd>
-<dt class="field-even">Menu</dt>
-<dd class="field-even"><p><span class="menuselection">Object ‣ Transform ‣ Align to Transform Orientation</span></p>
+<dt class="field-even">菜单</dt>
+<dd class="field-even"><p><span class="menuselection">物体(Object) ‣ 变换(Transform) ‣ 对齐到变换坐标系(Align to Transform Orientation)</span></p>
 </dd>
 </dl>
 </div>
-<p>Aligns (rotates) the selected objects so that their local orientation matches the active transform orientation
-in the Transform orientation panel or the <em>Orientation</em> selection
-in the Transform <a class="reference internal" href="../../../../../interface/undo_redo.html#ui-undo-redo-adjust-last-operation"><span class="std std-ref">Adjust Last Operation</span></a> panels.</p>
+<p>对齐(旋转)所选物体，使其局部坐标系与变换坐标系面板中的活动变换坐标系或变换操作 <a class="reference internal" href="../../../../../interface/undo_redo.html#ui-undo-redo-adjust-last-operation"><span class="std std-ref">调整上一步操作</span></a> 面板中的 <em>坐标系</em> 选择项相匹配。</p>
 </div>
 </div>
 
@@ -358,10 +332,10 @@ in the Transform <a class="reference internal" href="../../../../../interface/un
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="pivot_point/index.html" class="btn btn-neutral float-right" title="Pivot Point" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="pivot_point/index.html" class="btn btn-neutral float-right" title="轴心点" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="snap.html" class="btn btn-neutral float-left" title="Snapping" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="snap.html" class="btn btn-neutral float-left" title="吸附" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -395,7 +369,7 @@ in the Transform <a class="reference internal" href="../../../../../interface/un
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

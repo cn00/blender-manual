@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Canvas &mdash; Blender Manual</title>
+  <title>画布 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Forces" href="../forces/index.html" />
-    <link rel="prev" title="Brush" href="brush.html" /> 
+    <link rel="next" title="力" href="../forces/index.html" />
+    <link rel="prev" title="笔刷" href="brush.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,51 +110,51 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Physics</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../introduction.html">Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../rigid_body/index.html">Rigid Body</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../cloth/index.html">Cloth Simulations</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../soft_body/index.html">Soft Body</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">物理</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../introduction.html">简介</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../rigid_body/index.html">刚体</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cloth/index.html">布料模拟</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../soft_body/index.html">软体</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../fluid/index.html">Fluid</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../particles/index.html">Particles System</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="index.html">Dynamic Paint</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="introduction.html">Introduction</a></li>
-<li class="toctree-l3"><a class="reference internal" href="brush.html">Brush</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">Canvas</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#surface">Surface</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#output">Output</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#initial-color">Initial Color</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#effects">Effects</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#cache">Cache</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../particles/index.html">粒子系统</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">动态绘画</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="introduction.html">简介</a></li>
+<li class="toctree-l3"><a class="reference internal" href="brush.html">笔刷</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">画布</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#surface">表面</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#output">输出</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#initial-color">初始颜色</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#effects">效果</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#cache">高速缓存</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../forces/index.html">Forces</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../collision.html">Collisions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../baking.html">Baking Physics Simulations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../forces/index.html">力</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../collision.html">碰撞</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../baking.html">烘焙物理模拟</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../render/index.html">Rendering</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../render/index.html">渲染</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -200,15 +200,15 @@
     
       <li><a href="../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../index.html">Physics</a> &raquo;</li>
+          <li><a href="../index.html">物理</a> &raquo;</li>
         
-          <li><a href="index.html">Dynamic Paint</a> &raquo;</li>
+          <li><a href="index.html">动态绘画</a> &raquo;</li>
         
-      <li>Canvas</li>
+      <li>画布</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/physics/dynamic_paint/canvas.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/physics/dynamic_paint/canvas.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -219,279 +219,248 @@
            <div itemprop="articleBody">
             
   <div class="section" id="canvas">
-<span id="bpy-types-dynamicpaintcanvassettings"></span><h1>Canvas<a class="headerlink" href="#canvas" title="Permalink to this headline">¶</a></h1>
+<span id="bpy-types-dynamicpaintcanvassettings"></span><h1>画布<a class="headerlink" href="#canvas" title="Permalink to this headline">¶</a></h1>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Panel</dt>
+<dt class="field-odd">面板</dt>
 <dd class="field-odd"><p><span class="menuselection">Physics ‣ Dynamic Paint</span></p>
 </dd>
-<dt class="field-even">Type</dt>
-<dd class="field-even"><p>Canvas</p>
+<dt class="field-even">类型</dt>
+<dd class="field-even"><p>画布</p>
 </dd>
 </dl>
 </div>
 <p>The Canvas type makes object receive paint from Dynamic Paint brushes.</p>
 <div class="figure align-right" id="id1">
 <img alt="../../_images/physics_dynamic-paint_canvas_main-panel.png" src="../../_images/physics_dynamic-paint_canvas_main-panel.png" />
-<p class="caption"><span class="caption-text">Canvas main panel.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">画布主面板。</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
 <dl>
-<dt>Paint Surface</dt><dd><p>A <a class="reference internal" href="../../interface/controls/templates/list_presets.html#ui-list-view"><span class="std std-ref">list</span></a> of Dynamic Paint surfaces.
-These surfaces are basically layers of paint, that work independently from each other.
-You can define individual settings for them and bake them separately.</p>
+<dt>油漆表面</dt><dd><p>动态绘制表面 <a class="reference internal" href="../../interface/controls/templates/list_presets.html#ui-list-view"><span class="std std-ref">列表</span></a>。这些表面基本上是油漆层，它们彼此独立地工作。您可以为它们定义单独的设置并单独烘焙它们。</p>
 <dl class="simple">
-<dt>Is Active</dt><dd><p>The checkbox toggles whether surface is active at all.
-If not selected no calculations are done.</p>
+<dt>活动状态</dt><dd><p>该复选框用于切换曲面是否处于活动状态。如果未选择，则不进行任何计算。</p>
 </dd>
 </dl>
 </dd>
 </dl>
-<p>Below you can set surface type and adjust quality and timing settings.</p>
+<p>您可以在下面设置表面类型并调整质量和时序设置。</p>
 <dl>
-<dt>Format</dt><dd><p>Each surface has a certain format and type.
-Format determines how data is stored and outputted.</p>
+<dt>格式</dt><dd><p>每个表面都有一定的格式和类型。格式决定了数据的存储和输出方式。</p>
 <dl class="simple">
-<dt>Vertex</dt><dd><p>Dynamic Paint operates directly on mesh vertex data.
-Results are stored by point cache and can be displayed in viewports.
-However, using vertex level also requires a highly subdivided mesh to work.</p>
+<dt>顶点</dt><dd><p>动态绘画直接在网格顶点数据上运行。结果由点缓存存储，可以在视口中显示。但是，使用顶点级别还需要高度细分的网格才能工作。</p>
 </dd>
-<dt>Image Sequences</dt><dd><p>Dynamic Paint generates UV wrapped image files of defined resolution as output.</p>
+<dt>图像序列</dt><dd><p>动态绘画生成具有定义分辨率的UV包装图像文件作为输出。</p>
 </dd>
 </dl>
 </dd>
-<dt>Quality</dt><dd><dl class="simple">
-<dt>Resolution</dt><dd><p>You can adjust the output image dimensions for the <em>Image Sequences</em> surface type.
-For example using 256 will lead to 256×256 image output.
-Doubling the resolution will likely quadruple the baking time and vice versa.</p>
+<dt>质量</dt><dd><dl class="simple">
+<dt>解析度</dt><dd><p>您可以调整 <em>图像序列</em> 曲面类型的输出图像尺寸。例如，使用256将导致256×256图像输出。加倍分辨率可能会使烘烤时间翻两番，反之亦然。</p>
 </dd>
-<dt>Anti-aliasing</dt><dd><p><a class="reference internal" href="../../glossary/index.html#term-anti-aliasing"><span class="xref std std-term">Anti-aliasing</span></a> to smooth paint edges using a 5× multisampling method.</p>
+<dt>抗锯齿</dt><dd><p><a class="reference internal" href="../../glossary/index.html#term-anti-aliasing"><span class="xref std std-term">Anti-aliasing</span></a> to smooth paint edges using a 5× multisampling method.</p>
 </dd>
 </dl>
 </dd>
-<dt>Frames</dt><dd><dl class="simple">
-<dt>Start, End</dt><dd><p>Defines surface processing start and end frame.</p>
+<dt>框架</dt><dd><dl class="simple">
+<dt>开始，结束</dt><dd><p>定义表面处理开始和结束帧。</p>
 </dd>
-<dt>Sub-steps</dt><dd><p>Sub-steps are extra samples between frames. They are usually required when there is a very fast brush.</p>
+<dt>步骤</dt><dd><p>子步骤是帧之间的额外样本。当刷子非常快时，通常需要它们。</p>
 </dd>
 </dl>
 </dd>
 </dl>
 <div class="section" id="surface">
-<h2>Surface<a class="headerlink" href="#surface" title="Permalink to this headline">¶</a></h2>
+<h2>表面<a class="headerlink" href="#surface" title="Permalink to this headline">¶</a></h2>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Type</dt>
-<dd class="field-odd"><p>Canvas</p>
+<dt class="field-odd">类型</dt>
+<dd class="field-odd"><p>画布</p>
 </dd>
-<dt class="field-even">Panel</dt>
+<dt class="field-even">面板</dt>
 <dd class="field-even"><p><span class="menuselection">Physics ‣ Dynamic Paint ‣ Surface</span></p>
 </dd>
 </dl>
 </div>
-<p>From <em>Surface</em> panel you can adjust surface type and related settings.</p>
+<p>从 * 表面* 面板，您可以调整曲面类型和相关设置。</p>
 <div class="section" id="surface-type">
-<h3>Surface Type<a class="headerlink" href="#surface-type" title="Permalink to this headline">¶</a></h3>
-<p>Each surface has a “type” that defines what surface is used for.</p>
+<h3>表面类型<a class="headerlink" href="#surface-type" title="Permalink to this headline">¶</a></h3>
+<p>每个表面都有一个 “类型” ，用于定义用于表面的表面。</p>
 <div class="section" id="paint">
-<h4>Paint<a class="headerlink" href="#paint" title="Permalink to this headline">¶</a></h4>
+<h4>油漆<a class="headerlink" href="#paint" title="Permalink to this headline">¶</a></h4>
 <div class="figure align-default" id="id2">
 <a class="reference internal image-reference" href="../../_images/physics_dynamic-paint_canvas_surface-type-paint.jpg"><img alt="../../_images/physics_dynamic-paint_canvas_surface-type-paint.jpg" src="../../_images/physics_dynamic-paint_canvas_surface-type-paint.jpg" style="width: 320px;" /></a>
-<p class="caption"><span class="caption-text">Paint Surface.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">油漆表面。</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
-<p>Paint is the basic surface type that outputs color and wetness values.
-In case of vertex surfaces, results are outputted as vertex colors.</p>
-<p>A wetmap is a black-and-white output that visualizes paint wetness. White being maximum wetness,
-black being completely dry. It is usually used as mask for rendering.
-Some “paint effects” affect wet paint only.</p>
+<p>油漆是输出颜色和湿度值的基本表面类型。在顶点表面的情况下，结果被输出为顶点颜色。</p>
+<p>湿度是一种黑白输出，可以显示油漆的湿度。白色是最大的湿度，黑色是完全干燥的。它通常用作渲染的蒙版。一些“油漆效果”仅影响湿漆。</p>
 <dl>
-<dt>Dry</dt><dd><p>Completely disable drying is useful for indefinitely spreading paint.</p>
+<dt>干燥</dt><dd><p>完全禁用干燥对于无限涂抹油漆非常有用。</p>
 <dl class="simple">
-<dt>Color Dry</dt><dd><p>It can be used to define wetness level when paint colors start to shift to surface “background”.
-Lower values can be useful to prevent spreading paint from becoming transparent as it dries,
-while higher values give better results in general.</p>
+<dt>颜色干燥</dt><dd><p>当油漆颜色开始转移到表面 “背景” 时，它可用于定义润湿度。较低的值可用于防止涂料在干燥时变得透明，而较高的值通常会产生更好的结果。</p>
 </dd>
 </dl>
 </dd>
 </dl>
 </div>
 <div class="section" id="displace">
-<h4>Displace<a class="headerlink" href="#displace" title="Permalink to this headline">¶</a></h4>
+<h4>置换<a class="headerlink" href="#displace" title="Permalink to this headline">¶</a></h4>
 <div class="figure align-default" id="id3">
 <a class="reference internal image-reference" href="../../_images/physics_dynamic-paint_canvas_surface-type-displace.jpg"><img alt="../../_images/physics_dynamic-paint_canvas_surface-type-displace.jpg" src="../../_images/physics_dynamic-paint_canvas_surface-type-displace.jpg" style="width: 320px;" /></a>
-<p class="caption"><span class="caption-text">Displace Surface.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">置换表面。</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
 </div>
-<p>This type of surface outputs intersection depth from brush objects.</p>
+<p>这种类型的表面输出画笔对象的交叉深度。</p>
 <dl class="simple">
-<dt>Incremental</dt><dd><p>A new displace is added cumulatively on top of an existing displace.</p>
+<dt>追加</dt><dd><p>在现有的表面上追加新的表面。</p>
 </dd>
-<dt>Max Displace</dt><dd><p>The maximum level of intersection depth, larger values will be clamped to this value.</p>
+<dt>置换上限</dt><dd><p>最大交叉深度水平，较大的值将被钳制到该值。</p>
 </dd>
-<dt>Displace Factor</dt><dd><p>The multiplier for the intersection depth.
-You can use it to adjust final displace strength or use negative values to paint bumps.</p>
+<dt>置换因子</dt><dd><p>交叉点深度的乘数。您可以使用它来调整最终位移强度或使用负值来绘制凸起。</p>
 </dd>
 </dl>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
-<p>If the displace output seems too rough it usually helps to add
-a Smooth Modifier after Dynamic Paint in the modifier stack.</p>
+<p>如果置换输出看起来太粗糙，通常有助于在修改器堆栈中的动态绘制后添加平滑修改器。</p>
 </div>
 </div>
 <div class="section" id="waves">
-<h4>Waves<a class="headerlink" href="#waves" title="Permalink to this headline">¶</a></h4>
+<h4>波浪<a class="headerlink" href="#waves" title="Permalink to this headline">¶</a></h4>
 <div class="figure align-default" id="id4">
 <a class="reference internal image-reference" href="../../_images/physics_dynamic-paint_canvas_surface-type-waves.jpg"><img alt="../../_images/physics_dynamic-paint_canvas_surface-type-waves.jpg" src="../../_images/physics_dynamic-paint_canvas_surface-type-waves.jpg" style="width: 320px;" /></a>
-<p class="caption"><span class="caption-text">Waves Surface.</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">波浪表面。</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
 </div>
-<p>This surface type produces simulated wave motion. Like displace,
-wave surface also uses brush intersection depth to define brush strength.</p>
-<p>You can use following settings to adjust the motion:</p>
+<p>该表面类型产生模拟波动。像置换一样，波面也使用刷子交叉深度来定义刷子强度。</p>
+<p>您可以使用以下设置来调整动作：</p>
 <dl class="simple">
-<dt>Open Borders</dt><dd><p>Allows waves to pass through mesh “edges” instead of reflecting from them.</p>
+<dt>开放边界</dt><dd><p>允许波穿过网格 “边缘” 而不是反射。</p>
 </dd>
-<dt>Timescale</dt><dd><p>Directly adjusts simulation speed without affecting simulation outcome.
-Lower values make simulation go slower and otherwise.</p>
+<dt>时间比例</dt><dd><p>直接调整模拟速度而不影响模拟结果。较低的值会使模拟变慢，否则会变慢。</p>
 </dd>
-<dt>Speed</dt><dd><p>Affects how fast waves travel on the surface.
-This setting is also corresponds to the size of the simulation.
-Half the speed equals surface double as large.</p>
+<dt>速率</dt><dd><p>影响波浪在表面上的传播速度。此设置也对应于模拟的大小。速度的一半等于表面的两倍大。</p>
 </dd>
-<dt>Damping</dt><dd><p>Reduces the wave strength over time. Basically adjusts how fast wave disappears.</p>
+<dt>阻尼</dt><dd><p>随着时间的推移降低波浪强度。基本上调整波浪消失的速度。</p>
 </dd>
-<dt>Spring</dt><dd><p>Adjusts the force that pulls water back to “zero level”.</p>
+<dt>弹力</dt><dd><p>调节将水拉回“零水平”的力。</p>
 </dd>
-<dt>Smoothness</dt><dd><p>(Todo)</p>
+<dt>平滑度</dt><dd><p>(Todo)</p>
 </dd>
 </dl>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
-<p>In some cases the wave motion gets very unstable around brush.
-It usually helps to reduce wave speed, brush “wave factor” or even the resolution of mesh/surface.</p>
+<p>在某些情况下，波动在刷子周围变得非常不稳定。它通常有助于降低波速，刷“波动因子”甚至网格/表面的分辨率。</p>
 </div>
 </div>
 <div class="section" id="weight">
-<h4>Weight<a class="headerlink" href="#weight" title="Permalink to this headline">¶</a></h4>
+<h4>权重<a class="headerlink" href="#weight" title="Permalink to this headline">¶</a></h4>
 <div class="figure align-default" id="id5">
 <a class="reference internal image-reference" href="../../_images/physics_dynamic-paint_canvas_surface-type-weight.jpg"><img alt="../../_images/physics_dynamic-paint_canvas_surface-type-weight.jpg" src="../../_images/physics_dynamic-paint_canvas_surface-type-weight.jpg" style="width: 320px;" /></a>
-<p class="caption"><span class="caption-text">Weight Surface.</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">权重面</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
 </div>
-<p>This is a special surface type only available for vertex format.
-It outputs vertex weight groups that can be used by other Blender modifiers and tools.</p>
+<p>这是一种仅适用于顶点格式的特殊曲面类型。它输出可由其他Blender修改器和工具使用的顶点权重组。</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
-<p>It is usually preferred to use “proximity” based brushes for
-weight surfaces to allow smooth falloff between weight values.</p>
+<p>通常优选使用基于“接近”的刷子用于重量表面以允许重量值之间的平滑衰减。</p>
 </div>
 </div>
 </div>
 <div class="section" id="common-options">
-<h3>Common Options<a class="headerlink" href="#common-options" title="Permalink to this headline">¶</a></h3>
-<p>For each surface type there are special settings to adjust.
-Most types have the settings <em>Dissolve</em> and <em>Brush</em>:</p>
+<h3>常见选项<a class="headerlink" href="#common-options" title="Permalink to this headline">¶</a></h3>
+<p>对于每种表面类型，都有特殊设置可供调整。大多数类型都有设置 <em>溶解</em> 和 <em>笔痕</em> :</p>
 <dl class="simple">
-<dt>Dissolve</dt><dd><p>Used to make the surface smoothly return to its original state during a defined <em>Time</em> period.</p>
+<dt>消除</dt><dd><p>用于在定义的 <em>时间</em> 期间使曲面平滑地返回其原始状态。</p>
 </dd>
-<dt>Brush Collection</dt><dd><p>Used to define a specific collection to pick brush objects from.</p>
+<dt>画笔收藏</dt><dd><p>用于定义从中拾取画笔对象的特定集合。</p>
 </dd>
-<dt>Influence Scale, Radius Scale</dt><dd><p>For tweaking brush settings individually for each surface.</p>
+<dt>影响量表，半径量表</dt><dd><p>用于为每个曲面单独调整画笔设置。</p>
 </dd>
 </dl>
 </div>
 </div>
 <div class="section" id="output">
-<h2>Output<a class="headerlink" href="#output" title="Permalink to this headline">¶</a></h2>
+<h2>输出<a class="headerlink" href="#output" title="Permalink to this headline">¶</a></h2>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Type</dt>
-<dd class="field-odd"><p>Canvas</p>
+<dt class="field-odd">类型</dt>
+<dd class="field-odd"><p>画布</p>
 </dd>
-<dt class="field-even">Panel</dt>
+<dt class="field-even">面板</dt>
 <dd class="field-even"><p><span class="menuselection">Physics ‣ Dynamic Paint ‣ Output</span></p>
 </dd>
 </dl>
 </div>
-<p>From Output panel you can adjust how surface outputs its results.</p>
+<p>从 “输出” 面板，您可以调整曲面输出结果的方式。</p>
 <div class="section" id="vertex">
-<h3>Vertex<a class="headerlink" href="#vertex" title="Permalink to this headline">¶</a></h3>
-<p>For <em>Vertex</em> format surfaces, you can select a mesh data layer
-(color/weight depending on surface type) to generate results to.
-You can use the “+”/”-” icons to add/remove a data layers of given name.
-If layer with given name is not found, it is shown as red.</p>
+<h3>顶点<a class="headerlink" href="#vertex" title="Permalink to this headline">¶</a></h3>
+<p>对于 <em>顶点</em> 格式曲面，您可以选择网格数据层(颜色/重量取决于曲面类型)以生成结果。您可以使用 &quot;+&quot;/&quot;-&quot; 图标添加/删除给定名称的数据层。如果找不到具有给定名称的图层，则显示为红色。</p>
 </div>
 <div class="section" id="image-sequence">
-<h3>Image Sequence<a class="headerlink" href="#image-sequence" title="Permalink to this headline">¶</a></h3>
-<p>For <em>Image Sequence</em> surfaces,
-you can define used UV maps and output file saving directory, filenames and image format.</p>
+<h3>图像序列<a class="headerlink" href="#image-sequence" title="Permalink to this headline">¶</a></h3>
+<p>对于 <em>图像序列</em> 曲面，您可以定义使用的UV贴图和输出文件保存目录，文件名和图像格式。</p>
 </div>
 </div>
 <div class="section" id="initial-color">
-<h2>Initial Color<a class="headerlink" href="#initial-color" title="Permalink to this headline">¶</a></h2>
+<h2>初始颜色<a class="headerlink" href="#initial-color" title="Permalink to this headline">¶</a></h2>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Type</dt>
-<dd class="field-odd"><p>Canvas</p>
+<dt class="field-odd">类型</dt>
+<dd class="field-odd"><p>画布</p>
 </dd>
-<dt class="field-even">Panel</dt>
+<dt class="field-even">面板</dt>
 <dd class="field-even"><p><span class="menuselection">Physics ‣ Dynamic Paint ‣ Initial Color</span></p>
 </dd>
 </dl>
 </div>
-<p>Allows you to define the initial color of the canvas. (Todo 2.62)</p>
+<p>允许您定义画布的初始颜色。 (Todo 2.62)</p>
 <ul class="simple">
-<li><p>None</p></li>
-<li><p>Color</p></li>
-<li><p>UV Texture</p></li>
-<li><p>Vertex Color</p></li>
+<li><p>没有</p></li>
+<li><p>颜色</p></li>
+<li><p>紫外线纹理</p></li>
+<li><p>顶点颜色</p></li>
 </ul>
 </div>
 <div class="section" id="effects">
-<h2>Effects<a class="headerlink" href="#effects" title="Permalink to this headline">¶</a></h2>
+<h2>效果<a class="headerlink" href="#effects" title="Permalink to this headline">¶</a></h2>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Type</dt>
-<dd class="field-odd"><p>Canvas</p>
+<dt class="field-odd">类型</dt>
+<dd class="field-odd"><p>画布</p>
 </dd>
-<dt class="field-even">Panel</dt>
+<dt class="field-even">面板</dt>
 <dd class="field-even"><p><span class="menuselection">Physics ‣ Dynamic Paint ‣ Effects</span></p>
 </dd>
 </dl>
 </div>
-<p>This is a special feature for “Paint” type surface.
-It generates animated movement on canvas surface.</p>
+<p>这是 “绘画” 类型表面的特殊功能。它在画布表面上生成动画移动。</p>
 <dl class="simple">
-<dt>Effects</dt><dd><dl class="simple">
-<dt>Spread</dt><dd><p>Paint slowly spreads to surrounding points eventually filling all connected areas.</p>
+<dt>效果</dt><dd><dl class="simple">
+<dt>延申</dt><dd><p>油漆慢慢扩散到周围的点，最终填满所有连接区域。</p>
 </dd>
-<dt>Drip</dt><dd><p>Paint moves in specific direction specified by Blender force fields,
-gravity and velocity with user-defined influences.</p>
+<dt>滴落</dt><dd><p>油漆在Blender力场，重力和速度指定的特定方向上移动，具有用户定义的影响。</p>
 </dd>
-<dt>Shrink</dt><dd><p>Painted area slowly shrinks until disappears completely.</p>
-</dd>
-</dl>
+<dt>收缩</dt><dd><p>涂漆区域缓慢收缩直至完全消失。</p>
 </dd>
 </dl>
-<p>For spread and drip effects, only “wet paint” is affected, so as the paint dries,
-movement becomes slower until it stops.</p>
+</dd>
+</dl>
+<p>对于涂抹和滴落效果，只有 “湿漆” 会受到影响，因此当涂料干燥时，移动会变慢，直至停止。</p>
 </div>
 <div class="section" id="cache">
-<h2>Cache<a class="headerlink" href="#cache" title="Permalink to this headline">¶</a></h2>
+<h2>高速缓存<a class="headerlink" href="#cache" title="Permalink to this headline">¶</a></h2>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Type</dt>
-<dd class="field-odd"><p>Canvas</p>
+<dt class="field-odd">类型</dt>
+<dd class="field-odd"><p>画布</p>
 </dd>
-<dt class="field-even">Panel</dt>
+<dt class="field-even">面板</dt>
 <dd class="field-even"><p><span class="menuselection">Physics ‣ Dynamic Paint ‣ Cache</span></p>
 </dd>
 </dl>
 </div>
-<p>This panel is currently only visible for <em>Vertex</em> format surfaces.
-You can use it to adjust and bake point cache.</p>
+<p>此面板目前仅对 <em>顶点</em> 格式曲面可见。您可以使用它来调整和烘焙点缓存。</p>
 </div>
 </div>
 
@@ -503,10 +472,10 @@ You can use it to adjust and bake point cache.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../forces/index.html" class="btn btn-neutral float-right" title="Forces" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="../forces/index.html" class="btn btn-neutral float-right" title="力" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="brush.html" class="btn btn-neutral float-left" title="Brush" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="brush.html" class="btn btn-neutral float-left" title="笔刷" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -540,7 +509,7 @@ You can use it to adjust and bake point cache.</p>
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

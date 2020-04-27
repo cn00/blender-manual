@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Follow Track Constraint &mdash; Blender Manual</title>
+  <title>Follow Track Constraint 跟踪轨迹 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Copy Location Constraint" href="../transform/copy_location.html" />
-    <link rel="prev" title="Object Solver Constraint" href="object_solver.html" /> 
+    <link rel="next" title="Copy Location Constraint 复制位置约束" href="../transform/copy_location.html" />
+    <link rel="prev" title="Object Solver Constraint 物体解算" href="object_solver.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,52 +110,52 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Animation &amp; Rigging</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../keyframes/index.html">Keyframes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../armatures/index.html">Armatures</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../lattice.html">Lattice</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="../index.html">Constraints</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="../introduction.html">Introduction</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../index.html#interface">Interface</a></li>
-<li class="toctree-l3 current"><a class="reference internal" href="../index.html#motion-tracking">Motion Tracking</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="camera_solver.html">Camera Solver Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="object_solver.html">Object Solver Constraint</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">Follow Track Constraint</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">动画 &amp; 绑定</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">简介</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../keyframes/index.html">关键帧</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../armatures/index.html">骨架</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lattice.html">晶格</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html">约束</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../introduction.html">简介</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../index.html#interface">界面</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../index.html#motion-tracking">运动追踪</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="camera_solver.html">Camera Solver Constraint 相机解算</a></li>
+<li class="toctree-l4"><a class="reference internal" href="object_solver.html">Object Solver Constraint 物体解算</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Follow Track Constraint 跟踪轨迹</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../index.html#transform">Transform</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../index.html#tracking">Tracking</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../index.html#relationship">Relationship</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../index.html#transform">变换</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../index.html#tracking">跟踪</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../index.html#relationship">关系</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../actions.html">Actions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../drivers/index.html">Drivers</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../markers.html">Markers</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../shape_keys/index.html">Shape Keys</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../motion_paths.html">Motion Paths</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../actions.html">动作</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../drivers/index.html">驱动器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../markers.html">标记</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../shape_keys/index.html">形态键</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../motion_paths.html">运动路径</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">Rendering</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">渲染</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -201,15 +201,15 @@
     
       <li><a href="../../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../../index.html">Animation &amp; Rigging</a> &raquo;</li>
+          <li><a href="../../index.html">动画 &amp; 绑定</a> &raquo;</li>
         
-          <li><a href="../index.html">Constraints</a> &raquo;</li>
+          <li><a href="../index.html">约束</a> &raquo;</li>
         
-      <li>Follow Track Constraint</li>
+      <li>Follow Track Constraint 跟踪轨迹</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/animation/constraints/motion_tracking/follow_track.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/animation/constraints/motion_tracking/follow_track.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -220,29 +220,26 @@
            <div itemprop="articleBody">
             
   <div class="section" id="follow-track-constraint">
-<span id="bpy-types-followtrackconstraint"></span><h1>Follow Track Constraint<a class="headerlink" href="#follow-track-constraint" title="Permalink to this headline">¶</a></h1>
-<p>By default the Follow Track constraint is making objects have the same position at a frame as the track has and
-the motion of this object happens on a single plane defined by the camera and the original position of the object.</p>
+<span id="bpy-types-followtrackconstraint"></span><h1>Follow Track Constraint 跟踪轨迹<a class="headerlink" href="#follow-track-constraint" title="Permalink to this headline">¶</a></h1>
+<p>默认情况下，跟踪轨迹约束使对象在一个帧处具有与轨道相同的位置，并且此对象的运动发生在由摄像机定义的单个平面上以及对象的原始位置。</p>
 <dl class="simple">
-<dt>Active Clip</dt><dd><p>Receive tracking data from the active movie clip in the Movie Clip editor.
-If unchecked, an option appears to choose from the other available clips.</p>
+<dt>Active Clip 激活剪辑</dt><dd><p>在影片剪辑编辑器中从活动影片剪辑接收跟踪数据。 如果未选中，则会出现一个选项，可以从其他可用剪辑中进行选择。</p>
 </dd>
-<dt>3D Position</dt><dd><p>Use the 3D position of the track to parent to.</p>
+<dt>3D Position 3D 位置</dt><dd><p>使用轨迹的3D位置为父级。</p>
 </dd>
-<dt>Undistorted</dt><dd><p>Parent to the undistorted position of the 2D track.</p>
+<dt>移除畸变</dt><dd><p>父级到2D轨道的未失真位置。</p>
 </dd>
-<dt>Frame Method</dt><dd><p>Defines how the footage is fitted in the camera frame.</p>
+<dt>匹配方式</dt><dd><p>定义镜头如何安装在相机框架中。</p>
 </dd>
-<dt>Camera</dt><dd><p>Select the camera to which the motion is parented to (if active an empty scene camera is used).</p>
+<dt>Camera 相机</dt><dd><p>选择运动所属的摄像机(如果激活了空场景摄像机)。</p>
 </dd>
-<dt>Depth Object</dt><dd><p>If this object is set, constrained objects will be projected onto the surface
-of this depth object which can be used to create facial makeup visual effects.</p>
+<dt>Depth Object 深度目标</dt><dd><p>如果设置了此对象，则约束对象将投影到此深度对象的表面上，该表面可用于创建面部化妆视觉效果。</p>
 </dd>
-<dt>Constraint to F-Curve</dt><dd><p>Creates F-curves for the object that copies the movement caused by the constraint.</p>
+<dt>Constraint to F-Curve 约束到图形曲线</dt><dd><p>为复制由约束引起的移动的对象创建F曲线。</p>
 </dd>
 </dl>
 <div class="section" id="example">
-<h2>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h2>
+<h2>示例<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h2>
 <iframe src="https://www.youtube.com/embed/KZalGrjGKSA" style="border: 0; height: 345px; width: 560px">
 </iframe></div>
 </div>
@@ -255,10 +252,10 @@ of this depth object which can be used to create facial makeup visual effects.</
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../transform/copy_location.html" class="btn btn-neutral float-right" title="Copy Location Constraint" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="../transform/copy_location.html" class="btn btn-neutral float-right" title="Copy Location Constraint 复制位置约束" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="object_solver.html" class="btn btn-neutral float-left" title="Object Solver Constraint" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="object_solver.html" class="btn btn-neutral float-left" title="Object Solver Constraint 物体解算" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -292,7 +289,7 @@ of this depth object which can be used to create facial makeup visual effects.</
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

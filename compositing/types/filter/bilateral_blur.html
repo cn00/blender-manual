@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Bilateral Blur Node &mdash; Blender Manual</title>
+  <title>双边模糊节点 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Blur Node" href="blur_node.html" />
-    <link rel="prev" title="Filter Nodes" href="index.html" /> 
+    <link rel="next" title="模糊节点" href="blur_node.html" />
+    <link rel="prev" title="滤镜(过滤)节点" href="index.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,60 +110,60 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">Rendering</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Compositing</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../properties.html">Properties</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="../../index.html#node-types">Node Types</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="../input/index.html">Input Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../output/index.html">Output Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../color/index.html">Color Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../converter/index.html">Converter Nodes</a></li>
-<li class="toctree-l3 current"><a class="reference internal" href="index.html">Filter Nodes</a><ul class="current">
-<li class="toctree-l4 current"><a class="current reference internal" href="#">Bilateral Blur Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="blur_node.html">Blur Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="bokeh_blur.html">Bokeh Blur Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="defocus.html">Defocus Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="denoise.html">Denoise Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="despeckle.html">Despeckle Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="dilate_erode.html">Dilate/Erode Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="directional_blur.html">Directional Blur Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="filter_node.html">Filter Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="glare.html">Glare Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="inpaint.html">Inpaint Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pixelate.html">Pixelate Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="sun_beams.html">Sun Beams Node</a></li>
-<li class="toctree-l4"><a class="reference internal" href="vector_blur.html">Vector (Motion) Blur Node</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">渲染</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">合成</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">简介</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../properties.html">属性</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../index.html#node-types">节点类型</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../input/index.html">输入类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../output/index.html">输出类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../color/index.html">颜色类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../converter/index.html">转换器类节点</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="index.html">滤镜(过滤)节点</a><ul class="current">
+<li class="toctree-l4 current"><a class="current reference internal" href="#">双边模糊节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="blur_node.html">模糊节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="bokeh_blur.html">散景模糊节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="defocus.html">散焦节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="denoise.html">降噪节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="despeckle.html">去噪节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dilate_erode.html">膨胀/侵蚀节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="directional_blur.html">定向模糊节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="filter_node.html">滤镜节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="glare.html">辉光节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="inpaint.html">瑕疵修复节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pixelate.html">像素化节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="sun_beams.html">太阳光束节点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="vector_blur.html">矢量(运动)模糊节点</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../vector/index.html">Vector Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../matte/index.html">Matte Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../distort/index.html">Distort Nodes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../groups.html">Node Groups</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../layout/index.html">Layout Nodes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../vector/index.html">矢量类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../matte/index.html">蒙版类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../distort/index.html">畸变类节点</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../groups.html">节点组</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../layout/index.html">布局类节点</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -209,17 +209,17 @@
     
       <li><a href="../../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../../../editors/index.html">Editors</a> &raquo;</li>
+          <li><a href="../../../editors/index.html">编辑器</a> &raquo;</li>
         
-          <li><a href="../../index.html">Compositing</a> &raquo;</li>
+          <li><a href="../../index.html">合成</a> &raquo;</li>
         
-          <li><a href="index.html">Filter Nodes</a> &raquo;</li>
+          <li><a href="index.html">滤镜(过滤)节点</a> &raquo;</li>
         
-      <li>Bilateral Blur Node</li>
+      <li>双边模糊节点</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/compositing/types/filter/bilateral_blur.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/compositing/types/filter/bilateral_blur.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -230,55 +230,45 @@
            <div itemprop="articleBody">
             
   <div class="section" id="bilateral-blur-node">
-<span id="bpy-types-compositornodebilateralblur"></span><h1>Bilateral Blur Node<a class="headerlink" href="#bilateral-blur-node" title="Permalink to this headline">¶</a></h1>
+<span id="bpy-types-compositornodebilateralblur"></span><h1>双边模糊节点<a class="headerlink" href="#bilateral-blur-node" title="Permalink to this headline">¶</a></h1>
 <div class="figure align-right" id="id1">
 <img alt="../../../_images/compositing_node-types_CompositorNodeBilateralblur.png" src="../../../_images/compositing_node-types_CompositorNodeBilateralblur.png" />
-<p class="caption"><span class="caption-text">Bilateral Blur Node.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">双边模糊节点。</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
-<p>The Bilateral Blur node performs a high-quality adaptive blur on the source image,
-allowing to blur images while retaining their sharp edges.</p>
-<p>It can be used for various purposes like: smoothing noisy render passes to avoid longer computation times
-in example ray-traced ambient occlusion, blurry refractions/reflections, soft shadows,
-or to make non-photorealistic compositing effects.</p>
+<p>双边模糊节点在源图像上执行高品质适应性模糊，可以保持图像本身锐利边缘界限不变的前提下对图像进行模糊操作。</p>
+<p>此节点可应用在很多场合：比如在进行光线追踪AO(环境阻塞)时平滑渲染通道出现的杂点，避免渲染器把时间过度消耗在其上面。对反射/折射，软阴影，或者非照片级合成效果进行模糊化操作。</p>
 <div class="section" id="inputs">
-<h2>Inputs<a class="headerlink" href="#inputs" title="Permalink to this headline">¶</a></h2>
+<h2>输入<a class="headerlink" href="#inputs" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>Image</dt><dd><p>Standard image input.
-If only the image input is connected,
-the node blurs the image depending on the edges present in the source image.</p>
+<dt>图像</dt><dd><p>标准图像输入。如果仅连接图像输入，则节点根据源图像中出现的边缘模糊图像。</p>
 </dd>
-<dt>Determinator</dt><dd><p>Which is non-obligatory and if the Determinator is connected,
-it serves as the source for defining edges/borders for the blur in the image.
-This has great advantage in case the source image is too noisy,
-but normals in combination with Z-buffer can still define exact borders/edges of objects.</p>
+<dt>测定</dt><dd><p>如果测定被监测到是非必须的，它可以作为定义图像模糊的边/边界。当源图像画面杂痕太多，这个节点会非常有用。但在Z缓冲区法线上定义一个物体清晰的边界/边是非常必要的。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="properties">
-<h2>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
+<h2>属性<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>Iterations</dt><dd><p>Defines how many times the filter should perform the operation on the image.
-It practically defines the radius of blur.</p>
+<dt>迭代</dt><dd><p>定义图像上需要执行多少次过滤。在定义圆形模糊时尤其有用。</p>
 </dd>
-<dt>Color Sigma</dt><dd><p>Defines the threshold for which color differences in the image should be taken as edges.</p>
+<dt>色彩西格玛</dt><dd><p>定义图像上多大颜色差异可被采纳为边的阈值。</p>
 </dd>
-<dt>Space Sigma</dt><dd><p>A fine-tuning variable for blur radius.</p>
+<dt>空间西格玛</dt><dd><p>调整模糊半径的变化量。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="outputs">
-<h2>Outputs<a class="headerlink" href="#outputs" title="Permalink to this headline">¶</a></h2>
+<h2>输出<a class="headerlink" href="#outputs" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>Image</dt><dd><p>Standard image output.</p>
+<dt>图像</dt><dd><p>标准化图像输出。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="examples">
-<h2>Examples<a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h2>
+<h2>范例<a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h2>
 <div class="figure align-default" id="id2">
 <a class="reference internal image-reference" href="../../../_images/compositing_types_filter_bilateral-blur_example-1.png"><img alt="../../../_images/compositing_types_filter_bilateral-blur_example-1.png" src="../../../_images/compositing_types_filter_bilateral-blur_example-1.png" style="width: 600px;" /></a>
-<p class="caption"><span class="caption-text">Bilateral smoothed Ambient Occlusion.
-<a class="reference external" href="https://en.blender.org/uploads/2/2a/Bilateral_blur_example_01.blend">blend-file example</a></span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">双向平滑模糊AO(环境阻塞)。<a class="reference external" href="https://en.blender.org/uploads/2/2a/Bilateral_blur_example_01.blend">blend-file example</a></span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
 <table class="docutils align-default">
 <colgroup>
@@ -288,12 +278,12 @@ It practically defines the radius of blur.</p>
 <tbody>
 <tr class="row-odd"><td><div class="figure align-default" id="id3">
 <a class="reference internal image-reference" href="../../../_images/compositing_types_filter_bilateral-blur_example-1-render.jpg"><img alt="../../../_images/compositing_types_filter_bilateral-blur_example-1-render.jpg" src="../../../_images/compositing_types_filter_bilateral-blur_example-1-render.jpg" style="width: 320px;" /></a>
-<p class="caption"><span class="caption-text">Render result.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">渲染结果。</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
 </div>
 </td>
 <td><div class="figure align-default" id="id4">
 <a class="reference internal image-reference" href="../../../_images/compositing_types_filter_bilateral-blur_example-1-composite.jpg"><img alt="../../../_images/compositing_types_filter_bilateral-blur_example-1-composite.jpg" src="../../../_images/compositing_types_filter_bilateral-blur_example-1-composite.jpg" style="width: 320px;" /></a>
-<p class="caption"><span class="caption-text">Composite.</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">合成。</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
 </div>
 </td>
 </tr>
@@ -301,8 +291,7 @@ It practically defines the radius of blur.</p>
 </table>
 <div class="figure align-default" id="id5">
 <a class="reference internal image-reference" href="../../../_images/compositing_types_filter_bilateral-blur_example-2.png"><img alt="../../../_images/compositing_types_filter_bilateral-blur_example-2.png" src="../../../_images/compositing_types_filter_bilateral-blur_example-2.png" style="width: 600px;" /></a>
-<p class="caption"><span class="caption-text">Bilateral faked blurry refraction and smoothed ray-traced soft shadow.
-<a class="reference external" href="https://en.blender.org/uploads/e/e4/Bilateral_blur_example_02.blend">blend-file example</a></span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">双向模拟模糊反射和平滑光线追踪软阴影。<a class="reference external" href="https://en.blender.org/uploads/e/e4/Bilateral_blur_example_02.blend">blend-file example</a></span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
 </div>
 <table class="docutils align-default">
 <colgroup>
@@ -312,12 +301,12 @@ It practically defines the radius of blur.</p>
 <tbody>
 <tr class="row-odd"><td><div class="figure align-default" id="id6">
 <a class="reference internal image-reference" href="../../../_images/compositing_types_filter_bilateral-blur_example-2-render.jpg"><img alt="../../../_images/compositing_types_filter_bilateral-blur_example-2-render.jpg" src="../../../_images/compositing_types_filter_bilateral-blur_example-2-render.jpg" style="width: 320px;" /></a>
-<p class="caption"><span class="caption-text">Render result.</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">渲染结果。</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
 </div>
 </td>
 <td><div class="figure align-default" id="id7">
 <a class="reference internal image-reference" href="../../../_images/compositing_types_filter_bilateral-blur_example-2-composite.jpg"><img alt="../../../_images/compositing_types_filter_bilateral-blur_example-2-composite.jpg" src="../../../_images/compositing_types_filter_bilateral-blur_example-2-composite.jpg" style="width: 320px;" /></a>
-<p class="caption"><span class="caption-text">Composite.</span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">合成。</span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
 </div>
 </td>
 </tr>
@@ -325,8 +314,7 @@ It practically defines the radius of blur.</p>
 </table>
 <div class="figure align-default" id="id8">
 <a class="reference internal image-reference" href="../../../_images/compositing_types_filter_bilateral-blur_example-3.png"><img alt="../../../_images/compositing_types_filter_bilateral-blur_example-3.png" src="../../../_images/compositing_types_filter_bilateral-blur_example-3.png" style="width: 600px;" /></a>
-<p class="caption"><span class="caption-text">Bilateral smoothed buffered shadow.
-<a class="reference external" href="https://en.blender.org/uploads/b/ba/Bilateral_blur_example_03.blend">blend-file example</a></span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">双向平滑缓存阴影。<a class="reference external" href="https://en.blender.org/uploads/b/ba/Bilateral_blur_example_03.blend">blend-file example</a></span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
 </div>
 <table class="docutils align-default">
 <colgroup>
@@ -336,12 +324,12 @@ It practically defines the radius of blur.</p>
 <tbody>
 <tr class="row-odd"><td><div class="figure align-default" id="id9">
 <a class="reference internal image-reference" href="../../../_images/compositing_types_filter_bilateral-blur_example-3-render.jpg"><img alt="../../../_images/compositing_types_filter_bilateral-blur_example-3-render.jpg" src="../../../_images/compositing_types_filter_bilateral-blur_example-3-render.jpg" style="width: 320px;" /></a>
-<p class="caption"><span class="caption-text">Render result.</span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">渲染结果。</span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
 </div>
 </td>
 <td><div class="figure align-default" id="id10">
 <a class="reference internal image-reference" href="../../../_images/compositing_types_filter_bilateral-blur_example-3-composite.jpg"><img alt="../../../_images/compositing_types_filter_bilateral-blur_example-3-composite.jpg" src="../../../_images/compositing_types_filter_bilateral-blur_example-3-composite.jpg" style="width: 320px;" /></a>
-<p class="caption"><span class="caption-text">Composite.</span><a class="headerlink" href="#id10" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">合成。</span><a class="headerlink" href="#id10" title="Permalink to this image">¶</a></p>
 </div>
 </td>
 </tr>
@@ -358,10 +346,10 @@ It practically defines the radius of blur.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="blur_node.html" class="btn btn-neutral float-right" title="Blur Node" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="blur_node.html" class="btn btn-neutral float-right" title="模糊节点" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="index.html" class="btn btn-neutral float-left" title="Filter Nodes" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="index.html" class="btn btn-neutral float-left" title="滤镜(过滤)节点" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -395,7 +383,7 @@ It practically defines the radius of blur.</p>
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

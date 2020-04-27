@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Outliner &mdash; Blender Manual</title>
+  <title>大纲视图 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Properties Editor" href="properties_editor.html" />
-    <link rel="prev" title="Info Editor" href="info_editor.html" /> 
+    <link rel="next" title="属性编辑器" href="properties_editor.html" />
+    <link rel="prev" title="信息编辑器" href="info_editor.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,72 +110,72 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../interface/index.html">User Interface</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="index.html">Editors</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="3dview/index.html">3D Viewport</a></li>
-<li class="toctree-l2"><a class="reference internal" href="image/index.html">Image Editor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="uv/index.html">UV Editor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="shader_editor.html">Shader Editor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../compositing/index.html">Compositor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="texture_node/index.html">Texture Nodes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../video_editing/index.html">Video Sequencer</a></li>
-<li class="toctree-l2"><a class="reference internal" href="clip/index.html">Movie Clip Editor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="dope_sheet/index.html">Dope Sheet</a></li>
-<li class="toctree-l2"><a class="reference internal" href="timeline.html">Timeline</a></li>
-<li class="toctree-l2"><a class="reference internal" href="graph_editor/index.html">Graph Editor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="drivers_editor.html">Drivers Editor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="nla/index.html">Nonlinear Animation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="text_editor.html">Text Editor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="python_console.html">Python Console</a></li>
-<li class="toctree-l2"><a class="reference internal" href="info_editor.html">Info Editor</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Outliner</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#selecting-and-activating">Selecting and Activating</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#selecting-multiple-data-blocks">Selecting Multiple Data-Blocks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../interface/index.html">用户界面</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">编辑器</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="3dview/index.html">3D视图</a></li>
+<li class="toctree-l2"><a class="reference internal" href="image/index.html">图像编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="uv/index.html">UV编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="shader_editor.html">着色器编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../compositing/index.html">合成器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="texture_node/index.html">纹理节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../video_editing/index.html">视频序列编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="clip/index.html">影片剪辑编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dope_sheet/index.html">动画摄影表</a></li>
+<li class="toctree-l2"><a class="reference internal" href="timeline.html">时间线</a></li>
+<li class="toctree-l2"><a class="reference internal" href="graph_editor/index.html">曲线编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="drivers_editor.html">驱动器编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nla/index.html">非线性动画</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text_editor.html">文本编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python_console.html">Python 控制台</a></li>
+<li class="toctree-l2"><a class="reference internal" href="info_editor.html">信息编辑器</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">大纲视图</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#selecting-and-activating">选择和激活</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#selecting-multiple-data-blocks">选择一个数据块</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#toggling-interaction-modes">Toggling Interaction Modes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#relations-management">Relations Management</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#context-menu">Context Menu</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#collections">Collections</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#id-data-menu">ID Data Menu</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#view-menu">View Menu</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#toggling-interaction-modes">切换交互模式</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#relations-management">关系管理</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#context-menu">上下文菜单</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#collections">集合</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id-data-menu">ID数据菜单</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#view-menu">视图菜单</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#restriction-columns">Restriction Columns</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#header">Header</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#display-mode">Display Mode</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#searching">Searching</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#filter">Filter</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#miscellaneous">Miscellaneous</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#restriction-columns">限制列</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#header">标题栏</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#display-mode">显示模式</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#searching">搜索</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#filter">过滤</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#miscellaneous">杂项</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#example">Example</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#example">示例</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="properties_editor.html">Properties Editor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="file_browser.html">File Browser</a></li>
-<li class="toctree-l2"><a class="reference internal" href="preferences/index.html">Preferences</a></li>
+<li class="toctree-l2"><a class="reference internal" href="properties_editor.html">属性编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_browser.html">文件浏览器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="preferences/index.html">偏好设置</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../render/index.html">Rendering</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../render/index.html">渲染</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -221,13 +221,13 @@
     
       <li><a href="../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="index.html">Editors</a> &raquo;</li>
+          <li><a href="index.html">编辑器</a> &raquo;</li>
         
-      <li>Outliner</li>
+      <li>大纲视图</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/editors/outliner.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/editors/outliner.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -238,60 +238,43 @@
            <div itemprop="articleBody">
             
   <div class="section" id="outliner">
-<span id="bpy-ops-outliner"></span><span id="bpy-types-spaceoutliner"></span><h1>Outliner<a class="headerlink" href="#outliner" title="Permalink to this headline">¶</a></h1>
+<span id="bpy-ops-outliner"></span><span id="bpy-types-spaceoutliner"></span><h1>大纲视图<a class="headerlink" href="#outliner" title="Permalink to this headline">¶</a></h1>
 <div class="figure align-right" id="id1">
 <img alt="../_images/editors_outliner_interface.png" src="../_images/editors_outliner_interface.png" />
-<p class="caption"><span class="caption-text">The Outliner editor.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">大纲视图编辑器。</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
-<p>The <em>Outliner</em> is a list that organizes data in the blend-file,
-i.e. the scene data, Video Sequencer data, or anything that gets stored in a blend-file.
-The <em>Outliner</em> can be used to:</p>
+<p><em>大纲视图</em> 是一个组织blend文件中数据(即场景数据、视频编辑器数据或存储在blend-file中的任何东西)的列表:</p>
 <ul class="simple">
-<li><p>View the data in the scene.</p></li>
-<li><p>Select and deselect objects in the scene.</p></li>
-<li><p>Hide or show an object in the scene.</p></li>
-<li><p>Enable or disable selection (to make an object “unselectable” in the 3D Viewport).</p></li>
-<li><p>Enable or disable the rendering of an object.</p></li>
-<li><p>Delete objects from the scene.</p></li>
-<li><p>Unlink data (equivalent to pressing the <em>X</em> button next to the name of a data-block).</p></li>
-<li><p>Manage collections in the scene.</p></li>
+<li><p>查看场景中的数据。</p></li>
+<li><p>选择或取消选择场景中的物体。</p></li>
+<li><p>隐藏或显示场景中的物体。</p></li>
+<li><p>启用或禁用选择 (使3D 视图中的物体 &quot;不可选择&quot; )。</p></li>
+<li><p>禁用 / 启用是否渲染物体。</p></li>
+<li><p>从场景中删除物体。</p></li>
+<li><p>取消数据链接(相当于在数据块的名称后面点 <em>X</em> 按钮)。</p></li>
+<li><p>管理场景中的集合。</p></li>
 </ul>
-<p>Each row in the <em>Outliner</em> shows a data-block. You can <kbd class="kbd docutils literal notranslate">LMB</kbd> click the disclosure triangle to
-the left of a name to expand the current data-block and see what other data-blocks it contains.
-Holding <kbd class="kbd docutils literal notranslate">Shift</kbd> when clicking on the disclosure triangle will expand child data-blocks recursively.
-<kbd class="kbd docutils literal notranslate">LMB</kbd> Clicking and dragging along disclosure triangles will expand or collapse multiple data-blocks.</p>
+<p><em>大纲视图</em> 中的每一行都显示一个数据块。可以 <kbd class="kbd docutils literal notranslate">LMB</kbd> 单击名称左侧的折叠三角形以展开当前数据块，并查看其包含的其他数据块。按住 <kbd class="kbd docutils literal notranslate">Shift</kbd> 的同时单击折叠三角形进将展开所有层级的子数据块。 <kbd class="kbd docutils literal notranslate">LMB</kbd> 单击并沿折叠三角形拖动，将展开或折叠多个数据块。</p>
 <div class="section" id="selecting-and-activating">
-<h2>Selecting and Activating<a class="headerlink" href="#selecting-and-activating" title="Permalink to this headline">¶</a></h2>
+<h2>选择和激活<a class="headerlink" href="#selecting-and-activating" title="Permalink to this headline">¶</a></h2>
 <div class="figure align-right" id="id2">
 <img alt="../_images/editors_outliner_selection.png" src="../_images/editors_outliner_selection.png" />
-<p class="caption"><span class="caption-text">Selected data-blocks with the Cube active.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Cube为活动项时选中数据块。</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
-<p>Selection is done with <kbd class="kbd docutils literal notranslate">LMB</kbd> (and/or the <a class="reference internal" href="#context-menu">context menu</a>, see below) on the row of
-a data-block outside the name/icon area. Single selections will also activate the data-block.
-The rows of selected data-blocks are highlighted blue, with the active data-block highlighted in a lighter blue.</p>
-<p>Clicking in empty space below the list of data-blocks will deselect all.</p>
+<p>在数据块所在行名称/图标区域外 <kbd class="kbd docutils literal notranslate">LMB</kbd> (或/与 <a class="reference internal" href="#context-menu">上下文菜单</a>，见下方)单击进行选择。单个选择也将激活数据块。所选数据块的行以蓝色突出显示，活动数据块以浅蓝色突出显示。</p>
+<p>单击数据块列表下方的空白区域将全部取消选择。</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>By default, selecting data-blocks in the Outliner will select the respective objects,
-bones, and sequences in the 3D View and Sequencer.
-Selections in the 3D View and Sequencer will be synced to each Outliner.
-To disable selection syncing, turn off the toggle in the <a class="reference internal" href="#filter">filter</a> popover.</p>
+<p>默认情况下，在大纲视图中选择数据块后也将选中位于3D 视图和序列编辑器对应的物体、骨骼和序列。3D视图和序列编辑器中的选择也将同步到每个大纲视图。要禁用选择同步，请关闭 <a class="reference internal" href="#filter">过滤</a> 弹窗中的开关。</p>
 </div>
-<p>Children of a data-block can also be selected by clicking the icon that is displayed to
-the right of the parent data-block’s name.</p>
+<p>还可以通过单击父级数据块名称右侧显示的图标来选择数据块的子级。</p>
 <div class="section" id="selecting-multiple-data-blocks">
-<h3>Selecting Multiple Data-Blocks<a class="headerlink" href="#selecting-multiple-data-blocks" title="Permalink to this headline">¶</a></h3>
-<p>Extend the selection one data-block at a time using <kbd class="kbd docutils literal notranslate">Ctrl-LMB</kbd>.
-Each data-block added to the selection this way will be made the active data-block.</p>
-<p>Select a range of elements from the active element using <kbd class="kbd docutils literal notranslate">Shift-LMB</kbd>.
-To select a range without deselecting the previous selection, use <kbd class="kbd docutils literal notranslate">Shift-Ctrl-LMB</kbd>.</p>
-<p>A click and drag from any location in the Outliner other than a name or icon will begin a box selection.
-Use <kbd class="kbd docutils literal notranslate">Shift</kbd> to add and <kbd class="kbd docutils literal notranslate">Ctrl</kbd> to subtract from existing selections with box select.
-Box select can also be started with <kbd class="kbd docutils literal notranslate">B</kbd>.</p>
-<p>To select all items use <kbd class="kbd docutils literal notranslate">A</kbd>; <kbd class="kbd docutils literal notranslate">Alt-A</kbd> will deselect all items.</p>
-<p>The keyboard arrow keys can be used to navigate and select in the Outliner.
-Keyboard selection and navigation starts from the active data-block,
-but does not change the active data-block.</p>
+<h3>选择一个数据块<a class="headerlink" href="#selecting-multiple-data-blocks" title="Permalink to this headline">¶</a></h3>
+<p>使用 <kbd class="kbd docutils literal notranslate">Ctrl-LMB</kbd> 一次加选一个数据块。以这种方式添加到选中项的每个数据块都将成为活动数据块。</p>
+<p>使用 <kbd class="kbd docutils literal notranslate">Shift-LMB</kbd> 选择以活动元素为起点的一个范围内的元素。使用 <kbd class="kbd docutils literal notranslate">Ctrl-Shift-LMB</kbd> 可以在不取消之前选中项的情况加选一个范围。</p>
+<p>从大纲视图中名称或图标以外的任何位置单击并拖动可以进行框选。使用 <kbd class="kbd docutils literal notranslate">Shift</kbd> 加选，按下 <kbd class="kbd docutils literal notranslate">Ctrl</kbd> 则从现有选择中减去框选元素。也可以使用 <kbd class="kbd docutils literal notranslate">B</kbd> 启动框选。</p>
+<p>使用 <kbd class="kbd docutils literal notranslate">A</kbd> 全选， <kbd class="kbd docutils literal notranslate">Alt-A</kbd> 用于取消全选。</p>
+<p>可使用键盘方向键在大纲视图中跳转和选择。按键后从活动数据块开始选择和跳转，但不会改变活动数据块。</p>
 <table class="colwidths-given docutils align-default">
 <colgroup>
 <col style="width: 10%" />
@@ -299,295 +282,259 @@ but does not change the active data-block.</p>
 </colgroup>
 <tbody>
 <tr class="row-odd"><td><p><kbd class="kbd docutils literal notranslate">Up</kbd></p></td>
-<td><p>Select the previous element in the list.</p></td>
+<td><p>选择列表中上一个元素。</p></td>
 </tr>
 <tr class="row-even"><td><p><kbd class="kbd docutils literal notranslate">Down</kbd></p></td>
-<td><p>Select the next element in the list.</p></td>
+<td><p>选择列表中下一个元素。</p></td>
 </tr>
 <tr class="row-odd"><td><p><kbd class="kbd docutils literal notranslate">Shift-Up</kbd></p></td>
-<td><p>Select the previous element without deselecting.</p></td>
+<td><p>在不取消选择的情况下选择上一个元素。</p></td>
 </tr>
 <tr class="row-even"><td><p><kbd class="kbd docutils literal notranslate">Shift-Down</kbd></p></td>
-<td><p>Select the next element without deselecting.</p></td>
+<td><p>在不取消选择的情况下选择下一个元素。</p></td>
 </tr>
 <tr class="row-odd"><td><p><kbd class="kbd docutils literal notranslate">Left</kbd></p></td>
-<td><p>Close the data-block.</p></td>
+<td><p>关闭该数据块。</p></td>
 </tr>
 <tr class="row-even"><td><p><kbd class="kbd docutils literal notranslate">Right</kbd></p></td>
-<td><p>Open the data-block to view children.</p></td>
+<td><p>在视图中展开子级数据块。</p></td>
 </tr>
 <tr class="row-odd"><td><p><kbd class="kbd docutils literal notranslate">Shift-Left</kbd></p></td>
-<td><p>Close this and all child data-blocks.</p></td>
+<td><p>关闭该数据块及其所有子数据块。</p></td>
 </tr>
 <tr class="row-even"><td><p><kbd class="kbd docutils literal notranslate">Shift-Right</kbd></p></td>
-<td><p>Open this and all child data-blocks.</p></td>
+<td><p>打开此数据块及其所有子数据块。</p></td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
 <div class="section" id="toggling-interaction-modes">
-<h2>Toggling Interaction Modes<a class="headerlink" href="#toggling-interaction-modes" title="Permalink to this headline">¶</a></h2>
-<p>Selecting some data-blocks with <kbd class="kbd docutils literal notranslate">LMB</kbd> will toggle into the relevant interaction mode.
-For example, selecting the mesh data of the cube will select the cube and enter <em>Edit Mode</em>.
-Selecting the data-block again will toggle back into <em>Object Mode</em>.</p>
-<p>If the data-block type supports multi-editing,
-you can use <kbd class="kbd docutils literal notranslate">Shift</kbd> to add/remove objects from the Edit Mode.</p>
+<h2>切换交互模式<a class="headerlink" href="#toggling-interaction-modes" title="Permalink to this headline">¶</a></h2>
+<p><kbd class="kbd docutils literal notranslate">LMB</kbd> 选择某些数据块将切换到相关的交互模式。例如，选择立方体的网格数据将选中立方体并进入 <em>编辑模式</em>。再次选择数据块将切换回 <em>物体模式</em>。</p>
+<p>如果数据块类型支持多重编辑，则可以使用 <kbd class="kbd docutils literal notranslate">Shift</kbd> 在编辑模式中添加/删除物体。</p>
 </div>
 <div class="section" id="relations-management">
-<h2>Relations Management<a class="headerlink" href="#relations-management" title="Permalink to this headline">¶</a></h2>
+<h2>关系管理<a class="headerlink" href="#relations-management" title="Permalink to this headline">¶</a></h2>
 <div class="figure align-right" id="id3">
 <img alt="../_images/editors_outliner_relations.png" src="../_images/editors_outliner_relations.png" />
-<p class="caption"><span class="caption-text">Linking objects to a collection.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">将物体关联到集合。</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
 </div>
-<p>Data-blocks can be dragged and dropped to manage data relations in the Outliner.
-To begin a drag and drop, <kbd class="kbd docutils literal notranslate">LMB</kbd> click and drag from the name or icon of a data-block.</p>
-<p>Objects can be moved to collections by dropping on the name or contents of a collection.
-To link an object to a collection, hold <kbd class="kbd docutils literal notranslate">Ctrl</kbd> while dropping.</p>
-<p>To set parent-child relations between objects, drop an object onto another object
-while holding <kbd class="kbd docutils literal notranslate">Shift</kbd>.</p>
+<p>可以拖放管理大纲视图中的数据关系。<kbd class="kbd docutils literal notranslate">LMB</kbd> 单击并从数据块的名称或图标上开始拖放操作。</p>
+<p>可以通过拖放集合的名称或内容将物体移动到集合。在拖动的同时按下 <kbd class="kbd docutils literal notranslate">Ctrl</kbd> 可将物体关联到集合。</p>
+<p>在按住 <kbd class="kbd docutils literal notranslate">Shift</kbd> 的同时将物体拖放到另一个物体上可设置两者的父子关系。</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Drag and drop will attempt to operate on the entire selection. Selected data-blocks
-that are incompatible with the operation will remain unmodified.</p>
+<p>拖放将尝试对所有选中项进行操作。与操作不兼容的选中数据块将保持未修改状态。</p>
 </div>
 </div>
 <div class="section" id="context-menu">
-<h2>Context Menu<a class="headerlink" href="#context-menu" title="Permalink to this headline">¶</a></h2>
-<p>Show the context menu for a data-block with <kbd class="kbd docutils literal notranslate">RMB</kbd> on the icon or name.
-Depending on the type of the preselected data-block(s), you will have all or part of the following options:</p>
+<h2>上下文菜单<a class="headerlink" href="#context-menu" title="Permalink to this headline">¶</a></h2>
+<p>在图标或名称上点击 <kbd class="kbd docutils literal notranslate">RMB</kbd> 显示数据块的上下文菜单。根据选择数据块的类型不同，将出现以下全部或部分选项：</p>
 <dl class="simple">
-<dt>Copy/Paste</dt><dd><p>Copy/pastes selected data-blocks.</p>
+<dt>复制/粘贴</dt><dd><p>复制/粘贴选定的数据块。</p>
 </dd>
-<dt>Delete</dt><dd><p>Deletes the selected data-block.</p>
+<dt>删除</dt><dd><p>删除选定的数据块。</p>
 </dd>
-<dt>Select, Select Hierarchy, Deselect</dt><dd><p>Add object to current selection without making it the active one.</p>
+<dt>选择，选择层次结构，取消选择</dt><dd><p>将物体添加到当前选择而不使其成为活动物体。</p>
 </dd>
 </dl>
 <div class="section" id="collections">
-<span id="editors-outliner-collections"></span><h3>Collections<a class="headerlink" href="#collections" title="Permalink to this headline">¶</a></h3>
-<p>Collections are a way Blender uses to organize scenes.
-Collections contain objects and everything thing else in a scene.
-They can include collections themselves and are fully recursive.</p>
+<span id="editors-outliner-collections"></span><h3>集合<a class="headerlink" href="#collections" title="Permalink to this headline">¶</a></h3>
+<p>集合是Blender用于组织场景的一种方式。 集合包含物体和场景中的一切其他内容。 它们本身可以包含集合，并且完全是递归的。</p>
 <div class="admonition seealso">
 <p class="admonition-title">See also</p>
-<p>Read more about <a class="reference internal" href="../scene_layout/collections/index.html"><span class="doc">Collections</span></a>.</p>
+<p>阅读更多关于 <a class="reference internal" href="../scene_layout/collections/index.html"><span class="doc">集合</span></a>。</p>
 </div>
 <dl class="simple">
-<dt>New</dt><dd><p>Creates a new collection.</p>
+<dt>新建</dt><dd><p>创建一个新集合。</p>
 </dd>
-<dt>Duplicate Collections</dt><dd><p>Recursively duplicates the collection including all child collections, objects, and object data.</p>
+<dt>复制集合</dt><dd><p>递归地复制集合，包括所有子集合、物体和物体数据。</p>
 </dd>
-<dt>Duplicate Linked</dt><dd><p>Duplicate entire hierarchy keeping content linked with original.</p>
+<dt>复制关联</dt><dd><p>复制整个层次结构，使内容与原始内容保持关联。</p>
 </dd>
-<dt>Delete Hierarchy</dt><dd><p>Deletes the collection and removes all its child objects or collections.
+<dt>删除层级</dt><dd><p>Deletes the collection and removes all its child objects or collections.
 It is important to note that this only deletes the collection,
 if child objects are part of another collection they will stay in the scene collection
 and their data-blocks will not be deleted from the blend-file.</p>
 </dd>
-<dt>Instance to Scene</dt><dd><p>Creates a new <a class="reference internal" href="../scene_layout/object/properties/instancing/collection.html"><span class="doc">collection instance</span></a>.</p>
+<dt>实例场景</dt><dd><p>创建新的 <a class="reference internal" href="../scene_layout/object/properties/instancing/collection.html"><span class="doc">集合实例</span></a>.</p>
 </dd>
-<dt>Visibility</dt><dd><dl class="simple">
-<dt>Isolate</dt><dd><p>Hides all collections except the selected collection and any parent collections (if any exist).</p>
+<dt>可见性</dt><dd><dl class="simple">
+<dt>隔离</dt><dd><p>隐藏除所选集合和任何父集合(如果存在)之外的所有集合。</p>
 </dd>
-<dt>Show/Hide</dt><dd><p>Shows/Hides the selected collection from the <a class="reference internal" href="../scene_layout/view_layers/index.html"><span class="doc">View Layer</span></a>.</p>
+<dt>显示/隐藏</dt><dd><p>从 <a class="reference internal" href="../scene_layout/view_layers/index.html"><span class="doc">视图层</span></a> 显示/隐藏选定的集合。</p>
 </dd>
-<dt>Show/Hide Inside</dt><dd><p>Shows/Hides all items that are a member of the selected collection, include child collections,
-from the <a class="reference internal" href="../scene_layout/view_layers/index.html"><span class="doc">View Layer</span></a>.</p>
+<dt>显示/隐藏内部</dt><dd><p>在 <a class="reference internal" href="../scene_layout/view_layers/index.html"><span class="doc">视图层</span></a> 中显示/隐藏所有属于选定集合的项，包括子集合。</p>
 </dd>
-<dt>Enable/Disable in Viewports</dt><dd><p>Enables/disables drawing in the <a class="reference internal" href="../scene_layout/view_layers/index.html"><span class="doc">View Layer</span></a>.</p>
+<dt>在视图中启用/禁用</dt><dd><p>启用/禁用在 <a class="reference internal" href="../scene_layout/view_layers/index.html"><span class="doc">视图层</span></a> 中的绘制。</p>
 </dd>
-<dt>Enable/Disable in Renders</dt><dd><p>Enables/disables visibility of the collection in renders.</p>
+<dt>在渲染中启用/禁用</dt><dd><p>在渲染中启用/禁用集合的可见性。</p>
 </dd>
 </dl>
 </dd>
-<dt>View Layer</dt><dd><dl class="simple">
-<dt>Disable/Enable in View Layer</dt><dd><p>Disables/Enables the collection from the view layer.</p>
+<dt>视图层</dt><dd><dl class="simple">
+<dt>视图层中启用/禁用</dt><dd><p>视图层中禁用/启用的集合。</p>
 </dd>
 </dl>
 </dd>
 </dl>
 </div>
 <div class="section" id="id-data-menu">
-<h3>ID Data Menu<a class="headerlink" href="#id-data-menu" title="Permalink to this headline">¶</a></h3>
+<h3>ID数据菜单<a class="headerlink" href="#id-data-menu" title="Permalink to this headline">¶</a></h3>
 <dl class="simple">
-<dt>Unlink</dt><dd><p>To unlink a data-block from its “owner” (e.g. a material from its mesh).</p>
+<dt>取消链接</dt><dd><p>将数据块与其“自身”(例如网格中的材质)断开链接。</p>
 </dd>
-<dt>Make Local</dt><dd><p>To create a “local” duplicate of this data-block.</p>
+<dt>转为本地项</dt><dd><p>创建此数据块的“本地”副本。</p>
 </dd>
-<dt>Make Single User</dt><dd><p>This feature is not yet implemented.</p>
+<dt>使其独立化</dt><dd><p>此功能尚未实现。</p>
 </dd>
-<dt>Delete</dt><dd><p>Deletes the selected data-block.</p>
+<dt>删除</dt><dd><p>删除选定的数据块。</p>
 </dd>
-<dt>Remap Users</dt><dd><p>Remap Users of a data-block to another one (of same type of course).
-This means you can e.g. replace all usages of a material or texture by another one.</p>
+<dt>重新映射用户</dt><dd><p>将数据块的用户重新映射到另一个数据块(当然是同一类型的数据块)。这意味着你可以用另一种材料或纹理来代替所有的用法。</p>
 </dd>
-<dt>Copy/Paste</dt><dd><p>Copy/pastes selected data-blocks.</p>
+<dt>复制/粘贴</dt><dd><p>复制/粘贴选定的数据块。</p>
 </dd>
-<dt>Add Fake User, Clear Fake User</dt><dd><p>Adds a “dummy” (fake) user so that the selected data-block always gets saved even if it has no users.
-The fake user can be removed with <em>Clear Fake User</em>.</p>
+<dt>添加假用户，清除假用户</dt><dd><p>添加一个“虚拟”(假)用户，以便即使没有用户，所选数据块也总是被保存。假用户可以通过 <em>清除假用户</em> 删除。</p>
 </dd>
-<dt>Rename <kbd class="kbd docutils literal notranslate">F2</kbd></dt><dd><p>Renames the selected data-block.</p>
+<dt>重命名 <kbd class="kbd docutils literal notranslate">F2</kbd></dt><dd><p>重命名选定的数据块。</p>
 </dd>
-<dt>Select Linked</dt><dd><p>Selects the linked data, see <a class="reference internal" href="../scene_layout/object/selecting.html#bpy-ops-object-select-linked"><span class="std std-ref">Select Linked</span></a> for more information.</p>
+<dt>选择链接</dt><dd><p>选择链接的数据，请参阅 <a class="reference internal" href="../scene_layout/object/selecting.html#bpy-ops-object-select-linked"><span class="std std-ref">选择相连元素</span></a> 获取更多信息。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="view-menu">
-<h3>View Menu<a class="headerlink" href="#view-menu" title="Permalink to this headline">¶</a></h3>
-<p>The view menu is part of the context menu and supported in all the Outliner elements.</p>
+<h3>视图菜单<a class="headerlink" href="#view-menu" title="Permalink to this headline">¶</a></h3>
+<p>视图菜单是上下文菜单的一部分，在所有大纲视图元素中都受支持。</p>
 <dl class="simple">
-<dt>Show Active</dt><dd><p>Centers the Tree View to selected object <kbd class="kbd docutils literal notranslate">Period</kbd>.</p>
+<dt>显示激活项</dt><dd><p>将树视图置于选定的物体中心  <kbd class="kbd docutils literal notranslate">Period</kbd> 。</p>
 </dd>
-<dt>Show Hierarchy</dt><dd><p>To collapse all levels of the tree <kbd class="kbd docutils literal notranslate">Home</kbd>.</p>
+<dt>显示层级</dt><dd><p>按下 <kbd class="kbd docutils literal notranslate">Home</kbd> 所有大纲树层级全部折叠。</p>
 </dd>
-<dt>Show/Hide One Level</dt><dd><p>Expand one level down in the tree <kbd class="kbd docutils literal notranslate">NumpadPlus</kbd> and <kbd class="kbd docutils literal notranslate">NumpadMinus</kbd> to collapse.</p>
+<dt>显示/隐藏一个级别</dt><dd><p>在大纲树中向下展开一层 <kbd class="kbd docutils literal notranslate">NumpadPlus</kbd> 和 <kbd class="kbd docutils literal notranslate">NumpadMinus</kbd> 以折叠一层。</p>
 </dd>
 </dl>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Some data-block types will not have a context menu at all!</p>
+<p>部分物体类型根本没有上下文菜单!</p>
 </div>
 </div>
 </div>
 <div class="section" id="restriction-columns">
-<span id="editors-outliner-restriction-columns"></span><h2>Restriction Columns<a class="headerlink" href="#restriction-columns" title="Permalink to this headline">¶</a></h2>
-<p>The following toggles, in the right side of the <em>Outliner</em> editor,
-are available for collections, objects, bones, modifiers and constraints.</p>
-<p>By default only the temporary viewport visibility is enabled.
-The other options can be enabled in the <em>Restriction Toggles</em> option in the Outliner <a class="reference internal" href="#filter">filter</a>.</p>
+<span id="editors-outliner-restriction-columns"></span><h2>限制列<a class="headerlink" href="#restriction-columns" title="Permalink to this headline">¶</a></h2>
+<p><em>大纲视图</em> 编辑器的右侧，有以下切换选项，可用于集合、物体、骨骼、修改器和约束。</p>
+<p>默认情况下，仅启用临时视图可见性。其他选项可以在大纲视图 <a class="reference internal" href="#filter">筛选</a> 弹窗中的 <em>限制切换</em> 选项中启用。</p>
 <ul class="simple">
-<li><p>Holding <kbd class="kbd docutils literal notranslate">Shift</kbd> sets or unsets the value to all its child collections or objects.</p></li>
-<li><p>Holding <kbd class="kbd docutils literal notranslate">Ctrl</kbd> isolates the object or collection, so they are the only ones with its value set.</p></li>
+<li><p>按住 <kbd class="kbd docutils literal notranslate">Shift</kbd> 设置或取消其所有子集合或物体的值。</p></li>
+<li><p>按住 <kbd class="kbd docutils literal notranslate">Ctrl</kbd> 将物体或集合隔离开来，因此它们是唯一具有其值集的物体。</p></li>
 </ul>
 <dl class="simple">
-<dt>Visibility (eye icon)</dt><dd><p>Toggles the visibility of the object in the 3D View.</p>
+<dt>可见性( 眼睛图标)</dt><dd><p>切换3D视图中物体的可见性。</p>
 </dd>
-<dt>Enable Collection (checkbox)</dt><dd><p>Exclude the collection from the view layer.
-This is not really a restriction column. It is shown besides the collection icon.</p>
+<dt>Enable Collection (checkbox)</dt><dd><p>从视图层中排除集合。 这不是一个限制列。 它显示在集合图标旁边。</p>
 </dd>
 </dl>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>The following options need to first be enabled in the Outliner filter.</p>
+<p>首先需要在大纲视图过滤器中启用以下选项。</p>
 </div>
 <dl class="simple">
-<dt>Selectability (mouse cursor icon)</dt><dd><p>This is useful for if you have placed something in the scene
-and do not want to accidentally select it when working on something else.</p>
+<dt>可选性 (鼠标光标图标)</dt><dd><p>如果您在场景中放置了某些内容并且在处理其他内容时不想意外选择它，则此功能非常有用。</p>
 </dd>
-<dt>Rendering (camera icon)</dt><dd><p>This will still keep the object visible in the scene, but it will be ignored by the renderer.
-Usually used by support objects that help modeling and animation yet do not belong in the final images.</p>
+<dt>渲染(相机图标)</dt><dd><p>这仍然会使物体在场景中可见，但渲染器将忽略它。 通常由支持物体使用，这些物体有助于建模和动画，但不属于最终图像。</p>
 </dd>
-<dt>Global Viewport Visibility (screen icon)</dt><dd><p>This will still render the object/collection, but it will be ignored by all the viewports.
-Often used for collections with high-poly objects that need to be instanced in other files.</p>
+<dt>全局视图可见性 ( 屏幕图标)</dt><dd><p>这仍然会渲染物体/集合，但所有视图都会忽略它。 通常用于需要在其他文件中实例化的高多边形物体的集合。</p>
 </dd>
-<dt>Holdout (collection only)</dt><dd><p>Mask out objects in collection from view layer – <em>Cycles only</em>.</p>
+<dt>阻隔(仅限集合)</dt><dd><p>在视图层屏蔽集合中的物体 -- <em>仅限 Cycles</em> 。</p>
 </dd>
-<dt>Indirect Only (collection only)</dt><dd><p>Objects in these collections only contribute to indirect light – <em>Cycles only</em>.</p>
+<dt>仅间接(仅限集合)</dt><dd><p>这些集合中的物体仅对间接光有贡献 -- <em>仅限 Cycles</em> 。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="header">
-<h2>Header<a class="headerlink" href="#header" title="Permalink to this headline">¶</a></h2>
+<h2>标题栏<a class="headerlink" href="#header" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="display-mode">
-<h3>Display Mode<a class="headerlink" href="#display-mode" title="Permalink to this headline">¶</a></h3>
-<p>The editors header has a select menu that let you filter what the Outliner should show.
-It helps to narrow the list of objects so that you can find things quickly and easily.</p>
+<h3>显示模式<a class="headerlink" href="#display-mode" title="Permalink to this headline">¶</a></h3>
+<p>编辑器标题具有一个选择菜单，可让你过滤大纲视图应显示的内容。它有助于缩小物体列表的范围，以便你可以快速轻松地找到所需的东西。</p>
 <dl class="simple">
-<dt>Scenes</dt><dd><p>Shows <em>everything</em> the <em>Outliner</em> can display (in all scenes, all view layers, etc.).</p>
+<dt>场景</dt><dd><p>显示 <em>大纲视图</em> 可以显示的 <em>所有的内容</em> (在所有场景，所有层等)。</p>
 </dd>
-<dt>View Layer</dt><dd><p>Shows all the collections and objects in the current view layer.</p>
+<dt>视图层</dt><dd><p>显示当前视图图层中的所有集合和物体。</p>
 </dd>
-<dt>Sequence</dt><dd><p>Lists <a class="reference internal" href="../files/data_blocks.html"><span class="doc">data-block</span></a>
-that are used by the <a class="reference internal" href="../video_editing/index.html"><span class="doc">Sequencer</span></a>.</p>
+<dt>序列</dt><dd><p>列出 <a class="reference internal" href="../video_editing/index.html"><span class="doc">序列</span></a> 使用的 <a class="reference internal" href="../files/data_blocks.html"><span class="doc">数据块</span></a> 。</p>
 </dd>
-<dt>Blender File</dt><dd><p>Lists all data in the current blend-file.</p>
+<dt>Blender 文件</dt><dd><p>列出当前blend文件中的所有数据。</p>
 </dd>
-<dt>Data API</dt><dd><p>Lists every <a class="reference internal" href="../files/data_blocks.html"><span class="doc">data-block</span></a> along with any properties that they might have.</p>
+<dt>数据API</dt><dd><p>列出每个 <a class="reference internal" href="../files/data_blocks.html"><span class="doc">数据块</span></a> 以及它们可能具有的任何属性。</p>
 </dd>
-<dt>Orphan Data</dt><dd><p>Lists <a class="reference internal" href="../files/data_blocks.html"><span class="doc">data-blocks</span></a>
-which are unused and/or will be lost when the file is reloaded.
-It includes data-blocks which have only a fake user. You can add/remove Fake User
-by clicking on cross/tick icon in the right side of the Outliner editor.</p>
+<dt>孤立的数据</dt><dd><p>列出未被使用的 及/或在重新载文件后会丢失的 <a class="reference internal" href="../files/data_blocks.html"><span class="doc">数据块</span></a>，包括仅有一个伪用户的数据块。通过单击大纲编辑器右侧的复选框添加/移除伪用户。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="searching">
-<h3>Searching<a class="headerlink" href="#searching" title="Permalink to this headline">¶</a></h3>
-<p>You can search the view for data-blocks,
-by using Search field in the header of the <em>Outliner</em>,
-The <a class="reference internal" href="#filter">Filter</a> menu lets you toggle the following options:</p>
+<h3>搜索<a class="headerlink" href="#searching" title="Permalink to this headline">¶</a></h3>
+<p>您可以使用 <em>大纲视图</em> 标题中的搜索域搜索视图中的数据块，<a class="reference internal" href="#filter">过滤</a> 菜单允许您切换以下选项：</p>
 <ul class="simple">
-<li><p>Case Sensitive Matches Only</p></li>
-<li><p>Complete Matches Only</p></li>
+<li><p>区分大小写的匹配</p></li>
+<li><p>完全匹配</p></li>
 </ul>
 </div>
 <div class="section" id="filter">
-<h3>Filter<a class="headerlink" href="#filter" title="Permalink to this headline">¶</a></h3>
+<h3>过滤<a class="headerlink" href="#filter" title="Permalink to this headline">¶</a></h3>
 <dl class="simple">
-<dt>Restriction Toggles</dt><dd><p>Set which <a class="reference internal" href="#restriction-columns">Restriction Columns</a> should be visible.</p>
+<dt>限制切换</dt><dd><p>设置哪些 <a class="reference internal" href="#restriction-columns">限制列</a> 应该是可见的。</p>
 </dd>
-<dt>Sort Alphabetically</dt><dd><p>Sort the entries alphabetically.</p>
+<dt>按字母顺序排序</dt><dd><p>按字母顺序排序输入。</p>
 </dd>
-<dt>Sync Selection</dt><dd><p>Sync Outliner selection to and from the <a class="reference internal" href="3dview/index.html"><span class="doc">3D View</span></a> and
-<a class="reference internal" href="../video_editing/index.html"><span class="doc">Sequencer</span></a> editors. Disable to manage collections, object
-relations, and scene data without changing the selection state. Selection syncing is
-only available in Scenes, View Layer, and Sequence display modes.</p>
+<dt>选区同步</dt><dd><p>在 <a class="reference internal" href="3dview/index.html"><span class="doc">3D视图</span></a> 及 <a class="reference internal" href="../video_editing/index.html"><span class="doc">序列编辑器</span></a> 与大纲视图之间同步选中项。禁用后，可在不改变现有选中状态的情况下管理集合、物体关系和场景数据。选区同步适用于场景、视图层和序列显示模式。</p>
 </dd>
-<dt>Collections</dt><dd><p>List the objects and collections under
-the <a class="reference internal" href="../scene_layout/collections/index.html"><span class="doc">collection hierarchy</span></a> of the scene.
-Objects may appear in more than one collection.</p>
+<dt>集合</dt><dd><p>列出场景的 <a class="reference internal" href="../scene_layout/collections/index.html"><span class="doc">集合层级</span></a> 下的物体和集合。 物体可能出现在多个集合中。</p>
 </dd>
-<dt>Objects</dt><dd><p>List of all the objects, respecting the other filter options.
-Disabled only if you need an overview of the collections without the objects.</p>
+<dt>物体</dt><dd><p>根据其他筛选器选项列出所有物体。仅当您需要不包含物体的集合的概览时才禁用。</p>
 </dd>
-<dt>Object State</dt><dd><dl class="simple">
-<dt>All</dt><dd><p>The default option, no restrictions.</p>
+<dt>物体状态</dt><dd><dl class="simple">
+<dt>所有</dt><dd><p>默认选项，无限制。</p>
 </dd>
-<dt>Visible</dt><dd><p>List only the objects visible in the viewports.
-The global and temporary visibility settings are taken into consideration.</p>
+<dt>可见的</dt><dd><p>只列出视图中的可见物体。全局和临时可见性设置都会被考虑在内。</p>
 </dd>
-<dt>Invisible</dt><dd><p>List only the objects not visible in the viewports.</p>
+<dt>不可见</dt><dd><p>仅列出视图中不可见的物体。</p>
 </dd>
-<dt>Selected</dt><dd><p>Lists the object(s) that are currently selected in the 3D View.
-See <a class="reference internal" href="../scene_layout/object/selecting.html"><span class="doc">selecting in the 3D View</span></a> for more information.</p>
+<dt>选中项</dt><dd><p>列出3D视图中当前选定的物体。请参阅 <a class="reference internal" href="../scene_layout/object/selecting.html"><span class="doc">在3D视图中的选择</span></a> 以获取更多信息。</p>
 </dd>
-<dt>Active</dt><dd><p>Lists only the active (often last selected) object.</p>
+<dt>活动项</dt><dd><p>仅列出活动(通常是最后选定的)物体。</p>
 </dd>
 </dl>
 </dd>
-<dt>Object Contents</dt><dd><p>List materials, modifiers, mesh data, …</p>
+<dt>物体的内容</dt><dd><p>列出 材质，修改器，网格数据，…</p>
 </dd>
-<dt>Object Children</dt><dd><p>List the object children. If the <em>Collections</em> option is enabled,
-you will see the object children even if the children are not in the collection.
-However the Outliner shows them as a dashed line.</p>
+<dt>物体子项</dt><dd><p>列出对象子项。 如果启用了 <em>集合</em> 选项，即使子项不在集合中，您也会看到对象子项。 然而，大纲视图将它们显示为虚线。</p>
 </dd>
-<dt>Data-Block</dt><dd><p>Allows you to filter out certain data-blocks currently present in the scene.</p>
+<dt>数据块</dt><dd><p>允许您过滤当前场景中的某些数据块。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="miscellaneous">
-<span id="bpy-ops-outliner-orphans-purge"></span><h3>Miscellaneous<a class="headerlink" href="#miscellaneous" title="Permalink to this headline">¶</a></h3>
-<p>Some options in the header will only show if compatible with the active <a class="reference internal" href="#display-mode">Display Mode</a>.</p>
+<span id="bpy-ops-outliner-orphans-purge"></span><h3>杂项<a class="headerlink" href="#miscellaneous" title="Permalink to this headline">¶</a></h3>
+<p>标题栏的某些选项仅在与活动 <a class="reference internal" href="#display-mode">显示模式</a> 兼容时显示。</p>
 <dl class="simple">
-<dt>New Collection (View Layer)</dt><dd><p>Add a new collection inside selected collection.</p>
+<dt>新集合(视图层)</dt><dd><p>在所选集合中添加新集合。</p>
 </dd>
-<dt>Filter ID Type (Orphan Data, Blender File)</dt><dd><p>Restrict the type of the data-blocks shown in the Outliner.</p>
+<dt>过滤ID类型(孤立的数据，Blender文件)</dt><dd><p>限制大纲视图中显示的数据块的类型。</p>
 </dd>
-<dt>Keying Sets (Data API)</dt><dd><p>Add/Remove selected data to the active <a class="reference internal" href="../animation/keyframes/keying_sets.html"><span class="doc">Keying Set</span></a>.</p>
+<dt>键控集(数据API)</dt><dd><p>将所选数据添加/删除到活动的 <a class="reference internal" href="../animation/keyframes/keying_sets.html"><span class="doc">键控集</span></a>。</p>
 </dd>
-<dt>Drivers</dt><dd><p>Add/Remove <a class="reference internal" href="../animation/drivers/index.html"><span class="doc">Drivers</span></a> to the selected item.</p>
+<dt>驱动器</dt><dd><p>添加/删除所选项目的 <a class="reference internal" href="../animation/drivers/index.html"><span class="doc">驱动器</span></a> 。</p>
 </dd>
-<dt>Purge (Orphan Data)</dt><dd><p>Remove all unused data-blocks from the file (cannot be undone).</p>
+<dt>清除(孤立的数据)</dt><dd><p>删除文件中所有未被使用的数据块(无法撤销)。</p>
 </dd>
 </dl>
 </div>
 </div>
 <div class="section" id="example">
-<h2>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h2>
+<h2>示例<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h2>
 <div class="figure align-default" id="id4">
 <img alt="../_images/editors_outliner_example.png" src="../_images/editors_outliner_example.png" />
-<p class="caption"><span class="caption-text">The Outliner with different kinds of data.</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">大纲视图具有不同类型的数据。</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 </div>
@@ -600,10 +547,10 @@ However the Outliner shows them as a dashed line.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="properties_editor.html" class="btn btn-neutral float-right" title="Properties Editor" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="properties_editor.html" class="btn btn-neutral float-right" title="属性编辑器" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="info_editor.html" class="btn btn-neutral float-left" title="Info Editor" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="info_editor.html" class="btn btn-neutral float-left" title="信息编辑器" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -637,7 +584,7 @@ However the Outliner shows them as a dashed line.</p>
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

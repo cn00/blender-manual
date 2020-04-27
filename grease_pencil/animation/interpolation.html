@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Interpolation &mdash; Blender Manual</title>
+  <title>插值 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Animation Tools" href="tools.html" />
-    <link rel="prev" title="Introduction" href="introduction.html" /> 
+    <link rel="next" title="动画工具" href="tools.html" />
+    <link rel="prev" title="简介" href="introduction.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,48 +110,48 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Grease Pencil</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../introduction.html">Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../structure.html">Structure</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../primitives.html">Primitives</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../selecting.html">Selecting</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../multiframe.html">Multiframe</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../properties/index.html">Properties</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../modifiers/index.html">Modifiers</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../visual_effects/index.html">Visual Effects</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../materials/index.html">Materials</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="index.html">Animation</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="introduction.html">Introduction</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">Interpolation</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#interpolate-panel">Interpolate Panel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">蜡笔</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../introduction.html">简介</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../structure.html">结构</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../primitives.html">基本体</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../selecting.html">选择</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../multiframe.html">多帧</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../properties/index.html">属性</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../modifiers/index.html">修改器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../visual_effects/index.html">视觉效果</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../materials/index.html">材质</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">动画</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="introduction.html">简介</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">插值</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#interpolate-panel">插值面板</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="tools.html">Animation Tools</a></li>
+<li class="toctree-l3"><a class="reference internal" href="tools.html">动画工具</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../index.html#modes">Modes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#modes">模式</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../render/index.html">Rendering</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../render/index.html">渲染</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -197,15 +197,15 @@
     
       <li><a href="../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../index.html">Grease Pencil</a> &raquo;</li>
+          <li><a href="../index.html">蜡笔</a> &raquo;</li>
         
-          <li><a href="index.html">Animation</a> &raquo;</li>
+          <li><a href="index.html">动画</a> &raquo;</li>
         
-      <li>Interpolation</li>
+      <li>插值</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/grease_pencil/animation/interpolation.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/grease_pencil/animation/interpolation.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -216,45 +216,37 @@
            <div itemprop="articleBody">
             
   <div class="section" id="interpolation">
-<h1>Interpolation<a class="headerlink" href="#interpolation" title="Permalink to this headline">¶</a></h1>
+<h1>插值<a class="headerlink" href="#interpolation" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="interpolate-panel">
-<h2>Interpolate Panel<a class="headerlink" href="#interpolate-panel" title="Permalink to this headline">¶</a></h2>
-<p>When you are animating simple shapes you can use the interpolate tools
-to automatically add new breakdown keyframes.</p>
+<h2>插值面板<a class="headerlink" href="#interpolate-panel" title="Permalink to this headline">¶</a></h2>
+<p>当你制作简单的动画图形时你可以使用插值工具来自动添加新的breakdown关键帧。</p>
 <div class="figure align-default" id="id1">
 <img alt="../../_images/grease-pencil_animation_interpolation_panel.png" src="../../_images/grease-pencil_animation_interpolation_panel.png" />
-<p class="caption"><span class="caption-text">Interpolate panel.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">插值面板。</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
 <dl>
-<dt>Interpolate</dt><dd><p>Interpolates strokes between the previous and next keyframe by adding a <em>single</em> keyframe.
-When you are on a frame between two keyframes and click the Interpolate button
-a new breakdown keyframe will be added. This way you define
-the final interpolation for the new stroke.</p>
+<dt>插值</dt><dd><p>插值是通过在前一个和紧邻的下一个关键帧之间添加一个 <em>单独的</em> 关键帧的方式来实现。当你在两个关键帧之间操作时，点击插值按钮，一个新的间断关键帧将会被添加上。这样，你就为实现这个新的画笔定义了一个最终的插值。</p>
 </dd>
-<dt>Sequence</dt><dd><p>Interpolate strokes between the previous and next keyframe by adding <em>multiple</em> keyframes.
-When you are on a frame between two keyframes and click the sequence button
-a breakdown keyframe will be added on every frame between the previous and next keyframe.</p>
+<dt>序列</dt><dd><p>插值通过在前一个和紧邻一个关键帧之间添加 <em>多个</em> 关键帧来实现。当你在两个关键帧之间时，点击序列按钮，一个breakdown关键帧就会在前一个和后一个关键帧之间被添加。</p>
 <dl class="simple">
-<dt>Type</dt><dd><p>Interpolation method to use for the sequence.</p>
+<dt>类型</dt><dd><p>用于序列的插值方法.</p>
 </dd>
 </dl>
 </dd>
 </dl>
 <dl class="simple" id="bpy-ops-gpencil-interpolate-reverse">
-<dt>Remove Breakdowns</dt><dd><p>Removes the breakdowns generated by the Interpolate tool.</p>
+<dt>移除间断帧</dt><dd><p>移除插值工具生成的间断帧。</p>
 </dd>
-<dt>Interpolate All Layers</dt><dd><p>When enabled, interpolated keyframes will be created on all layers, not only the active one.</p>
+<dt>对所有图层插值</dt><dd><p>当序列模式开启时，插值的关键帧将会在所有图层被创建，而不只是当前图层。</p>
 </dd>
-<dt>Interpolate Selected Strokes</dt><dd><p>When enabled, only selected strokes will be interpolated.</p>
+<dt>对选定的画笔进行插值</dt><dd><p>当此模式开启时，只有选中的笔画会被插值。</p>
 </dd>
-<dt>Selection Mask</dt><dd><p>When enabled the interpolation only affect selected strokes.</p>
+<dt>选择蒙版</dt><dd><p>当开启时，只有选定的画笔受插值影响.</p>
 </dd>
 </dl>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>The <em>Interpolate</em> and <em>Sequence</em> tools work better when the strokes in the previous and next keyframes
-have the same amount of points. For example when there are duplicated strokes on different keyframes
-only with different location, rotation or scale.</p>
+<p>当前后关键帧中的笔画具有相同的点数时，<em>插值</em> 和 <em>序列</em> 工具工作得更好。比如，当在不同关键帧上复制的笔画仅位置、旋转或缩放不同时。</p>
 </div>
 </div>
 </div>
@@ -267,10 +259,10 @@ only with different location, rotation or scale.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="tools.html" class="btn btn-neutral float-right" title="Animation Tools" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="tools.html" class="btn btn-neutral float-right" title="动画工具" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="introduction.html" class="btn btn-neutral float-left" title="Introduction" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="introduction.html" class="btn btn-neutral float-left" title="简介" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -304,7 +296,7 @@ only with different location, rotation or scale.</p>
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

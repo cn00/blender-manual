@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Viewport Display &mdash; Blender Manual</title>
+  <title>视图显示 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Modifiers" href="../modifiers/index.html" />
-    <link rel="prev" title="Strokes" href="strokes.html" /> 
+    <link rel="next" title="修改器" href="../modifiers/index.html" />
+    <link rel="prev" title="笔画" href="strokes.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,51 +110,51 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Grease Pencil</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../introduction.html">Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../structure.html">Structure</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../primitives.html">Primitives</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../selecting.html">Selecting</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../multiframe.html">Multiframe</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="index.html">Properties</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="data.html">Object Data</a></li>
-<li class="toctree-l3"><a class="reference internal" href="layers.html">2D Layers</a></li>
-<li class="toctree-l3"><a class="reference internal" href="onion_skinning.html">Onion Skinning</a></li>
-<li class="toctree-l3"><a class="reference internal" href="strokes.html">Strokes</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">Viewport Display</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#options">Options</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#canvas">Canvas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">蜡笔</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../introduction.html">简介</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../structure.html">结构</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../primitives.html">基本体</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../selecting.html">选择</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../multiframe.html">多帧</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">属性</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="data.html">物体数据</a></li>
+<li class="toctree-l3"><a class="reference internal" href="layers.html">2D图层</a></li>
+<li class="toctree-l3"><a class="reference internal" href="onion_skinning.html">洋葱皮</a></li>
+<li class="toctree-l3"><a class="reference internal" href="strokes.html">笔画</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">视图显示</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#options">选项</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#canvas">画布</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../modifiers/index.html">Modifiers</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../visual_effects/index.html">Visual Effects</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../materials/index.html">Materials</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../animation/index.html">Animation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../index.html#modes">Modes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../modifiers/index.html">修改器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../visual_effects/index.html">视觉效果</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../materials/index.html">材质</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../animation/index.html">动画</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#modes">模式</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../render/index.html">Rendering</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../render/index.html">渲染</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -200,15 +200,15 @@
     
       <li><a href="../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../index.html">Grease Pencil</a> &raquo;</li>
+          <li><a href="../index.html">蜡笔</a> &raquo;</li>
         
-          <li><a href="index.html">Properties</a> &raquo;</li>
+          <li><a href="index.html">属性</a> &raquo;</li>
         
-      <li>Viewport Display</li>
+      <li>视图显示</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/grease_pencil/properties/display.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/grease_pencil/properties/display.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -219,40 +219,38 @@
            <div itemprop="articleBody">
             
   <div class="section" id="viewport-display">
-<h1>Viewport Display<a class="headerlink" href="#viewport-display" title="Permalink to this headline">¶</a></h1>
+<h1>视图显示<a class="headerlink" href="#viewport-display" title="Permalink to this headline">¶</a></h1>
 <div class="figure align-right" id="id1">
 <img alt="../../_images/grease-pencil_properties_display_panel.png" src="../../_images/grease-pencil_properties_display_panel.png" />
-<p class="caption"><span class="caption-text">Viewport Display panel.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">视图显示面板。</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
 <div class="section" id="options">
-<h2>Options<a class="headerlink" href="#options" title="Permalink to this headline">¶</a></h2>
-<p>Display settings for Edit Lines in <em>Edit Mode</em> and <em>Sculpt Mode</em>.</p>
+<h2>选项<a class="headerlink" href="#options" title="Permalink to this headline">¶</a></h2>
+<p>在 <em>编辑模式</em> 和 <em>雕刻模式</em> 中显示编辑线的设置。</p>
 <dl class="simple">
-<dt>Edit Line Color</dt><dd><p>Sets the color of the Edit Lines.</p>
+<dt>编辑线的颜色</dt><dd><p>设置编辑线的颜色。</p>
 </dd>
-<dt>Show Stroke Directions</dt><dd><p>Toggles the display of the strokes start point (green) and end point (red) to visualize the line direction.</p>
+<dt>显示笔画方向</dt><dd><p>通过切换笔画的开始点(绿色)和结束点(红色)的显示以显示线条方向。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="canvas">
-<h2>Canvas<a class="headerlink" href="#canvas" title="Permalink to this headline">¶</a></h2>
-<p>In 3D space sometimes is difficult to assess on which plane are you drawing.
-The Canvas is a display overlay helper that shows a grid at the current <em>Drawing Plane</em>.
-You can enable the Canvas visualization in the <a class="reference internal" href="../../editors/3dview/controls/overlays.html#dview-overlay-grease-pencil"><span class="std std-ref">Viewport Overlays</span></a>.</p>
-<p>See <a class="reference internal" href="../modes/draw/drawing_planes.html"><span class="doc">Drawing Plane</span></a> for more information.</p>
+<h2>画布<a class="headerlink" href="#canvas" title="Permalink to this headline">¶</a></h2>
+<p>在3D空间中，有时很难评估您在哪个平面上绘图。画布中在当前 <em>绘图平面</em> 处的显示网格是一个显示叠加辅助物体。 你可以在画布中开启 <a class="reference internal" href="../../editors/3dview/controls/overlays.html#dview-overlay-grease-pencil"><span class="std std-ref">视图叠加</span></a>。</p>
+<p>更多信息见 <a class="reference internal" href="../modes/draw/drawing_planes.html"><span class="doc">绘制平面</span></a>。</p>
 <dl class="simple">
-<dt>Color</dt><dd><p>Color of the Canvas grid lines.</p>
+<dt>颜色</dt><dd><p>画布中网格线颜色。</p>
 </dd>
-<dt>Scale X/Y</dt><dd><p>Defines the X and Y scale of the Canvas.</p>
+<dt>比例 X/Y</dt><dd><p>X 和 Y 定义画布的比例。</p>
 </dd>
-<dt>Offset X/Y</dt><dd><p>Sets the Canvas position offset from the object’s origin.</p>
+<dt>偏移 X/Y</dt><dd><p>设置画布位置相对物体原点的偏移量。</p>
 </dd>
-<dt>Subdivisions</dt><dd><p>Specifies the number of subdivisions to use for the grid.</p>
+<dt>细分</dt><dd><p>指定为网格使用的子分区的数量。</p>
 </dd>
 </dl>
 <div class="figure align-right" id="id2">
 <img alt="../../_images/grease-pencil_properties_display_canvas.png" src="../../_images/grease-pencil_properties_display_canvas.png" />
-<p class="caption"><span class="caption-text">Canvas example on the XZ drawing plane using a green color grid.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">在XZ绘图平面上使用绿色网格的画面举例。</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 </div>
@@ -265,10 +263,10 @@ You can enable the Canvas visualization in the <a class="reference internal" hre
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../modifiers/index.html" class="btn btn-neutral float-right" title="Modifiers" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="../modifiers/index.html" class="btn btn-neutral float-right" title="修改器" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="strokes.html" class="btn btn-neutral float-left" title="Strokes" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="strokes.html" class="btn btn-neutral float-left" title="笔画" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -302,7 +300,7 @@ You can enable the Canvas visualization in the <a class="reference internal" hre
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

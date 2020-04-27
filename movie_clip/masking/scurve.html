@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>S-Curves &mdash; Blender Manual</title>
+  <title>S曲线 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Selecting &amp; Editing" href="selecting_editing.html" />
-    <link rel="prev" title="Introduction" href="introduction.html" /> 
+    <link rel="next" title="选择 &amp; 编辑" href="selecting_editing.html" />
+    <link rel="prev" title="介绍" href="introduction.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,41 +110,41 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../render/index.html">Rendering</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Tracking &amp; Masking</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../tracking/index.html">Motion Tracking</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="index.html">Masking</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="introduction.html">Introduction</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">S-Curves</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#primitives">Primitives</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../render/index.html">渲染</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../compositing/index.html">合成</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">跟踪 &amp; 遮罩</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../tracking/index.html">运动跟踪，摄像机反求</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">制作遮罩</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="introduction.html">介绍</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">S曲线</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#primitives">基本体</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="selecting_editing.html">Selecting &amp; Editing</a></li>
-<li class="toctree-l3"><a class="reference internal" href="properties.html">Properties</a></li>
+<li class="toctree-l3"><a class="reference internal" href="selecting_editing.html">选择 &amp; 编辑</a></li>
+<li class="toctree-l3"><a class="reference internal" href="properties.html">属性</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../editors/clip/index.html">Movie Clip Editor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../editors/clip/index.html">影片剪辑编辑器</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -190,15 +190,15 @@
     
       <li><a href="../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../index.html">Tracking &amp; Masking</a> &raquo;</li>
+          <li><a href="../index.html">跟踪 &amp; 遮罩</a> &raquo;</li>
         
-          <li><a href="index.html">Masking</a> &raquo;</li>
+          <li><a href="index.html">制作遮罩</a> &raquo;</li>
         
-      <li>S-Curves</li>
+      <li>S曲线</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/movie_clip/masking/scurve.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/movie_clip/masking/scurve.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -209,39 +209,29 @@
            <div itemprop="articleBody">
             
   <div class="section" id="s-curves">
-<h1>S-Curves<a class="headerlink" href="#s-curves" title="Permalink to this headline">¶</a></h1>
-<p>The curve type used for creating mask splines is almost a Bézier curve, but with some differences.
-Smooth edges of the mask are defined by feathering.
-The curve needed to support feathering in a way that stuck to the curve as you edited it,
-for ease of editing an animation. These are called S-curves.</p>
-<p>Besides the handles, every control point also has points that define the feather between
-the current point and the next point on the spline.
-Each feather point is stored in UW space,
-where U means position across spline segment, and W (weight) means distance between main spline and feather points.</p>
+<h1>S曲线<a class="headerlink" href="#s-curves" title="Permalink to this headline">¶</a></h1>
+<p>用于创建遮罩样条线的曲线类型几乎都是贝塞尔曲线，但也有不同的算法曲线存在。遮罩的平滑边缘通过羽化定义。为了便于编辑动画，曲线需要以编辑时固定在曲线上的方式支持羽化。这些被称为S曲线。</p>
+<p>除了控制柄，每个控制点还具有定义当前点和样条曲线上下一点之间的羽化的点。每个羽化点存储在UW空间中，其中U表示穿过样条线段的位置，W(权重)表示主样条线和羽化点之间的距离。</p>
 <div class="figure align-default" id="id1">
 <a class="reference internal image-reference" href="../../_images/movie-clip_masking_scurve_schematic.svg"><img alt="../../_images/movie-clip_masking_scurve_schematic.svg" src="../../_images/movie-clip_masking_scurve_schematic.svg" width="420px" /></a>
-<p class="caption"><span class="caption-text">S-Curve explained.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">S-曲线 解释。</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
-<p>This allows for deforming the main spline in almost any way,
-and the feather will be updated automatically to reflect that change.</p>
-<p>For example if there is just rotation of the spline,
-feather would stay completely unchanged. If one point’s feather is moved,
-the other feathers will be automatically stretched uniformly along that segment
-and the overall shape will be almost the same as artists would want it to be.</p>
+<p>这允许以几乎任何方式使主样条变形，并且羽化将自动更新以反映该变化。</p>
+<p>例如，如果只是旋转样条线，羽化将保持完全不变。如果一个点的羽化被移动，其他羽化将自动沿着该线段均匀拉伸，并且整体形状将与艺术家希望的那样几乎相同。</p>
 <div class="section" id="primitives">
-<h2>Primitives<a class="headerlink" href="#primitives" title="Permalink to this headline">¶</a></h2>
+<h2>基本体<a class="headerlink" href="#primitives" title="Permalink to this headline">¶</a></h2>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
 <dt class="field-odd">Tool</dt>
-<dd class="field-odd"><p><span class="menuselection">Toolbar ‣ Mask ‣ Add</span></p>
+<dd class="field-odd"><p><span class="menuselection">工具栏 ‣ 遮罩 ‣ 添加</span></p>
 </dd>
-<dt class="field-even">Hotkey</dt>
+<dt class="field-even">快捷键</dt>
 <dd class="field-even"><p><kbd class="kbd docutils literal notranslate">Shift-A</kbd></p>
 </dd>
 </dl>
 </div>
-<p>There are two primitives available: a Bézier Circle and a Square with vector handles.</p>
+<p>有两个可用的基本体：一个贝塞尔圆和一个带有矢量手柄的正方形。</p>
 </div>
 </div>
 
@@ -253,10 +243,10 @@ and the overall shape will be almost the same as artists would want it to be.</p
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="selecting_editing.html" class="btn btn-neutral float-right" title="Selecting &amp; Editing" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="selecting_editing.html" class="btn btn-neutral float-right" title="选择 &amp; 编辑" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="introduction.html" class="btn btn-neutral float-left" title="Introduction" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="introduction.html" class="btn btn-neutral float-left" title="介绍" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -290,7 +280,7 @@ and the overall shape will be almost the same as artists would want it to be.</p
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

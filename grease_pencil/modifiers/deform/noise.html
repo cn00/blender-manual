@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Noise Modifier &mdash; Blender Manual</title>
+  <title>噪波修改器 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Offset Modifier" href="offset.html" />
-    <link rel="prev" title="Lattice Modifier" href="lattice.html" /> 
+    <link rel="next" title="偏移修改器" href="offset.html" />
+    <link rel="prev" title="晶格修改器" href="lattice.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,56 +110,56 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Grease Pencil</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../structure.html">Structure</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../primitives.html">Primitives</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../selecting.html">Selecting</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../multiframe.html">Multiframe</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../properties/index.html">Properties</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="../index.html">Modifiers</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="../introduction.html">Introduction</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../generate/index.html">Generate</a></li>
-<li class="toctree-l3 current"><a class="reference internal" href="index.html">Deform</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="armature.html">Armature Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="hook.html">Hook Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="lattice.html">Lattice Modifier</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">Noise Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="offset.html">Offset Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="smooth.html">Smooth Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="thickness.html">Thickness Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="time_offset.html">Time Offset Modifier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">蜡笔</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">简介</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../structure.html">结构</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../primitives.html">基本体</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../selecting.html">选择</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../multiframe.html">多帧</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../properties/index.html">属性</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html">修改器</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../introduction.html">简介</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../generate/index.html">生成</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="index.html">变形</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="armature.html">骨架修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="hook.html">钩挂修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="lattice.html">晶格修改器</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">噪波修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="offset.html">偏移修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="smooth.html">平滑修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="thickness.html">线宽修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="time_offset.html">时间偏移修改器</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../color/index.html">Color</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../color/index.html">颜色</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../visual_effects/index.html">Visual Effects</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../materials/index.html">Materials</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../animation/index.html">Animation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../index.html#modes">Modes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../visual_effects/index.html">视觉效果</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../materials/index.html">材质</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../animation/index.html">动画</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../index.html#modes">模式</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">Rendering</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">渲染</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -205,17 +205,17 @@
     
       <li><a href="../../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../../index.html">Grease Pencil</a> &raquo;</li>
+          <li><a href="../../index.html">蜡笔</a> &raquo;</li>
         
-          <li><a href="../index.html">Modifiers</a> &raquo;</li>
+          <li><a href="../index.html">修改器</a> &raquo;</li>
         
-          <li><a href="index.html">Deform</a> &raquo;</li>
+          <li><a href="index.html">变形</a> &raquo;</li>
         
-      <li>Noise Modifier</li>
+      <li>噪波修改器</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/grease_pencil/modifiers/deform/noise.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/grease_pencil/modifiers/deform/noise.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -226,48 +226,46 @@
            <div itemprop="articleBody">
             
   <div class="section" id="noise-modifier">
-<span id="bpy-types-noisepencilmodifier"></span><h1>Noise Modifier<a class="headerlink" href="#noise-modifier" title="Permalink to this headline">¶</a></h1>
-<p>The <em>Noise</em> Modifier changes the value of one or more stroke/points properties like:
-location, strength, thickness or UV texture position
-by adding varied values that make the line unstable and noisy.</p>
-<p>Random values can be used for the noise factor for more vivid effects.</p>
+<span id="bpy-types-noisepencilmodifier"></span><h1>噪波修改器<a class="headerlink" href="#noise-modifier" title="Permalink to this headline">¶</a></h1>
+<p><em>噪波</em> 修改器通过添加使线条不稳定和有噪波的变化值来更改一个或多个笔画/点属性的值，如：位置，强度，厚度或UV纹理位置。</p>
+<p>随机值可用于噪波参数，以获得更生动的效果。</p>
 <div class="section" id="options">
-<h2>Options<a class="headerlink" href="#options" title="Permalink to this headline">¶</a></h2>
+<h2>选项<a class="headerlink" href="#options" title="Permalink to this headline">¶</a></h2>
 <div class="figure align-right" id="id1">
 <img alt="../../../_images/grease-pencil_modifiers_deform_noise_panel.png" src="../../../_images/grease-pencil_modifiers_deform_noise_panel.png" />
-<p class="caption"><span class="caption-text">Noise Modifier.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">噪波修改器。</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
 <dl>
-<dt>Factor</dt><dd><p>Strength of the noise effect.</p>
+<dt>参数</dt><dd><p>噪波的影响强度。</p>
 <dl class="simple">
-<dt>Random Value</dt><dd><p>When enabled, the strength of the noise uses a random value.</p>
+<dt>随机值</dt><dd><p>启用后，噪波强度使用随机值。</p>
 </dd>
-<dt>Step</dt><dd><p>Number of frames before using a new random value.</p>
+<dt>步骤</dt><dd><p>使用新随机值之前的帧数。</p>
 </dd>
-<dt>Seed</dt><dd><p><a class="reference internal" href="../../../glossary/index.html#term-seed"><span class="xref std std-term">Seed</span></a> used by the pseudo-random number generator.</p>
+<dt>随机种</dt><dd><p>用于伪随机数生成器的 <a class="reference internal" href="../../../glossary/index.html#term-random-seed"><span class="xref std std-term">随机种</span></a> 。</p>
 </dd>
 </dl>
 </dd>
-<dt>Full Stroke</dt><dd><p>When enabled, the effect is applied to the stroke as a whole instead of points individually.</p>
+<dt>全部笔画</dt><dd><p>启用后，效果将作为整体应用于笔画，而不是单独应用于点。</p>
 </dd>
-<dt>Move Extremes</dt><dd><p>When disabled, the effect does not affect the stroke start and end points.</p>
+<dt>移动极端</dt><dd><p>禁用时，效果不会影响笔画的起点和终点。</p>
 </dd>
-<dt>Affect</dt><dd><p>Combination of stroke/points properties that will be affected by the noise factor.</p>
+<dt>影响</dt><dd><p>将受噪波系数影响的笔画/点属性的组合。</p>
 <dl class="simple">
-<dt>Position</dt><dd><p>Noise affect the point location.</p>
+<dt>位置</dt><dd><p>噪波影响点位置。</p>
 </dd>
-<dt>Strength</dt><dd><p>Noise affect the point strength (opacity).</p>
+<dt>强度</dt><dd><p>噪波会影响点强度(不透明度)。</p>
 </dd>
-<dt>Thickness</dt><dd><p>Noise affect the point thickness.</p>
+<dt>厚度</dt><dd><p>噪波会影响点厚度。</p>
 </dd>
-<dt>UV</dt><dd><p>Noise affect the point UV rotation.</p>
+<dt>UV</dt><dd><p>噪波影响点UV旋转。</p>
 </dd>
 </dl>
 </dd>
 </dl>
 <div class="section" id="influence-filters">
-<h3>Influence Filters<a class="headerlink" href="#influence-filters" title="Permalink to this headline">¶</a></h3>
-<p>See <a class="reference internal" href="../introduction.html#grease-pencil-modifier-influence-filters"><span class="std std-ref">Influence Filters</span></a>.</p>
+<h3>过滤影响<a class="headerlink" href="#influence-filters" title="Permalink to this headline">¶</a></h3>
+<p>查看 <a class="reference internal" href="../introduction.html#grease-pencil-modifier-influence-filters"><span class="std std-ref">过滤器影响</span></a>。</p>
 </div>
 </div>
 </div>
@@ -280,10 +278,10 @@ by adding varied values that make the line unstable and noisy.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="offset.html" class="btn btn-neutral float-right" title="Offset Modifier" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="offset.html" class="btn btn-neutral float-right" title="偏移修改器" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="lattice.html" class="btn btn-neutral float-left" title="Lattice Modifier" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="lattice.html" class="btn btn-neutral float-left" title="晶格修改器" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -317,7 +315,7 @@ by adding varied values that make the line unstable and noisy.</p>
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

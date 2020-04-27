@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Stretch To Constraint &mdash; Blender Manual</title>
+  <title>Stretch To Constraint 拉伸至约束 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Track To Constraint" href="track_to.html" />
-    <link rel="prev" title="Spline IK Constraint" href="spline_ik.html" /> 
+    <link rel="next" title="Track To Constraint 标准跟踪约束" href="track_to.html" />
+    <link rel="prev" title="Spline IK Constraint 样条线IK约束" href="spline_ik.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,56 +110,56 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Animation &amp; Rigging</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../keyframes/index.html">Keyframes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../armatures/index.html">Armatures</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../lattice.html">Lattice</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="../index.html">Constraints</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="../introduction.html">Introduction</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../index.html#interface">Interface</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../index.html#motion-tracking">Motion Tracking</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../index.html#transform">Transform</a></li>
-<li class="toctree-l3 current"><a class="reference internal" href="../index.html#tracking">Tracking</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="clamp_to.html">Clamp To Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="damped_track.html">Damped Track Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="ik_solver.html">IK Solver Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="locked_track.html">Locked Track Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="spline_ik.html">Spline IK Constraint</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">Stretch To Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="track_to.html">Track To Constraint</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">动画 &amp; 绑定</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">简介</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../keyframes/index.html">关键帧</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../armatures/index.html">骨架</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lattice.html">晶格</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html">约束</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../introduction.html">简介</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../index.html#interface">界面</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../index.html#motion-tracking">运动追踪</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../index.html#transform">变换</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../index.html#tracking">跟踪</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="clamp_to.html">Clamp To Constraint 钳制到约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="damped_track.html">Damped Track Constraint  阻尼跟踪约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ik_solver.html">IK Solver Constraint 反向运动学约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="locked_track.html">Locked Track Constraint 锁定跟踪约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="spline_ik.html">Spline IK Constraint  样条线IK约束</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Stretch To Constraint 拉伸至约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="track_to.html">Track To Constraint 标准跟踪约束</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../index.html#relationship">Relationship</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../index.html#relationship">关系</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../actions.html">Actions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../drivers/index.html">Drivers</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../markers.html">Markers</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../shape_keys/index.html">Shape Keys</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../motion_paths.html">Motion Paths</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../actions.html">动作</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../drivers/index.html">驱动器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../markers.html">标记</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../shape_keys/index.html">形态键</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../motion_paths.html">运动路径</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">Rendering</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">渲染</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -205,15 +205,15 @@
     
       <li><a href="../../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../../index.html">Animation &amp; Rigging</a> &raquo;</li>
+          <li><a href="../../index.html">动画 &amp; 绑定</a> &raquo;</li>
         
-          <li><a href="../index.html">Constraints</a> &raquo;</li>
+          <li><a href="../index.html">约束</a> &raquo;</li>
         
-      <li>Stretch To Constraint</li>
+      <li>Stretch To Constraint 拉伸至约束</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/animation/constraints/tracking/stretch_to.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/animation/constraints/tracking/stretch_to.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -224,56 +224,36 @@
            <div itemprop="articleBody">
             
   <div class="section" id="stretch-to-constraint">
-<span id="bpy-types-stretchtoconstraint"></span><h1>Stretch To Constraint<a class="headerlink" href="#stretch-to-constraint" title="Permalink to this headline">¶</a></h1>
-<p>The <em>Stretch To</em> constraint causes its owner to rotate and scale its Y axis towards its target.
-So it has the same tracking behavior as the <a class="reference internal" href="track_to.html"><span class="doc">Track To constraint</span></a>.
-However, it assumes that the Y axis will be the tracking and stretching axis,
-and does not give you the option of using a different one.</p>
-<p>It also optionally has some raw volumetric features,
-so the owner can squash down as the target moves closer,
-or thin out as the target moves farther away.
-Note however, that it is not the real volume of the owner which is thus preserved,
-but rather the virtual one defined by its scale values. Hence,
-this feature works even with non-volumetric objects, like empties, 2D meshes or surfaces,
-and curves.</p>
-<p>With bones, the “volumetric” variation scales them along their own local axes
-(remember that the local Y axis of a bone is aligned with it, from root to tip).</p>
+<span id="bpy-types-stretchtoconstraint"></span><h1>Stretch To Constraint 拉伸至约束<a class="headerlink" href="#stretch-to-constraint" title="Permalink to this headline">¶</a></h1>
+<p><em>拉伸至</em> 约束使其自身朝向其目标旋转和缩放其Y轴。因此它具有和标准跟随约束( <a class="reference internal" href="track_to.html"><span class="doc">Track To constraint</span></a>)相同的跟随行为。然而，它假定Y轴将是跟踪和拉伸轴，并没有给你选择使用一个不同的轴的选项。</p>
+<p>它也可以选择一些原始的体积特征，因此所以当目标越靠近时，自身就越受到挤压，当目标远离时，越厚。但请注意，它不是自身因此被保存的实际体积，而是虚拟的定义其缩放值。因此，这个功能甚至工作于非体积的对象，如空物体，二维网格或表面，和曲线。</p>
+<p>对于骨骼，“体积变化(volumetric variation)”就沿着它们自己的局部轴(记住骨头的局部Y轴与它对齐，从根部到顶端)。</p>
 <div class="section" id="options">
-<h2>Options<a class="headerlink" href="#options" title="Permalink to this headline">¶</a></h2>
+<h2>选项<a class="headerlink" href="#options" title="Permalink to this headline">¶</a></h2>
 <dl>
-<dt>Target</dt><dd><p><a class="reference internal" href="../../../interface/controls/templates/data_block.html#ui-data-id"><span class="std std-ref">Data ID</span></a> used to select the constraints target, and is not functional (red state) when it has none.</p>
+<dt>Target 目标</dt><dd><p><a class="reference internal" href="../../../interface/controls/templates/data_block.html#ui-data-id"><span class="std std-ref">数据ID</span></a> 用于选择约束目标，当它为空时将不起作用(标题栏名称背景为红色状态)。</p>
 </dd>
-<dt>Rest Length</dt><dd><p>This number field sets the rest distance between the owner and its target, i.e.
-the distance at which there is no deformation (stretching) of the owner.</p>
+<dt>Rest Length 静止长度</dt><dd><p>该数字按钮值为约束对象与其约束目标之间的剩余距离，即约束对象没有变形(拉伸)的距离。</p>
 <dl class="simple">
-<dt>Reset</dt><dd><p>When clicked, this small button will recalculate the <em>Rest Length</em> value,
-so that it corresponds to the actual distance between the owner and its target
-(i.e. the distance before this constraint is applied).</p>
+<dt>Reset 重置</dt><dd><p>当单击这个小按钮时，将重新计算 <em>Rest Length 初始位置间距</em> 的值，所以，它对应于自身和其目标 (即应用此约束之前距离) 之间的实际距离。</p>
 </dd>
 </dl>
 </dd>
 </dl>
 <dl id="constraints-stretch-to-volume-preservation">
-<dt>Volume Variation</dt><dd><p>This number field controls the amount of “volume” variation exponentially to the stretching amount.
-Note that the 0.0 value is not allowed, if you want to disable the volume feature,
-use the <em>None</em> button (see below).</p>
+<dt>Volume Variation 体积变化</dt><dd><p>这个数字按钮控制 &quot;体积(volume)&quot; 的变化与拉伸量成指数关系。请注意，数值不允许为零，如果你想禁用体积功能，使用 <em>None无</em> 按钮(见下文)。</p>
 </dd>
-<dt>Volume Min/Max</dt><dd><p>Limits for the volume preservation to a minimum and maximum scaling each by a <em>Bulge</em> factor.</p>
+<dt>Volume Min/Max 最小/最大体积</dt><dd><p>限制体积维持到最小和最大缩放由每个 <em>Bulge膨胀</em> 因子。</p>
 </dd>
-<dt>Smooth</dt><dd><p>Smoothness factor to make limits less visible.</p>
+<dt>Smooth 平滑</dt><dd><p>平滑系数使限制不可见。</p>
 </dd>
-<dt>Volume</dt><dd><p>These buttons control which of the X and/or Z axes should be affected (scaled up/down)
-to preserve the virtual volume while stretching along the Y axis.
-If you enable the <em>none</em> button, the volumetric features are disabled.</p>
+<dt>Volume 体积</dt><dd><p>这些按钮控制沿Y轴拉伸时的x和/或Z轴应受到的影响(放大/缩小)，以保持虚拟的体积。如果启用 <em>none(无)</em> 按钮，则禁用体积功能。</p>
 </dd>
-<dt>Rotation</dt><dd><p>Specifies how the owner should be rotated to track the target with its Y axis.</p>
+<dt>旋转</dt><dd><p>指定如何旋转所有者以使用其 Y 轴跟踪目标。</p>
 <dl class="simple">
-<dt>XZ, ZX</dt><dd><p>These buttons are equivalent to the <em>Up</em> ones of
-the <a class="reference internal" href="track_to.html"><span class="doc">Track To constraint</span></a>:
-the owner is rotated around two local axes in the specified order.</p>
+<dt>XZ, ZX</dt><dd><p>这些按钮相当于 <em>向上</em> 的标准跟随约束( <a class="reference internal" href="track_to.html"><span class="doc">Track To constraint</span></a> ): 其所有者以指定顺序绕两个局部轴向旋转。</p>
 </dd>
-<dt>Swing</dt><dd><p>The constraint uses a single <a class="reference internal" href="../../../glossary/index.html#term-swing"><span class="xref std std-term">Swing</span></a> rotation, equivalent to
-the <a class="reference internal" href="damped_track.html"><span class="doc">Damped Track constraint</span></a>.</p>
+<dt>摇摆</dt><dd><p>约束使用单个 <a class="reference internal" href="../../../glossary/index.html#term-swing"><span class="xref std std-term">摆动</span></a> 旋转，等同于 <a class="reference internal" href="damped_track.html"><span class="doc">阻尼跟踪约束</span></a>。</p>
 </dd>
 </dl>
 </dd>
@@ -290,10 +270,10 @@ the <a class="reference internal" href="damped_track.html"><span class="doc">Dam
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="track_to.html" class="btn btn-neutral float-right" title="Track To Constraint" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="track_to.html" class="btn btn-neutral float-right" title="Track To Constraint 标准跟踪约束" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="spline_ik.html" class="btn btn-neutral float-left" title="Spline IK Constraint" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="spline_ik.html" class="btn btn-neutral float-left" title="Spline IK Constraint 样条线IK约束" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -327,7 +307,7 @@ the <a class="reference internal" href="damped_track.html"><span class="doc">Dam
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

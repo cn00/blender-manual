@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Startup Scene &mdash; Blender Manual</title>
+  <title>启动场景 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Object Modes" href="modes.html" />
-    <link rel="prev" title="Introduction" href="introduction.html" /> 
+    <link rel="next" title="物体模式" href="modes.html" />
+    <link rel="prev" title="简介" href="introduction.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,65 +110,65 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Editors</a><ul class="current">
-<li class="toctree-l2 current"><a class="reference internal" href="index.html">3D Viewport</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="introduction.html">Introduction</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">Startup Scene</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#elements">Elements</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#text-info">Text Info</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">编辑器</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">3D视图</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="introduction.html">简介</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">启动场景</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#elements">元素</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#text-info">文字信息</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="modes.html">Object Modes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="navigate/index.html">Navigating</a></li>
-<li class="toctree-l3"><a class="reference internal" href="3d_cursor.html">3D Cursor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="selecting.html">Selecting</a></li>
-<li class="toctree-l3"><a class="reference internal" href="controls/index.html">Controls</a></li>
-<li class="toctree-l3"><a class="reference internal" href="toolbar/index.html">Toolbar</a></li>
-<li class="toctree-l3"><a class="reference internal" href="properties/index.html">Properties</a></li>
-<li class="toctree-l3"><a class="reference internal" href="viewport_render.html">Viewport Render</a></li>
+<li class="toctree-l3"><a class="reference internal" href="modes.html">物体模式</a></li>
+<li class="toctree-l3"><a class="reference internal" href="navigate/index.html">漫游</a></li>
+<li class="toctree-l3"><a class="reference internal" href="3d_cursor.html">3D游标</a></li>
+<li class="toctree-l3"><a class="reference internal" href="selecting.html">选择</a></li>
+<li class="toctree-l3"><a class="reference internal" href="controls/index.html">控件</a></li>
+<li class="toctree-l3"><a class="reference internal" href="toolbar/index.html">工具栏</a></li>
+<li class="toctree-l3"><a class="reference internal" href="properties/index.html">属性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="viewport_render.html">视图渲染</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../image/index.html">Image Editor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../uv/index.html">UV Editor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../shader_editor.html">Shader Editor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../compositing/index.html">Compositor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../texture_node/index.html">Texture Nodes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../video_editing/index.html">Video Sequencer</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../clip/index.html">Movie Clip Editor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../dope_sheet/index.html">Dope Sheet</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../timeline.html">Timeline</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../graph_editor/index.html">Graph Editor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../drivers_editor.html">Drivers Editor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../nla/index.html">Nonlinear Animation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../text_editor.html">Text Editor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../python_console.html">Python Console</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../info_editor.html">Info Editor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../outliner.html">Outliner</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../properties_editor.html">Properties Editor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../file_browser.html">File Browser</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../preferences/index.html">Preferences</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../image/index.html">图像编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../uv/index.html">UV编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../shader_editor.html">着色器编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../compositing/index.html">合成器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../texture_node/index.html">纹理节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../video_editing/index.html">视频序列编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../clip/index.html">影片剪辑编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../dope_sheet/index.html">动画摄影表</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../timeline.html">时间线</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../graph_editor/index.html">曲线编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../drivers_editor.html">驱动器编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nla/index.html">非线性动画</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../text_editor.html">文本编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../python_console.html">Python 控制台</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../info_editor.html">信息编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../outliner.html">大纲视图</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../properties_editor.html">属性编辑器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../file_browser.html">文件浏览器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../preferences/index.html">偏好设置</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../render/index.html">Rendering</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../render/index.html">渲染</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -214,15 +214,15 @@
     
       <li><a href="../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../index.html">Editors</a> &raquo;</li>
+          <li><a href="../index.html">编辑器</a> &raquo;</li>
         
-          <li><a href="index.html">3D Viewport</a> &raquo;</li>
+          <li><a href="index.html">3D视图</a> &raquo;</li>
         
-      <li>Startup Scene</li>
+      <li>启动场景</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/editors/3dview/startup_scene.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/editors/3dview/startup_scene.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -233,55 +233,40 @@
            <div itemprop="articleBody">
             
   <div class="section" id="startup-scene">
-<h1>Startup Scene<a class="headerlink" href="#startup-scene" title="Permalink to this headline">¶</a></h1>
-<p>After closing the splash, the startup scene is displayed in the 3D View
-if no other blend-file was loaded. A customized startup scene
-can be saved as a part of the <a class="reference internal" href="../../getting_started/configuration/defaults.html"><span class="doc">startup file</span></a>.</p>
+<h1>启动场景<a class="headerlink" href="#startup-scene" title="Permalink to this headline">¶</a></h1>
+<p>关闭启动画面后，如果没有加载其他blend文件，则启动场景(Startup Scene)将显示在3D视图中。自定义的启动场景可以保存为 <a class="reference internal" href="../../getting_started/configuration/defaults.html"><span class="doc">启动文件</span></a> 的一部分。</p>
 <div class="figure align-default" id="id1">
 <img alt="../../_images/editors_3dview_startup-scene_labels.png" src="../../_images/editors_3dview_startup-scene_labels.png" />
-<p class="caption"><span class="caption-text">The Startup scene.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">启动场景。</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
 <div class="section" id="elements">
-<h2>Elements<a class="headerlink" href="#elements" title="Permalink to this headline">¶</a></h2>
+<h2>元素<a class="headerlink" href="#elements" title="Permalink to this headline">¶</a></h2>
 <dl>
-<dt>Cube</dt><dd><p>The gray cube in the center of the scene is a <a class="reference internal" href="../../modeling/meshes/index.html"><span class="doc">mesh</span></a> object.
-Because the cube is selected it is displayed with an orange outline.</p>
+<dt>立方体</dt><dd><p>在场景中间的灰色立方体(Cube)是一个 <a class="reference internal" href="../../modeling/meshes/index.html"><span class="doc">网格</span></a> 物体。因为这个立方体是被选中的所以显示有橙色的轮廓线。</p>
 <dl class="simple">
-<dt>Object Origin</dt><dd><p>The <a class="reference internal" href="../../scene_layout/object/origin.html"><span class="doc">Origin of the object</span></a> is displayed as
-an orange dot and it marks the cube’s (relative) position.</p>
+<dt>物体原点</dt><dd><p><a class="reference internal" href="../../scene_layout/object/origin.html"><span class="doc">物体原点</span></a> (Object Origin)是一个显示为橙色的点，用来标记立方体的(相对)位置。</p>
 </dd>
 </dl>
 </dd>
-<dt>Light</dt><dd><p>The circles with a thin line to the bottom is a light source illuminating the cube.
-Lights in: <a class="reference internal" href="../../render/lights/light_object.html"><span class="doc">General Settings</span></a>.</p>
+<dt>灯光</dt><dd><p>底部有细线的圆圈是照亮立方体的光源。灯光(Light)内容详见：<a class="reference internal" href="../../render/lights/light_object.html"><span class="doc">常规设置</span></a>。</p>
 </dd>
-<dt>Camera</dt><dd><p>The pyramid with a big triangle pointing upward is the camera used as point of view for rendering.
-See also: cameras in <a class="reference internal" href="../../render/cameras.html"><span class="doc">Cycles</span></a>.</p>
+<dt>相机</dt><dd><p>带有向上大三角形的锥体是用作渲染视角的相机(Camera)。参见 <a class="reference internal" href="../../render/cameras.html"><span class="doc">Cycles渲染引擎</span></a> 。</p>
 </dd>
-<dt>3D Cursor</dt><dd><p>The <a class="reference internal" href="3d_cursor.html"><span class="doc">3D cursor</span></a>, a cross with a red-and-white circle,
-is used for placing objects in the scene.</p>
+<dt>3D游标</dt><dd><p><a class="reference internal" href="3d_cursor.html"><span class="doc">3D游标</span></a> (3D Cursor)，一个有着红白圆圈的十字形，用来在场景中放置物体。</p>
 </dd>
-<dt>Grid Floor</dt><dd><p>The gray squares forming a floor mark the zero height of the world.
-The red and green lines are the axis of the world coordinate system.
-They meet at the origin, which is also the position of the <em>Cube</em>.
-The Grid Floor settings are in the <a class="reference internal" href="controls/overlays.html"><span class="doc">Viewport Overlay</span></a>.</p>
+<dt>栅格平面</dt><dd><p>灰色方块形成的平面标示着世界的零高度。 红线和绿线是世界坐标轴，相交于原点，即 <em>立方体</em> 所在的位置。 栅格平面(Grid Floor)的设置位于 <a class="reference internal" href="controls/overlays.html"><span class="doc">视图覆盖</span></a> 。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="text-info">
-<h2>Text Info<a class="headerlink" href="#text-info" title="Permalink to this headline">¶</a></h2>
-<p>The visibility and settings of the overlays can be set
-in the <a class="reference internal" href="controls/overlays.html"><span class="doc">Viewport Overlay</span></a>.</p>
+<h2>文字信息<a class="headerlink" href="#text-info" title="Permalink to this headline">¶</a></h2>
+<p>可以在 <a class="reference internal" href="controls/overlays.html"><span class="doc">视图覆盖</span></a> 中设置覆盖层的可见性和设置。</p>
 <dl class="simple">
-<dt>View Name</dt><dd><p>If the viewport camera is not aligned, the view is named “User” plus
-the perspective of the viewport camera.</p>
+<dt>视图名称</dt><dd><p>如果视图相机未对齐，则视图将命名为“用户”加上视图相机的“透视&quot;。</p>
 </dd>
-<dt>Playback FPS</dt><dd><p>Displays the Frames Per Second screen rate, while playing an animation back.</p>
+<dt>播放帧率</dt><dd><p>在播放动画时显示每秒钟的帧数(FPS)。</p>
 </dd>
-<dt>Object Info</dt><dd><p>Shown in brackets is the current frame. Followed by the path of the <a class="reference internal" href="../../scene_layout/object/selecting.html#object-active"><span class="std std-ref">active object</span></a>.
-And optionally the selected <a class="reference internal" href="../../animation/shape_keys/index.html"><span class="doc">shape key</span></a> and
-in brackets (&lt;&gt;) the <a class="reference internal" href="../../animation/markers.html"><span class="doc">Markers</span></a> name on the current frame.
-The color of the Object Info is set by the <a class="reference internal" href="../../animation/introduction.html#animation-state-colors"><span class="std std-ref">State Colors</span></a> (keyframe only).</p>
+<dt>物体信息</dt><dd><p>括号中显示当前帧的序数。 接下来是 <a class="reference internal" href="../../scene_layout/object/selecting.html#object-active"><span class="std std-ref">活动物体</span></a> 的路径。 并且可选显示所选 <a class="reference internal" href="../../animation/shape_keys/index.html"><span class="doc">形态键</span></a> 、尖括号(&lt;&gt;)及当前帧上的 <a class="reference internal" href="../../animation/markers.html"><span class="doc">标记</span></a> 名称。 物体信息的颜色由 <a class="reference internal" href="../../animation/introduction.html#animation-state-colors"><span class="std std-ref">状态颜色</span></a> (仅限关键帧)设置。</p>
 </dd>
 </dl>
 </div>
@@ -295,10 +280,10 @@ The color of the Object Info is set by the <a class="reference internal" href=".
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="modes.html" class="btn btn-neutral float-right" title="Object Modes" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="modes.html" class="btn btn-neutral float-right" title="物体模式" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="introduction.html" class="btn btn-neutral float-left" title="Introduction" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="introduction.html" class="btn btn-neutral float-left" title="简介" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -332,7 +317,7 @@ The color of the Object Info is set by the <a class="reference internal" href=".
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

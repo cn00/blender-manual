@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>3D View &mdash; Blender Manual</title>
+  <title>3D视图 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Graphics Hardware" href="gpu/index.html" />
-    <link rel="prev" title="Startup" href="startup.html" /> 
+    <link rel="next" title="图形硬件" href="gpu/index.html" />
+    <link rel="prev" title="启动" href="startup.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,57 +110,57 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../render/index.html">Rendering</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="index.html">Troubleshooting</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="startup.html">Startup</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">3D View</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#rendering">Rendering</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#depth-buffer-glitches">Depth Buffer Glitches</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#objects-invisible-in-camera-view">Objects Invisible in Camera View</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../render/index.html">渲染</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">问题排查</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="startup.html">启动</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">3D视图</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#rendering">绘制</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#depth-buffer-glitches">深度缓冲区故障</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#objects-invisible-in-camera-view">物体在相机视图中不可见</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#performance">Performance</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#slow-rendering">Slow Rendering</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#slow-selection">Slow Selection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#performance">性能</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#slow-rendering">绘制缓慢</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#slow-selection">选择很慢</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#navigation">Navigation</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#lost-in-space">Lost in Space</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#invisible-limit-zooming-in">Invisible Limit Zooming In</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#navigation">导航</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#lost-in-space">空间丢失</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#invisible-limit-zooming-in">缩放不可见</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#tools">Tools</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#invalid-selection">Invalid Selection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tools">工具</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#invalid-selection">选择无效</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="gpu/index.html">Graphics Hardware</a></li>
-<li class="toctree-l2"><a class="reference internal" href="crash.html">Crashes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="python.html">Python Errors</a></li>
-<li class="toctree-l2"><a class="reference internal" href="recover.html">Recovering Data</a></li>
-<li class="toctree-l2"><a class="reference internal" href="index.html#compatibility">Compatibility</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gpu/index.html">图形硬件</a></li>
+<li class="toctree-l2"><a class="reference internal" href="crash.html">崩溃</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python.html">Python错误</a></li>
+<li class="toctree-l2"><a class="reference internal" href="recover.html">恢复数据</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#compatibility">兼容性</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -206,13 +206,13 @@
     
       <li><a href="../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="index.html">Troubleshooting</a> &raquo;</li>
+          <li><a href="index.html">问题排查</a> &raquo;</li>
         
-      <li>3D View</li>
+      <li>3D视图</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/troubleshooting/3d_view.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/troubleshooting/3d_view.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -223,14 +223,12 @@
            <div itemprop="articleBody">
             
   <div class="section" id="d-view">
-<h1>3D View<a class="headerlink" href="#d-view" title="Permalink to this headline">¶</a></h1>
+<h1>3D视图<a class="headerlink" href="#d-view" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="rendering">
-<h2>Rendering<a class="headerlink" href="#rendering" title="Permalink to this headline">¶</a></h2>
+<h2>绘制<a class="headerlink" href="#rendering" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="depth-buffer-glitches">
-<span id="troubleshooting-depth"></span><h3>Depth Buffer Glitches<a class="headerlink" href="#depth-buffer-glitches" title="Permalink to this headline">¶</a></h3>
-<p>Sometimes when setting a large <a class="reference internal" href="../editors/3dview/properties/sidebar.html#dview-view-clip"><span class="std std-ref">clipping range</span></a>
-will allow you to see both near and far objects,
-but reduces the depth precision resulting in artifacts.</p>
+<span id="troubleshooting-depth"></span><h3>深度缓冲区故障<a class="headerlink" href="#depth-buffer-glitches" title="Permalink to this headline">¶</a></h3>
+<p>有时，当设置一个大的 <a class="reference internal" href="../editors/3dview/properties/sidebar.html#dview-view-clip"><span class="std std-ref">可视范围</span></a> ，你可以看到近处和远处的物体，但会降低深度精度导致伪像的瑕疵。</p>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 33%" />
@@ -240,137 +238,118 @@ but reduces the depth precision resulting in artifacts.</p>
 <tbody>
 <tr class="row-odd"><td><div class="figure align-default" id="id1">
 <a class="reference internal image-reference" href="../_images/troubleshooting_3d-view_graphics-z-fighting-none.png"><img alt="../_images/troubleshooting_3d-view_graphics-z-fighting-none.png" src="../_images/troubleshooting_3d-view_graphics-z-fighting-none.png" style="width: 200px;" /></a>
-<p class="caption"><span class="caption-text">Model with no clipping artifacts.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">没有剪裁(可视)瑕疵的模型。</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
 </td>
 <td><div class="figure align-default" id="id2">
 <a class="reference internal image-reference" href="../_images/troubleshooting_3d-view_graphics-z-fighting-example.png"><img alt="../_images/troubleshooting_3d-view_graphics-z-fighting-example.png" src="../_images/troubleshooting_3d-view_graphics-z-fighting-example.png" style="width: 200px;" /></a>
-<p class="caption"><span class="caption-text">Model with clipping artifacts.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">有剪裁(可视)瑕疵的模型。</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
 </td>
 <td><div class="figure align-default" id="id3">
 <a class="reference internal image-reference" href="../_images/troubleshooting_3d-view_graphics-z-fighting-example-editmode.png"><img alt="../_images/troubleshooting_3d-view_graphics-z-fighting-example-editmode.png" src="../_images/troubleshooting_3d-view_graphics-z-fighting-example-editmode.png" style="width: 200px;" /></a>
-<p class="caption"><span class="caption-text">Mesh with artifacts in Edit Mode.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">在编辑模式下的网格瑕疵。</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
 </div>
 </td>
 </tr>
 </tbody>
 </table>
-<p>To avoid this:</p>
+<p>为了避免这一点：</p>
 <ul class="simple">
-<li><p>Increase the near clipping when working on large scenes.</p></li>
-<li><p>Decrease the far clipping when objects are not viewed at a distance.</p></li>
+<li><p>在大场景上工作时增加近可视范围(剪裁 )。</p></li>
+<li><p>当物体距离不远时，减少远距离剪裁(可视范围)。</p></li>
 </ul>
-<p>When perspective is disabled only the far Clip End is used, very high values can still give artifacts.</p>
-<p>This is <strong>not</strong> specific to Blender, all OpenGL/DirectX graphics applications have these same limitations.</p>
+<p>当透视被禁用时，只使用较远的结束裁剪(可视范围)，非常高的值仍然会产生瑕疵(伪像)。</p>
+<p>这 <em>不是</em> 特定的Blender问题，而是所有OpenGL / DirectX图形应用程序都具有相同的问题。</p>
 </div>
 <div class="section" id="objects-invisible-in-camera-view">
-<h3>Objects Invisible in Camera View<a class="headerlink" href="#objects-invisible-in-camera-view" title="Permalink to this headline">¶</a></h3>
-<p>If you have a large scene, viewing it through Camera View may not display all of the objects in the scene.
-One possibility may be that the <a class="reference internal" href="../render/cameras.html#camera-clipping"><span class="std std-ref">clipping distance</span></a> of the camera is too low.
-The camera will only show objects that fall within the clipping range.</p>
+<h3>物体在相机视图中不可见<a class="headerlink" href="#objects-invisible-in-camera-view" title="Permalink to this headline">¶</a></h3>
+<p>如果你有一个大的场景，通过相机视图查看可能无法显示在场景中所有的物体。一种可能性可能是相机的 <a class="reference internal" href="../render/cameras.html#camera-clipping"><span class="std std-ref">裁剪距离</span></a> (可视范围)太低。相机只会显示裁剪(可视)范围内的物体。</p>
 </div>
 </div>
 <div class="section" id="performance">
-<h2>Performance<a class="headerlink" href="#performance" title="Permalink to this headline">¶</a></h2>
+<h2>性能<a class="headerlink" href="#performance" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="slow-rendering">
-<h3>Slow Rendering<a class="headerlink" href="#slow-rendering" title="Permalink to this headline">¶</a></h3>
-<p>There are a couple of reasons why you may be experiencing a slow viewport.</p>
+<h3>绘制缓慢<a class="headerlink" href="#slow-rendering" title="Permalink to this headline">¶</a></h3>
+<p>有几个原因可能导致你的视图窗口较慢。</p>
 <dl class="simple">
-<dt>Old Hardware</dt><dd><p>Sometimes your hardware, mainly your graphics card, may be too slow to keep up with your model.</p>
+<dt>旧的硬件</dt><dd><p>有时候，你的硬件，主要是你的显卡，可能太慢，不能跟上你的模型。</p>
 </dd>
-<dt>Upgrade Graphics Driver</dt><dd><p>In some cases, slow selection is resolved by using updated drivers.</p>
+<dt>升级显卡驱动</dt><dd><p>在某些情况下，使用更新的驱动程序可以解决较慢的选择问题。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="slow-selection">
-<h3>Slow Selection<a class="headerlink" href="#slow-selection" title="Permalink to this headline">¶</a></h3>
-<p>Blender uses OpenGL for selection, some graphics card drivers are slow at performing this operation.</p>
-<p>This becomes especially problematic on dense geometry.</p>
-<p>Possible Solutions:</p>
+<h3>选择很慢<a class="headerlink" href="#slow-selection" title="Permalink to this headline">¶</a></h3>
+<p>Blender使用 OpenGL 绘图模式进行选择时，某些图形卡驱动程序在执行此操作时速度很慢。</p>
+<p>这在高模几何体上时特别是一个问题。</p>
+<p>可能的解决方案：</p>
 <dl>
-<dt>OpenGL Depth Picking (Preferences)</dt><dd><p>See <span class="menuselection">Preferences ‣ Viewport ‣ Selection</span>.</p>
-<p>This option is enabled by default, disabling it may give a better performance at
-the cost of selection accuracy.</p>
+<dt>OpenGL深度拾取(首选项)</dt><dd><p>请参见 <span class="menuselection">设置 ‣ 视图 ‣ 选中项</span>.</p>
+<p>这个选项默认是开启的，关闭它可能会给你一个以精度为代价的更好的表现</p>
 </dd>
-<dt>Upgrade Graphics Driver</dt><dd><p>In some cases, slow selection is resolved by using updated drivers.
-<em>It is generally good to use recent drivers when using 3D software.</em></p>
+<dt>升级显卡驱动</dt><dd><p>在某些情况下，使用更新的驱动程序可以解决较慢的选择问题。 <em>使用3D软件时，最好使用最新的驱动程序。</em></p>
 </dd>
-<dt>Select Centers (Workaround)</dt><dd><p>In <em>Object Mode</em>, holding <kbd class="kbd docutils literal notranslate">Ctrl</kbd> while selecting uses the object center point.
-While this can be useful on its own, it has the side effect of not relying on OpenGL selection.</p>
+<dt>选择中心(解决方法)</dt><dd><p>在 <em>物体模式</em>，按住 <kbd class="kbd docutils literal notranslate">Ctrl</kbd> 的同时选择使用物体中心点。虽然这对物体本身可能有用，但其有不依靠 OpenGL 选择的副作用。</p>
 </dd>
-<dt>Change Display Mode (Workaround)</dt><dd><p>Using <em>Wireframe</em> display mode can be used to more quickly select different objects.</p>
+<dt>改变显示模式(解决方法)</dt><dd><p>使用 <em>线框</em> 绘制模式可用于更快地选择不同的物体。</p>
 </dd>
 </dl>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Obviously, the workarounds listed here are not long term solutions,
-but it is handy to know if you are stuck using a system with poor OpenGL support.</p>
-<p>Ultimately, if none of these options work out it may be worth upgrading your hardware.</p>
+<p>显然，这里列出的解决方法不是长期的解决方案，但是知道你是否被一个OpenGL支持不佳的系统困住了，这很方便。</p>
+<p>最终，如果这些选项都无法解决，那么可能你需要升级硬件。</p>
 </div>
 </div>
 </div>
 <div class="section" id="navigation">
-<h2>Navigation<a class="headerlink" href="#navigation" title="Permalink to this headline">¶</a></h2>
+<h2>导航<a class="headerlink" href="#navigation" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="lost-in-space">
-<h3>Lost in Space<a class="headerlink" href="#lost-in-space" title="Permalink to this headline">¶</a></h3>
-<p>When navigating your scene, you may accidentally navigate away from your scene
-and find yourself with a blank viewport. There are two ways to fix this:</p>
+<h3>空间丢失<a class="headerlink" href="#lost-in-space" title="Permalink to this headline">¶</a></h3>
+<p>在导航场景时，你可能会意外地离开场景，并发现自己的视图一片空白。有两种方法可以解决这个问题：</p>
 <ol class="arabic simple">
-<li><p>Select an object in the <a class="reference internal" href="../editors/outliner.html"><span class="doc">Outliner</span></a>,
-then zoom to that object with <span class="menuselection">View ‣ Frame Selected</span> or <kbd class="kbd docutils literal notranslate">NumpadPeriod</kbd>.</p></li>
-<li><p>Use <kbd class="kbd docutils literal notranslate">Home</kbd> to fit all objects into the 3D View.</p></li>
+<li><p>在 <a class="reference internal" href="../editors/outliner.html"><span class="doc">大纲视图</span></a> 中选择一个物体，然后使用 <span class="menuselection">视图 ‣ 显示活动项</span> 或 <kbd class="kbd docutils literal notranslate">NumpadPeriod</kbd> 最大化显示该物体。</p></li>
+<li><p>使用 <kbd class="kbd docutils literal notranslate">Home</kbd> 将所有物体最大化显示在3D视图中。</p></li>
 </ol>
 </div>
 <div class="section" id="invisible-limit-zooming-in">
-<h3>Invisible Limit Zooming In<a class="headerlink" href="#invisible-limit-zooming-in" title="Permalink to this headline">¶</a></h3>
-<p>Sometimes when navigating you may be trying to zoom in but it seems that you have hit a limit
-to how far you can zoom.
-This is because Blender uses a central point to orbit around.</p>
-<p>In practice this is good for modeling an object which you rotate about a lot to see from all sides
-(think of a potter using a wheel).
-However, this makes it awkward to explore a scene or model an object from the ‘inside’, for example.</p>
+<h3>缩放不可见<a class="headerlink" href="#invisible-limit-zooming-in" title="Permalink to this headline">¶</a></h3>
+<p>有时候在浏览时可能会尝试放大，但似乎已达到放大限制再也无法放大。这是因为Blender使用质心点旋转。</p>
+<p>在实践中，你可以从各个角度对这个物体进行大量旋转(想象一下陶瓷工使用轮子)这对建模时非常有用。然而，例如，这使得查看场景或模拟物体“内部”变得尴尬，即导航不方便。</p>
 <div class="section" id="solutions">
-<h4>Solutions<a class="headerlink" href="#solutions" title="Permalink to this headline">¶</a></h4>
+<h4>解决方案<a class="headerlink" href="#solutions" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
-<li><p>Use <a class="reference internal" href="../editors/3dview/navigate/navigation.html#dview-nav-zoom-dolly"><span class="std std-ref">View Dolly</span></a>.</p></li>
-<li><p>Use <a class="reference internal" href="../editors/3dview/navigate/walk_fly.html#dview-fly-walk"><span class="std std-ref">Walk/Fly modes</span></a>.</p></li>
-<li><p>Use <a class="reference internal" href="../editors/preferences/navigation.html#prefs-auto-depth"><span class="std std-ref">Auto Depth</span></a> and <a class="reference internal" href="../editors/preferences/navigation.html#prefs-zoom-mouse-pos"><span class="std std-ref">Zoom to Mouse Position</span></a>.
-These tools will make sure the distance is always the value under the mouse cursor,</p></li>
-<li><p>Use <a class="reference internal" href="../editors/3dview/navigate/navigation.html#dview-nav-zoom-region"><span class="std std-ref">Zoom Region</span></a> as it also resets the center point when zooming.</p></li>
-<li><p>Center the view around the mouse cursor <kbd class="kbd docutils literal notranslate">Alt-MMB</kbd>.
-This will take the position under the cursor and make it your viewpoint center.</p></li>
-<li><p>Use an <abbr title="N-Degrees of Freedom">NDOF</abbr>, also known as a 3D mouse,
-see <a class="reference internal" href="../getting_started/configuration/hardware.html#hardware-ndof"><span class="std std-ref">configuring peripherals</span></a> for more information.</p></li>
+<li><p>使用 <a class="reference internal" href="../editors/3dview/navigate/navigation.html#dview-nav-zoom-dolly"><span class="std std-ref">滑动视图</span></a>.</p></li>
+<li><p>使用 <a class="reference internal" href="../editors/3dview/navigate/walk_fly.html#dview-fly-walk"><span class="std std-ref">行走/飞行模式</span></a>.</p></li>
+<li><p>使用 <a class="reference internal" href="../editors/preferences/navigation.html#prefs-auto-depth"><span class="std std-ref">自动深度</span></a> 和 <a class="reference internal" href="../editors/preferences/navigation.html#prefs-zoom-mouse-pos"><span class="std std-ref">放大至鼠标的位置</span></a>. 这些工具将确保距离始终是鼠标光标下的值,</p></li>
+<li><p>使用 <a class="reference internal" href="../editors/3dview/navigate/navigation.html#dview-nav-zoom-region"><span class="std std-ref">框选放大</span></a> 因为它在缩放时也会重置中心点(质心点)。</p></li>
+<li><p>围绕鼠标光标居中视图 <kbd class="kbd docutils literal notranslate">Alt-MMB</kbd> 。这将取得光标下的位置并使其成为你的视图中心点。</p></li>
+<li><p>使用 <abbr title="N-Degrees of Freedom">NDOF</abbr>，也被称为3D鼠标。有关更多信息，请参阅 : <a class="reference internal" href="../getting_started/configuration/hardware.html#hardware-ndof"><span class="std std-ref">配置外设</span></a> 。</p></li>
 </ul>
 </div>
 </div>
 </div>
 <div class="section" id="tools">
-<h2>Tools<a class="headerlink" href="#tools" title="Permalink to this headline">¶</a></h2>
+<h2>工具<a class="headerlink" href="#tools" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="invalid-selection">
-<span id="troubleshooting-3dview-invalid-selection"></span><h3>Invalid Selection<a class="headerlink" href="#invalid-selection" title="Permalink to this headline">¶</a></h3>
-<p>There are times when selection fails under some configurations,
-often this is noticeable in mesh <em>Edit Mode</em>,
-selecting vertices/edges/faces where random elements are selected.</p>
-<p>Internally Blender uses <a class="reference internal" href="../glossary/index.html#term-opengl"><span class="xref std std-term">OpenGL</span></a> for selection,
-so the graphics card driver relies on giving correct results.</p>
-<p>Possible Solutions:</p>
+<span id="troubleshooting-3dview-invalid-selection"></span><h3>选择无效<a class="headerlink" href="#invalid-selection" title="Permalink to this headline">¶</a></h3>
+<p>在某些配置下有时候选择会失败，通常这在网格 <em>编辑模式</em> 中非常显着，选择顶点和边/面在那里选择随机元素。</p>
+<p>Blender内部使用的用于选择的  <a class="reference internal" href="../glossary/index.html#term-opengl"><span class="xref std std-term">OpenGL</span></a> ，所以显卡驱动程序依赖于给出正确的结果。</p>
+<p>可能的解决方案：</p>
 <dl>
-<dt>Disable Anti-Aliasing <a class="reference internal" href="../glossary/index.html#term-multisampling"><span class="xref std std-term">Multisampling</span></a></dt><dd><p>This is by far the most common cause of selection issues.</p>
-<p>There are known problems with some graphics cards when using multisampling.</p>
-<p>You can disable this option by:</p>
+<dt>禁用抗锯齿功能 <a class="reference internal" href="../glossary/index.html#term-multisampling"><span class="xref std std-term">多重采样</span></a></dt><dd><p>这是迄今为止最常见选择问题的原因。</p>
+<p>已知使用多重采样时，某些显卡存在问题。</p>
+<p>你可以通过以下方式禁用此选项：</p>
 <ul class="simple">
-<li><p>Turning multisampling off in your graphics card driver options.</p></li>
-<li><p>Turning <em>Multisampling</em> off in the <a class="reference internal" href="../editors/preferences/viewport.html#prefs-system-multisampling"><span class="std std-ref">System Preferences</span></a>.</p></li>
+<li><p>在你的显卡驱动程序选项中关闭多重采样。</p></li>
+<li><p>在 <a class="reference internal" href="../editors/preferences/viewport.html#prefs-system-multisampling"><span class="std std-ref">系统设置</span></a> 中关闭 <em>多重采样</em> 。</p></li>
 </ul>
 </dd>
-<dt>Change Anti-Aliasing Sample Settings</dt><dd><p>Depending on your OpenGL configuration,
-some specific sample settings may work while others fail.</p>
-<p>Unfortunately finding working configuration involves trial &amp; error testing.</p>
+<dt>更改抗锯齿采样设置</dt><dd><p>取决于你的OpenGL配置，某些特定的采样设置可能会工作，而其他的设置可能会失败。</p>
+<p>不幸的是，找到工作配置涉及不断的试验和不断的错误测试。</p>
 </dd>
-<dt>Upgrade Graphics Driver</dt><dd><p>As with any OpenGL-related issues, using recent drivers can resolve problems.</p>
-<p>However, it should be noted that this is a fairly common problem and remains unresolved with many drivers.</p>
+<dt>升级显卡驱动</dt><dd><p>任何 OpenGL 相关的问题，使用最新的驱动程序可以解决这些问题。</p>
+<p>但是应该注意到这是一个相当普遍的问题，许多驱动程序仍未得到解决。</p>
 </dd>
 </dl>
 </div>
@@ -385,10 +364,10 @@ some specific sample settings may work while others fail.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="gpu/index.html" class="btn btn-neutral float-right" title="Graphics Hardware" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="gpu/index.html" class="btn btn-neutral float-right" title="图形硬件" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="startup.html" class="btn btn-neutral float-left" title="Startup" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="startup.html" class="btn btn-neutral float-left" title="启动" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -422,7 +401,7 @@ some specific sample settings may work while others fail.</p>
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

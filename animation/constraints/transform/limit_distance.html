@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Limit Distance Constraint &mdash; Blender Manual</title>
+  <title>Limit Distance Constraint 限定距离约束 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Limit Location Constraint" href="limit_location.html" />
-    <link rel="prev" title="Copy Transforms Constraint" href="copy_transforms.html" /> 
+    <link rel="next" title="Limit Location Constraint 限定位置约束" href="limit_location.html" />
+    <link rel="prev" title="复制变换约束" href="copy_transforms.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,60 +110,60 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Animation &amp; Rigging</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../keyframes/index.html">Keyframes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../armatures/index.html">Armatures</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../lattice.html">Lattice</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="../index.html">Constraints</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="../introduction.html">Introduction</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../index.html#interface">Interface</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../index.html#motion-tracking">Motion Tracking</a></li>
-<li class="toctree-l3 current"><a class="reference internal" href="../index.html#transform">Transform</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="copy_location.html">Copy Location Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="copy_rotation.html">Copy Rotation Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="copy_scale.html">Copy Scale Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="copy_transforms.html">Copy Transforms Constraint</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">Limit Distance Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="limit_location.html">Limit Location Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="limit_rotation.html">Limit Rotation Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="limit_scale.html">Limit Scale Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="maintain_volume.html">Maintain Volume Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="transformation.html">Transformation Constraint</a></li>
-<li class="toctree-l4"><a class="reference internal" href="transform_cache.html">Transform Cache Constraint</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">动画 &amp; 绑定</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">简介</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../keyframes/index.html">关键帧</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../armatures/index.html">骨架</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lattice.html">晶格</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html">约束</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../introduction.html">简介</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../index.html#interface">界面</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../index.html#motion-tracking">运动追踪</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../index.html#transform">变换</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="copy_location.html">Copy Location Constraint 复制位置约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="copy_rotation.html">Copy Rotation Constraint 复制旋转约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="copy_scale.html">Copy Scale Constraint 复制缩放约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="copy_transforms.html">复制变换约束</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Limit Distance Constraint 限定距离约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="limit_location.html">Limit Location Constraint 限定位置约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="limit_rotation.html">Limit Rotation Constraint 限定旋转约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="limit_scale.html">Limit Scale Constraint 限定缩放约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="maintain_volume.html">Maintain Volume Constraint 维持体积约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="transformation.html">Transformation Constraint 自设变换约束</a></li>
+<li class="toctree-l4"><a class="reference internal" href="transform_cache.html">Transform Cache Constraint 变换缓存约束</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../index.html#tracking">Tracking</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../index.html#relationship">Relationship</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../index.html#tracking">跟踪</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../index.html#relationship">关系</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../actions.html">Actions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../drivers/index.html">Drivers</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../markers.html">Markers</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../shape_keys/index.html">Shape Keys</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../motion_paths.html">Motion Paths</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../actions.html">动作</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../drivers/index.html">驱动器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../markers.html">标记</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../shape_keys/index.html">形态键</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../motion_paths.html">运动路径</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">Rendering</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">渲染</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -209,15 +209,15 @@
     
       <li><a href="../../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../../index.html">Animation &amp; Rigging</a> &raquo;</li>
+          <li><a href="../../index.html">动画 &amp; 绑定</a> &raquo;</li>
         
-          <li><a href="../index.html">Constraints</a> &raquo;</li>
+          <li><a href="../index.html">约束</a> &raquo;</li>
         
-      <li>Limit Distance Constraint</li>
+      <li>Limit Distance Constraint 限定距离约束</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/animation/constraints/transform/limit_distance.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/animation/constraints/transform/limit_distance.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -228,43 +228,33 @@
            <div itemprop="articleBody">
             
   <div class="section" id="limit-distance-constraint">
-<span id="bpy-types-limitdistanceconstraint"></span><h1>Limit Distance Constraint<a class="headerlink" href="#limit-distance-constraint" title="Permalink to this headline">¶</a></h1>
-<p>The <em>Limit Distance</em> constraint forces its owner to stay either further from,
-nearer to, or exactly at a given distance from its target. In other words,
-the owner’s location is constrained either outside, inside,
-or at the surface of a sphere centered on its target.</p>
-<p>When you specify a (new) target, the <em>Distance</em> value is automatically set to
-correspond to the distance between the owner and this target.</p>
+<span id="bpy-types-limitdistanceconstraint"></span><h1>Limit Distance Constraint 限定距离约束<a class="headerlink" href="#limit-distance-constraint" title="Permalink to this headline">¶</a></h1>
+<p><em>限定距离</em> 约束强制被约束对象与目标保持远离、靠近或者一个给定距离。换句话说，自身的位置被限制在以目标为中心的球体以外，以内或表面。</p>
+<p>当指定一个(新的)目标时，该 <em>距离值</em> 会自动设置为约束对象和该目标之间的当前距离。</p>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
-<p>Note that if you use such a constraint on a <em>connected</em> bone, it will have
-no effect, as it is the parent’s tip which controls the position of your
-owner bone’s root.</p>
+<p>请注意，如果对 <em>相连</em> 骨骼使用该约束，将不起作用，因为父级骨骼头部位置决定了该骨骼根部所在位置。</p>
 </div>
 <div class="section" id="options">
-<h2>Options<a class="headerlink" href="#options" title="Permalink to this headline">¶</a></h2>
+<h2>选项<a class="headerlink" href="#options" title="Permalink to this headline">¶</a></h2>
 <dl>
-<dt>Target</dt><dd><p><a class="reference internal" href="../../../interface/controls/templates/data_block.html#ui-data-id"><span class="std std-ref">Data ID</span></a> used to select the constraint’s target, and is not functional (red state) when it has none.</p>
+<dt>Target 目标</dt><dd><p><a class="reference internal" href="../../../interface/controls/templates/data_block.html#ui-data-id"><span class="std std-ref">数据ID</span></a> 用于选择约束目标，当它为空时此约束不起作用(该约束标题栏里的名称背景会显示红色状态)。</p>
 </dd>
-<dt>Distance</dt><dd><p>This number field sets the limit distance, i.e. the radius of the constraining sphere.</p>
+<dt>Distance 距离</dt><dd><p>该数字按钮用于设置限定距离，即约束目标为中心的球体(看不见的)半径。</p>
 </dd>
-<dt>Reset Distance</dt><dd><p>When clicked, this small button will reset the <em>Distance</em> value,
-so that it corresponds to the actual distance between the owner and its target
-(i.e. the distance before this constraint is applied).</p>
+<dt>Reset Distance 重置距离值</dt><dd><p>单击后，将重置 <em>距离</em> 值，使之与约束对象与目标之间的实际距离(即应用约束前的距离)一致。</p>
 </dd>
-<dt>Clamp Region</dt><dd><p>The <em>Limit Mode</em> select menu allows you to choose how to use the sphere
-defined by the <em>Distance</em> setting and target’s origin:</p>
+<dt>钳制范围</dt><dd><p><em>钳制范围</em> 选择菜单，用于选择 <em>距离(Distance)</em> 设置和目标中心确定的球体的限定方式：</p>
 <dl class="simple">
-<dt>Inside</dt><dd><p>The owner is constrained <em>inside</em> the sphere.</p>
+<dt>Inside 向内</dt><dd><p>将对象约束在球体 <em>内部</em> 。</p>
 </dd>
-<dt>Outside</dt><dd><p>The owner is constrained <em>outside</em> the sphere.</p>
+<dt>Outside 外向</dt><dd><p>将对象约束在球体 <em>外部</em> 。</p>
 </dd>
-<dt>Surface</dt><dd><p>The owner is constrained <em>on the surface</em> of the sphere.</p>
+<dt>Surface 曲面上</dt><dd><p>将对象约束在球体 <em>表面</em> 。</p>
 </dd>
 </dl>
 </dd>
-<dt>For Transform</dt><dd><p>Transform operators will take the constraint into account to immediately restrict
-the resulting transform property values.</p>
+<dt>For Transform 针对变换</dt><dd><p>变换运算时将考虑约束以立即限制生成的变换属性值。</p>
 </dd>
 </dl>
 <iframe src="https://player.vimeo.com/video/171109014" style="border: 0; height: 345px; width: 560px">
@@ -279,10 +269,10 @@ the resulting transform property values.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="limit_location.html" class="btn btn-neutral float-right" title="Limit Location Constraint" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="limit_location.html" class="btn btn-neutral float-right" title="Limit Location Constraint 限定位置约束" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="copy_transforms.html" class="btn btn-neutral float-left" title="Copy Transforms Constraint" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="copy_transforms.html" class="btn btn-neutral float-left" title="复制变换约束" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -316,7 +306,7 @@ the resulting transform property values.</p>
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

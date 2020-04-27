@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Reflection Planes &mdash; Blender Manual</title>
+  <title>反射平面 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Limitations" href="../limitations.html" />
-    <link rel="prev" title="Reflection Cubemaps" href="reflection_cubemaps.html" /> 
+    <link rel="next" title="限制" href="../limitations.html" />
+    <link rel="prev" title="立方体(盒)反射" href="reflection_cubemaps.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,56 +110,56 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">Physics</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Rendering</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">物理</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">渲染</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">简介</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="../index.html">Eevee</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="../introduction.html">Introduction</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../render_settings/index.html">Render Settings</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../materials/index.html">Materials</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../world.html">World</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../lighting.html">Light Settings</a></li>
-<li class="toctree-l3 current"><a class="reference internal" href="index.html">Light Probes</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="introduction.html">Introduction</a></li>
-<li class="toctree-l4"><a class="reference internal" href="irradiance_volumes.html">Irradiance Volumes</a></li>
-<li class="toctree-l4"><a class="reference internal" href="reflection_cubemaps.html">Reflection Cubemaps</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">Reflection Planes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../introduction.html">简介</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../render_settings/index.html">渲染设置</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../materials/index.html">材质</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../world.html">世界环境</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../lighting.html">灯光设置</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="index.html">光照探头</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="introduction.html">简介</a></li>
+<li class="toctree-l4"><a class="reference internal" href="irradiance_volumes.html">辐射体积</a></li>
+<li class="toctree-l4"><a class="reference internal" href="reflection_cubemaps.html">立方体(盒)反射</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">反射平面</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../limitations.html">Limitations</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../limitations.html">限制</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../cycles/index.html">Cycles</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../workbench/index.html">Workbench</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../cameras.html">Cameras</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../cameras.html">相机</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../lights/index.html">Lights</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../materials/index.html">Materials</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../shader_nodes/index.html">Shader Nodes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../color_management.html">Color Management</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../materials/index.html">材质</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../shader_nodes/index.html">着色器节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../color_management.html">色彩管理</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../freestyle/index.html">Freestyle</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../layers/index.html">Layers &amp; Passes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../output/index.html">Render Output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../layers/index.html">层 &amp; 通道</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../output/index.html">渲染输出</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -205,17 +205,17 @@
     
       <li><a href="../../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../../index.html">Rendering</a> &raquo;</li>
+          <li><a href="../../index.html">渲染</a> &raquo;</li>
         
           <li><a href="../index.html">Eevee</a> &raquo;</li>
         
-          <li><a href="index.html">Light Probes</a> &raquo;</li>
+          <li><a href="index.html">光照探头</a> &raquo;</li>
         
-      <li>Reflection Planes</li>
+      <li>反射平面</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/render/eevee/light_probes/reflection_planes.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/render/eevee/light_probes/reflection_planes.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -226,77 +226,58 @@
            <div itemprop="articleBody">
             
   <div class="section" id="reflection-planes">
-<h1>Reflection Planes<a class="headerlink" href="#reflection-planes" title="Permalink to this headline">¶</a></h1>
-<p>These special types of Probe object are suited to smooth planar surfaces.
-They basically capture the whole scene with a flipped camera.</p>
-<p>Using reflection planes is really heavy on the render time
-because the scene needs to be rendered as many times as there is Reflection Planes in the view.</p>
-<p>Unless Screen Space Reflection is enabled,
-Reflection Planes only work on specular surfaces that have their roughness around 0.</p>
-<p>If Screen Space Reflection is enabled, Reflection Planes will serve as support buffers.
-This accelerates the tracing process and completes the missing data from the view space.
-This also make reflection more correct for the affected surfaces that have medium roughness and
-disturbed normals (i.e. normal maps).</p>
+<h1>反射平面<a class="headerlink" href="#reflection-planes" title="Permalink to this headline">¶</a></h1>
+<p>这些类型的反射平面适用于平滑的平面。他们原理上是利用翻转的相机拍摄整个场景。</p>
+<p>使用反射平面会给性能带来负担，因为视图中有多少反射平面，就要重复渲染多少次场景。</p>
+<p>如果不启用屏幕空间反射选项的话，反射平面仅对粗糙度为零的镜面物体有效。</p>
+<p>如果启用屏幕空间反射，反射平面将作为缓冲区来加速追踪过程，并给屏幕空间补全丢失的数据。这使得带有中等粗糙度或者扰动法线贴图的受影响表面的反射更加精确。</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Subsurface Scattering, Screen Space Reflections and
-Volumetrics are not supported inside Reflection Plane’s reflection.</p>
+<p>反射平面的反射效果中不包含次表面散射、屏幕空间反射和体积。</p>
 </div>
 <div class="section" id="placement">
-<h2>Placement<a class="headerlink" href="#placement" title="Permalink to this headline">¶</a></h2>
-<p>If Backface Culling is not enabled, snapping the Reflection Plane to the planar surface
-will effectively capture the underside of the surface.</p>
-<p>You can manually move the Reflection Plane above the surface enough for it to not appear in the capture.
-Alternatively you can put a floor object inside a collection and
-use this collection as a Visibility Collection (inverted) inside the Reflection Plane’s probe settings.</p>
+<h2>放置<a class="headerlink" href="#placement" title="Permalink to this headline">¶</a></h2>
+<p>如果未启用背面剔除，则将反射平面捕捉到平面将有效捕获曲面的下侧。</p>
+<p>可以手动将反射平面放在平面上方，使其不会被捕捉反射。或者，您可以将物体放在一个集合中，并将此集合用作反射平面探针可见性设置中的反转集合。</p>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Panel</dt>
-<dd class="field-odd"><p><span class="menuselection">Object Data ‣ Probe</span></p>
+<dt class="field-odd">面板</dt>
+<dd class="field-odd"><p><span class="menuselection">物体数据 ‣ 光照探头</span></p>
 </dd>
 </dl>
 </div>
 <dl>
-<dt>Distance</dt><dd><p>A probe object only influences the lighting of nearby surfaces.
-This influence zone is defined by the Distance parameter and object scaling.
-The influence distance varies is a bit, depending on the probe type.</p>
-<p>For Reflection Planes the influence distance is the distance from the plane.
-Only surfaces whose normals are aligned with the Reflection Plane will receive the captured reflection.</p>
+<dt>距离</dt><dd><p>探头物体仅影响其邻近表面的光照，其作用区域由距离参数与物体定义。各探头类型间有细微差别。</p>
+<p>对于反射平面而言，影响距离就是其与平面的距离。只有与反射平面法向一致的表面才能接收到捕捉的反射。</p>
 </dd>
-<dt>Falloff</dt><dd><p>Percentage of the influence distance during which the influence of a probe fades linearly.
-Also defines how much shading normals needs to be aligned with the plane to receive reflections.</p>
+<dt>衰减</dt><dd><p>影响距离的百分比，探头的影响沿其线性衰减。同时也定义了着色法向必须与接收反射的平面的一致程度。</p>
 </dd>
-<dt>Clipping Offset</dt><dd><p>Define how much below the plane the near clip is when capturing the scene.
-Increasing this can fix reflection contact problems.</p>
+<dt>钳制偏移</dt><dd><p>定义反射平面与裁切平面的靠近程度。调高该值可以解决反射接触的问题。</p>
 </dd>
-<dt>Visibility Collection</dt><dd><p>In some cases, it is useful to limit which objects appear in the light probe’s captured lighting.
-For instance, an object that is too close to a capture point might be better excluded.
-This is what the visibility collection does.
-Only objects that are in this collection will be visible when this probe will capture the scene.</p>
-<p>There is also an option to invert this behavior and effectively hide the objects inside this collection.</p>
+<dt>可见性集合</dt><dd><p>隐藏被探头捕捉的物体或者只有哪些物体可以被探头捕捉只很有用。比如，当一个物体距离探头捕捉点过近时，用可见性集合可以将其隐藏。只有在该集合内的物体才会在探头捕捉场景时可见。</p>
+<p>另有一个选项可以反转操作，就是反过来去在探头中隐藏此集合中的物体。</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>This is only a filtering option.
-That means that if an object is not visible at render time it won’t be visible during the probe render.</p>
+<p>这仅仅是一个过滤选项。如果一个物体渲染不可见，它在探头渲染器中也是不可见的。</p>
 </div>
 </dd>
 </dl>
 </div>
 <div class="section" id="viewport-display">
-<h2>Viewport Display<a class="headerlink" href="#viewport-display" title="Permalink to this headline">¶</a></h2>
+<h2>视图显示<a class="headerlink" href="#viewport-display" title="Permalink to this headline">¶</a></h2>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Panel</dt>
-<dd class="field-odd"><p><span class="menuselection">Object Data ‣ Viewport Display</span></p>
+<dt class="field-odd">面板</dt>
+<dd class="field-odd"><p><span class="menuselection">物体数据 ‣ 视图显示</span></p>
 </dd>
 </dl>
 </div>
 <dl class="simple">
-<dt>Arrow Size</dt><dd><p>Size of the arrow showing the reflection plane normal.</p>
+<dt>箭头大小</dt><dd><p>指示反射平面法向的箭头大小。</p>
 </dd>
-<dt>Show Preview Plane</dt><dd><p>Show the captured reflected image onto a fully reflective plane in the 3D View.</p>
+<dt>Show Preview Plane(显示反射面板)</dt><dd><p>在3D视图中，全反射平面显示捕捉到的反射图像。</p>
 </dd>
 </dl>
 </div>
@@ -310,10 +291,10 @@ That means that if an object is not visible at render time it won’t be visible
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../limitations.html" class="btn btn-neutral float-right" title="Limitations" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="../limitations.html" class="btn btn-neutral float-right" title="限制" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="reflection_cubemaps.html" class="btn btn-neutral float-left" title="Reflection Cubemaps" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="reflection_cubemaps.html" class="btn btn-neutral float-left" title="立方体(盒)反射" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -347,7 +328,7 @@ That means that if an object is not visible at render time it won’t be visible
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

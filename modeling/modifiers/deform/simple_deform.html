@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Simple Deform Modifier &mdash; Blender Manual</title>
+  <title>简易形变修改器 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Smooth Modifier" href="smooth.html" />
-    <link rel="prev" title="Shrinkwrap Modifier" href="shrinkwrap.html" /> 
+    <link rel="next" title="平滑修改器" href="smooth.html" />
+    <link rel="prev" title="缩裹修改器" href="shrinkwrap.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,63 +110,63 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Modeling</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../meshes/index.html">Meshes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../curves/index.html">Curves</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../surfaces/index.html">Surfaces</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../metas/index.html">Metaball</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../texts/index.html">Text</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../empties.html">Empties</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="../index.html">Modifiers</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="../introduction.html">Introduction</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../common_options.html">Common Modifier Options</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../index.html#modify">Modify</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../index.html#generate">Generate</a></li>
-<li class="toctree-l3 current"><a class="reference internal" href="../index.html#deform">Deform</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="armature.html">Armature Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="cast.html">Cast Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="corrective_smooth.html">Corrective Smooth Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="curve.html">Curve Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="displace.html">Displace Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="hooks.html">Hook Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="laplacian_smooth.html">Laplacian Smooth Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="laplacian_deform.html">Laplacian Deform Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="lattice.html">Lattice Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="mesh_deform.html">Mesh Deform Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="shrinkwrap.html">Shrinkwrap Modifier</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">Simple Deform Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="smooth.html">Smooth Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="surface_deform.html">Surface Deform Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="warp.html">Warp Modifier</a></li>
-<li class="toctree-l4"><a class="reference internal" href="wave.html">Wave Modifier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">制作模型</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">简介</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../meshes/index.html">网格</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../curves/index.html">曲线</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../surfaces/index.html">曲面</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../metas/index.html">融球</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../texts/index.html">文本物体</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../empties.html">空物体</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html">修改器</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../introduction.html">简介</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../common_options.html">常见的修改器选项</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../index.html#modify">修改</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../index.html#generate">生成</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../index.html#deform">形变</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="armature.html">骨架修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="cast.html">铸型修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="corrective_smooth.html">矫正平滑修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="curve.html">曲线函数修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="displace.html">置换修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="hooks.html">钩挂修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laplacian_smooth.html">拉普拉斯平滑修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laplacian_deform.html">拉普拉斯形变修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="lattice.html">晶格修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="mesh_deform.html">网格变形修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="shrinkwrap.html">缩裹修改器</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">简易形变修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="smooth.html">平滑修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="surface_deform.html">表面变形修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="warp.html">弯绕修改器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="wave.html">波浪修改器</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../index.html#simulate">Simulate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../index.html#simulate">模拟</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">Rendering</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../render/index.html">渲染</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -212,15 +212,15 @@
     
       <li><a href="../../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../../index.html">Modeling</a> &raquo;</li>
+          <li><a href="../../index.html">制作模型</a> &raquo;</li>
         
-          <li><a href="../index.html">Modifiers</a> &raquo;</li>
+          <li><a href="../index.html">修改器</a> &raquo;</li>
         
-      <li>Simple Deform Modifier</li>
+      <li>简易形变修改器</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/modeling/modifiers/deform/simple_deform.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/modeling/modifiers/deform/simple_deform.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -231,48 +231,42 @@
            <div itemprop="articleBody">
             
   <div class="section" id="simple-deform-modifier">
-<span id="bpy-types-simpledeformmodifier"></span><h1>Simple Deform Modifier<a class="headerlink" href="#simple-deform-modifier" title="Permalink to this headline">¶</a></h1>
-<p>The <em>Simple Deform</em> modifier allows easy application of a simple deformation to
-an object (meshes, lattices, curves, surfaces and texts are supported).</p>
-<p>Using another object, it is possible to define the axis and origin of the deformation,
-allowing application of very different effects.</p>
+<span id="bpy-types-simpledeformmodifier"></span><h1>简易形变修改器<a class="headerlink" href="#simple-deform-modifier" title="Permalink to this headline">¶</a></h1>
+<p><em>简易形变</em> 修改器允许对对象进行简单变形(支持网格、网格、曲线、表面和文本)。</p>
+<p>使用另一个对象，可以用来定义变形的轴和原点，这允许产生非常不同的效果。</p>
 <div class="section" id="options">
-<h2>Options<a class="headerlink" href="#options" title="Permalink to this headline">¶</a></h2>
+<h2>选项<a class="headerlink" href="#options" title="Permalink to this headline">¶</a></h2>
 <div class="figure align-right" id="id1">
 <img alt="../../../_images/modeling_modifiers_deform_simple-deform_panel.png" src="../../../_images/modeling_modifiers_deform_simple-deform_panel.png" />
-<p class="caption"><span class="caption-text">The Simple Deform modifier.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">简易形变修改器</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
 <dl>
-<dt>Mode</dt><dd><p>Defines the kind of deformation which will be applied.</p>
+<dt>模式</dt><dd><p>定义要应用的变形类型。</p>
 <dl class="simple">
-<dt>Twist</dt><dd><p>Rotates the mesh around the specified <em>Axis</em>.</p>
+<dt>扭曲</dt><dd><p>围绕指定的 <em>轴</em> 旋转网格。</p>
 </dd>
-<dt>Bend</dt><dd><p>Bends the mesh over the specified <em>Axis</em>.</p>
+<dt>弯曲</dt><dd><p>将网格沿特点 <em>轴</em> 弯曲。</p>
 </dd>
-<dt>Taper</dt><dd><p>Linearly scales along the specified <em>Axis</em>.</p>
+<dt>锥化</dt><dd><p>沿着指定的 <em>轴</em> 线性缩放。</p>
 </dd>
-<dt>Stretch</dt><dd><p>Stretches the object along the specified <em>Axis</em> (negative <em>Factor</em> leads to squash),
-preserving volume by scaling inversely on the two other axes.</p>
+<dt>拉伸</dt><dd><p>沿着指定的 <em>轴</em> 拉伸对象(负 <em>系数</em> 将导致挤压)，通过在另外两个轴上反向缩放来保持体积。</p>
 </dd>
 </dl>
 </dd>
-<dt>Vertex Group</dt><dd><p>The name of the vertex group that indicates whether and how much each vertex is influenced by the deformation.</p>
+<dt>顶点组</dt><dd><p>顶点组的名称，表示每个顶点是否受变形影响，以及受变形影响的程度。</p>
 </dd>
-<dt>Axis, Origin</dt><dd><p>The name of an object that defines the origin and axis of deformation (usually an empty). This object can be:</p>
+<dt>轴向，原点</dt><dd><p>定义变形的原点和轴的对象的名称(通常为空)。这个对象可以是:</p>
 <ul class="simple">
-<li><p>Rotated to control the axis (its local <em>Axis</em> is now used as the deformation one).</p></li>
-<li><p>Moved to control the origin of the deformation.</p></li>
-<li><p>Scaled to change the deformation factor.</p></li>
+<li><p>用其旋转来控制变形的轴向(其局部 <em>轴</em> 现在用作变形轴)。</p></li>
+<li><p>用其平移来控制变形的参考点。</p></li>
+<li><p>用其缩放来改变变形的系数。</p></li>
 </ul>
 </dd>
-<dt>Angle/Factor</dt><dd><p>The amount of deformation. Can be negative to reverse the deformation.</p>
+<dt>角度/系数</dt><dd><p>变形量。可使用负向来反转变形。</p>
 </dd>
-<dt>Limits</dt><dd><p>These settings allow you to set the lower and upper limits of the deformation.
-The upper limit cannot be lower than the lower one.</p>
+<dt>限制</dt><dd><p>这些设置允许您设置变形的上限和下限。上限不能低于下限。</p>
 </dd>
-<dt>Lock X/Y/Z (Twist, Taper and Stretch modes only)</dt><dd><p>These controls whether the coordinates along the two other axes are allowed to change or not.
-E.g. if you <em>Stretch</em> your object along its Z axis,
-it is possible to squash along the X axis only, by locking the Y one.</p>
+<dt>锁定X/Y/Z轴(只适用于扭曲、锥化和拉伸模式)</dt><dd><p>这些控件控制是否允许沿另外两个轴的坐标更改。例如，如果你沿着对象的Z轴 <em>拉伸</em> ，它有可能通过锁定Y轴，使得只沿着X轴挤压。</p>
 </dd>
 </dl>
 </div>
@@ -286,10 +280,10 @@ it is possible to squash along the X axis only, by locking the Y one.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="smooth.html" class="btn btn-neutral float-right" title="Smooth Modifier" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="smooth.html" class="btn btn-neutral float-right" title="平滑修改器" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="shrinkwrap.html" class="btn btn-neutral float-left" title="Shrinkwrap Modifier" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="shrinkwrap.html" class="btn btn-neutral float-left" title="缩裹修改器" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -323,7 +317,7 @@ it is possible to squash along the X axis only, by locking the Y one.</p>
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

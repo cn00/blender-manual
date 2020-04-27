@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Motion Paths &mdash; Blender Manual</title>
+  <title>运动路径 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Physics" href="../physics/index.html" />
-    <link rel="prev" title="Workflow" href="shape_keys/workflow.html" /> 
+    <link rel="next" title="物理" href="../physics/index.html" />
+    <link rel="prev" title="工作流程" href="shape_keys/workflow.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,46 +110,46 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="index.html">Animation &amp; Rigging</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="introduction.html">Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="keyframes/index.html">Keyframes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="armatures/index.html">Armatures</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lattice.html">Lattice</a></li>
-<li class="toctree-l2"><a class="reference internal" href="constraints/index.html">Constraints</a></li>
-<li class="toctree-l2"><a class="reference internal" href="actions.html">Actions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="drivers/index.html">Drivers</a></li>
-<li class="toctree-l2"><a class="reference internal" href="markers.html">Markers</a></li>
-<li class="toctree-l2"><a class="reference internal" href="shape_keys/index.html">Shape Keys</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Motion Paths</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#options">Options</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#show">Show</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">动画 &amp; 绑定</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="introduction.html">简介</a></li>
+<li class="toctree-l2"><a class="reference internal" href="keyframes/index.html">关键帧</a></li>
+<li class="toctree-l2"><a class="reference internal" href="armatures/index.html">骨架</a></li>
+<li class="toctree-l2"><a class="reference internal" href="lattice.html">晶格</a></li>
+<li class="toctree-l2"><a class="reference internal" href="constraints/index.html">约束</a></li>
+<li class="toctree-l2"><a class="reference internal" href="actions.html">动作</a></li>
+<li class="toctree-l2"><a class="reference internal" href="drivers/index.html">驱动器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="markers.html">标记</a></li>
+<li class="toctree-l2"><a class="reference internal" href="shape_keys/index.html">形态键</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">运动路径</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#options">选项</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#show">显示</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#example">Example</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#example">例子</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../render/index.html">Rendering</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../render/index.html">渲染</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -195,13 +195,13 @@
     
       <li><a href="../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="index.html">Animation &amp; Rigging</a> &raquo;</li>
+          <li><a href="index.html">动画 &amp; 绑定</a> &raquo;</li>
         
-      <li>Motion Paths</li>
+      <li>运动路径</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/animation/motion_paths.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/animation/motion_paths.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -212,138 +212,112 @@
            <div itemprop="articleBody">
             
   <div class="section" id="motion-paths">
-<span id="bpy-ops-object-paths-calculate"></span><span id="bpy-types-animviz"></span><h1>Motion Paths<a class="headerlink" href="#motion-paths" title="Permalink to this headline">¶</a></h1>
+<span id="bpy-ops-object-paths-calculate"></span><span id="bpy-types-animviz"></span><h1>运动路径<a class="headerlink" href="#motion-paths" title="Permalink to this headline">¶</a></h1>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Editor</dt>
-<dd class="field-odd"><p>3D View, Properties editor</p>
+<dt class="field-odd">编辑器</dt>
+<dd class="field-odd"><p>3D视图，属性编辑器</p>
 </dd>
-<dt class="field-even">Mode</dt>
-<dd class="field-even"><p>Object Mode</p>
+<dt class="field-even">模式</dt>
+<dd class="field-even"><p>物体模式</p>
 </dd>
-<dt class="field-odd">Panel</dt>
-<dd class="field-odd"><p><span class="menuselection">Properties editor ‣ Object ‣ Motion Paths</span></p>
+<dt class="field-odd">面板</dt>
+<dd class="field-odd"><p><span class="menuselection">属性编辑器 ‣ 物体 ‣ 运动路径</span></p>
 </dd>
 </dl>
 </div>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Editor</dt>
-<dd class="field-odd"><p>3D View, Properties editor</p>
+<dt class="field-odd">编辑器</dt>
+<dd class="field-odd"><p>3D视图，属性编辑器</p>
 </dd>
-<dt class="field-even">Mode</dt>
-<dd class="field-even"><p>Pose Mode</p>
+<dt class="field-even">模式</dt>
+<dd class="field-even"><p>姿态模式</p>
 </dd>
-<dt class="field-odd">Panel</dt>
-<dd class="field-odd"><p><span class="menuselection">Properties editor ‣ Armature ‣ Motion Paths</span></p>
+<dt class="field-odd">面板</dt>
+<dd class="field-odd"><p><span class="menuselection">属性编辑器 ‣ 骨架 ‣ 运动路径</span></p>
 </dd>
-<dt class="field-even">Menu</dt>
-<dd class="field-even"><p><span class="menuselection">Pose ‣ Motion Paths</span></p>
+<dt class="field-even">菜单</dt>
+<dd class="field-even"><p><span class="menuselection">姿态 ‣ 运动路径</span></p>
 </dd>
 </dl>
 </div>
 <div class="figure align-default" id="id1">
 <a class="reference internal image-reference" href="../_images/animation_motion-paths_example-object.png"><img alt="../_images/animation_motion-paths_example-object.png" src="../_images/animation_motion-paths_example-object.png" style="width: 400px;" /></a>
-<p class="caption"><span class="caption-text">An animated cube with its motion path displayed.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">一个动画化的立方体的运动路线。</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
-<p>The Motion Paths tool allows you to visualize the motion of points as paths over a series of frames.
-These points can be object origins and bone joints.</p>
-<p>To create or remove motion paths, it is necessary to first select the bones. Then:</p>
+<p>运动路径工具允许您将点的运动可视化为一系列帧上的路径。 这些点可以是物体原点和骨骼关节。</p>
+<p>要创建或删除运动路径，首先必须选择骨骼。 然后：</p>
 <ol class="arabic simple">
-<li><p>To show the paths (or update them, if needed), click on the <em>Calculate Path</em> button.</p></li>
-<li><p>To hide the paths, click on the <em>Clear Paths</em> button.</p></li>
+<li><p>要显示路径(或根据需要更新它们)，请单击 <em>计算路径</em> 按钮。</p></li>
+<li><p>要隐藏路径，点击 <em>清除路径</em> 按钮。</p></li>
 </ol>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Remember that only selected bones and their paths are affected by these actions!</p>
+<p>请记住，只有选定的骨骼及其路径会受到这些操作的影响！</p>
 </div>
-<p>The paths are shown in a light shade of gray for unselected points,
-and a slightly blueish gray for selected ones.
-Around the current frame a glow indicate the direction of movement:
-blue towards future frames and green towards the past.
-Each frame is displayed by a small white dot on the paths.</p>
-<p>The paths are automatically updated when you edit your poses/keyframes,
-and they are also active during animation playback. Playing the animation
-affects the paths only when the <em>Around Current Frame</em> option is enabled.</p>
+<p>对于未选择的点，路径以浅灰色显示，对于选定的点，路径以略带蓝灰色显示。 在当前帧周围，辉光指示运动方向：蓝色朝向未来帧，绿色朝向过去。 每个帧都由路径上的小白点显示。</p>
+<p>在编辑姿态/关键帧时路径会自动更新，并且在动画播放期间它们也处于活动状态。 仅当启用了 <em>当前帧附近</em> 选项时，播放动画才会影响路径。</p>
 <div class="section" id="options">
-<h2>Options<a class="headerlink" href="#options" title="Permalink to this headline">¶</a></h2>
+<h2>选项<a class="headerlink" href="#options" title="Permalink to this headline">¶</a></h2>
 <div class="figure align-default" id="id2">
 <img alt="../_images/animation_motion-paths_panel.png" src="../_images/animation_motion-paths_panel.png" />
-<p class="caption"><span class="caption-text">The Motion Paths panel in the Armature tab.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">在骨架选项卡中的运动路径面板。</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
 <dl>
-<dt>Type</dt><dd><dl>
-<dt>Around Frame</dt><dd><p>Display paths of points within a fixed number of frames around the current frame.
-When you enable this button, you get paths for a given number of frames before and after the current one
-(again, as with ghosts).</p>
+<dt>类型</dt><dd><dl>
+<dt>附近帧</dt><dd><p>显示当前帧附近固定帧数内的点的路径。 启用此按钮后，您将获得当前帧之前和之后给定帧数的路径(重复，与残影一样)。</p>
 </dd>
-<dt>In Range</dt><dd><p>Display paths of points within specified range.</p>
+<dt>帧区间内</dt><dd><p>在指定范围内显示路径点。</p>
 <dl class="simple">
-<dt>Clock Button</dt><dd><p>Updates the display frame range from the scene frame range.</p>
+<dt>时钟按钮</dt><dd><p>更新场景帧范围内的显示帧范围。</p>
 </dd>
 </dl>
 </dd>
 </dl>
 </dd>
-<dt>Frame Range</dt><dd><dl class="simple">
-<dt>Before, After</dt><dd><p>Number of frames to show before and after the current frame
-(only for <em>Around Current Frame</em> Onion-skinning method).</p>
+<dt>帧范围</dt><dd><dl class="simple">
+<dt>之前，之后</dt><dd><p>当前帧之前和之后显示的帧数(仅适用于 <em>当前帧附近</em> 洋葱皮方法)。</p>
 </dd>
-<dt>Start, End</dt><dd><p>Starting and Ending frame of range of paths to display/calculate
-(not for <em>Around Current Frame</em> Onion-skinning method).</p>
+<dt>开始，结束</dt><dd><p>显示/计算路径范围的开始和结束帧(不适用于 <em>当前帧附近</em> 洋葱皮方法)。</p>
 </dd>
-<dt>Step</dt><dd><p>Allows displaying one point for every <em>n</em> frames on the path.
-Mostly useful when you enable the frame number display (see below), to avoid cluttering the 3D Views.</p>
+<dt>步长</dt><dd><p>允许在路径上为每 <em>n个</em> 帧显示一个点。 启用帧编号显示(见下文)时非常有用，以避免混淆3D视图。</p>
 </dd>
 </dl>
 </dd>
-<dt>Cache/Bone Cache</dt><dd><dl class="simple">
-<dt>From, To</dt><dd><p>These are the start/end frames of the range in which motion paths are shown.
-You cannot modify this range without deleting the motion path first.</p>
+<dt>缓存/骨骼缓存</dt><dd><dl class="simple">
+<dt>从，到</dt><dd><p>这些是显示运动路径的范围的开始/结束帧。 如果不先删除运动路径，则无法修改此范围。</p>
 </dd>
 </dl>
 </dd>
-<dt>Calculate/Update Paths</dt><dd><p>If no paths have been calculated, Calculate Paths will create a new motion path in cache based on
-the options specified in the pop-up menu or the <a class="reference internal" href="../interface/undo_redo.html#ui-undo-redo-adjust-last-operation"><span class="std std-ref">Adjust Last Operation</span></a> panel.</p>
-<p>If a path has already been calculated, Update Paths will update the path shape to the current animation.
-To change the frame range of the calculated path, you need to delete the path and calculate it again.</p>
+<dt>计算/更新路径</dt><dd><p>如果尚未计算路径，则计算路径将根据弹出菜单或 <a class="reference internal" href="../interface/undo_redo.html#ui-undo-redo-adjust-last-operation"><span class="std std-ref">调整上一步操作</span></a> 面板中指定的选项在缓存中创建新的运动路径。</p>
+<p>如果已经计算了路径，则更新路径会将路径形状更新到当前动画。 要更改计算路径的帧范围，您需要删除路径并再次计算。</p>
 <dl class="simple">
-<dt>Start, End</dt><dd><p>These are the start/end frames of the range in which motion paths are shown.
-You have to <em>Calculate Paths</em> again if you modify this setting, to update the paths in the 3D Views.
-The start frame is <em>inclusive</em>
-(i.e. if you set <em>Start</em> to 1, you will really see the frame 1 as starting point of the paths…).</p>
+<dt>开始，结束</dt><dd><p>这些是显示的运动路径的范围的开始/结束帧。 如果修改此设置，则必须再次 <em>计算路径</em>，以更新3D视图中的路径。 <em>包含</em> 起始帧(即如果你将 <em>起始帧</em> 设置为1，你将真正看到第1帧作为路径的起点......)。</p>
 </dd>
-<dt>Bake Location</dt><dd><p>Bones only – By default, you get the tips’ paths.
-By changing this setting to Tails, you will get the paths of the bone’s roots
-(remember that in Blender UI, bones’ roots are called “heads”…).
-You have to <em>Calculate Paths</em> again if you modify this setting,
-to update the paths in the 3D Views.</p>
+<dt>烘焙位置</dt><dd><p>仅限骨骼——默认情况下，您会获得尾端的路径。 通过将此设置更改为尾，您将获得骨骼首端的路径(请记住，在Blender用户界面中，骨骼的根部被称为“头部”......)。 如果修改此设置，则必须再次 <em>计算路径</em>，以更新3D视图中的路径。</p>
 </dd>
 </dl>
 </dd>
-<dt>Clear Paths <code class="docutils literal notranslate"><span class="pre">X</span></code></dt><dd><p>Clears paths on all objects/bones or just the selected ones when holding <kbd class="kbd docutils literal notranslate">Shift</kbd>.</p>
+<dt>清除路径 <code class="docutils literal notranslate"><span class="pre">X</span></code></dt><dd><p>清除所有物体/骨骼上的路径，或者在按住 <kbd class="kbd docutils literal notranslate">Shift</kbd> 时仅清除所选对象的路径。</p>
 </dd>
 </dl>
 <div class="section" id="show">
-<h3>Show<a class="headerlink" href="#show" title="Permalink to this headline">¶</a></h3>
+<h3>显示<a class="headerlink" href="#show" title="Permalink to this headline">¶</a></h3>
 <dl>
-<dt>Frame Numbers</dt><dd><p>When enabled, a small number appears next to each frame dot on the path,
-which is of course the number of the corresponding frame.</p>
+<dt>帧序号</dt><dd><p>启用后，路径上每个帧点旁边会显示一个小数字，这当然是相应帧的编号。</p>
 </dd>
-<dt>Keyframes</dt><dd><p>When enabled, big yellow square dots are displayed on motion paths, showing the keyframes of their bones
-(i.e. only the paths of keyed bones at a given frame get a yellow dot at this frame).</p>
+<dt>关键帧</dt><dd><p>启用时，在运动路径上显示黄色大菱形点，显示其骨骼的关键帧(即，只有给定帧处的键控骨骼的路径在此帧处获得黄点)。</p>
 </dd>
-<dt>+ Non-Grouped Keyframes</dt><dd><p>For bone motion paths, it searches the whole Action for keyframes instead of
-in groups with matching name only (this is slower).</p>
+<dt>扩展至非群组关键帧</dt><dd><p>对于骨骼运动路径，它将搜索整个动作中的关键帧，而不是仅使用匹配名称的组(较慢)。</p>
 </dd>
-<dt>Keyframe Numbers</dt><dd><p>When enabled, you will see the numbers of the displayed keyframes,
-so this option is obviously only valid when <em>Show Keys</em> is enabled.</p>
+<dt>关键帧序号</dt><dd><p>启用后，你将看到所显示的关键帧序号，因此此选项显然仅当 <em>显示关键帧</em> 启用时有效。</p>
 </dd>
-<dt>Lines</dt><dd><p>Toggles whether the lines between the points are shown.</p>
+<dt>行数</dt><dd><p>切换是否显示点之间的线。</p>
 <dl class="simple">
-<dt>Thickness, Custom Color</dt><dd><p>Customizable thickness and color for the lines.</p>
+<dt>厚度，自定义颜色</dt><dd><p>可定制线条的厚度和颜色。</p>
 </dd>
 </dl>
 </dd>
@@ -351,10 +325,10 @@ so this option is obviously only valid when <em>Show Keys</em> is enabled.</p>
 </div>
 </div>
 <div class="section" id="example">
-<h2>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h2>
+<h2>例子<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h2>
 <div class="figure align-default" id="id3">
 <img alt="../_images/animation_motion-paths_example-armature.png" src="../_images/animation_motion-paths_example-armature.png" />
-<p class="caption"><span class="caption-text">An example of a motion path of an armature.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">骨架运动路径的例子。</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 </div>
@@ -367,10 +341,10 @@ so this option is obviously only valid when <em>Show Keys</em> is enabled.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../physics/index.html" class="btn btn-neutral float-right" title="Physics" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="../physics/index.html" class="btn btn-neutral float-right" title="物理" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="shape_keys/workflow.html" class="btn btn-neutral float-left" title="Workflow" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="shape_keys/workflow.html" class="btn btn-neutral float-left" title="工作流程" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -404,7 +378,7 @@ so this option is obviously only valid when <em>Show Keys</em> is enabled.</p>
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

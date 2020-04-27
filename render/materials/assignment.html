@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Assignment &mdash; Blender Manual</title>
+  <title>指定 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Preview" href="preview.html" />
-    <link rel="prev" title="Displacement" href="components/displacement.html" /> 
+    <link rel="next" title="预览" href="preview.html" />
+    <link rel="prev" title="置换着色器" href="components/displacement.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,55 +110,55 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../physics/index.html">Physics</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Rendering</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../physics/index.html">物理</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">渲染</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../introduction.html">简介</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../eevee/index.html">Eevee</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../cycles/index.html">Cycles</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../workbench/index.html">Workbench</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../cameras.html">Cameras</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cameras.html">相机</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../lights/index.html">Lights</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="index.html">Materials</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="introduction.html">Introduction</a></li>
-<li class="toctree-l3"><a class="reference internal" href="components/index.html">Components</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">Assignment</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#material-slots">Material Slots</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#reusing-existing-materials">Reusing Existing Materials</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#deleting-a-material">Deleting a Material</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#multiple-materials">Multiple Materials</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">材质</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="introduction.html">简介</a></li>
+<li class="toctree-l3"><a class="reference internal" href="components/index.html">组件</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">指定</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#material-slots">材质槽</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#reusing-existing-materials">重复使用已存在的材质</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#deleting-a-material">删除材质</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#multiple-materials">多个材质</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="preview.html">Preview</a></li>
-<li class="toctree-l3"><a class="reference internal" href="settings.html">Settings</a></li>
-<li class="toctree-l3"><a class="reference internal" href="legacy_textures/index.html">Legacy Textures</a></li>
+<li class="toctree-l3"><a class="reference internal" href="preview.html">预览</a></li>
+<li class="toctree-l3"><a class="reference internal" href="settings.html">设置</a></li>
+<li class="toctree-l3"><a class="reference internal" href="legacy_textures/index.html">传统</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../shader_nodes/index.html">Shader Nodes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../color_management.html">Color Management</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../shader_nodes/index.html">着色器节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../color_management.html">色彩管理</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../freestyle/index.html">Freestyle</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../layers/index.html">Layers &amp; Passes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../output/index.html">Render Output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../layers/index.html">层 &amp; 通道</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../output/index.html">渲染输出</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -204,15 +204,15 @@
     
       <li><a href="../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../index.html">Rendering</a> &raquo;</li>
+          <li><a href="../index.html">渲染</a> &raquo;</li>
         
-          <li><a href="index.html">Materials</a> &raquo;</li>
+          <li><a href="index.html">材质</a> &raquo;</li>
         
-      <li>Assignment</li>
+      <li>指定</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/render/materials/assignment.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/render/materials/assignment.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -223,151 +223,107 @@
            <div itemprop="articleBody">
             
   <div class="section" id="assignment">
-<h1>Assignment<a class="headerlink" href="#assignment" title="Permalink to this headline">¶</a></h1>
+<h1>指定<a class="headerlink" href="#assignment" title="Permalink to this headline">¶</a></h1>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Panel</dt>
-<dd class="field-odd"><p><span class="menuselection">Material ‣ Material Slots</span></p>
+<dt class="field-odd">面板</dt>
+<dd class="field-odd"><p><span class="menuselection">材质 ‣ 材质槽</span></p>
 </dd>
 </dl>
 </div>
-<p>Materials are data-blocks that can be created and then assigned to one or more objects.</p>
-<p>An object can also have multiple materials assigned in different material slots,
-which correspond to different parts of an object. If a smooth transition between
-materials is desired, then mixing shader nodes with a <a class="reference internal" href="../shader_nodes/shader/mix.html"><span class="doc">Mix shader</span></a>
-is a better solution.</p>
+<p>材质是一种可以被创建和指定到1个或多个物体的数据块。</p>
+<p>一个物体也可以由多个不同的材质插槽用来指定多个材质，对应物体的不同部分。如果需要材质间的平滑过渡， <a class="reference internal" href="../shader_nodes/shader/mix.html"><span class="doc">混合着色</span></a> 节点是一个更好的选择。</p>
 <div class="section" id="material-slots">
-<span id="id1"></span><h2>Material Slots<a class="headerlink" href="#material-slots" title="Permalink to this headline">¶</a></h2>
-<p>Material slots link materials to objects and meshes.</p>
-<p>By default objects only have a single material slot, which assigns a material to the entire object.
-If different parts of the mesh need different materials, multiple material slots can be created.</p>
+<span id="id1"></span><h2>材质槽<a class="headerlink" href="#material-slots" title="Permalink to this headline">¶</a></h2>
+<p>材质槽连接材质到物体和网格。</p>
+<p>默认情况下物体仅有一个材质槽，它指定了整个物体单一的材质。如果网格的不同部分需要不同的材质，那就创建多个材质槽。</p>
 <div class="figure align-default" id="id2">
 <img alt="../../_images/render_materials_assignment_panel-object-mode-BI.png" src="../../_images/render_materials_assignment_panel-object-mode-BI.png" />
-<p class="caption"><span class="caption-text">Material slots panel.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">材质槽面板。</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
 <div class="section" id="slot-list">
-<h3>Slot List<a class="headerlink" href="#slot-list" title="Permalink to this headline">¶</a></h3>
-<p>The object’s material slots and active material displayed in a <a class="reference internal" href="../../interface/controls/templates/list_presets.html#ui-list-view"><span class="std std-ref">List View</span></a>.</p>
+<h3>槽列表<a class="headerlink" href="#slot-list" title="Permalink to this headline">¶</a></h3>
+<p>物体的材质槽和活动材质显示在 <a class="reference internal" href="../../interface/controls/templates/list_presets.html#ui-list-view"><span class="std std-ref">列表视图</span></a> 中.</p>
 <dl class="simple">
-<dt>Add Material Slot</dt><dd><p>Add a new material slot on the object.</p>
+<dt>新建材质槽</dt><dd><p>在物体上创建新材质槽。</p>
 </dd>
-<dt>Remove Material Slot</dt><dd><p>Remove a material slot from the object.</p>
+<dt>移除材质槽</dt><dd><p>从物体中移除材质槽。</p>
 </dd>
-<dt>Copy Material</dt><dd><p>Copy material shader nodes and settings to clipboard.</p>
+<dt>复制材质</dt><dd><p>复制材质节点和设置到剪切板。</p>
 </dd>
-<dt>Paste Material</dt><dd><p>Paste material shader nodes and settings from clipboard.</p>
+<dt>粘贴材质</dt><dd><p>粘贴来自剪切板的材质节点和设置。</p>
 </dd>
-<dt>Copy Material to Selected</dt><dd><p>Copy the same material assignment from the active to other selected objects.</p>
+<dt>复制选择的材质</dt><dd><p>复制当前活动物体的相同材质指定方式到另一个已选物体。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="data-block">
-<h3>Data-Block<a class="headerlink" href="#data-block" title="Permalink to this headline">¶</a></h3>
+<h3>数据块<a class="headerlink" href="#data-block" title="Permalink to this headline">¶</a></h3>
 <dl>
-<dt>Material</dt><dd><p>The Material <a class="reference internal" href="../../interface/controls/templates/data_block.html#ui-data-block"><span class="std std-ref">Data-Block Menu</span></a> for the selected material slot.
-Here new materials can be created, or existing materials can to the material slot.</p>
+<dt>材质</dt><dd><p>选择的材质的材质 <a class="reference internal" href="../../interface/controls/templates/data_block.html#ui-data-block"><span class="std std-ref">数据块菜单</span></a> 。此处可以在材质槽中创建新材质或已存在的材质。</p>
 </dd>
-<dt>Data-block Links</dt><dd><p>Specifies whether the material is to be linked to the Object or to the Object Data.</p>
-<p>The Link selector has two choices, Data and Object.
-These two menu choices determine whether the material is linked to the object or to the data
-(e.g. a mesh or curve). The Data menu item determines that this material will be linked to the mesh’s
-data-block which is linked to the object’s data-block.
-The Object menu item determines that the material will be linked to the object’s data-block directly.</p>
-<p>This has consequences of course. For example, different objects may share the same mesh data-block.
-Since this data-block defines the shape of the object any change in Edit Mode
-will be reflected on all of those objects.
-Moreover, anything linked to that mesh data-block will be shared by every object that shares that mesh.
-So, if the material is linked to the mesh, every object will share it.</p>
-<p>On the other hand, if the material is linked directly to the object data-block, the objects can have
-different materials and still share the same mesh.</p>
-<p>Short explanation: If connected to the object, you can have several instances of the same Object Data using
-different materials. If linked to mesh data, you cannot.
-See <a class="reference internal" href="../../files/introduction.html"><span class="doc">Data System</span></a> for more information.</p>
+<dt>数据块关联</dt><dd><p>明细材质是否被关联到物体或物体数据。</p>
+<p>关联选择器有两种选项，数据和物体。这两种选项决定了材质是关联到物体还是关联到数据 (例如网格或曲线). 数据菜单决定了材质将关联到链接到物体数据块的网格的数据块。物体菜单决定了材质将直接关联到物体的数据块。</p>
+<p>两种选择的结果自然也是有所不同 。例如，不同的物体可能共用同一个网格数据块。由于该数据块决定了物体的形状，编辑模式下的任何修改都会反映到所有这些物体上。并且，在共用该网格的物体之间，任何该网格数据块的关联对象都是共用的。所以，如果网格与材质关联，每个物体都将共用该材质。</p>
+<p>另一方面，如果材质被直接关联到物体数据块，物体可以有多种材质且仍然共享相同的网格。</p>
+<p>注解：如果链接到物体，可以有若干使用了不同材质的同一物体数据的实例。如果关联到了网格数据，则前面说的就不成立了。详见 <a class="reference internal" href="../../files/introduction.html"><span class="doc">数据系统</span></a> 。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="edit-mode">
-<h3>Edit Mode<a class="headerlink" href="#edit-mode" title="Permalink to this headline">¶</a></h3>
-<p>To assign materials to different parts of a mesh, enter Edit Mode on the mesh.
-Additional buttons will then appear in the material slots panel.</p>
+<h3>编辑模式<a class="headerlink" href="#edit-mode" title="Permalink to this headline">¶</a></h3>
+<p>进入网格编辑模式，给网格的不同部分指定各种材质。材质槽面板将显现相关的按钮。</p>
 <div class="figure align-default" id="id3">
 <img alt="../../_images/render_materials_assignment_panel-edit-mode-BI.png" src="../../_images/render_materials_assignment_panel-edit-mode-BI.png" />
-<p class="caption"><span class="caption-text">Material slots panel in Edit Mode.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">编辑模式下的材质槽面板。</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
 </div>
 <dl class="simple">
-<dt>Assign</dt><dd><p>Assign active material slot and material to the selected faces in the mesh,
-strokes in a Grease Pencil, and similar for other object types.</p>
+<dt>指定</dt><dd><p>指定活动材质槽和材质到选中的网格面，蜡笔线条，和类似的其它物体类型。</p>
 </dd>
-<dt>Select</dt><dd><p>Select faces assigned to the active material slot.</p>
+<dt>选择</dt><dd><p>选择要指定活动材质槽的面。</p>
 </dd>
-<dt>Deselect</dt><dd><p>Deselect faces assigned to the active material slot.</p>
+<dt>删除</dt><dd><p>从指定了活动材质槽的面中删除。</p>
 </dd>
 </dl>
 </div>
 </div>
 <div class="section" id="reusing-existing-materials">
-<h2>Reusing Existing Materials<a class="headerlink" href="#reusing-existing-materials" title="Permalink to this headline">¶</a></h2>
-<p>Blender is built to allow you to reuse <em>anything</em>, including material settings,
-between many objects. Instead of creating duplicate materials,
-you can simply reuse an existing material.
-There are several ways to do this using the Material’s data-block menu:</p>
-<p><em>Single Object</em> – With the object selected, click the sphere located to the left of the Material name.
-A pop-up appears showing all the materials available in the current blend-file.
-To use one, just click on it.</p>
+<h2>重复使用已存在的材质<a class="headerlink" href="#reusing-existing-materials" title="Permalink to this headline">¶</a></h2>
+<p>Blender被设计成允许你重复使用 <em>任何</em> 东西,包括材质设定，在多个物体间，相比创建复制的材质，你可以轻松重复使用已存在的材质。要实现它，这里有多种方式使用材质数据块菜单：</p>
+<p><em>单一物体</em> -- 选定物体后，点击材质名字左边的球体，一个弹出菜单将显示当前blend文件中所有可用的材质。点击即可使用。</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
-<p>Searching for Materials</p>
-<p>The search field at the bottom of the material list allows you to search the names in the list.
-For example, by entering “wood” all existent materials are filtered so that
-only materials containing “wood” are displayed in the list.</p>
+<p>查找材质</p>
+<p>你可以在材质列表底下的查找框中查找材质名字。例如，输入 &quot;木纹&quot; 后所有名字包含 &quot;木纹&quot; 的材质将被筛选并显示出来.</p>
 </div>
-<p><em>Multiple Objects</em> – In the 3D View, with <kbd class="kbd docutils literal notranslate">Ctrl-L</kbd>
-you can quickly link all selected objects to the material (and other aspects)
-of the <a class="reference internal" href="../../scene_layout/object/selecting.html#object-active"><span class="std std-ref">active object</span></a>.
-Very useful if you need to set a large number of objects to the same material;
-just select all of them,
-then the object that has the desired material, and <kbd class="kbd docutils literal notranslate">Ctrl-L</kbd> links them to that “parent”.
-(See Tip on Linking Data in Creating about data linking.)</p>
+<p><em>多个物体</em> --在3D视口中，按 <kbd class="kbd docutils literal notranslate">Ctrl-L</kbd> 你可以快速关联所有选中的物体到某 <a class="reference internal" href="../../scene_layout/object/selecting.html#object-active"><span class="std std-ref">活动物体</span></a> 的材质(或其它方面)。当你需要对大量物体指定同一个材质时这招很有用；只需要选中那些物体，然后找到有想要指定的材质的那个父级物体，按 <kbd class="kbd docutils literal notranslate">Ctrl-L</kbd>  关联它们到那个 &quot;父级&quot; 。 (见关联数据和创建数据关联小贴士.)</p>
 </div>
 <div class="section" id="deleting-a-material">
-<h2>Deleting a Material<a class="headerlink" href="#deleting-a-material" title="Permalink to this headline">¶</a></h2>
-<p>To delete a material, select the material and click X in the Available Materials List entry.</p>
-<p>Although the material will seem to disappear immediately,
-the Delete action can depend on how the material is used elsewhere.</p>
+<h2>删除材质<a class="headerlink" href="#deleting-a-material" title="Permalink to this headline">¶</a></h2>
+<p>要删除材质，需选择可用材质列表中的材质并按X。</p>
+<p>尽管该材质看起来立刻消失了，但是否真正删除取决于材质是否在别处正在使用。</p>
 <p>If the material is linked to the object and there are other objects which use this material,
 then the material will be removed from that object (but remain on all its other objects).</p>
-<p>If the “Fake User” button has been lit in the Available Materials list,
-then the material will be retained when the file is saved, even if it has no users.</p>
-<p>Only if it has 0 “real” users, and no “Fake” user, will the material be permanently deleted.
-Note that it will still remain in the Materials list until the blend-file is saved,
-but will have disappeared when the file is reloaded.</p>
+<p>如果 &quot;伪用户&quot; 按钮被点亮，那么该材质即使没有在任何东西上使用，依然会在保存文件的时候被保留下来。</p>
+<p>仅当 &quot;真实&quot; 为0, 且没有点亮 &quot;伪&quot; 用户, 材质才会被永久删除. 记住它当blend文件保存后该材质依然会在材质列表中存留， 而一旦重新加载blend文件则会消失.</p>
 </div>
 <div class="section" id="multiple-materials">
-<span id="bi-multiple-materials"></span><h2>Multiple Materials<a class="headerlink" href="#multiple-materials" title="Permalink to this headline">¶</a></h2>
-<p>Normally, different colors or patterns on an object are achieved by adding textures to your materials.
-However, in some applications you can obtain multiple colors on an object by assigning
-different materials to the individual faces of the object.</p>
-<p>To apply several materials to different faces of the same object,
-you use the Material Slots options in the Materials header panel.</p>
-<p>The workflow for applying a second material to some faces of an object covered by
-a base material is as follows:</p>
+<span id="bi-multiple-materials"></span><h2>多个材质<a class="headerlink" href="#multiple-materials" title="Permalink to this headline">¶</a></h2>
+<p>通常分行，物体上的不同颜色或图案的实现需要靠给材质添加纹理来实现。当然，在某些场合你可以通过指定不同材质到物体的独立的面来获得物体上的多个颜色。</p>
+<p>若要在同一个物体的不同面上应用若干材质，你可以使用材质标题面板的材质槽选项。</p>
+<p>在物体的某些面的基础材质上叠加应用第二种材质的方法流程如下:</p>
 <ol class="arabic simple">
-<li><p>In Object Mode, apply the base material to the whole object.</p></li>
-<li><p>Create/select the second material (the whole object will change to this new material).</p></li>
-<li><p>In the Active Material list, reselect the base material.</p></li>
-<li><p>Go into Edit Mode and Face Select (a new list appears above
-the Active Material list with <em>Assign</em>/<em>Select</em>/<em>Deselect</em> buttons).</p></li>
-<li><p>Select the face/faces to be colored with the second material.</p></li>
-<li><p>In the Object Material Slots list, click the <code class="docutils literal notranslate"><span class="pre">+</span></code> button to create a new slot, and while this is still active,
-click on the second material in the Available Materials list.</p></li>
-<li><p>Click the <em>Assign</em> button, and the second material will appear on the selected object faces.</p></li>
+<li><p>在物体模式，应用基础材质到整个物体。</p></li>
+<li><p>创建/选择第二种材质(整个物体将会变成新材质)。</p></li>
+<li><p>在活动材质盒，重新选择基础材质。</p></li>
+<li><p>进入编辑模式并切换面选择(活动材质列表上方会出现一个带有 <em>指定</em>/<em>选择</em>/<em>弃选</em> 的新列表)。</p></li>
+<li><p>选择要被赋予第二种材质的的一个/多个面。</p></li>
+<li><p>在物体的材质槽列表内，单击 <code class="docutils literal notranslate"><span class="pre">+</span></code> 按钮创建一个新的槽，保持其活动状态，再在可用材质列表中单击第二个材质。</p></li>
+<li><p>单击 <em>指定</em> ，第二种材质将会出现在选定的物体的面上。</p></li>
 </ol>
-<p>You can also make this new material a copy of an existing material by adding the data-block:</p>
-<p>Select the object, get the material, <kbd class="kbd docutils literal notranslate">RMB</kbd> and Copy data to clipboard.
-When you have renamed the material, click “Link: Data” to link to the existing material.
-Proceed to assign faces as required.
-N.b: If you change the material on the original object, the new object color changes too.</p>
+<p>你也可以通过添加数据块来复制一份已有材质的拷贝:</p>
+<p>选定物体，选择材质， <kbd class="kbd docutils literal notranslate">RMB</kbd> 右键并选择复制数据到剪切板。当你重命名该材质时，单击 &quot;关联: 数据&quot; 来关联到已存在的材质。继而指定到需要的面。提示：如果你改变源物体上的材质，新物体的颜色也会跟着变化。</p>
 </div>
 </div>
 
@@ -379,10 +335,10 @@ N.b: If you change the material on the original object, the new object color cha
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="preview.html" class="btn btn-neutral float-right" title="Preview" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="preview.html" class="btn btn-neutral float-right" title="预览" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="components/displacement.html" class="btn btn-neutral float-left" title="Displacement" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="components/displacement.html" class="btn btn-neutral float-left" title="置换着色器" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -416,7 +372,7 @@ N.b: If you change the material on the original object, the new object color cha
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

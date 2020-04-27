@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Bloom &mdash; Blender Manual</title>
+  <title>泛光(Bloom) &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Depth of Field" href="depth_of_field.html" />
-    <link rel="prev" title="Ambient Occlusion" href="ambient_occlusion.html" /> 
+    <link rel="next" title="景深" href="depth_of_field.html" />
+    <link rel="prev" title="环境光遮蔽" href="ambient_occlusion.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,63 +110,63 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">Physics</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Rendering</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../physics/index.html">物理</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">渲染</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../introduction.html">简介</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="../index.html">Eevee</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="../introduction.html">Introduction</a></li>
-<li class="toctree-l3 current"><a class="reference internal" href="index.html">Render Settings</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="sampling.html">Sampling</a></li>
-<li class="toctree-l4"><a class="reference internal" href="ambient_occlusion.html">Ambient Occlusion</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">Bloom</a></li>
-<li class="toctree-l4"><a class="reference internal" href="depth_of_field.html">Depth of Field</a></li>
-<li class="toctree-l4"><a class="reference internal" href="subsurface_scattering.html">Subsurface Scattering</a></li>
-<li class="toctree-l4"><a class="reference internal" href="screen_space_reflections.html">Screen Space Reflections</a></li>
-<li class="toctree-l4"><a class="reference internal" href="motion_blur.html">Motion Blur</a></li>
-<li class="toctree-l4"><a class="reference internal" href="volumetrics.html">Volumetrics</a></li>
-<li class="toctree-l4"><a class="reference internal" href="shadows.html">Shadows</a></li>
-<li class="toctree-l4"><a class="reference internal" href="indirect_lighting.html">Indirect Lighting</a></li>
-<li class="toctree-l4"><a class="reference internal" href="film.html">Film</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../introduction.html">简介</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="index.html">渲染设置</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="sampling.html">采样</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ambient_occlusion.html">环境光遮蔽</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">泛光(Bloom)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="depth_of_field.html">景深</a></li>
+<li class="toctree-l4"><a class="reference internal" href="subsurface_scattering.html">次表面散射(SSS )</a></li>
+<li class="toctree-l4"><a class="reference internal" href="screen_space_reflections.html">屏幕空间反射</a></li>
+<li class="toctree-l4"><a class="reference internal" href="motion_blur.html">运动模糊</a></li>
+<li class="toctree-l4"><a class="reference internal" href="volumetrics.html">体积</a></li>
+<li class="toctree-l4"><a class="reference internal" href="shadows.html">阴影</a></li>
+<li class="toctree-l4"><a class="reference internal" href="indirect_lighting.html">间接光照明</a></li>
+<li class="toctree-l4"><a class="reference internal" href="film.html">胶片</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../materials/index.html">Materials</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../world.html">World</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../lighting.html">Light Settings</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../light_probes/index.html">Light Probes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../limitations.html">Limitations</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../materials/index.html">材质</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../world.html">世界环境</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../lighting.html">灯光设置</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../light_probes/index.html">光照探头</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../limitations.html">限制</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../cycles/index.html">Cycles</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../workbench/index.html">Workbench</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../cameras.html">Cameras</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../cameras.html">相机</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../lights/index.html">Lights</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../materials/index.html">Materials</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../shader_nodes/index.html">Shader Nodes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../color_management.html">Color Management</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../materials/index.html">材质</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../shader_nodes/index.html">着色器节点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../color_management.html">色彩管理</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../freestyle/index.html">Freestyle</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../layers/index.html">Layers &amp; Passes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../output/index.html">Render Output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../layers/index.html">层 &amp; 通道</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../output/index.html">渲染输出</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -212,17 +212,17 @@
     
       <li><a href="../../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../../index.html">Rendering</a> &raquo;</li>
+          <li><a href="../../index.html">渲染</a> &raquo;</li>
         
           <li><a href="../index.html">Eevee</a> &raquo;</li>
         
-          <li><a href="index.html">Render Settings</a> &raquo;</li>
+          <li><a href="index.html">渲染设置</a> &raquo;</li>
         
-      <li>Bloom</li>
+      <li>泛光(Bloom)</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/render/eevee/render_settings/bloom.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/render/eevee/render_settings/bloom.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -233,29 +233,28 @@
            <div itemprop="articleBody">
             
   <div class="section" id="bloom">
-<span id="bpy-types-sceneeevee-bloom"></span><h1>Bloom<a class="headerlink" href="#bloom" title="Permalink to this headline">¶</a></h1>
-<p>Bloom is a post-process effect that diffuses very bright pixels. This mimics lens artifacts of real cameras.
-This allows a better sense of what the actual intensities of the pixels are.</p>
+<span id="bpy-types-sceneeevee-bloom"></span><h1>泛光(Bloom)<a class="headerlink" href="#bloom" title="Permalink to this headline">¶</a></h1>
+<p>泛光(Bloom)是一种后处理效果，可以扩散非常明亮的像素。 模仿真实相机的镜头伪像,这样可以更好地了解像素的实际强度。</p>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Panel</dt>
-<dd class="field-odd"><p><span class="menuselection">Render ‣ Bloom</span></p>
+<dt class="field-odd">面板</dt>
+<dd class="field-odd"><p><span class="menuselection">渲染 ‣ Bloom</span></p>
 </dd>
 </dl>
 </div>
 <dl class="simple">
-<dt>Threshold</dt><dd><p>Filters out pixels under this level of brightness.</p>
+<dt>阈值</dt><dd><p>过滤掉此亮度级别下的像素。</p>
 </dd>
-<dt>Knee</dt><dd><p>Makes transition between under/over-threshold gradual.</p>
+<dt>拐点(Knee)</dt><dd><p>在低于/超过阈值之间渐变。</p>
 </dd>
-<dt>Radius</dt><dd><p>Bloom spread distance.</p>
+<dt>半径</dt><dd><p>泛光扩散距离。</p>
 </dd>
-<dt>Color</dt><dd><p>Color applied to the bloom effect.</p>
+<dt>颜色</dt><dd><p>应用于泛光效果的颜色。</p>
 </dd>
-<dt>Intensity</dt><dd><p>Blend factor.</p>
+<dt>强度</dt><dd><p>混合因子。</p>
 </dd>
-<dt>Clamp</dt><dd><p>Maximum intensity a bloom pixel can have.</p>
+<dt>钳制</dt><dd><p>钳制泛光像素的最大亮度。</p>
 </dd>
 </dl>
 </div>
@@ -268,10 +267,10 @@ This allows a better sense of what the actual intensities of the pixels are.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="depth_of_field.html" class="btn btn-neutral float-right" title="Depth of Field" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="depth_of_field.html" class="btn btn-neutral float-right" title="景深" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="ambient_occlusion.html" class="btn btn-neutral float-left" title="Ambient Occlusion" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="ambient_occlusion.html" class="btn btn-neutral float-left" title="环境光遮蔽" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -305,7 +304,7 @@ This allows a better sense of what the actual intensities of the pixels are.</p>
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

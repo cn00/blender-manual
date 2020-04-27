@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Selecting &mdash; Blender Manual</title>
+  <title>选择 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Editing" href="editing/index.html" />
-    <link rel="prev" title="Primitives" href="primitives.html" /> 
+    <link rel="next" title="编辑" href="editing/index.html" />
+    <link rel="prev" title="基本体" href="primitives.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,58 +110,58 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Modeling</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../introduction.html">Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../meshes/index.html">Meshes</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="index.html">Curves</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="introduction.html">Introduction</a></li>
-<li class="toctree-l3"><a class="reference internal" href="toolbar/index.html">Toolbar</a></li>
-<li class="toctree-l3"><a class="reference internal" href="structure.html">Structure</a></li>
-<li class="toctree-l3"><a class="reference internal" href="primitives.html">Primitives</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">Selecting</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#select-menu">Select Menu</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#select-random">Select Random</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#checker-deselect">Checker Deselect</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#select-linked">Select Linked</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#select-similar">Select Similar</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#de-select-first-last">(De)select First/Last</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#select-next-previous">Select Next/Previous</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#select-more-less">Select More/Less</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#pick-shortest-path">Pick Shortest Path</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">制作模型</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../introduction.html">简介</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../meshes/index.html">网格</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">曲线</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="introduction.html">简介</a></li>
+<li class="toctree-l3"><a class="reference internal" href="toolbar/index.html">工具栏</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structure.html">结构</a></li>
+<li class="toctree-l3"><a class="reference internal" href="primitives.html">基本体</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">选择</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#select-menu">选择菜单</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#select-random">随机选择</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#checker-deselect">间隔式弃选</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#select-linked">选择相连元素</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#select-similar">选择相似元素</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#de-select-first-last">选中/弃选首点/末点</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#select-next-previous">选择下一项 /上一项</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#select-more-less">扩展选择/缩减选择</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#pick-shortest-path">拾取最短路径</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="editing/index.html">Editing</a></li>
-<li class="toctree-l3"><a class="reference internal" href="properties/index.html">Properties</a></li>
-<li class="toctree-l3"><a class="reference internal" href="curve_display.html">Curve Display</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editing/index.html">编辑</a></li>
+<li class="toctree-l3"><a class="reference internal" href="properties/index.html">属性</a></li>
+<li class="toctree-l3"><a class="reference internal" href="curve_display.html">曲线显示</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../surfaces/index.html">Surfaces</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../metas/index.html">Metaball</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../texts/index.html">Text</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../empties.html">Empties</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../modifiers/index.html">Modifiers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../surfaces/index.html">曲面</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../metas/index.html">融球</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../texts/index.html">文本物体</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../empties.html">空物体</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../modifiers/index.html">修改器</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../animation/index.html">Animation &amp; Rigging</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../render/index.html">Rendering</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../animation/index.html">动画 &amp; 绑定</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../render/index.html">渲染</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -207,15 +207,15 @@
     
       <li><a href="../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../index.html">Modeling</a> &raquo;</li>
+          <li><a href="../index.html">制作模型</a> &raquo;</li>
         
-          <li><a href="index.html">Curves</a> &raquo;</li>
+          <li><a href="index.html">曲线</a> &raquo;</li>
         
-      <li>Selecting</li>
+      <li>选择</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/modeling/curves/selecting.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/modeling/curves/selecting.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -226,258 +226,230 @@
            <div itemprop="articleBody">
             
   <div class="section" id="selecting">
-<h1>Selecting<a class="headerlink" href="#selecting" title="Permalink to this headline">¶</a></h1>
-<p>This page discusses specific selecting tools for curve objects in Edit mode.
-The Curve Edit more also uses the general select tools used which are described
-in the <a class="reference internal" href="../../interface/selecting.html"><span class="doc">interface section</span></a>.</p>
-<p>Curve selection in <em>Edit Mode</em> has fewer options than with meshes.
-Mainly this is, because there is only one selectable element type, the control points
-(no select mode needed here…). These points are a bit more complex than simple vertices,
-however, especially for Bézier curves, as there is the central vertex, and its two handles…</p>
-<p>The basic tools are the same as with <a class="reference internal" href="../meshes/selecting.html"><span class="doc">meshes</span></a>,
-so you can select a simple control point with the <kbd class="kbd docutils literal notranslate">LMB</kbd>,
-add to current selection with <kbd class="kbd docutils literal notranslate">Shift-LMB</kbd>, Box Select <kbd class="kbd docutils literal notranslate">B</kbd>, and so on.</p>
-<p>One word about the Bézier control points: when you select the main central vertex,
-the two handles are automatically selected too, so you can move it as a whole,
-without creating an angle in the curve. However, when you select a handle,
-only this vertex is selected, allowing you to modify this control vector…</p>
-<p>Note that, unlike mesh edges, you cannot directly select a segment. Instead,
-select all of the control points that make up the segment you want to edit.</p>
+<h1>选择<a class="headerlink" href="#selecting" title="Permalink to this headline">¶</a></h1>
+<p>本页面讨论在编辑模式下曲线对象的特定选择工具。曲线编辑还使用了通用的选择工具，如 <a class="reference internal" href="../../interface/selecting.html"><span class="doc">界面选择</span></a> 中所述。</p>
+<p><em>编辑模式</em> 下的曲线选择选项比网格少。主要是因为它只有一种可选元素类型，控制点(这里没有选择模式)。这些点比简单的顶点稍微复杂一些，但是，特别是贝塞尔曲线，一个顶点包含一个中心点和两个控制柄...</p>
+<p>基本工具与 <a class="reference internal" href="../meshes/selecting.html"><span class="doc">网格</span></a> 相同，因此您可以使用 <kbd class="kbd docutils literal notranslate">LMB</kbd> 选择一个简单的控制点， <kbd class="kbd docutils literal notranslate">Shift-LMB</kbd> 添加到当前选择中，框选 <kbd class="kbd docutils literal notranslate">B</kbd> ，等等。</p>
+<p>对于贝塞尔曲线需要注意一点：当选择主控制点时，两侧控制柄也会自动处于选定状态，将其作为一个整体拖动，不改变控制柄的角度。但是，当选中一个控制柄后，选中的只是这个点，这允许你修改控制向量...</p>
+<p>请注意，与网格边不同，你无法直接选择一段曲线，而是只能通过选择组成该段曲线的所有控制点来实现。</p>
 <div class="section" id="select-menu">
-<h2>Select Menu<a class="headerlink" href="#select-menu" title="Permalink to this headline">¶</a></h2>
-<p>With curves, all “advanced” selection options are grouped
-in the <em>Select</em> menu of the 3D Viewport header.</p>
+<h2>选择菜单<a class="headerlink" href="#select-menu" title="Permalink to this headline">¶</a></h2>
+<p>对于曲线来说，所有的 &quot;高级&quot; 选择选项都位于3D视图标题栏的 <em>选择</em> 菜单里。</p>
 <dl class="simple">
-<dt>All <kbd class="kbd docutils literal notranslate">A</kbd></dt><dd><p>Select all.</p>
+<dt>全部 <kbd class="kbd docutils literal notranslate">A</kbd></dt><dd><p>全选。</p>
 </dd>
-<dt>None <kbd class="kbd docutils literal notranslate">Alt-A</kbd></dt><dd><p>Select none.</p>
+<dt>无 <kbd class="kbd docutils literal notranslate">Alt-A</kbd></dt><dd><p>无选择。</p>
 </dd>
-<dt>Inverse <kbd class="kbd docutils literal notranslate">Ctrl-I</kbd></dt><dd><p>Selects all the geometry that are not selected, and deselect currently selected components.</p>
+<dt>反转 <kbd class="kbd docutils literal notranslate">Ctrl-I</kbd></dt><dd><p>选择所有未选中的几何图形，并取消选择当前选中的组件。</p>
 </dd>
 </dl>
 <hr class="docutils" />
 <dl class="simple">
-<dt><a class="reference internal" href="../../interface/selecting.html#tool-select-box"><span class="std std-ref">Box Select</span></a> <kbd class="kbd docutils literal notranslate">B</kbd></dt><dd><p>Interactive box selection.</p>
+<dt><a class="reference internal" href="../../interface/selecting.html#tool-select-box"><span class="std std-ref">框选</span></a> <kbd class="kbd docutils literal notranslate">B</kbd></dt><dd><p>互动框选择。</p>
 </dd>
-<dt><a class="reference internal" href="../../interface/selecting.html#tool-select-circle"><span class="std std-ref">Circle Select</span></a> <kbd class="kbd docutils literal notranslate">C</kbd></dt><dd><p>Interactive circle selection.</p>
-</dd>
-</dl>
-<hr class="docutils" />
-<dl class="simple">
-<dt><a class="reference internal" href="#select-random">Select Random</a></dt><dd><p>Select random control points.</p>
-</dd>
-<dt><a class="reference internal" href="#checker-deselect">Checker Deselect</a></dt><dd><p>Select every Nth control point.</p>
-</dd>
-<dt><a class="reference internal" href="#select-linked">Select Linked</a> <kbd class="kbd docutils literal notranslate">Ctrl-L</kbd></dt><dd><p>Select control points that are connected to the current selection.</p>
-</dd>
-<dt><a class="reference internal" href="#select-similar">Select Similar</a> <kbd class="kbd docutils literal notranslate">Shift-G</kbd></dt><dd><p>Select control points that have similar properties to the current selection.</p>
+<dt><a class="reference internal" href="../../interface/selecting.html#tool-select-circle"><span class="std std-ref">刷选</span></a> <kbd class="kbd docutils literal notranslate">C</kbd></dt><dd><p>刷选择。</p>
 </dd>
 </dl>
 <hr class="docutils" />
 <dl class="simple">
-<dt><a class="reference internal" href="#de-select-first-last">(De)select First/Last</a></dt><dd><p>Toggle the selection of the first or last control point(s).</p>
+<dt><a class="reference internal" href="#select-random">随机选择</a></dt><dd><p>随机选择控制点。</p>
 </dd>
-<dt><a class="reference internal" href="#select-next-previous">Select Next/Previous</a></dt><dd><p>Selects the next or previous control points.</p>
+<dt><a class="reference internal" href="#checker-deselect">间隔式弃选</a></dt><dd><p>选择第n个控制点。</p>
+</dd>
+<dt><a class="reference internal" href="#select-linked">选择相连元素</a> <kbd class="kbd docutils literal notranslate">Ctrl-L</kbd></dt><dd><p>选择与当前选择相连接的控制点。</p>
+</dd>
+<dt><a class="reference internal" href="#select-similar">选择相似</a> <kbd class="kbd docutils literal notranslate">Shift-G</kbd></dt><dd><p>选择与当前选择具有类似属性的控制点。</p>
 </dd>
 </dl>
 <hr class="docutils" />
 <dl class="simple">
-<dt><a class="reference internal" href="#select-more-less">Select More/Less</a></dt><dd><p>Select objects based on their parent child relationships.</p>
+<dt><a class="reference internal" href="#de-select-first-last">选中/弃选首点/末点</a></dt><dd><p>切换第一个或最后一个控制点的选择。</p>
+</dd>
+<dt><a class="reference internal" href="#select-next-previous">选择下一项 /上一项</a></dt><dd><p>选择下一个或上一个控制点。</p>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="simple">
+<dt><a class="reference internal" href="#select-more-less">扩展选择/缩减选择</a></dt><dd><p>根据对象的父级-子级关系选择对象。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="select-random">
-<h2>Select Random<a class="headerlink" href="#select-random" title="Permalink to this headline">¶</a></h2>
+<h2>随机选择<a class="headerlink" href="#select-random" title="Permalink to this headline">¶</a></h2>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Mode</dt>
-<dd class="field-odd"><p>Edit Mode</p>
+<dt class="field-odd">模式</dt>
+<dd class="field-odd"><p>编辑模式</p>
 </dd>
-<dt class="field-even">Menu</dt>
-<dd class="field-even"><p><span class="menuselection">Select ‣ Select Random</span></p>
+<dt class="field-even">菜单</dt>
+<dd class="field-even"><p><span class="menuselection">选择 ‣ 随机选择</span></p>
 </dd>
 </dl>
 </div>
-<p>Select Random control points.</p>
+<p>随机选择控制点。</p>
 <dl class="simple">
-<dt>Percent</dt><dd><p>Selects the defined percentage of control points.</p>
+<dt>百分比</dt><dd><p>选择定义百分比数量的控制点。</p>
 </dd>
-<dt>Random Seed</dt><dd><p><a class="reference internal" href="../../glossary/index.html#term-seed"><span class="xref std std-term">Seed</span></a> used by the pseudo-random number generator.</p>
+<dt>随机种</dt><dd><p>伪随机数生成器使用的 <a class="reference internal" href="../../glossary/index.html#term-seed"><span class="xref std std-term">Seed</span></a> 。</p>
 </dd>
-<dt>Action</dt><dd><p>Controls whether the operator <em>Selects</em> or <em>Deselects</em> control points.</p>
+<dt>动作</dt><dd><p>控制该操作是 <em>选择</em> 或 <em>取消选择</em> 控制点。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="checker-deselect">
-<h2>Checker Deselect<a class="headerlink" href="#checker-deselect" title="Permalink to this headline">¶</a></h2>
+<h2>间隔式弃选<a class="headerlink" href="#checker-deselect" title="Permalink to this headline">¶</a></h2>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Mode</dt>
-<dd class="field-odd"><p>Edit Mode</p>
+<dt class="field-odd">模式</dt>
+<dd class="field-odd"><p>编辑模式</p>
 </dd>
-<dt class="field-even">Menu</dt>
-<dd class="field-even"><p><span class="menuselection">Select ‣ Checker Deselect</span></p>
+<dt class="field-even">菜单</dt>
+<dd class="field-even"><p><span class="menuselection">选择 ‣ 间隔式弃选</span></p>
 </dd>
 </dl>
 </div>
-<p>This tool applies an alternating selected/deselected checker pattern.
-This only works if you already have more than one control point selected.</p>
-<p>It works by changing the current selection so that only every Nth
-control points will remain selected, starting from the active one.</p>
+<p>此工具应用交替选择/取消选择的检查器模式。这只适用于您已经选择了多个控制点的情况。</p>
+<p>它的工作原理是改变当前的选择，这样只有从活动的控制点开始，只有每一轮的第n个控制点才会保持选中的状态。</p>
 <dl class="simple">
-<dt>Deselected</dt><dd><p>The number of deselected elements in each pattern repetition.</p>
+<dt>弃选项</dt><dd><p>每次模式重复中弃选的元素数量。</p>
 </dd>
-<dt>Selected</dt><dd><p>The number of selected elements in each pattern repetition.</p>
+<dt>选中项</dt><dd><p>每次模式重复中选择的元素数量。</p>
 </dd>
-<dt>Offset</dt><dd><p>Offset from the starting point.</p>
+<dt>偏移量</dt><dd><p>从起始点的偏移。</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="select-linked">
-<h2>Select Linked<a class="headerlink" href="#select-linked" title="Permalink to this headline">¶</a></h2>
+<h2>选择相连元素<a class="headerlink" href="#select-linked" title="Permalink to this headline">¶</a></h2>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Mode</dt>
-<dd class="field-odd"><p>Edit Mode</p>
+<dt class="field-odd">模式</dt>
+<dd class="field-odd"><p>编辑模式</p>
 </dd>
-<dt class="field-even">Menu</dt>
-<dd class="field-even"><p><span class="menuselection">Select ‣ Select Linked</span></p>
+<dt class="field-even">菜单</dt>
+<dd class="field-even"><p><span class="menuselection">选择 ‣ 选择相连元素</span></p>
 </dd>
-<dt class="field-odd">Hotkey</dt>
+<dt class="field-odd">快捷键</dt>
 <dd class="field-odd"><p><kbd class="kbd docutils literal notranslate">L</kbd>, <kbd class="kbd docutils literal notranslate">Ctrl-L</kbd>, <kbd class="kbd docutils literal notranslate">Shift-L</kbd></p>
 </dd>
 </dl>
 </div>
-<p><kbd class="kbd docutils literal notranslate">L</kbd> (or <kbd class="kbd docutils literal notranslate">Ctrl-L</kbd> for all) will add to the selection the cursor’s nearest control point,
-and all the linked ones, i.e. all points belonging to the same curve. Note that for Bézier,
-using <kbd class="kbd docutils literal notranslate">L</kbd> with a handle selected will select the whole control point and all the linked ones.</p>
+<p><kbd class="kbd docutils literal notranslate">L</kbd> (或者 <kbd class="kbd docutils literal notranslate">Ctrl-L</kbd> 全选) 会扩选光标附近的控制点和相连的全部控制点，也就是，选中同属一条曲线的所有控制点。注意，对于贝塞尔曲线，选中一个控制柄后使用 <kbd class="kbd docutils literal notranslate">L</kbd> 会选中所有控制点以及与之相连的所有控制点。</p>
 </div>
 <div class="section" id="select-similar">
-<h2>Select Similar<a class="headerlink" href="#select-similar" title="Permalink to this headline">¶</a></h2>
+<h2>选择相似元素<a class="headerlink" href="#select-similar" title="Permalink to this headline">¶</a></h2>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Mode</dt>
-<dd class="field-odd"><p>Edit Mode</p>
+<dt class="field-odd">模式</dt>
+<dd class="field-odd"><p>编辑模式</p>
 </dd>
-<dt class="field-even">Menu</dt>
-<dd class="field-even"><p><span class="menuselection">Select ‣ Select Similar</span></p>
+<dt class="field-even">菜单</dt>
+<dd class="field-even"><p><span class="menuselection">选择 ‣ 选择相似元素</span></p>
 </dd>
-<dt class="field-odd">Hotkey</dt>
+<dt class="field-odd">快捷键</dt>
 <dd class="field-odd"><p><kbd class="kbd docutils literal notranslate">Shift-G</kbd></p>
 </dd>
 </dl>
 </div>
-<p>Selects control points that have certain similar properties to the active one.
-The <a class="reference internal" href="../../interface/undo_redo.html#ui-undo-redo-adjust-last-operation"><span class="std std-ref">Adjust Last Operation</span></a> panel provides several selection options:</p>
+<p>选择与活动控制点具有某些类似属性的控制点。 <a class="reference internal" href="../../interface/undo_redo.html#ui-undo-redo-adjust-last-operation"><span class="std std-ref">调整上一步操作</span></a> 面板提供了几个选择选项:</p>
 <dl class="simple">
-<dt>Type</dt><dd><dl class="simple">
-<dt>Type</dt><dd><p>Selects splines that have the same spline Type i.e. Bézier, NURBS or Poly.</p>
+<dt>类型</dt><dd><dl class="simple">
+<dt>类型</dt><dd><p>选择具有相同样条类型的样条，例如贝塞尔、NURBS或多边形。</p>
 </dd>
-<dt>Radius</dt><dd><p>Selects control points that have a similar Radius value.</p>
+<dt>半径</dt><dd><p>选择有相似半径值的控制点。</p>
 </dd>
-<dt>Weight</dt><dd><p>Selects all points that have a similar Weight value.</p>
+<dt>权重</dt><dd><p>选择所有有着相似权重值的控制点。</p>
 </dd>
-<dt>Direction</dt><dd><p>Selects control points that have a similar handles direction.</p>
+<dt>方向</dt><dd><p>选择有相似控制柄方向的控制点。</p>
 </dd>
 </dl>
 </dd>
-<dt>Compare</dt><dd><p>Equal, Greater, Less. (only for Radius, Weight) (ToDo 2.76)</p>
+<dt>比较</dt><dd><p>相等,大于,小于。(仅适用于半径、权重) (ToDo 2.76)</p>
 </dd>
-<dt>Threshold</dt><dd><p>Precision (ToDo 2.76)</p>
+<dt>阈值</dt><dd><p>精度 (ToDo 2.76)</p>
 </dd>
 </dl>
 </div>
 <div class="section" id="de-select-first-last">
-<h2>(De)select First/Last<a class="headerlink" href="#de-select-first-last" title="Permalink to this headline">¶</a></h2>
+<h2>选中/弃选首点/末点<a class="headerlink" href="#de-select-first-last" title="Permalink to this headline">¶</a></h2>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Mode</dt>
-<dd class="field-odd"><p>Edit Mode</p>
+<dt class="field-odd">模式</dt>
+<dd class="field-odd"><p>编辑模式</p>
 </dd>
-<dt class="field-even">Menu</dt>
-<dd class="field-even"><p><span class="menuselection">Select ‣ (De)select First</span>,
-<span class="menuselection">Select ‣ (De)select Last</span></p>
+<dt class="field-even">菜单</dt>
+<dd class="field-even"><p><span class="menuselection">选择 ‣ 选中/弃选首点</span> , <span class="menuselection">选择 ‣ 选中/弃选末点</span></p>
 </dd>
 </dl>
 </div>
-<p>These operators will toggle the selection of the first or last control point(s) of the curve(s)
-in the object. This is useful to quickly find the start of a curve
-(e.g. when using it as path…).</p>
+<p>这些操作用于切换曲线首末端点的选中状态。这可以用在快速寻找曲线的起始点(比如将曲线用作路径时)。</p>
 </div>
 <div class="section" id="select-next-previous">
-<h2>Select Next/Previous<a class="headerlink" href="#select-next-previous" title="Permalink to this headline">¶</a></h2>
+<h2>选择下一项 /上一项<a class="headerlink" href="#select-next-previous" title="Permalink to this headline">¶</a></h2>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Mode</dt>
-<dd class="field-odd"><p>Edit Mode</p>
+<dt class="field-odd">模式</dt>
+<dd class="field-odd"><p>编辑模式</p>
 </dd>
-<dt class="field-even">Menu</dt>
-<dd class="field-even"><p><span class="menuselection">Select ‣ Select Next</span>, <span class="menuselection">Select ‣ Select Previous</span></p>
+<dt class="field-even">菜单</dt>
+<dd class="field-even"><p><span class="menuselection">选择 ‣ 选择下一项</span> , <span class="menuselection">选择 ‣ 选择上一项</span></p>
 </dd>
 </dl>
 </div>
-<p>These operators will select the next or previous control point(s),
-based on the current selection
-(i.e. the control points following or preceding the selected ones along the curve).
-In case of a cyclic curve, the first and last points are not considered as neighbors.</p>
+<p>该操作基于当前选中项，扩选下一个或上一个控制点(即沿曲线的前一个或后一个控制点)。对于闭合曲线，起点和终点不算作相邻顶点。</p>
 </div>
 <div class="section" id="select-more-less">
-<h2>Select More/Less<a class="headerlink" href="#select-more-less" title="Permalink to this headline">¶</a></h2>
+<h2>扩展选择/缩减选择<a class="headerlink" href="#select-more-less" title="Permalink to this headline">¶</a></h2>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Mode</dt>
-<dd class="field-odd"><p>Edit Mode</p>
+<dt class="field-odd">模式</dt>
+<dd class="field-odd"><p>编辑模式</p>
 </dd>
-<dt class="field-even">Menu</dt>
-<dd class="field-even"><p><span class="menuselection">Select ‣ More/Less</span></p>
+<dt class="field-even">菜单</dt>
+<dd class="field-even"><p><span class="menuselection">选择 ‣ 扩展/缩减选择</span></p>
 </dd>
-<dt class="field-odd">Hotkey</dt>
-<dd class="field-odd"><p><kbd class="kbd docutils literal notranslate">Ctrl-NumpadPlus</kbd>, <kbd class="kbd docutils literal notranslate">Ctrl-NumpadMinus</kbd></p>
+<dt class="field-odd">快捷键</dt>
+<dd class="field-odd"><p><kbd class="kbd docutils literal notranslate">Ctrl-NumpadPlus</kbd> , <kbd class="kbd docutils literal notranslate">Ctrl-NumpadMinus</kbd></p>
 </dd>
 </dl>
 </div>
-<p>Their purpose, based on the currently selected control points, is to reduce or enlarge this selection.</p>
+<p>它们的目的是根据目前选择的控制点来减少或扩大选中项。</p>
 <dl class="simple">
-<dt>More</dt><dd><p>For each selected control point, select <em>all</em> its linked points (i.e. one or two…).</p>
+<dt>扩展选择</dt><dd><p>对于每个选定的控制点，选择它的 <em>所有</em> 连接点(即一个或两个…)。</p>
 </dd>
-<dt>Less</dt><dd><p>For each selected control point, if <em>all</em> points linked to this point are selected, keep this one selected.
-Otherwise, deselect it.</p>
+<dt>缩减选择</dt><dd><p>对于每个选定的控制点，如果 <em>所有</em> 与此点连接的点都被选中，则保持选中此点。否则取消选择。</p>
 </dd>
 </dl>
-<p>This implies two points:</p>
+<p>这意味着两点:</p>
 <ol class="arabic simple">
-<li><p>When <em>all</em> control points of a curve are selected, nothing will happen
-(as for <em>Less</em>, all linked points are always selected, and of course, <em>More</em> cannot add any).
-Conversely, the same goes when no control points are selected.</p></li>
-<li><p>Second, these tools will never “go outside” of a curve
-(they will never “jump” to another curve in the same object).</p></li>
+<li><p>当选择曲线的 <em>所有</em> 控制点时，什么都不会发生(对于 <em>缩减选择</em> ，所有连接的点总是被选择，当然，此时 <em>扩展选择</em> 不能添加任何点)。相反,在没有选择控制点时也一样。</p></li>
+<li><p>其次，这两个工具的作用范围不会 &quot;跳出&quot; 曲线( 决不会从物体的一条曲线 &quot;跳到&quot; 另一条曲线上)。</p></li>
 </ol>
 </div>
 <div class="section" id="pick-shortest-path">
-<h2>Pick Shortest Path<a class="headerlink" href="#pick-shortest-path" title="Permalink to this headline">¶</a></h2>
+<h2>拾取最短路径<a class="headerlink" href="#pick-shortest-path" title="Permalink to this headline">¶</a></h2>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Mode</dt>
-<dd class="field-odd"><p>Edit Mode</p>
+<dt class="field-odd">模式</dt>
+<dd class="field-odd"><p>编辑模式</p>
 </dd>
-<dt class="field-even">Menu</dt>
-<dd class="field-even"><p><span class="menuselection">Operator Search ‣ Pick Shortest Path</span></p>
+<dt class="field-even">菜单</dt>
+<dd class="field-even"><p><span class="menuselection">操作查找 ‣ 拾取最短路径</span></p>
 </dd>
-<dt class="field-odd">Hotkey</dt>
+<dt class="field-odd">快捷键</dt>
 <dd class="field-odd"><p><kbd class="kbd docutils literal notranslate">Ctrl-LMB</kbd></p>
 </dd>
 </dl>
 </div>
-<p>Selects the curve segments between two control points: the active and the one under the cursor.
-In the case of a closed curve, the shortest path will be selected.</p>
+<p>选择两个控制点之间的曲线段: 活动点和光标下的控制点。在闭合曲线的情况下，选择最短路径。</p>
 </div>
 </div>
 
@@ -489,10 +461,10 @@ In the case of a closed curve, the shortest path will be selected.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="editing/index.html" class="btn btn-neutral float-right" title="Editing" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="editing/index.html" class="btn btn-neutral float-right" title="编辑" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="primitives.html" class="btn btn-neutral float-left" title="Primitives" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="primitives.html" class="btn btn-neutral float-left" title="基本体" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -526,7 +498,7 @@ In the case of a closed curve, the shortest path will be selected.</p>
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>

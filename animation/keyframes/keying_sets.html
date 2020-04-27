@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-hans" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-hans" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Keying Sets &mdash; Blender Manual</title>
+  <title>插帧集 &mdash; Blender Manual</title>
   
 
   
@@ -64,8 +64,8 @@
     
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Armatures" href="../armatures/index.html" />
-    <link rel="prev" title="Editing" href="editing.html" /> 
+    <link rel="next" title="骨架" href="../armatures/index.html" />
+    <link rel="prev" title="编辑" href="editing.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,49 +110,49 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../getting_started/index.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../interface/index.html">User Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../editors/index.html">Editors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../scene_layout/index.html">Scenes &amp; Objects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../modeling/index.html">Modeling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../sculpt_paint/index.html">Sculpting &amp; Painting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../grease_pencil/index.html">Grease Pencil</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Animation &amp; Rigging</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../introduction.html">Introduction</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="index.html">Keyframes</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="introduction.html">Introduction</a></li>
-<li class="toctree-l3"><a class="reference internal" href="editing.html">Editing</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">Keying Sets</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#keying-set-panel">Keying Set Panel</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#active-keying-set-panel">Active Keying Set Panel</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#adding-properties">Adding Properties</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../getting_started/index.html">Blender入门</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../interface/index.html">用户界面</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../editors/index.html">编辑器</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../scene_layout/index.html">场景 &amp; 物体</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../modeling/index.html">制作模型</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../sculpt_paint/index.html">雕刻 &amp; 绘制</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../grease_pencil/index.html">蜡笔</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">动画 &amp; 绑定</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../introduction.html">简介</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">关键帧</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="introduction.html">简介</a></li>
+<li class="toctree-l3"><a class="reference internal" href="editing.html">编辑</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">插帧集</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#keying-set-panel">插帧集面板</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#active-keying-set-panel">活动插帧集面板</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#adding-properties">添加属性</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../armatures/index.html">Armatures</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../lattice.html">Lattice</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../constraints/index.html">Constraints</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../actions.html">Actions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../drivers/index.html">Drivers</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../markers.html">Markers</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../shape_keys/index.html">Shape Keys</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../motion_paths.html">Motion Paths</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../armatures/index.html">骨架</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lattice.html">晶格</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../constraints/index.html">约束</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../actions.html">动作</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../drivers/index.html">驱动器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../markers.html">标记</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../shape_keys/index.html">形态键</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../motion_paths.html">运动路径</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../physics/index.html">Physics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../render/index.html">Rendering</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../compositing/index.html">Compositing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../movie_clip/index.html">Tracking &amp; Masking</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../video_editing/index.html">Video Editing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../files/index.html">Files &amp; Data System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../addons/index.html">Add-ons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../advanced/index.html">Advanced</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../troubleshooting/index.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../physics/index.html">物理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../render/index.html">渲染</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../compositing/index.html">合成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../movie_clip/index.html">跟踪 &amp; 遮罩</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../video_editing/index.html">视频编辑</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../files/index.html">文件 &amp; 数据系统</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../addons/index.html">插件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../advanced/index.html">高级应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../troubleshooting/index.html">问题排查</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">词汇表</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">About this Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">关于本手册</a></li>
 </ul>
 
             
@@ -198,15 +198,15 @@
     
       <li><a href="../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../index.html">Animation &amp; Rigging</a> &raquo;</li>
+          <li><a href="../index.html">动画 &amp; 绑定</a> &raquo;</li>
         
-          <li><a href="index.html">Keyframes</a> &raquo;</li>
+          <li><a href="index.html">关键帧</a> &raquo;</li>
         
-      <li>Keying Sets</li>
+      <li>插帧集</li>
     
     
 		<li class="wy-breadcrumbs-aside">
-			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/animation/keyframes/keying_sets.rst" class="fa fa-edit"> Edit Page</a>
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/animation/keyframes/keying_sets.rst" class="fa fa-edit"> 编辑页面</a>
 		</li>
   </ul>
 
@@ -217,62 +217,55 @@
            <div itemprop="articleBody">
             
   <div class="section" id="keying-sets">
-<span id="bpy-ops-anim-keying-set"></span><h1>Keying Sets<a class="headerlink" href="#keying-sets" title="Permalink to this headline">¶</a></h1>
+<span id="bpy-ops-anim-keying-set"></span><h1>插帧集<a class="headerlink" href="#keying-sets" title="Permalink to this headline">¶</a></h1>
 <div class="figure align-right" id="id2">
 <img alt="../../_images/editors_timeline_keying-sets.png" src="../../_images/editors_timeline_keying-sets.png" />
-<p class="caption"><span class="caption-text">The Active Keying Sets data ID in the Timeline.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">时间线中的活动的插帧集数据ID。</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
-<p>Keying Sets are a collection of properties.
-They are used to record multiple properties at the same time.</p>
-<p>Now when you press <kbd class="kbd docutils literal notranslate">I</kbd> in the 3D View,
-Blender will add keyframes for all the properties in the active keying set.</p>
-<p>There are some built-in Keying Sets and,
-also custom Keying Sets called <em>Absolute Keying Sets</em>.</p>
-<p>To select and use a Keying Set, set the <em>Active Keying Set</em>
-in the <a class="reference internal" href="../../editors/timeline.html#timeline-keying"><span class="std std-ref">Keying popover</span></a> in the Timeline Header,
-or the Keying Set panel, or press <kbd class="kbd docutils literal notranslate">Shift-Ctrl-Alt-I</kbd> in the 3D View.</p>
+<p>插帧集是一个属性集合，用于记录同一时刻的多个属性。</p>
+<p>当在3D视图中按下 <kbd class="kbd docutils literal notranslate">I</kbd> 时，Blender会将活动插帧集里的所有属性值添加到关键帧。</p>
+<p>有一些内置插帧集，还有称作 <em>绝对插帧集</em> 的自定义插帧集。</p>
+<p>要选择和使用插帧集，请在时间线标题栏中设置 <a class="reference internal" href="../../editors/timeline.html#timeline-keying"><span class="std std-ref">插帧弹出面板</span></a> 中的 <em>活动插帧集</em> ，或在3D视图中按 <kbd class="kbd docutils literal notranslate">Shift-Ctrl-Alt-I</kbd>，弹出的活动插帧集菜单中设置。</p>
 <div class="section" id="keying-set-panel">
-<h2>Keying Set Panel<a class="headerlink" href="#keying-set-panel" title="Permalink to this headline">¶</a></h2>
+<h2>插帧集面板<a class="headerlink" href="#keying-set-panel" title="Permalink to this headline">¶</a></h2>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Editor</dt>
-<dd class="field-odd"><p>Properties editor</p>
+<dt class="field-odd">编辑器</dt>
+<dd class="field-odd"><p>属性编辑器</p>
 </dd>
-<dt class="field-even">Panel</dt>
-<dd class="field-even"><p><span class="menuselection">Scene ‣ Keying Set</span></p>
+<dt class="field-even">面板</dt>
+<dd class="field-even"><p><span class="menuselection">场景 ‣ 插帧集</span></p>
 </dd>
 </dl>
 </div>
-<p>This panel is used to add, select, manage <em>Absolute Keying Sets</em>.</p>
+<p>该面板用于添加、选择、管理 <em>绝对插帧集</em>。</p>
 <div class="figure align-default" id="id3">
 <img alt="../../_images/animation_keyframes_keying-sets_scene-keying-set-panel.png" src="../../_images/animation_keyframes_keying-sets_scene-keying-set-panel.png" />
-<p class="caption"><span class="caption-text">The Keying Set panel.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">插帧集面板。</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
 </div>
 <dl>
-<dt>Active Keying Set</dt><dd><p>The <a class="reference internal" href="../../interface/controls/templates/list_presets.html#ui-list-view"><span class="std std-ref">List View</span></a> of Keying Sets in the active Scene.</p>
+<dt>活动插帧集</dt><dd><p>活动场景中插帧集的 <a class="reference internal" href="../../interface/controls/templates/list_presets.html#ui-list-view"><span class="std std-ref">列表视图</span></a> 。</p>
 <dl class="simple">
-<dt>Add <code class="docutils literal notranslate"><span class="pre">+</span></code></dt><dd><p>Adds an empty Keying Set.</p>
+<dt>添加 <code class="docutils literal notranslate"><span class="pre">+</span></code></dt><dd><p>添加一个空白插帧集。</p>
 </dd>
 </dl>
 </dd>
 </dl>
 <div class="section" id="properties">
-<h3>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h3>
+<h3>属性<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h3>
 <dl>
-<dt>Description</dt><dd><p>A short description of the keying set.</p>
+<dt>描述</dt><dd><p>对插帧集的简短描述。</p>
 </dd>
-<dt>Export to File</dt><dd><p>Export Keying Set to a Python script <code class="docutils literal notranslate"><span class="pre">File.py</span></code>.
-To re-add the keying set from the <code class="docutils literal notranslate"><span class="pre">File.py</span></code>, open then run the <code class="docutils literal notranslate"><span class="pre">File.py</span></code> from the Text Editor.</p>
+<dt>导出到文件</dt><dd><p>导出插帧集到Python脚本 <code class="docutils literal notranslate"><span class="pre">File.py</span></code> 。可以在文本编辑器中打开并运行 <code class="docutils literal notranslate"><span class="pre">File.py</span></code> 以重新导入插帧集。</p>
 </dd>
-<dt>Keyframing Settings (General Override)</dt><dd><p>These options control all properties in the Keying Set.
-Note that the same settings in <em>Preferences</em> override these settings if enabled.</p>
+<dt>关键帧设置(常规覆盖)</dt><dd><p>这些选项控制插帧集中的所有属性。注意，如果启用，在 <em>偏好设置</em> 中相同的配置将覆盖这些属性配置。</p>
 <dl class="simple">
-<dt>Only Needed</dt><dd><p>Only insert keyframes where they are needed in the relevant F-curves.</p>
+<dt>仅必要</dt><dd><p>仅在相关函数曲线中需要的位置插入关键帧。</p>
 </dd>
-<dt>Visual Keying</dt><dd><p>Insert keyframes based on the visual transformation.</p>
+<dt>可视化插帧</dt><dd><p>基于可视变换插入关键帧。</p>
 </dd>
-<dt>XYZ to RGB</dt><dd><p>For new F-curves, set the colors to RGB for the property set, Location XYZ for example.</p>
+<dt>XYZ 转 RGB</dt><dd><p>对于新的函数曲线，将属性集合如位置XYZ的颜色设置为RGB。</p>
 </dd>
 </dl>
 </dd>
@@ -280,54 +273,53 @@ Note that the same settings in <em>Preferences</em> override these settings if e
 </div>
 </div>
 <div class="section" id="active-keying-set-panel">
-<h2>Active Keying Set Panel<a class="headerlink" href="#active-keying-set-panel" title="Permalink to this headline">¶</a></h2>
+<h2>活动插帧集面板<a class="headerlink" href="#active-keying-set-panel" title="Permalink to this headline">¶</a></h2>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Editor</dt>
-<dd class="field-odd"><p>Properties editor</p>
+<dt class="field-odd">编辑器</dt>
+<dd class="field-odd"><p>属性编辑器</p>
 </dd>
-<dt class="field-even">Panel</dt>
-<dd class="field-even"><p><span class="menuselection">Scene ‣ Active Keying Set</span></p>
+<dt class="field-even">面板</dt>
+<dd class="field-even"><p><span class="menuselection">场景‣ 活动插帧集</span></p>
 </dd>
 </dl>
 </div>
-<p>This panel is used to add properties to the active Keying Set.</p>
+<p>该面板用于为活动插帧集添加属性。</p>
 <div class="figure align-default" id="id4">
 <img alt="../../_images/animation_keyframes_keying-sets_scene-active-keying-set-panel.png" src="../../_images/animation_keyframes_keying-sets_scene-active-keying-set-panel.png" />
-<p class="caption"><span class="caption-text">The Active Keying Set panel.</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">活动插帧集面板。</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
 </div>
 <dl>
-<dt>Active Keying Set Paths</dt><dd><p>A collection of paths in a <a class="reference internal" href="../../interface/controls/templates/list_presets.html#ui-list-view"><span class="std std-ref">List View</span></a> each with a <em>Data Path</em> to a property
-to add to the active Keying Set.</p>
+<dt>活动插帧集路径</dt><dd><p>在 <a class="reference internal" href="../../interface/controls/templates/list_presets.html#ui-list-view"><span class="std std-ref">列表视图</span></a> 中的路径集合，每项对应一个添加到活动插帧集的属性的 <em>数据路径</em>。</p>
 <dl class="simple">
-<dt>Add <code class="docutils literal notranslate"><span class="pre">+</span></code></dt><dd><p>Adds an empty path.</p>
+<dt>添加 <code class="docutils literal notranslate"><span class="pre">+</span></code></dt><dd><p>添加一个空路径。</p>
 </dd>
 </dl>
 </dd>
 </dl>
 <div class="section" id="id1">
-<h3>Properties<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<h3>属性<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
 <dl>
-<dt>Target</dt><dd><dl class="simple">
-<dt>ID-Block</dt><dd><p>Set the ID Type and the <em>Object IDs</em> Data Path for the property.</p>
+<dt>目标</dt><dd><dl class="simple">
+<dt>ID块</dt><dd><p>为属性设置ID类型和 <em>物体ID</em> 的数据路径 。</p>
 </dd>
-<dt>Data Path</dt><dd><p>Set the rest of the Data Path for the property.</p>
+<dt>数据路径</dt><dd><p>设置属性的数据路径余下的部分。</p>
 </dd>
-<dt>Array All Items</dt><dd><p>Use <em>All Items</em> from the Data Path or select the array index for a specific property.</p>
+<dt>阵列全部项</dt><dd><p>使用数据路径的 <em>全部项</em> ，或者选择某一个特定属性的数组编号。</p>
 </dd>
 </dl>
 </dd>
-<dt>F-Curve Grouping</dt><dd><p>This controls what group to add the channels to.</p>
-<p>Keying Set Name, None, Named Group</p>
+<dt>函数曲线群组</dt><dd><p>控制添加通道到的群组</p>
+<p>插帧集名称，无，命名组</p>
 </dd>
-<dt>Keyframing Settings (Active Set Override)</dt><dd><p>These options control individual properties in the Keying Set.</p>
+<dt>插入关键帧设置(活动集覆盖)</dt><dd><p>这些选项控制如何处理插帧集中的单个属性值。</p>
 <dl class="simple">
-<dt>Only Needed</dt><dd><p>Only insert keyframes where they are needed in the relevant F-curves.</p>
+<dt>仅必要</dt><dd><p>仅在相关函数曲线中需要的位置插入关键帧。</p>
 </dd>
-<dt>Visual Keying</dt><dd><p>Insert keyframes based on the visual transformation.</p>
+<dt>可视化插帧</dt><dd><p>基于可视变换插入关键帧。</p>
 </dd>
-<dt>XYZ to RGB</dt><dd><p>For new F-curves, set the colors to RGB for the property set, Location XYZ for example.</p>
+<dt>XYZ 转 RGB</dt><dd><p>对于新的函数曲线，将属性集合如位置XYZ的颜色设置为RGB。</p>
 </dd>
 </dl>
 </dd>
@@ -335,22 +327,21 @@ to add to the active Keying Set.</p>
 </div>
 </div>
 <div class="section" id="adding-properties">
-<h2>Adding Properties<a class="headerlink" href="#adding-properties" title="Permalink to this headline">¶</a></h2>
+<h2>添加属性<a class="headerlink" href="#adding-properties" title="Permalink to this headline">¶</a></h2>
 <div class="refbox admonition">
-<p class="admonition-title">Reference</p>
+<p class="admonition-title">参考</p>
 <dl class="field-list simple">
-<dt class="field-odd">Menu</dt>
-<dd class="field-odd"><p><span class="menuselection">Context menu ‣ Add All/Single to Keying Set</span></p>
+<dt class="field-odd">菜单</dt>
+<dd class="field-odd"><p><span class="menuselection">上下文菜单 ‣ 将多项/单项添加到插帧集</span></p>
 </dd>
-<dt class="field-even">Hotkey</dt>
+<dt class="field-even">快捷键</dt>
 <dd class="field-even"><p><kbd class="kbd docutils literal notranslate">K</kbd></p>
 </dd>
 </dl>
 </div>
-<p>Some ways to add properties to keying sets.</p>
-<p><kbd class="kbd docutils literal notranslate">RMB</kbd> the property in the <em>User Interface</em>, then select <em>Add Single to Keying Set</em> or <em>Add All to Keying Set</em>.
-This will add the properties to the active keying set, or to a new keying set if none exist.</p>
-<p>Hover the mouse over the properties, then press <kbd class="kbd docutils literal notranslate">K</kbd>, to add <em>Add All to Keying Set</em>.</p>
+<p>在插帧集中添加属性的几种方法。</p>
+<p>在 <em>用户界面</em> 中 <kbd class="kbd docutils literal notranslate">RMB</kbd> 单击属性，选择 <em>添加单项到插帧集</em> 或 <em>全部添加到插帧集</em> 。这将在活动插帧集中添加该属性，如果目前没有活动插帧集，则创建一个新的。</p>
+<p>鼠标在属性上方悬停，按 <kbd class="kbd docutils literal notranslate">K</kbd>，将 <em>全部添加到插帧集</em>。</p>
 </div>
 </div>
 
@@ -362,10 +353,10 @@ This will add the properties to the active keying set, or to a new keying set if
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../armatures/index.html" class="btn btn-neutral float-right" title="Armatures" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="../armatures/index.html" class="btn btn-neutral float-right" title="骨架" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="editing.html" class="btn btn-neutral float-left" title="Editing" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="editing.html" class="btn btn-neutral float-left" title="编辑" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -399,7 +390,7 @@ This will add the properties to the active keying set, or to a new keying set if
 	</li>
    <li style="float:right" role="presentation">
 		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
-			 en 
+			 zh-hans 
 		</span>
 		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
 			<li role="presentation">Loading...</li>
