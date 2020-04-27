@@ -1,0 +1,458 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Sculpting Tools &mdash; Blender Manual</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+  
+  
+  
+    <link rel="canonical" href="https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools.html"/>
+  
+
+  
+  <script type="text/javascript" src="../../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../../_static/jquery.js"></script>
+        <script type="text/javascript" src="../../_static/underscore.js"></script>
+        <script type="text/javascript" src="../../_static/doctools.js"></script>
+        <script type="text/javascript" src="../../_static/language_data.js"></script>
+        <script type="text/javascript" src="../../_static/js/version_switch.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="search" type="application/opensearchdescription+xml"
+          title="Search within Blender Manual"
+          href="../../_static/opensearch.xml"/>
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/theme_overrides.css" type="text/css" />
+    <link rel="alternate" hreflang="en" href="https://docs.blender.org/manual/en/latest/">
+    <link rel="alternate" hreflang="de" href="https://docs.blender.org/manual/de/latest/">
+    <link rel="alternate" hreflang="es" href="https://docs.blender.org/manual/es/latest/">
+    <link rel="alternate" hreflang="fi" href="https://docs.blender.org/manual/fi/latest/">
+    <link rel="alternate" hreflang="fr" href="https://docs.blender.org/manual/fr/latest/">
+    <link rel="alternate" hreflang="it" href="https://docs.blender.org/manual/it/latest/">
+    <link rel="alternate" hreflang="ja" href="https://docs.blender.org/manual/ja/latest/">
+    <link rel="alternate" hreflang="ko" href="https://docs.blender.org/manual/ko/latest/">
+    <link rel="alternate" hreflang="nb" href="https://docs.blender.org/manual/nb/latest/">
+    <link rel="alternate" hreflang="pt" href="https://docs.blender.org/manual/pt/latest/">
+    <link rel="alternate" hreflang="ru" href="https://docs.blender.org/manual/ru/latest/">
+    <link rel="alternate" hreflang="sl" href="https://docs.blender.org/manual/sl/latest/">
+    <link rel="alternate" hreflang="sr" href="https://docs.blender.org/manual/sr/latest/">
+    <link rel="alternate" hreflang="uk" href="https://docs.blender.org/manual/uk/latest/">
+    <link rel="alternate" hreflang="vi" href="https://docs.blender.org/manual/vi/latest/">
+    <link rel="alternate" hreflang="zh-Hans" href="https://docs.blender.org/manual/zh-hans/latest/">
+    <link rel="alternate" hreflang="zh-Hant" href="https://docs.blender.org/manual/zh-hant/latest/">
+    <link rel="alternate" hreflang="x-default" href="https://docs.blender.org/manual/en/latest/">
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Tool Settings" href="tool_settings/index.html" />
+    <link rel="prev" title="Introduction" href="introduction.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> Blender 2.82 Manual
+          
+
+          
+            
+            <img src="../../_static/blender-logo.svg" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../getting_started/index.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../interface/index.html">User Interface</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../editors/index.html">Editors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../scene_layout/index.html">Scenes &amp; Objects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../modeling/index.html">Modeling</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Sculpting &amp; Painting</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../introduction.html">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../brush/index.html">Brush</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../navigation.html">Navigation</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html#modes">Modes</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="index.html">Sculpting</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="introduction.html">Introduction</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Sculpting Tools</a></li>
+<li class="toctree-l4"><a class="reference internal" href="tool_settings/index.html">Tool Settings</a></li>
+<li class="toctree-l4"><a class="reference internal" href="adaptive.html">Adaptive Sculpting</a></li>
+<li class="toctree-l4"><a class="reference internal" href="hide_mask.html">Hiding &amp; Masking</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../texture_paint/index.html">Texture Paint</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../vertex_paint/index.html">Vertex Paint</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../weight_paint/index.html">Weight Paint</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../grease_pencil/index.html">Grease Pencil</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../animation/index.html">Animation &amp; Rigging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../physics/index.html">Physics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../render/index.html">Rendering</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../compositing/index.html">Compositing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../movie_clip/index.html">Tracking &amp; Masking</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../video_editing/index.html">Video Editing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../files/index.html">Files &amp; Data System</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../addons/index.html">Add-ons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../advanced/index.html">Advanced</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../troubleshooting/index.html">Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../glossary/index.html">Glossary</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../about/index.html">About this Manual</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Blender 2.82 Manual</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../index.html">Sculpting &amp; Painting</a> &raquo;</li>
+        
+          <li><a href="index.html">Sculpting</a> &raquo;</li>
+        
+      <li>Sculpting Tools</li>
+    
+    
+		<li class="wy-breadcrumbs-aside">
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/sculpt_paint/sculpting/tools.rst" class="fa fa-edit"> Edit Page</a>
+		</li>
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="sculpting-tools">
+<h1>Sculpting Tools<a class="headerlink" href="#sculpting-tools" title="Permalink to this headline">¶</a></h1>
+<div class="figure align-right">
+<img alt="../../_images/sculpt-paint_sculpting_tools_brushes.png" src="../../_images/sculpt-paint_sculpting_tools_brushes.png" />
+</div>
+<dl>
+<dt>Draw <kbd class="kbd docutils literal notranslate">X</kbd></dt><dd><p>Moves vertices inward or outward,
+based the average normal of the vertices contained within the drawn brush stroke.</p>
+</dd>
+<dt>Draw Sharp</dt><dd><p>Similar to the <em>Draw</em> brush however, it deforms the mesh from the original coordinates
+and uses the <em>Sharper</em> <a class="reference internal" href="../brush/falloff.html"><span class="doc">Falloff</span></a>.
+This is useful for creating cloth wrinkles, stylized hair or hard surface edges.</p>
+</dd>
+<dt>Clay <kbd class="kbd docutils literal notranslate">C</kbd></dt><dd><p>Similar to the <em>Draw</em> brush, but includes settings to adjust the plane on which the brush acts.
+It behaves like a combination of the <em>Flatten</em> and <em>Draw</em> brushes.</p>
+</dd>
+<dt>Clay Strips</dt><dd><p>Similar to the <em>Clay</em> brush, but it uses a cube to define the brush area of influence rather than a sphere.</p>
+</dd>
+<dt>Layer <kbd class="kbd docutils literal notranslate">L</kbd></dt><dd><p>This brush is similar to <em>Draw</em>, except that the height of the displacement layer is capped.
+This creates the appearance of a solid layer being drawn.
+This brush does not draw on top of itself; a brush stroke intersects itself.
+Releasing the mouse button and starting a new stroke
+will reset the depth and paint on top of the previous stroke.</p>
+<dl class="simple">
+<dt>Persistent</dt><dd><p>You can keep sculpting on the same layer between strokes when this is on.</p>
+</dd>
+<dt>Set Persistent Base</dt><dd><p>This button resets the base so that you can add another layer.</p>
+</dd>
+</dl>
+</dd>
+<dt>Inflate <kbd class="kbd docutils literal notranslate">I</kbd></dt><dd><p>Similar to <em>Draw</em>,
+except that vertices in <em>Inflate</em> mode are displaced in the direction of their own normals.</p>
+</dd>
+<dt>Blob</dt><dd><p>Pushes mesh outward or inward into a spherical shape with settings to
+control the amount of magnification at the edge of the sphere.</p>
+</dd>
+<dt>Crease <kbd class="kbd docutils literal notranslate">Shift-C</kbd></dt><dd><p>Creates sharp indents or ridges by pushing or pulling the mesh, while pinching the vertices together.</p>
+</dd>
+<dt>Smooth <kbd class="kbd docutils literal notranslate">S</kbd></dt><dd><p>As the name suggests, eliminates irregularities in the area of the mesh within the brush’s
+influence by smoothing the positions of the vertices.</p>
+</dd>
+<dt>Flatten <kbd class="kbd docutils literal notranslate">Shift-T</kbd></dt><dd><p>The <em>Flatten</em> brush determines an “area plane”
+located by default at the average height above/below the vertices within the brush area.
+The vertices are then pulled towards this plane.
+The inverse of the <em>Flatten</em> brush is the <em>Contrast</em> brush
+which pushes vertices up or down away from the brush plane.</p>
+</dd>
+<dt>Fill</dt><dd><p>Works like the Flatten brush, but only brings vertices below the brush plane upwards.</p>
+<dl class="simple">
+<dt>Invert to Scrape</dt><dd><p>When enabled, holding <kbd class="kbd docutils literal notranslate">Ctrl</kbd> while sculpting
+changes the brush behavior to be the same as the <em>Scrape</em> brush.
+When disabled, holding <kbd class="kbd docutils literal notranslate">Ctrl</kbd> while sculpting,
+will push vertices below the cursor downward.</p>
+</dd>
+</dl>
+</dd>
+<dt>Scrape</dt><dd><p>The <em>Scrape</em> brush works like the <em>Flatten</em> brush, but only brings vertices above the plane downwards.</p>
+<dl class="simple">
+<dt>Invert to Fill</dt><dd><p>When enabled, holding <kbd class="kbd docutils literal notranslate">Ctrl</kbd> while sculpting
+changes the brush behavior to be the same as the <em>Fill</em> brush.
+When disabled, holding <kbd class="kbd docutils literal notranslate">Ctrl</kbd> while sculpting,
+will push vertices above the cursor up away from the cursor.</p>
+</dd>
+</dl>
+</dd>
+<dt>Multiplane Scrape</dt><dd><p>Scrapes the mesh with two angled planes at the same time, producing a sharp edge between them.
+This is useful for creating edges when sculpting hard surface objects.</p>
+<dl class="simple">
+<dt>Plane Angle</dt><dd><p>The angle between the two planes of the brush, pressing <kbd class="kbd docutils literal notranslate">Ctrl</kbd> inverts the angle.</p>
+</dd>
+<dt>Dynamic Mode</dt><dd><p>When enabled, the base angle is sampled from the mesh surface.
+The <em>Plane Angle</em> controls how much the angle will increase when applying pen pressure.
+When pressing <kbd class="kbd docutils literal notranslate">Ctrl</kbd>, it locks the plane angle to 0 degrees.</p>
+</dd>
+<dt>Show Cursor Preview</dt><dd><p>Displays a preview of the two scrape planes
+and the angle they form instead of the cursor while performing the stroke.</p>
+</dd>
+</dl>
+</dd>
+<dt>Pinch <kbd class="kbd docutils literal notranslate">P</kbd></dt><dd><p>Pulls vertices towards the center of the brush.
+The inverse setting is <em>Magnify</em>, in which vertices are pushed away from the center of the brush.</p>
+</dd>
+<dt>Grab <kbd class="kbd docutils literal notranslate">G</kbd></dt><dd><p>Used to drag a group of points around. Unlike the other brushes,
+<em>Grab</em> does not modify different points as the brush is dragged across the model.
+Instead, <em>Grab</em> selects a group of vertices on mouse-down, and pulls them to follow the mouse.
+The effect is similar to moving a group of vertices in Edit Mode with Proportional Editing enabled,
+except that <em>Grab</em> can make use of other Sculpt Mode options (like textures and symmetry).</p>
+</dd>
+<dt>Snake Hook <kbd class="kbd docutils literal notranslate">K</kbd></dt><dd><p>Pulls vertices along with the movement of the brush to create long, snake-like forms.</p>
+<dl class="simple">
+<dt>Magnify</dt><dd><p>The <em>Snake Hook</em> brush tends to loose volume along the stroke,
+with <em>Magnify</em> value greater than 0.5 it’s possible to sculpt shapes without loosing volume.</p>
+</dd>
+<dt>Rake</dt><dd><p>A factor to support moving the mesh with rotation following the cursor’s motion.</p>
+</dd>
+</dl>
+</dd>
+<dt>Thumb</dt><dd><p>Similar to the <em>Nudge</em> brush, this one flattens the mesh in the brush area,
+while moving it in the direction of the brush stroke.</p>
+</dd>
+<dt>Pose</dt><dd><p>This brush is used to pose a model simulating an armature-like deformation.
+The pivot point for rotation is calculated automatically based
+on the radius of the brush and the topology of the model.
+When pressing <kbd class="kbd docutils literal notranslate">Ctrl</kbd>, the pose brush applies a twist rotation
+to the posing segments instead of using the rotation or an IK deformation.
+The falloff of the rotation across multiple segments is controlled by the brush falloff curve.</p>
+<dl class="simple">
+<dt>Pose Origin Offset</dt><dd><p>Offset of the pose origin in relation to the brush radius.
+This is useful to manipulate areas with a lot of complex shapes like fingers.</p>
+</dd>
+<dt>Smooth Iterations</dt><dd><p>Controls the smoothness of the falloff of the deformation.</p>
+</dd>
+<dt>Pose IK Segments</dt><dd><p>Controls how many <a class="reference internal" href="../../animation/armatures/posing/bone_constraints/index.html#bone-constraints-inverse-kinematics"><span class="std std-ref">IK bones</span></a>
+are going to be created for posing.</p>
+</dd>
+</dl>
+</dd>
+<dt>Nudge</dt><dd><p>Moves vertices in the direction of the brush stroke.</p>
+</dd>
+<dt>Rotate</dt><dd><p>Rotates vertices within the brush in the direction the cursor is moved. The initial drag direction
+is the zero angle and by rotating around the center you can create a vortex effect.</p>
+</dd>
+<dt>Slide Relax</dt><dd><p>This brush slides the topology of the mesh in the direction of the stroke
+without changing the geometrical shape of the mesh.
+When pressing <kbd class="kbd docutils literal notranslate">Shift</kbd>, the brush enters <em>Relax</em> mode
+which tries to create an even distribution of quads without deforming the volume of the mesh.</p>
+</dd>
+<dt>Simplify</dt><dd><p>This brush collapses short edges (as defined by the detail size) whether or
+not the <em>Collapse Short Edges</em> option is enabled.
+This brush has no effect if dynamic topology is not enabled.</p>
+</dd>
+<dt>Mask <kbd class="kbd docutils literal notranslate">M</kbd></dt><dd><p>Lets you select mesh parts to be unaffected by other brushes by painting vertex colors.
+The mask values are shown as gray-scale.
+I.e. the darker a masked area is, the less effect sculpting on it will have.
+See also the options of the <a class="reference internal" href="hide_mask.html#sculpt-mask-menu"><span class="std std-ref">Mask</span></a> menu.</p>
+<dl>
+<dt>Mask Tool</dt><dd><p>The mask brush has two modes:</p>
+<dl class="simple">
+<dt>Draw</dt><dd><p>Mask drawing.</p>
+</dd>
+<dt>Smooth <kbd class="kbd docutils literal notranslate">Shift</kbd></dt><dd><p>Pressing <kbd class="kbd docutils literal notranslate">Shift</kbd> with the mask brush active will toggle the mask smoothing mode.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+<dt>Mesh Filter</dt><dd><p>Todo</p>
+<dl class="simple">
+<dt>Filter Type</dt><dd><dl class="simple">
+<dt>Relax</dt><dd><p>Tries to create an even distribution of quads without deforming the volume of the mesh.
+This works the same as the <em>Relax</em> mode of the <em>Slide Relax</em> brush.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+<dt><a class="reference internal" href="../../interface/annotate_tool.html#tool-annotate"><span class="std std-ref">Annotate</span></a></dt><dd><p>Draw free-hand annotation.</p>
+<dl class="simple">
+<dt>Annotate Line</dt><dd><p>Draw straight line annotation.</p>
+</dd>
+<dt>Annotate Polygon</dt><dd><p>Draw a polygon annotation.</p>
+</dd>
+<dt>Annotate Eraser</dt><dd><p>Erase previous drawn annotations.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="tool_settings/index.html" class="btn btn-neutral float-right" title="Tool Settings" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="introduction.html" class="btn btn-neutral float-left" title="Introduction" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright : This page is licensed under a CC-BY-SA 4.0 Int. License
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="document versions">
+<ul id="versionwrap" role="presentation">
+   <li style="float:left" role="presentation">
+		<span id="version-dropdown" class="version-btn" tabindex="0" role="button" aria-label="versions selector" aria-haspopup="true" aria-controls="version-vsnlist" aria-disabled="true">
+		2.82 
+		</span>
+		<ul id="version-vsnlist" class="version-list" role="menu" aria-labelledby="version-dropdown" aria-hidden="true">
+			<li role="presentation">Loading...</li>
+		</ul>
+	</li>
+   <li style="float:right" role="presentation">
+		<span id="lang-dropdown" class="version-btn" tabindex="0" role="button"  aria-label="language selector" aria-haspopup="true" aria-controls="version-langlist">
+			 en 
+		</span>
+		<ul id="version-langlist" class="version-list" role="menu" aria-labelledby="lang-dropdown" aria-hidden="true">
+			<li role="presentation">Loading...</li>
+		</ul>
+	</li>
+</ul>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+  
+ 
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-1418081-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</body>
+</html>
